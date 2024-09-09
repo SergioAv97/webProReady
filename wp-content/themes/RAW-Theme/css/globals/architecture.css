@@ -1,0 +1,62 @@
+:root {
+	--raw-components-padding: 4rem 0;
+}
+
+/* Inserting this collapsed row between two flex items will make
+ * the flex item that comes after it break to a new row */
+br {
+	flex-basis: 100%;
+	height: 0;
+}
+
+.container {
+	&.thin {
+		max-width: 500px;
+	}
+
+	&.grid {
+		margin: auto;
+	}
+
+	&.full {
+		width: 95vw;
+		max-width: 95vw;
+		margin: 0 auto;
+	}
+}
+
+section {
+	margin-bottom: 0;
+}
+
+.page section.static {
+	padding: 3rem 0;
+}
+
+.raw-component {
+	padding: var(--raw-components-padding);
+}
+
+ul.grid {
+	margin: 0;
+	padding: 0;
+
+	& li {
+		list-style: none;
+	}
+}
+
+@media all and (max-width:525px) {
+
+	[role=link]:focus,
+	a:focus {
+		background-color: transparent;
+	}
+
+	.single,
+	article,
+	.grid {
+		grid-template-columns: 1fr !important;
+	}
+
+}

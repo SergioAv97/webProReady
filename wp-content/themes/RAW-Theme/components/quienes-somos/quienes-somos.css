@@ -1,0 +1,95 @@
+.quienes-somos {
+	.grid {
+		div {
+			margin-right: 4rem;
+			margin-bottom: 25px;
+
+			.title {
+				color: var(--raw-color-blue-bg);
+				text-align: left;
+			}
+		}
+	}
+}
+
+@media all and (min-width: 500px) and (max-width: 1024px) {
+
+    .quienes-somos {
+        /* Aquí aplicamos los estilos específicos para el contenedor .quienes-somos */
+        text-align: center;
+    }
+
+    .quienes-somos .grid {
+        /* Aplicamos los estilos específicos para el contenedor .grid dentro de .quienes-somos */
+    }
+
+    .quienes-somos .grid div {
+        /* Aplicamos estilos para los divs dentro de .grid */
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .quienes-somos .grid .title {
+        /* Estilos específicos para los elementos con la clase .title */
+        text-align: center !important;
+    }
+
+    .quienes-somos .grid p:not(.title) {
+        /* Estilos para los párrafos dentro de .grid que no tengan la clase .title */
+		text-align:center;
+        padding: 0 2rem;
+    }
+
+    .raw-slider {
+        /* Estilos para .raw-slider */
+        margin: 2.5rem auto -2.5rem;
+    }
+
+    .raw-slider .raw-slider-container img{
+		width:100%;
+		margin:10px;
+	}
+	
+}
+
+
+@media all and (min-width:320px)  and (max-width: 500px) {
+
+	.quienes-somos .grid div {
+		margin-right:0px;
+        display:flex;
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+		text-align:center;
+        }
+	
+	.quienes-somos .raw-slider {
+			margin: 2.5rem auto -12rem;
+		}
+	}
+	.quienes-somos .grid .title {
+        /* Estilos específicos para los elementos con la clase .title */
+        text-align: center !important;
+    }
+
+	.raw-slider .raw-slider-container {
+        /* Estilos para .raw-slider-container dentro de .raw-slider */
+        display:flex;
+		align-items:;
+		justify-content:space-between;
+		flex-direction:row !important;
+		width: 200%;
+        
+    }
+
+	.raw-slider .raw-slider-container img{
+		width:100%;
+		margin:10px;
+	}
+	.raw-slider .raw-slider-container img:first-child{
+		width:100%;
+		
+	}
+
+}

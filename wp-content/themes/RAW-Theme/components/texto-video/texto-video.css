@@ -1,0 +1,59 @@
+.texto-video {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+	.grid {
+		div.home {
+			p {
+				margin: 0;
+				padding: 0;
+				color: var(--raw-color-black);
+
+				&:first-child {
+					padding: 1.25rem 2rem 2.25rem;
+				}
+
+				&.subtitle {
+					color: var(--raw-color-grey-6e);
+				}
+
+				&.title {
+					font-size: var(--raw-font-size-bigger);
+					font-weight: var(--raw-font-weight-fat);
+				}
+			}
+		}
+
+		div.reunificacion {
+			text-align: left;
+			padding-top: 2rem;
+		}
+
+		div.contrast {
+			background: var(--raw-color-blue-bg);
+			color: var(--raw-color-text);
+			border-radius: 2rem;
+			text-align: center;
+			padding: 2rem 2rem 2.75rem;
+
+			h3 {
+				color: var(--raw-color-white);
+			}
+		}
+
+	}
+
+
+
+	video {
+		width: 430px;
+	}
+}
+
+@media screen and (max-width:480px) {
+	.texto-video video {
+		width: 90vw;
+	}
+}

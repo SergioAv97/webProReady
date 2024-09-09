@@ -1,0 +1,98 @@
+.cajas-imagen {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+	.raw-slider-container {
+		display: flex;
+		justify-content: space-evenly;
+		margin: 5rem 0;
+
+		.slide a {
+			display: block;
+			position: relative;
+			width: auto;
+			margin: 0 2rem;
+			padding: .75rem .75rem 0;
+			text-align: center;
+			border-radius: .75rem;
+			font-style: normal;
+			border: 2px solid var(--raw-color-blue-bg);
+
+			&:hover {
+				border: 2px solid var(--raw-color-orange);
+
+				figcaption {
+					background: var(--raw-color-orange);
+				}
+			}
+
+			figcaption {
+				position: absolute;
+				top: 45%;
+				left: -90%;
+				width: 350px;
+				height: auto;
+				padding: .5rem 0;
+				color: white;
+				font-style: normal;
+				border-radius: .25rem;
+				background: var(--raw-color-blue-bg);
+				transform: rotate(-90deg);
+			}
+
+			img {
+				padding-left: 2rem;
+				background: white;
+			}
+		}
+	}
+}
+
+/* Media query para pantallas con un ancho máximo de 1200px */
+@media all and (max-width: 1200px) {
+
+    .cajas-imagen .raw-slider-container {
+        flex-direction: row;
+    }
+
+    .cajas-imagen .raw-slider-container .slide a {
+        margin: 2.5rem auto;
+    }
+
+    .cajas-imagen .raw-slider-container .slide a figcaption {
+        left: -90%;
+    }
+}
+
+/* Media query para pantallas con un ancho máximo de 768px */
+@media all and (max-width: 768px) {
+
+    .cajas-imagen .raw-slider-container {
+        flex-direction: column;
+    }
+
+    .cajas-imagen .raw-slider-container .slide a {
+        margin: 2.5rem auto;
+    }
+
+    .cajas-imagen .raw-slider-container .slide a figcaption {
+        top: -20px;
+        left: -10px;
+        transform: none;
+    }
+}
+
+/* Media query para pantallas con un ancho mínimo de 320px y un ancho máximo de 479px */
+@media all and (min-width: 320px) and (max-width: 479px) {
+
+    .cajas-imagen {
+        margin-top: 8rem;
+    }
+    
+    .cajas-imagen .raw-slider-container .slide a figcaption {
+        font-size: 13px;
+        width: 280px !important; /* Ajustado para pantallas más pequeñas */
+    }
+}

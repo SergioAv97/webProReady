@@ -1,0 +1,202 @@
+# Translation of Plugins - Pods &#8211; Custom Content Types and Fields - Stable (latest release) in Korean
+# This file is distributed under the same license as the Plugins - Pods &#8211; Custom Content Types and Fields - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-05-05 19:06:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0\n"
+"Language: ko_KR\n"
+"Project-Id-Version: Plugins - Pods &#8211; Custom Content Types and Fields - Stable (latest release)\n"
+
+#: classes/PodsInit.php:2019 src/Pods/Admin/Config/Pod.php:418
+msgid "Uploaded to this %s"
+msgstr "이 %s로 업로드 됨"
+
+#: classes/PodsInit.php:2016 src/Pods/Admin/Config/Pod.php:391
+msgid "%s Archives"
+msgstr "%s 글 보관함"
+
+#: classes/PodsInit.php:2018 src/Pods/Admin/Config/Pod.php:409
+msgid "Insert into %s"
+msgstr "%s 에 삽입"
+
+#: classes/PodsInit.php:2015
+msgid "Use as featured image"
+msgstr "특성 이미지로 사용"
+
+#: classes/PodsInit.php:2013
+msgid "Set featured image"
+msgstr "대표 이미지 설정"
+
+#: classes/PodsInit.php:2014
+msgid "Remove featured image"
+msgstr "대표 이미지 삭제"
+
+#: src/Pods/Admin/Config/Pod.php:957 ui/admin/widgets/field.php:21
+#: ui/admin/widgets/form.php:21 ui/admin/widgets/list.php:23
+#: ui/admin/widgets/single.php:23 ui/admin/widgets/view.php:21
+msgid "Title"
+msgstr "제목"
+
+#: src/Pods/Admin/Config/Pod.php:998
+msgid "Revisions"
+msgstr "수정"
+
+#: classes/PodsAPI.php:1089 classes/PodsInit.php:2012
+#: src/Pods/Admin/Config/Pod.php:427 src/Pods/Admin/Config/Pod.php:972
+msgid "Featured Image"
+msgstr "대표 이미지"
+
+#: ui/admin/setup-add.php:262
+msgid "Menu Label"
+msgstr "메뉴 라벨"
+
+#: classes/fields/currency.php:127 components/I18n/I18n.php:821
+#: src/Pods/Admin/Config/Group.php:230 ui/fields/color.php:20
+msgid "Default"
+msgstr "기본"
+
+#: classes/fields/color.php:39 classes/fields/color.php:97
+#: ui/fields/color.php:21
+msgid "Select Color"
+msgstr "색상 선택"
+
+#: ui/fields/color.php:22
+msgid "Current Color"
+msgstr "현재 색상"
+
+#: src/Pods/Admin/Config/Pod.php:967
+msgid "Author"
+msgstr "작성자"
+
+#: ui/admin/setup-add.php:195 ui/admin/setup-add.php:412
+msgid "Content Type"
+msgstr "컨텐츠 형식"
+
+#: ui/admin/view.php:60 ui/forms/type/post.php:89
+msgid "Last Modified"
+msgstr "마지막 수정"
+
+#: components/Migrate-Packages/ui/wizard.php:52
+msgid "Import"
+msgstr "가져오기"
+
+#: components/Roles/ui/edit.php:46 ui/forms/form.php:179
+msgid "Save"
+msgstr "저장"
+
+#: classes/widgets/PodsWidgetForm.php:38 classes/widgets/PodsWidgetForm.php:59
+#: classes/widgets/PodsWidgetForm.php:74
+#: components/Builder/modules/form/PodsBuilderModuleForm.php:47
+#: components/Builder/modules/form/PodsBuilderModuleForm.php:145
+msgid "Submit"
+msgstr "제출"
+
+#: classes/fields/pick.php:732 src/Pods/Admin/Config/Pod.php:993
+#: ui/admin/setup-add.php:422
+msgid "Comments"
+msgstr "댓글"
+
+#: classes/fields/pick.php:699 src/Pods/Admin/Config/Pod.php:1073
+#: src/Pods/Admin/Config/Pod.php:1074
+msgid "Taxonomies"
+msgstr "텍소노미"
+
+#: classes/fields/pick.php:638 src/Pods/Admin/Config/Pod.php:1414
+#: src/Pods/Admin/Config/Pod.php:1415
+msgid "Post Types"
+msgstr "글 유형"
+
+#: classes/PodsUI.php:4906
+msgid "Go to the next page"
+msgstr "폐이지 넘기기"
+
+#: classes/fields/color.php:45 classes/fields/color.php:100
+#: classes/PodsUI.php:3512 classes/PodsUI.php:3571 classes/PodsUI.php:3620
+#: classes/PodsUI.php:3659 ui/fields/color.php:19
+msgid "Clear"
+msgstr "취소"
+
+#: classes/PodsInit.php:2038 classes/PodsUI.php:773
+#: src/Pods/Admin/Config/Pod.php:214
+msgid "Update %s"
+msgstr "%s 업데이트"
+
+#: classes/fields/boolean.php:54 classes/fields/boolean.php:223
+#: classes/fields/boolean.php:246 classes/PodsAdmin.php:4628
+#: classes/PodsAdmin.php:4632 classes/PodsAdmin.php:4640
+#: classes/PodsAdmin.php:4644 classes/PodsAdmin.php:4648
+#: classes/PodsAdmin.php:4652 classes/PodsAdmin.php:4656
+#: classes/PodsAdmin.php:4660 classes/PodsAdmin.php:4664
+#: classes/PodsAdmin.php:4668 classes/PodsAdmin.php:4672
+#: classes/PodsAdmin.php:4684 classes/PodsAdmin.php:4692
+#: classes/PodsAdmin.php:4696 classes/PodsAdmin.php:4700
+#: classes/PodsAdmin.php:4708 classes/PodsAdmin.php:4712
+#: classes/PodsAdmin.php:4716 classes/PodsAdmin.php:4720
+#: classes/PodsAdmin.php:4724 classes/PodsAdmin.php:4728
+#: classes/PodsAdmin.php:4772 classes/PodsUI.php:2915 classes/PodsUI.php:3353
+#: classes/PodsUI.php:3610 src/Pods/Whatsit/Block_Field.php:295
+msgid "Yes"
+msgstr "네"
+
+#: classes/fields/boolean.php:59 classes/fields/boolean.php:224
+#: classes/fields/boolean.php:247 classes/PodsAdmin.php:4628
+#: classes/PodsAdmin.php:4632 classes/PodsAdmin.php:4640
+#: classes/PodsAdmin.php:4644 classes/PodsAdmin.php:4648
+#: classes/PodsAdmin.php:4652 classes/PodsAdmin.php:4656
+#: classes/PodsAdmin.php:4660 classes/PodsAdmin.php:4664
+#: classes/PodsAdmin.php:4668 classes/PodsAdmin.php:4672
+#: classes/PodsAdmin.php:4684 classes/PodsAdmin.php:4692
+#: classes/PodsAdmin.php:4696 classes/PodsAdmin.php:4700
+#: classes/PodsAdmin.php:4708 classes/PodsAdmin.php:4712
+#: classes/PodsAdmin.php:4716 classes/PodsAdmin.php:4720
+#: classes/PodsAdmin.php:4724 classes/PodsAdmin.php:4728
+#: classes/PodsAdmin.php:4772 classes/PodsUI.php:2916 classes/PodsUI.php:3354
+#: classes/PodsUI.php:3611 src/Pods/Whatsit/Block_Field.php:299
+msgid "No"
+msgstr "아니오"
+
+#: classes/PodsUI.php:3067
+msgid "Cancel"
+msgstr "취소"
+
+#: classes/PodsAdmin.php:3706 src/Pods/Admin/Config/Field.php:147
+msgid "Description"
+msgstr "설명"
+
+#: classes/PodsAdmin.php:562 classes/PodsAdmin.php:583
+#: ui/admin/components-admin.php:16 ui/admin/settings-settings.php:94
+#: ui/admin/settings-settings.php:98 ui/admin/settings.php:26
+#: ui/admin/upgrade/upgrade_2_0_0.php:208
+msgid "Settings"
+msgstr "설정"
+
+#: classes/fields/pick.php:295 classes/fields/pick.php:1016
+#: classes/PodsAdmin.php:357 classes/PodsAdmin.php:376
+#: classes/PodsAdmin.php:544 classes/PodsField.php:596 classes/PodsI18n.php:151
+#: src/Pods/Admin/Config/Field.php:258 src/Pods/Admin/Config/Pod.php:1574
+msgid "Add New"
+msgstr "새로 추가"
+
+#: classes/Pods.php:4048 classes/PodsAdmin.php:788 classes/PodsForm.php:422
+#: ui/admin/components-admin.php:113
+msgid "Save Changes"
+msgstr "변경 사항 저장"
+
+#: classes/PodsAdmin.php:281 classes/PodsAdmin.php:355 classes/PodsI18n.php:171
+#: classes/PodsInit.php:2001 classes/PodsUI.php:748 classes/PodsUI.php:4474
+#: src/Pods/Admin/Config/Pod.php:199 src/Pods/Admin/Config/Pod.php:1575
+msgid "Edit"
+msgstr "편집"
+
+#: classes/Pods.php:4517 components/Migrate-Packages/ui/wizard.php:65
+#: src/Pods/Admin/Config/Pod.php:1579
+msgid "Export"
+msgstr "내보내기"
+
+#: classes/PodsAdmin.php:568 classes/PodsAdmin.php:589
+msgid "Help"
+msgstr "도움말"

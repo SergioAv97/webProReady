@@ -1,0 +1,27 @@
+.caja-imagen-texto {
+	margin-top: -3rem;
+
+	.exitos,
+	.opiniones {
+		margin-top: 3rem;
+
+		h3 {
+			text-align: center;
+		}
+
+		.card {
+			min-height: 575px;
+		}
+
+		div.grid {
+			grid-template-columns: 2fr 2fr;
+
+			article {
+				margin: .75rem .25rem .5rem;
+				padding: 0;
+			}
+		}
+
+	}
+
+}

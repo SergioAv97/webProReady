@@ -1,0 +1,27 @@
+.cita-texto {
+	h2 {
+		text-align: left;
+	}
+
+	blockquote {
+		border-left: .5rem solid var(--raw-color-orange);
+		color: var(--raw-color-white) !important;
+
+		cite {
+			font-weight: bold;
+			font-style: normal;
+			color: var(--raw-color-orange) !important;
+		}
+	}
+
+	p {
+		font-size: var(--raw-font-size-bigger);
+		color: var(--raw-color-white) !important;
+	}
+}
+
+@media screen and (max-width:520px) {
+	.cita-texto {
+		padding: 4rem 1rem 4rem 1.5rem;
+	}
+}

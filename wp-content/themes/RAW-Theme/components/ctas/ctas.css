@@ -1,0 +1,13 @@
+.ctas {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-top: 0;
+	margin-top: -2.5rem;
+
+	a[role="button"] {
+		color: var(--raw-color-white) !important;
+	}
+}

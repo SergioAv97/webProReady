@@ -1,0 +1,39 @@
+@keyframes slider {
+	0%, 25%, 100% { left: 0 }
+	30%, 55% { left: -100% }
+	60%, 85% { left: 0 }
+}
+
+@keyframes slider2 {
+	0% { left: 0 }
+	20% { left: -100% }
+	40% { left: -200% }
+	60% { left: -200% }
+	80% { left: -100% }
+	100% { left: 0 }
+}
+
+@keyframes slider3 {
+	0% { left: 0 }
+	10% { left: -285px }
+	20% { left: -570px }
+	30% { left: -855px }
+	40% { left: -1140px }
+	50% { left: -1425px }
+	60% { left: -1710px }
+	70% { left: -1995px }
+	80% { left: -2280px }
+	90% { left: -2560px }
+	100% { left: -2850px }
+}
+
+@keyframes slider4 {
+	0%, 12.5% { left: 0 }
+	25% { left: -285px }
+	37.5% { left: -570px }
+	50% { left: -855px }
+	62.5% { left: -1140px }
+	75% { left: -1425px }
+	87.5% { left: -1710px }
+	100% { left: -1995px }
+}

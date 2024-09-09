@@ -1,0 +1,1802 @@
+# Translation of Plugins - Broken Link Checker - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Broken Link Checker - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-05-07 04:25:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Broken Link Checker - Stable (latest release)\n"
+
+#. Author URI of the plugin
+msgid "https://wpmudev.com/"
+msgstr "https://wpmudev.com/"
+
+#: legacy/core/core.php:1044
+msgctxt "settings page"
+msgid "Control external links"
+msgstr "控制外部連結"
+
+#: legacy/core/core.php:1051
+msgid "Configure <a target=\"_blank\" href=\"%s\">External Links</a> settings."
+msgstr "為 <a target=\"_blank\" href=\"%s\">External Links</a> 進行設定。"
+
+#: legacy/core/core.php:1056
+msgid "Install the free <a href=\"%s\" class=\"thickbox open-plugin-details-modal\">External Links plugin</a> to control if external links open in a new tab, and their nofollow, noopener and UGC options."
+msgstr "請安裝免費的 <a href=\"%s\" class=\"thickbox open-plugin-details-modal\">External Links</a> 外掛以控制外部連結的開啟方式及屬性，如於新分頁中開啟連結、連結的 nofollow、noopener 及 UGC 屬性值等。"
+
+#: legacy/core/core.php:1060
+msgid "It's used on over 80,000 sites just like yours."
+msgstr "有超過 80,000 網站採用這個外掛。"
+
+#: legacy/core/core.php:1234
+msgid "Post Modified Date"
+msgstr "文章修改日期"
+
+#: legacy/core/core.php:1239
+msgid "Disable post modified date change when link is edited"
+msgstr "連結編輯後不變更文章修改日期"
+
+#: legacy/core/core.php:1590
+msgid "Log file clear schedule"
+msgstr "記錄檔清除排程"
+
+#: legacy/includes/admin/links-page-js.php:654
+msgid "Are you sure you want to unlink and remove this link from all posts?"
+msgstr "確定要取消這個連結，並在全部文章中移除這個連結？"
+
+#: legacy/modules/checkers/http.php:467
+msgid "Using WP HTTP"
+msgstr "使用 WP HTTP"
+
+#: legacy/core/core.php:1215
+msgid "YouTube API Key"
+msgstr "YouTube API 金鑰"
+
+#: legacy/core/core.php:1227
+msgid "Use your own %1$sapi key%2$s for checking youtube links."
+msgstr "使用專屬 %1$sAPI 金鑰%2$s檢查 YouTube 連結。"
+
+#. Author of the plugin
+msgid "WPMU DEV"
+msgstr "WPMU DEV"
+
+#: legacy/includes/any-post.php:833
+msgid "%1$d \"%2$s\" deleted."
+msgid_plural "%1$d \"%2$s\" deleted."
+msgstr[0] "%1$d 個「%2$s」已刪除。"
+
+#: legacy/includes/link-query.php:47
+msgctxt "filter heading"
+msgid "Warnings"
+msgstr "警告"
+
+#: legacy/core/init.php:235 legacy/init.php:252
+msgid "Every 10 minutes"
+msgstr "每 10 分鐘"
+
+#: legacy/core/core.php:1813
+msgid "Enter the keys of acf fields you want to check (one per line). If a field contains HTML code, prefix its name with <code>html:</code>. For example, <code>html:field_586a3eaa4091b</code>."
+msgstr "輸入需要檢查的 ACF 自訂欄位索引碼 (每行一個)。如果欄位內容包含 HTML 程式碼，請在欄位索引碼前加上前置詞 <code>html:</code>。舉例來說，如果自訂欄位索引碼為 field_586a3eaa4091b，且該欄位內容包含 HTML 程式碼，則應輸入 <code>html:field_586a3eaa4091b</code>。"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/broken-link-checker/"
+msgstr "https://tw.wordpress.org/plugins/broken-link-checker/"
+
+#: legacy/includes/containers.php:932 legacy/includes/containers.php:950
+msgid "Container type '%s' not recognized"
+msgstr "容器類型 %s 無法識別"
+
+#: legacy/includes/extra-strings.php:2
+msgctxt "module name"
+msgid "Basic HTTP"
+msgstr "基本 HTTP"
+
+#: legacy/includes/extra-strings.php:4
+msgctxt "module name"
+msgid "Comments"
+msgstr "留言"
+
+#: legacy/includes/extra-strings.php:5
+msgctxt "module name"
+msgid "Custom fields"
+msgstr "自訂欄位"
+
+#: legacy/includes/extra-strings.php:6
+msgctxt "module name"
+msgid "Embedded DailyMotion videos"
+msgstr "嵌入的 DailyMotion 影片"
+
+#: legacy/includes/extra-strings.php:7
+msgctxt "module name"
+msgid "Embedded GoogleVideo videos"
+msgstr "嵌入的 Google Video 影片"
+
+#: legacy/includes/extra-strings.php:8
+msgctxt "module name"
+msgid "Embedded Vimeo videos"
+msgstr "嵌入的 Vimeo 影片"
+
+#: legacy/includes/extra-strings.php:9
+msgctxt "module name"
+msgid "Embedded YouTube playlists (old embed code)"
+msgstr "嵌入的 YouTube 播放清單 (舊版嵌入碼)"
+
+#: legacy/includes/extra-strings.php:10
+msgctxt "module name"
+msgid "Embedded YouTube videos"
+msgstr "嵌入的 YouTube 影片"
+
+#: legacy/includes/extra-strings.php:11
+msgctxt "module name"
+msgid "Embedded YouTube videos (old embed code)"
+msgstr "嵌入的 YouTube 影片  (舊版嵌入碼)"
+
+#: legacy/includes/extra-strings.php:12
+msgctxt "module name"
+msgid "HTML images"
+msgstr "HTML 圖片"
+
+#: legacy/includes/extra-strings.php:13
+msgctxt "module name"
+msgid "HTML links"
+msgstr "HTML 連結"
+
+#: legacy/includes/extra-strings.php:14
+msgctxt "module name"
+msgid "MediaFire API"
+msgstr "MediaFire API"
+
+#: legacy/includes/extra-strings.php:15
+msgctxt "module name"
+msgid "Plaintext URLs"
+msgstr "純文字網址"
+
+#: legacy/includes/extra-strings.php:16
+msgctxt "module name"
+msgid "RapidShare API"
+msgstr "RapidShare API"
+
+#: legacy/includes/extra-strings.php:17
+msgctxt "module name"
+msgid "Smart YouTube httpv:// URLs"
+msgstr "智慧型 YouTube (通訊協定為 httpv 的網址)"
+
+#: legacy/includes/extra-strings.php:18
+msgctxt "module name"
+msgid "YouTube API"
+msgstr "YouTube API"
+
+#: legacy/includes/extra-strings.php:19
+msgctxt "module name"
+msgid "Posts"
+msgstr "文章"
+
+#: legacy/includes/extra-strings.php:20
+msgctxt "module name"
+msgid "Pages"
+msgstr "頁面"
+
+#: legacy/includes/link-query.php:26
+msgid "Detected Links"
+msgstr "檢測到的連結"
+
+#: legacy/includes/link-query.php:36
+msgid "Broken"
+msgstr "中斷"
+
+#: legacy/includes/link-query.php:38
+msgid "No broken links found"
+msgstr "找不到中斷的連結"
+
+#: legacy/includes/link-query.php:56
+msgid "Redirects"
+msgstr "重新導向"
+
+#: legacy/includes/link-query.php:57
+msgid "Redirected Links"
+msgstr "重新導向的連結"
+
+#: legacy/includes/link-query.php:58
+msgid "No redirects found"
+msgstr "找不到重新導向"
+
+#: legacy/includes/link-query.php:82
+msgid "Search Results"
+msgstr "搜尋結果"
+
+#: legacy/includes/link-query.php:83 legacy/includes/link-query.php:131
+msgid "No links found for your query"
+msgstr "找不到使用者查詢的連結"
+
+#: legacy/includes/links.php:225
+msgid "The plugin script was terminated while trying to check the link."
+msgstr "嘗試檢查該連結時，外掛指令碼意外終止。"
+
+#: legacy/includes/links.php:271
+msgid "The plugin doesn't know how to check this type of link."
+msgstr "此外掛無法檢查這種類型的連結。"
+
+#: legacy/includes/links.php:503
+msgid "Link is broken."
+msgstr "連結中斷。"
+
+#: legacy/includes/links.php:505
+msgid "Link is valid."
+msgstr "連結有效。"
+
+#: legacy/includes/links.php:738 legacy/includes/links.php:841
+#: legacy/includes/links.php:875
+msgid "Link is not valid"
+msgstr "連結失效"
+
+#: legacy/includes/links.php:755
+msgid "This link can not be edited because it is not used anywhere on this site."
+msgstr "此連結並未在本網站使用，所以無法進行編輯。"
+
+#: legacy/includes/links.php:781
+msgid "Failed to create a DB entry for the new URL."
+msgstr "無法在資料庫中為新網址建立資料。"
+
+#: legacy/includes/links.php:848
+msgid "This link is not a redirect"
+msgstr "這個連結不是重新導向"
+
+#: legacy/includes/links.php:902 legacy/includes/links.php:939
+msgid "Couldn't delete the link's database record"
+msgstr "無法刪除該連結在資料庫中的記錄"
+
+#: legacy/includes/links.php:1016
+msgctxt "link status"
+msgid "Unknown"
+msgstr "未知"
+
+#: legacy/includes/links.php:1029 legacy/modules/checkers/http.php:313
+#: legacy/modules/checkers/http.php:317 legacy/modules/extras/mediafire.php:115
+#: legacy/modules/extras/youtube.php:135 legacy/modules/extras/youtube.php:230
+msgid "Unknown Error"
+msgstr "未知的錯誤"
+
+#: legacy/includes/links.php:1052
+msgid "Not checked"
+msgstr "不檢查"
+
+#: legacy/includes/links.php:1055
+msgid "False positive"
+msgstr "誤判"
+
+#: legacy/includes/links.php:1058 legacy/modules/extras/rapidshare.php:145
+#: legacy/modules/extras/rapidshare.php:151
+#: legacy/modules/extras/rapidshare.php:178
+#: legacy/modules/extras/youtube.php:141 legacy/modules/extras/youtube.php:217
+msgctxt "link status"
+msgid "OK"
+msgstr "確定"
+
+#: legacy/includes/utility-class.php:259
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d 秒"
+
+#: legacy/includes/utility-class.php:260
+msgid "%d second ago"
+msgid_plural "%d seconds ago"
+msgstr[0] "%d 秒前"
+
+#: legacy/includes/utility-class.php:263
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d 分鐘"
+
+#: legacy/includes/utility-class.php:264
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d 分鐘前"
+
+#: legacy/includes/utility-class.php:267
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d 個小時"
+
+#: legacy/includes/utility-class.php:268
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d 個小時前"
+
+#: legacy/includes/utility-class.php:271
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d 天"
+
+#: legacy/includes/utility-class.php:272
+msgid "%d day ago"
+msgid_plural "%d days ago"
+msgstr[0] "%d 天前"
+
+#: legacy/includes/utility-class.php:275
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d 個月"
+
+#: legacy/includes/utility-class.php:276
+msgid "%d month ago"
+msgid_plural "%d months ago"
+msgstr[0] "%d 個月前"
+
+#: legacy/modules/checkers/http.php:290
+msgid "Server Not Found"
+msgstr "找不到伺服器"
+
+#: legacy/modules/checkers/http.php:306
+msgid "Connection Failed"
+msgstr "連線失敗"
+
+#: legacy/modules/checkers/http.php:360 legacy/modules/checkers/http.php:449
+msgid "HTTP code : %d"
+msgstr "HTTP 狀態碼: %d"
+
+#: legacy/modules/checkers/http.php:362 legacy/modules/checkers/http.php:451
+msgid "(No response)"
+msgstr "(無回應)"
+
+#: legacy/modules/checkers/http.php:460
+msgid "Request timed out."
+msgstr "要求逾時。"
+
+#: legacy/modules/containers/blogroll.php:21
+msgid "Bookmark"
+msgstr "書籤"
+
+#: legacy/modules/containers/blogroll.php:27
+#: legacy/modules/containers/blogroll.php:46
+msgid "Edit this bookmark"
+msgstr "編輯此書籤"
+
+#: legacy/modules/containers/blogroll.php:97
+msgid "Updating bookmark %d failed"
+msgstr "無法更新書籤 %d"
+
+#: legacy/modules/containers/comment.php:53
+msgid "Updating comment %d failed"
+msgstr "無法更新留言 %d"
+
+#: legacy/modules/containers/comment.php:74
+msgid "Failed to delete comment %d"
+msgstr "無法刪除留言 %d"
+
+#: legacy/modules/containers/comment.php:95
+msgid "Can't move comment %d to the trash"
+msgstr "無法將留言 %d 移至回收桶"
+
+#: legacy/modules/containers/comment.php:159
+#: legacy/modules/containers/comment.php:201
+msgid "Edit comment"
+msgstr "編輯留言"
+
+#: legacy/modules/containers/comment.php:166
+msgid "Delete Permanently"
+msgstr "永久刪除"
+
+#: legacy/modules/containers/comment.php:168
+msgid "Move this comment to the trash"
+msgstr "將這篇留言移至回收桶"
+
+#: legacy/modules/containers/comment.php:168
+msgctxt "verb"
+msgid "Trash"
+msgstr "移至回收桶"
+
+#: legacy/modules/containers/comment.php:172
+msgid "View comment"
+msgstr "檢視留言"
+
+#: legacy/modules/containers/comment.php:189
+msgid "Comment"
+msgstr "留言"
+
+#: legacy/modules/containers/comment.php:385
+msgid "%d comment moved to the Trash."
+msgid_plural "%d comments moved to the Trash."
+msgstr[0] "已將 %d 則留言移至回收桶。"
+
+#: legacy/modules/containers/acf_field.php:234
+#: legacy/modules/containers/custom_field.php:238
+msgid "Edit this post"
+msgstr "編輯這篇文章"
+
+#: legacy/modules/extras/dailymotion-embed.php:23
+msgid "DailyMotion Video"
+msgstr "DailyMotion 影片"
+
+#: legacy/modules/extras/dailymotion-embed.php:24
+msgid "Embedded DailyMotion video"
+msgstr "嵌入的 DailyMotion 影片"
+
+#: legacy/modules/extras/embed-parser-base.php:199
+msgid "Embedded videos can't be edited using Broken Link Checker. Please edit or replace the video in question manually."
+msgstr "嵌入的影片無法透過 Broken Link Checker 進行編輯。請手動編輯或更換有問題的影片。"
+
+#: legacy/modules/extras/googlevideo-embed.php:24
+msgid "GoogleVideo Video"
+msgstr "Vimeo 影片"
+
+#: legacy/modules/extras/googlevideo-embed.php:25
+msgid "Embedded GoogleVideo video"
+msgstr "嵌入的 Google Video 影片"
+
+#: legacy/modules/extras/rapidshare.php:51
+msgid "Using RapidShare API"
+msgstr "使用 RapidShare API"
+
+#: legacy/modules/extras/rapidshare.php:158
+msgid "RS Server Down"
+msgstr "RapidShare 伺服器已離線"
+
+#: legacy/modules/extras/rapidshare.php:165
+msgid "File Blocked"
+msgstr "檔案遭到封鎖"
+
+#: legacy/modules/extras/rapidshare.php:172
+msgid "File Locked"
+msgstr "檔案遭到鎖定"
+
+#: legacy/modules/extras/rapidshare.php:183
+msgid "RapidShare : %s"
+msgstr "RapidShare: %s"
+
+#: legacy/modules/extras/rapidshare.php:189
+msgid "RapidShare API error: %s"
+msgstr "RapidShare API 錯誤: %s"
+
+#: legacy/modules/extras/vimeo-embed.php:24
+msgid "Vimeo Video"
+msgstr "Vimeo 影片"
+
+#: legacy/modules/extras/vimeo-embed.php:25
+msgid "Embedded Vimeo video"
+msgstr "嵌入的 Vimeo 影片"
+
+#: legacy/modules/extras/youtube-embed.php:24
+#: legacy/modules/extras/youtube-iframe.php:25
+msgid "YouTube Video"
+msgstr "YouTube 影片"
+
+#: legacy/modules/extras/youtube-embed.php:25
+#: legacy/modules/extras/youtube-iframe.php:26
+msgid "Embedded YouTube video"
+msgstr "嵌入的 YouTube 影片"
+
+#: legacy/modules/extras/youtube-playlist-embed.php:24
+msgid "YouTube Playlist"
+msgstr "YouTube 播放清單"
+
+#: legacy/modules/extras/youtube-playlist-embed.php:25
+msgid "Embedded YouTube playlist"
+msgstr "嵌入的 YouTube 播放清單"
+
+#: legacy/modules/extras/youtube.php:140
+msgid "Video OK"
+msgstr "影片正常"
+
+#: legacy/modules/extras/youtube.php:151 legacy/modules/extras/youtube.php:154
+msgid "Video Not Found"
+msgstr "找不到影片"
+
+#: legacy/modules/extras/youtube.php:173 legacy/modules/extras/youtube.php:176
+msgid "Playlist Not Found"
+msgstr "找不到播放清單"
+
+#: legacy/modules/extras/youtube.php:183
+msgid "Playlist Restricted"
+msgstr "限制的播放清單"
+
+#: legacy/modules/extras/youtube.php:190
+msgid "This playlist has no entries or all entries have been deleted."
+msgstr "這份播放清單內沒有項目可供播放，也可能是播放項目全部遭到刪除。"
+
+#: legacy/modules/extras/youtube.php:191
+msgctxt "link status"
+msgid "Empty Playlist"
+msgstr "清空播放清單"
+
+#: legacy/modules/extras/youtube.php:207
+msgid "Video Restricted"
+msgstr "限制的影片"
+
+#: legacy/modules/extras/youtube.php:216
+msgid "Playlist OK"
+msgstr "播放清單正常"
+
+#: legacy/modules/extras/youtube.php:261
+msgid "Unknown YouTube API response received."
+msgstr "收到未知的 YouTube API 回應。"
+
+#: legacy/modules/parsers/image.php:193
+msgid "Image"
+msgstr "圖片"
+
+#: legacy/modules/parsers/acf_field.php:120
+#: legacy/modules/parsers/metadata.php:141
+msgid "Custom field"
+msgstr "自訂欄位"
+
+#: legacy/includes/any-post.php:829
+msgid "%d post deleted."
+msgid_plural "%d posts deleted."
+msgstr[0] "%d 篇文章已刪除。"
+
+#: legacy/includes/any-post.php:831
+msgid "%d page deleted."
+msgid_plural "%d pages deleted."
+msgstr[0] "%d 個頁面已刪除。"
+
+#: legacy/includes/extra-strings.php:3
+msgctxt "module name"
+msgid "Blogroll items"
+msgstr "友站連結項目"
+
+#: legacy/includes/instances.php:118 legacy/includes/instances.php:174
+msgid "Parser '%s' not found."
+msgstr "找不到符合條件的 %s 剖析器。"
+
+#: legacy/includes/link-query.php:25
+msgid "All"
+msgstr "全部"
+
+#: legacy/includes/link-query.php:46
+msgctxt "filter name"
+msgid "Warnings"
+msgstr "警告"
+
+#: legacy/includes/link-query.php:48
+msgid "No warnings found"
+msgstr "找不到任何警告"
+
+#: legacy/includes/link-query.php:66
+msgid "Dismissed"
+msgstr "已隱藏"
+
+#: legacy/includes/link-query.php:67
+msgid "Dismissed Links"
+msgstr "已隱藏的連結"
+
+#: legacy/includes/link-query.php:68
+msgid "No dismissed links found"
+msgstr "找不到已隱藏的連結"
+
+#: legacy/includes/parsers.php:117
+msgid "Editing is not implemented in the '%s' parser"
+msgstr "無法在 %s 剖析器中進行編輯"
+
+#: legacy/includes/parsers.php:132
+msgid "Unlinking is not implemented in the '%s' parser"
+msgstr "無法在 %s 剖析器中解除連結"
+
+#: legacy/modules/checkers/http.php:380
+msgid "Most likely the connection timed out or the domain doesn't exist."
+msgstr "最有可能的原因是是連線逾時或網域不存在。"
+
+#: legacy/modules/containers/blogroll.php:47
+msgid ""
+"You are about to delete this link '%s'\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"即將刪除連結 %s。\n"
+"點擊 [取消] 以停止操作，點擊 [確定] 以進行刪除。"
+
+#: legacy/modules/containers/blogroll.php:298
+msgid "%d blogroll link deleted."
+msgid_plural "%d blogroll links deleted."
+msgstr[0] "%d 個友站連結已刪除。"
+
+#: legacy/modules/containers/comment.php:366
+msgid "%d comment has been deleted."
+msgid_plural "%d comments have been deleted."
+msgstr[0] "%d 則留言已刪除。"
+
+#: legacy/modules/containers/acf_field.php:258
+#: legacy/modules/containers/custom_field.php:272
+msgid "View \"%s\""
+msgstr "檢視〈%s〉"
+
+#: legacy/includes/any-post.php:702 legacy/modules/containers/acf_field.php:341
+#: legacy/modules/containers/custom_field.php:360
+msgid "Can't move post \"%1$s\" (%2$d) to the trash because the trash feature is disabled"
+msgstr "由於停用了 [回收桶] 功能，所以無法將文章〈%1$s〉(%2$d) 移至回收桶"
+
+#: legacy/includes/any-post.php:722 legacy/modules/containers/acf_field.php:353
+#: legacy/modules/containers/custom_field.php:379
+msgid "Failed to move post \"%1$s\" (%2$d) to the trash"
+msgstr "無法將文章〈%1$s〉(%2$d) 移至回收桶"
+
+#: legacy/includes/any-post.php:852
+msgid "%d post moved to the Trash."
+msgid_plural "%d posts moved to the Trash."
+msgstr[0] "%d 篇文章已移至回收桶。"
+
+#: legacy/includes/any-post.php:854
+msgid "%d page moved to the Trash."
+msgid_plural "%d pages moved to the Trash."
+msgstr[0] "%d 個頁面已移至回收桶。"
+
+#: legacy/includes/any-post.php:856
+msgid "%1$d \"%2$s\" moved to the Trash."
+msgid_plural "%1$d \"%2$s\" moved to the Trash."
+msgstr[0] "%1$d 個「%2$s」已移至回收桶。"
+
+#: legacy/includes/containers.php:123
+msgid "%1$d '%2$s' has been deleted"
+msgid_plural "%1$d '%2$s' have been deleted"
+msgstr[0] "%1$d 個「%2$s」已刪除。"
+
+#: legacy/includes/instances.php:109 legacy/includes/instances.php:165
+msgid "Container %1$s[%2$d] not found"
+msgstr "找不到符合條件的 %1$s (%2$d) 容器。"
+
+#: legacy/modules/containers/acf_field.php:102
+#: legacy/modules/containers/custom_field.php:107
+msgid "Failed to update the meta field '%1$s' on %2$s [%3$d]"
+msgstr "無法更新在「%2$s」的中繼資料欄位 [%1$s] (%3$d)"
+
+#: legacy/modules/containers/acf_field.php:132
+#: legacy/modules/containers/custom_field.php:137
+msgid "Failed to delete the meta field '%1$s' on %2$s [%3$d]"
+msgstr "無法刪除在「%2$s」的中繼資料欄位 [%1$s] (%3$d)"
+
+#: legacy/modules/containers/blogroll.php:128
+msgid "Failed to delete blogroll link \"%1$s\" (%2$d)"
+msgstr "無法刪除〈%1$s〉(%2$d) 這個友站連結"
+
+#: legacy/modules/containers/dummy.php:34
+#: legacy/modules/containers/dummy.php:45
+msgid "I don't know how to edit a '%1$s' [%2$d]."
+msgstr "無法編輯 %1$s (%2$d)。"
+
+#: legacy/modules/extras/mediafire.php:97
+#: legacy/modules/extras/mediafire.php:103
+#: legacy/modules/extras/rapidshare.php:139
+msgid "Not Found"
+msgstr "找不到符合條件的項目"
+
+#: legacy/modules/extras/mediafire.php:109
+msgid "Permission Denied"
+msgstr "使用權限遭拒"
+
+#: legacy/modules/extras/youtube.php:201
+msgid "Video status : %1$s%2$s"
+msgstr "影片狀態: %1$s%2$s"
+
+#: legacy/includes/link-query.php:27
+msgid "No links found (yet)"
+msgstr "找不到符合條件的連結"
+
+#: legacy/core/core.php:269 legacy/includes/admin/options-page-js.php:18
+msgid "[ Network error ]"
+msgstr "[網路錯誤]"
+
+#: app/admin-pages/cloud-page/class-controller.php:85
+msgid "Link Checker"
+msgstr "連結檢查程式"
+
+#: app/action-links/plugin/class-controller.php:99
+#: app/admin-pages/local-submenu/class-view.php:66
+#: app/emails/scan-report/class-controller.php:80
+#: app/emails/scan-report/class-view.php:164 legacy/core/core.php:431
+#: legacy/core/core.php:432 legacy/includes/link-query.php:37
+msgid "Broken Links"
+msgstr "中斷的連結"
+
+#: app/admin-pages/local-submenu/class-view.php:67 legacy/core/core.php:514
+msgid "Settings"
+msgstr "設定"
+
+#: legacy/core/core.php:550 legacy/includes/admin/table-printer.php:292
+#: legacy/includes/admin/table-printer.php:710
+msgid "Edit URL"
+msgstr "編輯網址"
+
+#: legacy/core/core.php:551 legacy/includes/admin/links-page-js.php:716
+#: legacy/includes/admin/table-printer.php:297
+#: legacy/includes/admin/table-printer.php:713
+msgid "Unlink"
+msgstr "取消連結"
+
+#: legacy/core/core.php:552 legacy/includes/admin/links-page-js.php:111
+#: legacy/includes/admin/table-printer.php:719
+msgid "Not broken"
+msgstr "並未中斷"
+
+#: legacy/core/core.php:554 legacy/includes/admin/table-printer.php:293
+#: legacy/includes/admin/table-printer.php:739
+msgid "Recheck"
+msgstr "重新檢查"
+
+#: legacy/core/core.php:555 legacy/includes/admin/table-printer.php:747
+msgctxt "link action; replace one redirect with a direct link"
+msgid "Fix redirect"
+msgstr "修正重新導向"
+
+#: legacy/core/core.php:850
+msgid "Settings saved."
+msgstr "設定已儲存。"
+
+#: legacy/core/core.php:857
+msgid "Complete site recheck started."
+msgstr "已開始重新檢查整個網站的連結。"
+
+#: legacy/core/core.php:880
+msgid "General"
+msgstr "一般"
+
+#: legacy/core/core.php:881
+msgid "Look For Links In"
+msgstr "連結檢查範圍"
+
+#: legacy/core/core.php:882
+msgid "Which Links To Check"
+msgstr "連結檢查類型"
+
+#: legacy/core/core.php:883
+msgid "Protocols & APIs"
+msgstr "通訊協定及 API"
+
+#: legacy/core/core.php:884
+msgid "Advanced"
+msgstr "進階設定"
+
+#: app/emails/scan-report/class-view.php:167 legacy/core/core.php:939
+#: legacy/includes/admin/table-printer.php:215
+msgid "Status"
+msgstr "狀態"
+
+#: legacy/core/core.php:975
+msgid "Every %s hours"
+msgstr "每 %s 個小時"
+
+#: legacy/core/core.php:991
+msgid "E-mail notifications"
+msgstr "電子郵件通知"
+
+#: legacy/core/core.php:1017
+msgid "Send authors e-mail notifications about broken links in their posts"
+msgstr "發現中斷的連結時，傳送電子郵件通知原文作者"
+
+#: legacy/core/core.php:1024
+msgid "Notification e-mail address"
+msgstr "用於通知的電子郵件地址"
+
+#: legacy/core/core.php:1068
+msgid "Link tweaks"
+msgstr "連結調整"
+
+#: legacy/core/core.php:1080
+msgid "Apply custom formatting to broken links"
+msgstr "套用自訂樣式至中斷的連結"
+
+#: legacy/core/core.php:1085 legacy/core/core.php:1129
+msgid "Edit CSS"
+msgstr "編輯 CSS"
+
+#: legacy/core/core.php:1106
+msgid "Example : Lorem ipsum <a %s>broken link</a>, dolor sit amet."
+msgstr "範例: 這是<a %s>中斷的連結</a>，請予以刪除。"
+
+#: legacy/core/core.php:1124
+msgid "Apply custom formatting to removed links"
+msgstr "套用自訂樣式至移除的連結"
+
+#: legacy/core/core.php:1151
+msgid "Example : Lorem ipsum <span %s>removed link</span>, dolor sit amet."
+msgstr "範例: 這是<span %s>移除的連結</span>，請予以移除。"
+
+#: legacy/core/core.php:1170
+msgid "Stop search engines from following broken links"
+msgstr "要求搜尋引擎停止追蹤中斷的連結"
+
+#: legacy/core/core.php:1176
+msgctxt "\"Link tweaks\" settings"
+msgid "These settings only apply to the content of posts, not comments or custom fields."
+msgstr "以上設定僅能套用至文章內容，無法套用至留言或自訂欄位。"
+
+#: legacy/core/core.php:1187
+msgctxt "settings page"
+msgid "Suggestions"
+msgstr "建議"
+
+#: legacy/core/core.php:1193
+msgid "Suggest alternatives to broken links"
+msgstr "為中斷的連結建議替代連結"
+
+#: legacy/core/core.php:1254
+msgid "Look for links in"
+msgstr "需要檢查連結的項目"
+
+#: legacy/core/core.php:1271
+msgid "Post statuses"
+msgstr "文章狀態"
+
+#: legacy/core/core.php:1305
+msgid "Link types"
+msgstr "連結類型"
+
+#: legacy/core/core.php:1318
+msgid "Exclusion list"
+msgstr "排除清單"
+
+#: legacy/core/core.php:1319
+msgid "Don't check links where the URL contains any of these words (one per line) :"
+msgstr "包含以下字詞的網址，無須進行檢查 (每行一個):"
+
+#: legacy/core/core.php:1339
+msgid "Check links using"
+msgstr "選取檢查連結的方式"
+
+#: legacy/core/core.php:1359 legacy/includes/links.php:1033
+msgid "Timeout"
+msgstr "逾時"
+
+#: legacy/core/core.php:1365 legacy/core/core.php:1462
+#: legacy/core/core.php:4031
+msgid "%s seconds"
+msgstr "%s 秒"
+
+#: legacy/core/core.php:1374
+msgid "Links that take longer than this to load will be marked as broken."
+msgstr "超過上述設定時間才能載入的連結，將會標示為中斷的連結。"
+
+#: legacy/core/core.php:1381
+msgid "Link monitor"
+msgstr "連結監測"
+
+#: legacy/core/core.php:1394
+msgid "Run continuously while the Dashboard is open"
+msgstr "開啟控制台時持續執行"
+
+#: legacy/core/core.php:1407
+msgid "Run hourly in the background"
+msgstr "在背景每小時執行一次"
+
+#: legacy/core/core.php:1438
+msgctxt "settings page"
+msgid "Show link actions"
+msgstr "顯示可進行的連結操作"
+
+#: legacy/core/core.php:1456
+msgid "Max. execution time"
+msgstr "最長執行時間"
+
+#: legacy/core/core.php:1474
+msgid "The plugin works by periodically launching a background job that parses your posts for links, checks the discovered URLs, and performs other time-consuming tasks. Here you can set for how long, at most, the link monitor may run each time before stopping."
+msgstr "這個外掛會定期在背景工作中執行，不但能剖析文章中的連結、檢查新發現的網址，還會執行其他耗時的工作。網站管理員可以設定每次連結監測工作在執行最長多久後就結束。"
+
+#: legacy/core/core.php:1483
+msgid "Server load limit"
+msgstr "伺服器負載限制"
+
+#: legacy/core/core.php:1503
+msgid "Link checking will be suspended if the average <a href=\"%s\">server load</a> rises above this number. Leave this field blank to disable load limiting."
+msgstr "檢查連結時，一旦<a href=\"%s\" target=\"_blank\">伺服器負載</a>超過設定值便會逕行終止。欄位留空代表停用負載限制。"
+
+#: legacy/core/core.php:1512
+msgid "Not available"
+msgstr "無法使用"
+
+#: legacy/core/core.php:1514
+msgid "Load limiting only works on Linux-like systems where <code>/proc/loadavg</code> is present and accessible."
+msgstr "負載限制僅能運作於路徑 <code>/proc/loadavg</code> 存在且可供存取的類 Linux 作業系統。"
+
+#: legacy/core/core.php:1522
+msgid "Target resource usage"
+msgstr "目標資源使用狀況"
+
+#: legacy/core/core.php:1542
+msgid "Logging"
+msgstr "記錄"
+
+#: legacy/core/core.php:1548
+msgid "Enable logging"
+msgstr "啟用記錄"
+
+#: legacy/core/core.php:1555
+msgid "Log file location"
+msgstr "記錄檔位置"
+
+#: legacy/core/core.php:1564
+msgctxt "log file location"
+msgid "Default"
+msgstr "預設"
+
+#: legacy/core/core.php:1580
+msgctxt "log file location"
+msgid "Custom"
+msgstr "自訂"
+
+#: legacy/core/core.php:1618
+msgid "Forced recheck"
+msgstr "強制重新檢查"
+
+#: legacy/core/core.php:1690
+msgid "Configure"
+msgstr "設定"
+
+#: legacy/core/core.php:1798
+msgid "Enter the names of custom fields you want to check (one per line). If a field contains HTML code, prefix its name with <code>html:</code>. For example, <code>html:field_name</code>."
+msgstr "輸入需要檢查的自訂欄位名稱 (每行一個)。如果欄位內容包含 HTML 程式碼，請在欄位名稱前加上前置詞 <code>html:</code>。舉例來說，如果自訂欄位名稱為 iron_man，且該欄位內容包含 HTML 程式碼，則應輸入<code>html:iron_man</code>。"
+
+#: legacy/core/core.php:1952 legacy/core/core.php:2042
+#: legacy/core/core.php:2074
+msgid "Database error : %s"
+msgstr "資料庫錯誤: %s"
+
+#: legacy/core/core.php:2023
+msgid "You must enter a filter name!"
+msgstr "必須輸入篩選器名稱！"
+
+#: legacy/core/core.php:2027
+msgid "Invalid search query."
+msgstr "無效的搜尋查詢。"
+
+#: legacy/core/core.php:2064
+msgid "Filter ID not specified."
+msgstr "未指定篩選器 ID"
+
+#: legacy/core/core.php:2121
+msgid "Replaced %d redirect with a direct link"
+msgid_plural "Replaced %d redirects with direct links"
+msgstr[0] "已使用直接連結取代 %d 個重新導向"
+
+#: legacy/core/core.php:2132
+msgid "Failed to fix %d redirect"
+msgid_plural "Failed to fix %d redirects"
+msgstr[0] "無法修正 %d 個重新導向"
+
+#: legacy/core/core.php:2143
+msgid "None of the selected links are redirects!"
+msgstr "選取的連結中沒有重新導向。"
+
+#: legacy/core/core.php:2241
+msgid "Failed to update %d link."
+msgid_plural "Failed to update %d links."
+msgstr[0] "無法更新 %d 個連結。"
+
+#: legacy/core/core.php:2345
+msgid "Failed to remove %d link"
+msgid_plural "Failed to remove %d links"
+msgstr[0] "無法移除 %d 個連結"
+
+#: legacy/core/core.php:2460
+msgid "%d item was skipped because it can't be moved to the Trash. You need to delete it manually."
+msgid_plural "%d items were skipped because they can't be moved to the Trash. You need to delete them manually."
+msgstr[0] "由於無法將 %d 個項目移至回收桶，因此予以略過，必須進行手動刪除。"
+
+#: legacy/core/core.php:2571 legacy/core/core.php:3446
+msgid "This link was manually marked as working by the user."
+msgstr "這個連結由使用者手動標示為正常。"
+
+#: legacy/core/core.php:2579 legacy/core/core.php:2643
+msgid "Couldn't modify link %d"
+msgstr "無法修改連結 %d"
+
+#: legacy/core/core.php:2729
+msgctxt "admin notice under Tools - Broken links - Warnings"
+msgid "Hide notice"
+msgstr "隱藏通知"
+
+#: legacy/core/core.php:2760
+msgid "Table columns"
+msgstr "資料表欄位"
+
+#: legacy/core/core.php:2779
+msgid "Show on screen"
+msgstr "在螢幕上顯示"
+
+#: legacy/core/core.php:2786
+msgid "links"
+msgstr "連結"
+
+#: legacy/core/core.php:2787 legacy/includes/admin/table-printer.php:175
+msgid "Apply"
+msgstr "套用"
+
+#: legacy/core/core.php:2791
+msgid "Misc"
+msgstr "雜項"
+
+#: legacy/core/core.php:2806
+msgid "Highlight links broken for at least %s days"
+msgstr "為中斷的連結標示為期 %s 天的醒目提示"
+
+#: legacy/core/core.php:3298
+msgid "View broken links"
+msgstr "檢視中斷的連結"
+
+#: legacy/core/core.php:3299
+msgid "Found %d broken link"
+msgid_plural "Found %d broken links"
+msgstr[0] "找到 %d 個中斷的連結"
+
+#: legacy/core/core.php:3305
+msgid "No broken links found."
+msgstr "沒有找到中斷的連結。"
+
+#: legacy/core/core.php:3312
+msgid "%d URL in the work queue"
+msgid_plural "%d URLs in the work queue"
+msgstr[0] "工作佇列中有 %d 個網址"
+
+#: legacy/core/core.php:3316
+msgid "No URLs in the work queue."
+msgstr "工作佇列中沒有任何網址。"
+
+#: legacy/core/core.php:3322
+msgctxt "for the \"Detected X unique URLs in Y links\" message"
+msgid "%d unique URL"
+msgid_plural "%d unique URLs"
+msgstr[0] "%d 個唯一網址"
+
+#: legacy/core/core.php:3326
+msgctxt "for the \"Detected X unique URLs in Y links\" message"
+msgid "%d link"
+msgid_plural "%d links"
+msgstr[0] "%d 個連結"
+
+#: legacy/core/core.php:3332
+msgid "Detected %1$s in %2$s and still searching..."
+msgstr "在 %2$s中檢測到 %1$s，並繼續搜尋..."
+
+#: legacy/core/core.php:3338
+msgid "Detected %1$s in %2$s."
+msgstr "在 %2$s中檢測到 %1$s。"
+
+#: legacy/core/core.php:3347
+msgid "No links detected."
+msgstr "並未檢測到連結。"
+
+#: legacy/core/core.php:3373
+msgctxt "current load"
+msgid "Unknown"
+msgstr "未知"
+
+#: legacy/core/core.php:3438 legacy/core/core.php:3485
+#: legacy/core/core.php:3539 legacy/core/core.php:3656
+#: legacy/core/core.php:3725 legacy/core/core.php:3805
+msgid "Oops, I can't find the link %d"
+msgstr "很抱歉，找不到連結 %d"
+
+#: legacy/core/core.php:3458 legacy/core/core.php:3499
+msgid "Oops, couldn't modify the link!"
+msgstr "很抱歉，無法修改這個連結！"
+
+#: legacy/core/core.php:3461 legacy/core/core.php:3502
+#: legacy/core/core.php:3690 legacy/core/core.php:3712
+#: legacy/core/core.php:3792
+msgid "Error : link_id not specified"
+msgstr "錯誤: 未指定 link_id"
+
+#: legacy/core/core.php:3526
+msgid "Error : link_id or new_url not specified"
+msgstr "錯誤: 未指定 link_id 或 new_url"
+
+#: legacy/core/core.php:3586
+msgid "An unexpected error occurred!"
+msgstr "發生未預期的錯誤！"
+
+#: legacy/core/core.php:3669
+msgid "An unexpected error occured!"
+msgstr "發生未預期的錯誤！"
+
+#: legacy/core/core.php:3854
+msgid "Error : link ID not specified"
+msgstr "錯誤: 尚未指定連結 ID"
+
+#: legacy/core/core.php:3868
+msgid "Failed to load link details (%s)"
+msgstr "無法載入連結的詳細資料 (%s)"
+
+#. Plugin Name of the plugin
+#: app/admin-pages/cloud-page/class-controller.php:84
+#: app/admin-pages/cloud-submenu/class-controller.php:67
+#: app/emails/recipient-activation/class-controller.php:88
+#: app/emails/scan-report/class-controller.php:101 legacy/core/core.php:3922
+msgid "Broken Link Checker"
+msgstr "Broken Link Checker"
+
+#: legacy/core/core.php:3942
+msgid "PHP version"
+msgstr "PHP 版本"
+
+#: legacy/core/core.php:3948
+msgid "MySQL version"
+msgstr "MySQL 版本"
+
+#: legacy/core/core.php:3972 legacy/core/core.php:3988
+#: legacy/core/core.php:3993
+msgid "Not installed"
+msgstr "尚未安裝"
+
+#: legacy/core/core.php:3975
+msgid "CURL version"
+msgstr "CURL 版本"
+
+#: legacy/core/core.php:3981
+msgid "Installed"
+msgstr "已安裝"
+
+#: legacy/core/core.php:3994
+msgid "You must have either CURL or Snoopy installed for the plugin to work!"
+msgstr "網站管理員必須在 CURL 和 Snoopy 中擇一安裝，這個外掛才能正確運作。"
+
+#: legacy/core/core.php:4004
+msgid "On"
+msgstr "開啟"
+
+#: legacy/core/core.php:4010 legacy/core/core.php:4024
+msgid "Off"
+msgstr "關閉"
+
+#: legacy/core/core.php:4018
+msgid "On ( %s )"
+msgstr "開啟 (%s)"
+
+#: legacy/core/core.php:4037
+msgid "Database character set"
+msgstr "資料庫字元集"
+
+#: legacy/core/core.php:4056
+msgid "If this value is zero even after several page reloads you have probably encountered a bug."
+msgstr "如果這個值為 0，即使多次重新載入頁面，仍有可能遇到錯誤。"
+
+#: legacy/core/core.php:4191 legacy/core/core.php:4316
+msgid "[%s] Broken links detected"
+msgstr "在《%s》中所檢測到的中斷連結"
+
+#: legacy/core/core.php:4196
+msgid "Broken Link Checker has detected %d new broken link on your site."
+msgid_plural "Broken Link Checker has detected %d new broken links on your site."
+msgstr[0] "Broken Link Checker 在你的網站中檢測到 %d 個新的中斷連結。"
+
+#: legacy/core/core.php:4321
+msgid "Broken Link Checker has detected %d new broken link in your posts."
+msgid_plural "Broken Link Checker has detected %d new broken links in your posts."
+msgstr[0] "Broken Link Checker 在你的文章中檢測到 %d 個新的中斷連結。"
+
+#: legacy/core/init.php:242 legacy/init.php:259
+msgid "Once Weekly"
+msgstr "每週一次"
+
+#: legacy/core/init.php:248 legacy/init.php:265
+msgid "Twice a Month"
+msgstr "每月兩次"
+
+#: legacy/core/init.php:321 legacy/init.php:354
+msgid "Broken Link Checker installation failed. Try deactivating and then reactivating the plugin."
+msgstr "Broken Link Checker 外掛安裝失敗。請先予以停用，然後重新啟用這個外掛。"
+
+#: legacy/includes/admin/db-upgrade.php:100
+msgid "Failed to delete old DB tables. Database error : %s"
+msgstr "無法刪除舊的資料表。資料庫錯誤: %s"
+
+#: legacy/includes/admin/links-page-js.php:64
+#: legacy/includes/admin/links-page-js.php:659
+msgid "Wait..."
+msgstr "請稍候..."
+
+#: legacy/includes/admin/links-page-js.php:370
+msgctxt "link text"
+msgid "(None)"
+msgstr "(無)"
+
+#: legacy/includes/admin/links-page-js.php:371
+msgctxt "link text"
+msgid "(Multiple links)"
+msgstr "(數個連結)"
+
+#: legacy/includes/admin/links-page-js.php:430
+msgctxt "link suggestions"
+msgid "No suggestions available."
+msgstr "沒有可用的建議。"
+
+#: legacy/includes/admin/links-page-js.php:431
+msgctxt "link suggestions"
+msgid "Archived page from %s (via the Wayback Machine)"
+msgstr "來自 %s 的封存網頁 (透過 Wayback Machine)"
+
+#: legacy/includes/admin/links-page-js.php:528
+msgid "%d instances of the link were successfully modified."
+msgstr "成功修改 %d 個執行實體的連結。"
+
+#: legacy/includes/admin/links-page-js.php:534
+msgid "However, %d instances couldn't be edited and still point to the old URL."
+msgstr "不過，無法進行編輯的 %d 個執行實體仍指向舊的網址。"
+
+#: legacy/includes/admin/links-page-js.php:540
+msgid "The link could not be modified."
+msgstr "無法修改這個連結。"
+
+#: legacy/includes/admin/links-page-js.php:543
+msgid "The following error(s) occurred :"
+msgstr "發生以下錯誤:"
+
+#: legacy/includes/admin/links-page-js.php:615
+msgid "Error: Link URL must not be empty."
+msgstr "錯誤: 連結網址不能為空。"
+
+#: legacy/includes/admin/links-page-js.php:694
+msgid "%d instances of the link were successfully unlinked."
+msgstr "成功解除 %d 個執行實體的連結。"
+
+#: legacy/includes/admin/links-page-js.php:700
+msgid "However, %d instances couldn't be removed."
+msgstr "不過，無法移除這 %d 個執行實體。"
+
+#: legacy/includes/admin/links-page-js.php:705
+msgid "The plugin failed to remove the link."
+msgstr "外掛無法移除這個連結。"
+
+#: legacy/includes/admin/links-page-js.php:708
+msgid "The following error(s) occured :"
+msgstr "發生以下錯誤:"
+
+#: legacy/includes/admin/links-page-js.php:756
+msgid "Enter a name for the new custom filter"
+msgstr "為自訂篩選器輸入名稱"
+
+#: legacy/includes/admin/links-page-js.php:936
+msgid "Enter a search string first."
+msgstr "請先輸入搜尋關鍵字。"
+
+#: legacy/includes/admin/links-page-js.php:943
+msgid "Select one or more links to edit."
+msgstr "選取一或多個連結以進行編輯。"
+
+#: legacy/includes/admin/search-form.php:16
+msgid "Save This Search As a Filter"
+msgstr "將這項搜尋另存為篩選器"
+
+#: legacy/includes/admin/search-form.php:26
+msgid "Delete This Filter"
+msgstr "刪除這個篩選器"
+
+#: legacy/includes/admin/search-form.php:32 legacy/includes/link-query.php:81
+msgid "Search"
+msgstr "搜尋"
+
+#: legacy/includes/admin/search-form.php:42
+msgid "Link text"
+msgstr "連結文字"
+
+#: legacy/includes/admin/search-form.php:45
+#: legacy/includes/admin/table-printer.php:220
+msgid "URL"
+msgstr "網址"
+
+#: legacy/includes/admin/search-form.php:48
+#: legacy/includes/admin/table-printer.php:559
+msgid "HTTP code"
+msgstr "HTTP 狀態碼"
+
+#: legacy/includes/admin/search-form.php:51
+msgid "Link status"
+msgstr "連結狀態"
+
+#: legacy/includes/admin/search-form.php:68
+#: legacy/includes/admin/search-form.php:85
+msgid "Link type"
+msgstr "連結類型"
+
+#: legacy/includes/admin/search-form.php:70
+msgid "Any"
+msgstr "任何"
+
+#: legacy/includes/admin/search-form.php:74
+msgid "Links used in"
+msgstr "連結用於"
+
+#: legacy/includes/admin/search-form.php:112
+msgid "Search Links"
+msgstr "搜尋連結"
+
+#: legacy/includes/admin/search-form.php:113
+#: legacy/includes/admin/table-printer.php:375
+#: legacy/includes/admin/table-printer.php:779
+#: legacy/includes/admin/table-printer.php:904
+msgid "Cancel"
+msgstr "取消"
+
+#: legacy/includes/admin/table-printer.php:192
+msgid "Compact View"
+msgstr "精簡檢視"
+
+#: legacy/includes/admin/table-printer.php:197
+msgid "Detailed View"
+msgstr "詳細檢視"
+
+#: legacy/includes/admin/table-printer.php:227
+msgid "Source"
+msgstr "來源"
+
+#: legacy/includes/admin/table-printer.php:233
+msgid "Link Text"
+msgstr "連結文字"
+
+#: legacy/includes/admin/table-printer.php:240
+msgid "Redirect URL"
+msgstr "重新導向網址"
+
+#: legacy/includes/admin/table-printer.php:291
+msgid "Bulk Actions"
+msgstr "批次操作"
+
+#: legacy/includes/admin/table-printer.php:294
+msgid "Fix redirects"
+msgstr "修正重新導向"
+
+#: legacy/includes/admin/table-printer.php:295
+msgid "Mark as not broken"
+msgstr "標示為未中斷"
+
+#: legacy/includes/admin/table-printer.php:300
+msgid "Move sources to Trash"
+msgstr "將來源移至回收桶"
+
+#: legacy/includes/admin/table-printer.php:302
+msgid "Delete sources"
+msgstr "刪除來源"
+
+#: legacy/includes/admin/table-printer.php:318
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: legacy/includes/admin/table-printer.php:319
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: legacy/includes/admin/table-printer.php:351
+msgid "Bulk Edit URLs"
+msgstr "批次編輯網址"
+
+#: legacy/includes/admin/table-printer.php:353
+msgid "Find"
+msgstr "搜尋"
+
+#: legacy/includes/admin/table-printer.php:357
+msgid "Replace with"
+msgstr "取代為"
+
+#: legacy/includes/admin/table-printer.php:365
+msgid "Case sensitive"
+msgstr "區分大小寫"
+
+#: legacy/includes/admin/table-printer.php:369
+msgid "Regular expression"
+msgstr "規則運算式"
+
+#: legacy/includes/admin/table-printer.php:378
+#: legacy/includes/admin/table-printer.php:905
+msgid "Update"
+msgstr "更新"
+
+#: legacy/includes/admin/table-printer.php:536
+msgid "Post published on"
+msgstr "文章發佈於"
+
+#: legacy/includes/admin/table-printer.php:543
+msgid "Link last checked"
+msgstr "上次檢查時間"
+
+#: legacy/core/core.php:1596 legacy/includes/admin/table-printer.php:548
+msgid "Never"
+msgstr "從不"
+
+#: legacy/includes/admin/table-printer.php:566
+msgid "Response time"
+msgstr "回應時間"
+
+#: legacy/includes/admin/table-printer.php:569
+msgid "%2.3f seconds"
+msgstr "%2.3f 秒"
+
+#: legacy/includes/admin/table-printer.php:573
+msgid "Final URL"
+msgstr "最終網址"
+
+#: legacy/includes/admin/table-printer.php:580
+msgid "Redirect count"
+msgstr "重新導向計數"
+
+#: legacy/includes/admin/table-printer.php:587
+msgid "Instance count"
+msgstr "執行個體計數"
+
+#: legacy/includes/admin/table-printer.php:598
+msgid "This link has failed %d time."
+msgid_plural "This link has failed %d times."
+msgstr[0] "這個連結已失效 %d 次。"
+
+#: legacy/includes/admin/table-printer.php:617
+msgid "Log"
+msgstr "記錄"
+
+#: legacy/includes/admin/table-printer.php:644
+#: legacy/includes/admin/table-printer.php:688
+msgid "Show more info about this link"
+msgstr "顯示這個連結的詳細資訊"
+
+#: legacy/includes/admin/table-printer.php:662
+msgctxt "checked how long ago"
+msgid "Checked"
+msgstr "檢查於"
+
+#: legacy/includes/admin/table-printer.php:677
+msgid "Broken for"
+msgstr "連結已中斷"
+
+#: legacy/includes/admin/table-printer.php:689
+msgctxt "link in the \"Status\" column"
+msgid "Details"
+msgstr "詳細資料"
+
+#: legacy/includes/admin/table-printer.php:710
+msgid "Edit this link"
+msgstr "編輯這個連結"
+
+#: legacy/includes/admin/table-printer.php:718
+msgid "Remove this link from the list of broken links and mark it as valid"
+msgstr "從中斷連結的清單中移除這個連結，並標示為有效連結"
+
+#: legacy/includes/admin/table-printer.php:746
+msgid "Replace this redirect with a direct link"
+msgstr "以直接連結取代重新導向"
+
+#: legacy/includes/admin/table-printer.php:780
+msgid "Update URL"
+msgstr "更新網址"
+
+#: legacy/includes/admin/table-printer.php:884
+msgctxt "inline editor title"
+msgid "Edit Link"
+msgstr "編輯連結"
+
+#: legacy/includes/admin/table-printer.php:887
+msgctxt "inline link editor"
+msgid "Text"
+msgstr "文字"
+
+#: legacy/includes/admin/table-printer.php:892
+msgctxt "inline link editor"
+msgid "URL"
+msgstr "網址"
+
+#: legacy/includes/admin/table-printer.php:897
+msgctxt "inline link editor"
+msgid "Suggestions"
+msgstr "建議"
+
+#: legacy/includes/admin/table-printer.php:917
+msgid "Use this URL"
+msgstr "使用這個網址"
+
+#: legacy/includes/any-post.php:486 legacy/modules/containers/acf_field.php:248
+#: legacy/modules/containers/blogroll.php:46
+#: legacy/modules/containers/comment.php:159
+#: legacy/modules/containers/custom_field.php:252
+msgid "Edit"
+msgstr "編輯"
+
+#: legacy/includes/any-post.php:494 legacy/modules/containers/acf_field.php:252
+#: legacy/modules/containers/custom_field.php:258
+msgid "Move this item to the Trash"
+msgstr "將這個項目移至回收桶"
+
+#: legacy/includes/any-post.php:496 legacy/modules/containers/acf_field.php:252
+#: legacy/modules/containers/custom_field.php:260
+msgid "Trash"
+msgstr "移至回收桶"
+
+#: legacy/includes/any-post.php:501 legacy/modules/containers/acf_field.php:254
+#: legacy/modules/containers/custom_field.php:265
+msgid "Delete this item permanently"
+msgstr "永久刪除這個項目"
+
+#: legacy/includes/any-post.php:503 legacy/modules/containers/acf_field.php:254
+#: legacy/modules/containers/blogroll.php:47
+#: legacy/modules/containers/custom_field.php:267
+msgid "Delete"
+msgstr "刪除"
+
+#: legacy/includes/any-post.php:517
+msgid "Preview"
+msgstr "預覽"
+
+#: legacy/includes/any-post.php:525 legacy/modules/containers/acf_field.php:258
+#: legacy/modules/containers/comment.php:172
+#: legacy/modules/containers/custom_field.php:272
+msgid "View"
+msgstr "檢視"
+
+#: legacy/includes/any-post.php:544 legacy/modules/containers/acf_field.php:248
+#: legacy/modules/containers/custom_field.php:252
+msgid "Edit this item"
+msgstr "編輯這個項目"
+
+#: legacy/includes/any-post.php:622
+msgid "Updating post %d failed"
+msgstr "無法更新文章 %d"
+
+#: legacy/includes/admin/table-printer.php:606
+msgid "This link has been broken for %s."
+msgstr "這個連結已中斷 %s。"
+
+#: legacy/core/core.php:245 legacy/includes/admin/links-page-js.php:45
+msgid "Loading..."
+msgstr "正在載入..."
+
+#: app/admin-notices/multisite/class-view.php:64 legacy/core/core.php:553
+#: legacy/includes/admin/table-printer.php:296
+#: legacy/includes/admin/table-printer.php:727
+msgid "Dismiss"
+msgstr "隱藏"
+
+#: legacy/core/core.php:942 legacy/includes/admin/options-page-js.php:56
+msgid "Show debug info"
+msgstr "顯示偵錯資訊"
+
+#: legacy/core/core.php:970
+msgid "Check each link"
+msgstr "檢查全部連結"
+
+#: legacy/core/core.php:984
+msgid "Existing links will be checked this often. New links will usually be checked ASAP."
+msgstr "現有的連結將以這個頻率進行檢查，而新的連結將會儘快進行檢查。"
+
+#: legacy/core/core.php:1036
+msgid "Leave empty to use the e-mail address specified in Settings &rarr; General."
+msgstr "欄位留空代表使用 [設定]&rarr;[一般] 設定頁中的所指定的電子郵件地址。"
+
+#: legacy/core/core.php:1109 legacy/core/core.php:1154
+msgid "Click \"Save Changes\" to update example output."
+msgstr "點擊 [儲存設定] 以更新連結樣式。"
+
+#: legacy/core/core.php:1199
+msgctxt "settings page"
+msgid "Warnings"
+msgstr "警告"
+
+#: legacy/core/core.php:1208
+msgid "Turning off this option will make the plugin report all problems as broken links."
+msgstr "停用這項設定後，外掛會將全部有問題的連結列為<strong>中斷的連結</strong>。"
+
+#: legacy/core/core.php:1311
+msgid "Error : All link parsers missing!"
+msgstr "錯誤: 遺失全部連結剖析器！"
+
+#: legacy/core/core.php:1415
+msgid "Show the dashboard widget for"
+msgstr "可查看控制台小工具的使用者角色"
+
+#: legacy/core/core.php:1621
+msgid "Re-check all pages"
+msgstr "重新檢查全部頁面"
+
+#: legacy/core/core.php:1639
+msgid "Save Changes"
+msgstr "儲存設定"
+
+#: legacy/core/core.php:2037
+msgid "Filter \"%s\" created"
+msgstr "已建立篩選器 %s"
+
+#: legacy/core/core.php:2071
+msgid "Filter deleted"
+msgstr "篩選器已刪除。"
+
+#: legacy/core/core.php:2230
+msgid "%d link updated."
+msgid_plural "%d links updated."
+msgstr[0] "%d 個連結已更新。"
+
+#: legacy/core/core.php:2334
+msgid "%d link removed"
+msgid_plural "%d links removed"
+msgstr[0] "%d 個連結已移除"
+
+#: legacy/core/core.php:2521
+msgid "%d link scheduled for rechecking"
+msgid_plural "%d links scheduled for rechecking"
+msgstr[0] "%d 個連結已排定重新檢查"
+
+#: legacy/core/core.php:2590
+msgid "%d link marked as not broken"
+msgid_plural "%d links marked as not broken"
+msgstr[0] "%d 個連結已標示為未中斷"
+
+#: legacy/core/core.php:2654
+msgid "%d link dismissed"
+msgid_plural "%d links dismissed"
+msgstr[0] "%d 個連結已隱藏"
+
+#: legacy/core/core.php:2724
+msgid "The \"Warnings\" page lists problems that are probably temporary or suspected to be false positives.<br> Warnings that persist for a long time will usually be reclassified as broken links."
+msgstr "[警告] 頁面會列出發生暫時無法連上或有可能發生錯誤的連結。<br>長期持續列在 [警告] 頁面內的連結，會將之重新分類為中斷的連結。"
+
+#: legacy/core/core.php:2735
+msgctxt "a link from the admin notice under Tools - Broken links - Warnings"
+msgid "Change warning settings"
+msgstr "變更警告設定"
+
+#: legacy/core/core.php:2815
+msgid "Color-code status codes"
+msgstr "狀態碼的色彩代碼"
+
+#: legacy/core/core.php:2835 legacy/core/core.php:3430
+#: legacy/core/core.php:3477 legacy/core/core.php:3516
+#: legacy/core/core.php:3642 legacy/core/core.php:3702
+#: legacy/core/core.php:3782
+msgid "You're not allowed to do that!"
+msgstr "目前的登入身分沒有進行這項操作的權限。"
+
+#: legacy/includes/admin/links-page-js.php:768
+msgid ""
+"You are about to delete the current filter.\n"
+"'Cancel' to stop, 'OK' to delete"
+msgstr ""
+"即將刪除目前的篩節器。\n"
+"點擊 [取消] 以停止操作，點擊 [確定] 以進行刪除。"
+
+#: legacy/includes/admin/links-page-js.php:792
+msgid ""
+"Are you sure you want to delete all posts, bookmarks or other items that contain any of the selected links? This action can't be undone.\n"
+"'Cancel' to stop, 'OK' to delete"
+msgstr ""
+"確定要在全部文章、書籤或其他項目中，刪除全部選取的連結？\n"
+"請注意，這項操作無法復原。點擊 [取消] 以停止操作，點擊 [確定] 以進行刪除。"
+
+#: legacy/includes/admin/links-page-js.php:806
+msgid ""
+"Are you sure you want to remove the selected links? This action can't be undone.\n"
+"'Cancel' to stop, 'OK' to remove"
+msgstr ""
+"確定要移除選取的連結？這項操作無法復原。\n"
+"點擊 [取消] 以停止操作，點擊 [確定] 以進行移除。"
+
+#: legacy/includes/admin/options-page-js.php:54
+msgid "Hide debug info"
+msgstr "隱藏偵錯資訊"
+
+#: legacy/includes/admin/table-printer.php:712
+msgid "Remove this link from all posts"
+msgstr "從全部文章中移除這個連結"
+
+#: legacy/includes/admin/table-printer.php:726
+msgid "Hide this link and do not report it again unless its status changes"
+msgstr "隱藏這個連結。除非連結狀態產生變更，否則不再為這個連結進行回報"
+
+#: legacy/includes/admin/table-printer.php:732
+msgid "Undismiss this link"
+msgstr "為這個連結取消隱藏"
+
+#: legacy/includes/admin/table-printer.php:733
+msgid "Undismiss"
+msgstr "取消隱藏"
+
+#: legacy/includes/any-post.php:608 legacy/modules/containers/blogroll.php:83
+#: legacy/modules/containers/comment.php:43
+msgid "Nothing to update"
+msgstr "無須更新"
+
+#: legacy/includes/any-post.php:516
+msgid "Preview &#8220;%s&#8221;"
+msgstr "預覽〈%s〉"
+
+#: legacy/includes/any-post.php:524
+msgid "View &#8220;%s&#8221;"
+msgstr "檢視〈%s〉"
+
+#: legacy/includes/admin/links-page-js.php:429
+msgctxt "link suggestions"
+msgid "Searching..."
+msgstr "正在搜尋..."
+
+#: legacy/includes/admin/table-printer.php:328
+msgid "Displaying %1$s&#8211;%2$s of <span class=\"current-link-count\">%3$s</span>"
+msgstr "本頁列出第 %1$s 到第 %2$s 個連結，總計 <span class=\"current-link-count\">%3$s</span> 個連結"
+
+#: legacy/includes/admin/table-printer.php:807
+msgid "[An orphaned link! This is a bug.]"
+msgstr "(找到孤立連結！這是一項程式碼錯誤。)"
+
+#: legacy/includes/any-post.php:683 legacy/modules/containers/acf_field.php:327
+#: legacy/modules/containers/custom_field.php:341
+msgid "Failed to delete post \"%1$s\" (%2$d)"
+msgstr "無法刪除文章〈%1$s〉(%2$d)"
+
+#: legacy/core/core.php:313
+msgid "Automatically expand the widget if broken links have been detected"
+msgstr "檢測到中斷的連結後，自動展開小工具"
+
+#: legacy/core/core.php:1003
+msgid "Send me e-mail notifications about newly detected broken links"
+msgstr "檢測到中斷的連結後，傳送電子郵件通知網站管理員"
+
+#: legacy/core/core.php:1204
+msgid "Show uncertain or minor problems as \"warnings\" instead of \"broken\""
+msgstr "將有些微問題的連結標示為 [警告]，而不是 [中斷]"
+
+#: legacy/core/core.php:1420
+msgctxt "dashboard widget visibility"
+msgid "Administrator"
+msgstr "[網站管理員] 使用者角色"
+
+#: legacy/core/core.php:1421
+msgctxt "dashboard widget visibility"
+msgid "Editor and above"
+msgstr "[編輯] 使用者角色或更高權限使用者角色"
+
+#: legacy/core/core.php:1422
+msgctxt "dashboard widget visibility"
+msgid "Nobody (disables the widget)"
+msgstr "不提供查看 (亦即停用這項小工具)"
+
+#: legacy/core/core.php:2482
+msgid "Didn't find anything to delete!"
+msgstr "沒有任何可供刪除的項目！"
+
+#: legacy/core/core.php:3345
+msgid "Searching your blog for links..."
+msgstr "正在搜尋這個網站的連結..."
+
+#: legacy/core/core.php:3552 legacy/core/core.php:3566
+msgid "Oops, the new URL is invalid!"
+msgstr "很抱歉，新網址無效！"
+
+#: legacy/core/core.php:3841
+msgid "You don't have sufficient privileges to access this information!"
+msgstr "目前的登入身分沒有存取這些資訊的權限！"
+
+#: legacy/core/core.php:3961
+msgid "You have an old version of CURL. Redirect detection may not work properly."
+msgstr "這台主機安裝的是舊版的 CURL，重新導向檢測可能無法正確運作。"
+
+#: legacy/core/core.php:4005
+msgid "Redirects may be detected as broken links when safe_mode is on."
+msgstr "當 safe_mode 開啟時，外掛可能會將重新導向檢測為中斷的連結。"
+
+#: legacy/core/core.php:4019
+msgid "Redirects may be detected as broken links when open_basedir is on."
+msgstr "當 open_basedir 開啟時，外掛可能會將重新導向檢測為中斷的連結。"
+
+#: legacy/core/core.php:4237
+msgid "Here's a list of the new broken links: "
+msgstr "以下列出新的中斷連結清單："
+
+#: legacy/core/core.php:4247
+msgid "Link text : %s"
+msgstr "連結文字：%s"
+
+#: legacy/core/core.php:4249
+msgid "Source : %s"
+msgstr "來源：%s"
+
+#: legacy/core/core.php:4263
+msgid "You can see all broken links here:"
+msgstr "網站管理員可以在以下連結檢視全部中斷的連結："
+
+#: legacy/core/core.php:4228
+msgid "Here's a list of the first %d broken links:"
+msgid_plural "Here's a list of the first %d broken links:"
+msgstr[0] "以下列出前 %d 個中斷連結的清單："
+
+#: legacy/core/core.php:4248
+msgid "Link URL : <a href=\"%1$s\">%2$s</a>"
+msgstr "連結網址：<a href=\"%1$s\" target=\"_blank\">%2$s</a>"
+
+#: legacy/core/core.php:1498
+msgid "Current load : %s"
+msgstr "目前負載: %s"
+
+#: legacy/core/core.php:1626
+msgid "The \"Nuclear Option\". Click this button to make the plugin empty its link database and recheck the entire site from scratch."
+msgstr "這是一項<strong>高度耗損主機效能</strong>的設定。點擊這個按鈕後，外掛便會清空全部關聯資料表，並重新檢查整個網站的全部連結。"

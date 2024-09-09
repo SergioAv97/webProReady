@@ -1,0 +1,33 @@
+.caja-texto-texto {
+
+	.grid {
+		gap: 5rem;
+
+		div {
+			.title, a {
+				text-align: center;
+				font-size: var(--raw-font-size-bigger);
+				font-weight: var(--raw-font-weight-bolder);
+				color: var(--raw-color-orange);
+			}
+
+			p {
+				font-size: var(--raw-font-size-big);
+				font-family: var(--raw-font-poppins);
+				font-weight: var(--raw-font-weight-normal);
+				color: var(--raw-color-text);
+			}
+
+
+
+			&.contrast {
+				padding: 3rem 3rem 1rem;
+				border-radius: 2rem;
+				background-color: var(--raw-color-blue-bg);
+
+				p, b { color: var(--raw-color-white); }
+			}
+		}
+	}
+
+}

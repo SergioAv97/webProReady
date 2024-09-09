@@ -1,0 +1,155 @@
+* {
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+:root {
+	/* font-families */
+	--raw-font-awesome-free: "Font Awesome 6 Free", "Font Awesome 5 Free", "FontAwesome";
+	--raw-font-awesome-brands: "Font Awesome 6 Brands";
+
+	--raw-font-roboto: "Roboto", Sans-serif;
+	--raw-font-roboto-slab: "Roboto Slab", Sans-serif;
+	--raw-font-rubik: "Rubik", Sans-serif;
+	/* @ TODO : include this fonts */
+	--raw-font-inter: "Inter", Sans-serif;
+	--raw-font-poppins: "Poppins", Sans-serif;
+
+	/* font-sizes */
+	--raw-font-size-small: 13px;
+	--raw-font-size-normal: 16px;
+	--raw-font-size-big: 18px;
+	--raw-font-size-large: 22px;
+	--raw-font-size-bigger: 28px;
+	--raw-font-size-biggest: 40px;
+	--raw-font-size-enormous: 50px;
+	--raw-font-size-largest: 60px;
+	--raw-font-size-huge: 125px;
+	--raw-icon-font-size: 44px;
+
+	--raw-font-size-banner-title: 24px;
+
+	/* font-weights */
+	--raw-font-weight-thin: 300;
+	--raw-font-weight-normal: 400;
+	--raw-font-weight-bold: 500;
+	--raw-font-weight-bolder: 600;
+	--raw-font-weight-fat: 700;
+	--raw-font-weight-fattest: 800;
+
+	/* reusable fonts */
+	--raw-font-primary: var(--raw-font-weight-normal) var(--raw-font-size-normal) var(--raw-font-roboto);
+	--raw-font-menus: var(--raw-font-weight-thin) var(--raw-font-size-big) var(--raw-font-rubik);
+	--raw-font-icons-small: var(--raw-font-weight-normal) var(--raw-font-size-big) var(--raw-font-awesome-free);
+	--raw-font-icons-huge: var(--raw-font-weight-normal) var(--raw-font-size-huge) var(--raw-font-awesome-free);
+}
+
+/**/
+
+a, a:visited {
+	font: var(--raw-font-primary);
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--raw-font-inter);
+	font-weight: 500;
+	line-height: normal;
+	text-wrap: balance;
+}
+
+h1 {
+	font-family: var(--raw-font-rubik);
+	font-size: 40px;
+	font-weight: 700;
+}
+
+p.title,
+h2 {
+	font-family: var(--raw-font-rubik);
+	font-size: 32px;
+	font-weight: 600;
+
+	&.big {
+		font-size: 40px;
+		font-weight: 700;
+	}
+}
+
+h3 { font-size: 28px; margin-bottom: 1rem; }
+h4 { font-size: 24px; }
+h5 { font-size: 20px; }
+h6 { font-size: 16px; }
+
+/**/
+
+pre {
+	font-family: monospace,monospace;
+	font-size: 1rem;
+	white-space: pre-wrap;
+}
+
+abbr[title] {
+	border-bottom: none;
+	text-decoration: underline dotted;
+}
+
+b,strong {
+	font-weight: bolder;
+}
+
+code,kbd,samp {
+	font-family: monospace,monospace;
+	font-size: 1rem;
+}
+
+small {
+	font-size: 80%;
+}
+
+sub,sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -.25em;
+}
+
+sup {
+	top: -.5em;
+}
+
+img {
+	border-style: none;
+	height: auto;
+	max-width: 100%;
+}
+
+details {
+	display: block;
+}
+
+summary {
+	display: list-item;
+}
+
+figcaption {
+	font-size: 16px;
+	color: #333;
+	line-height: 1.4;
+	font-style: italic;
+	font-weight: 400;
+}
+
+/**/
+
+.raw-component {
+	& h2,
+	& p.title {
+		font-size: var(--raw-font-size-biggest);
+		font-weight: var(--raw-font-weight-bolder);
+		text-align: center;
+	}
+}

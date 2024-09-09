@@ -1,0 +1,1702 @@
+# Translation of Plugins - Broken Link Checker - Stable (latest release) in Finnish
+# This file is distributed under the same license as the Plugins - Broken Link Checker - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-06-12 12:42:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: fi\n"
+"Project-Id-Version: Plugins - Broken Link Checker - Stable (latest release)\n"
+
+#: legacy/includes/any-post.php:829
+msgid "%d post deleted."
+msgid_plural "%d posts deleted."
+msgstr[0] "%d artikkeli poistettu."
+msgstr[1] "%d artikkelia poistettu."
+
+#: legacy/includes/any-post.php:831
+msgid "%d page deleted."
+msgid_plural "%d pages deleted."
+msgstr[0] "%d sivu poistettu."
+msgstr[1] "%d sivua poistettu."
+
+#: legacy/includes/any-post.php:852
+msgid "%d post moved to the Trash."
+msgid_plural "%d posts moved to the Trash."
+msgstr[0] "%d artikkeli siirretty roskakoriin."
+msgstr[1] "%d artikkelia siirretty roskakoriin."
+
+#: legacy/includes/any-post.php:854
+msgid "%d page moved to the Trash."
+msgid_plural "%d pages moved to the Trash."
+msgstr[0] "%d sivu siirretty roskakoriin."
+msgstr[1] "%d sivua siirretty roskakoriin."
+
+#: legacy/includes/containers.php:932 legacy/includes/containers.php:950
+msgid "Container type '%s' not recognized"
+msgstr "Säiliön tyyppiä '%s' ei tunnistettu"
+
+#: legacy/includes/extra-strings.php:2
+msgctxt "module name"
+msgid "Basic HTTP"
+msgstr "Perus HTTP"
+
+#: legacy/includes/extra-strings.php:3
+msgctxt "module name"
+msgid "Blogroll items"
+msgstr "Blogilistat"
+
+#: legacy/includes/extra-strings.php:4
+msgctxt "module name"
+msgid "Comments"
+msgstr "Kommentit"
+
+#: legacy/includes/extra-strings.php:5
+msgctxt "module name"
+msgid "Custom fields"
+msgstr "Mukautetut kentät"
+
+#: legacy/includes/extra-strings.php:6
+msgctxt "module name"
+msgid "Embedded DailyMotion videos"
+msgstr "Upotetut DailyMotion-videot"
+
+#: legacy/includes/extra-strings.php:7
+msgctxt "module name"
+msgid "Embedded GoogleVideo videos"
+msgstr "Upotetut GoogleVideo-videot"
+
+#: legacy/includes/extra-strings.php:8
+msgctxt "module name"
+msgid "Embedded Vimeo videos"
+msgstr "Upotetut Vimeo-videot"
+
+#: legacy/includes/extra-strings.php:10
+msgctxt "module name"
+msgid "Embedded YouTube videos"
+msgstr "Upotetut YouTube-videot"
+
+#: legacy/includes/extra-strings.php:11
+msgctxt "module name"
+msgid "Embedded YouTube videos (old embed code)"
+msgstr "Upotetut YouTube-videot (vanha upotuskoodi)"
+
+#: legacy/includes/extra-strings.php:12
+msgctxt "module name"
+msgid "HTML images"
+msgstr "HTML-kuvat"
+
+#: legacy/includes/extra-strings.php:13
+msgctxt "module name"
+msgid "HTML links"
+msgstr "HTML-linkit"
+
+#: legacy/includes/extra-strings.php:14
+msgctxt "module name"
+msgid "MediaFire API"
+msgstr "MediaFire API"
+
+#: legacy/includes/extra-strings.php:15
+msgctxt "module name"
+msgid "Plaintext URLs"
+msgstr "Tekstilinkit"
+
+#: legacy/includes/extra-strings.php:16
+msgctxt "module name"
+msgid "RapidShare API"
+msgstr "RapidShare API"
+
+#: legacy/includes/extra-strings.php:18
+msgctxt "module name"
+msgid "YouTube API"
+msgstr "YouTube API"
+
+#: legacy/includes/extra-strings.php:19
+msgctxt "module name"
+msgid "Posts"
+msgstr "Artikkelit"
+
+#: legacy/includes/extra-strings.php:20
+msgctxt "module name"
+msgid "Pages"
+msgstr "Sivut"
+
+#: legacy/includes/instances.php:118 legacy/includes/instances.php:174
+msgid "Parser '%s' not found."
+msgstr "Jäsennintä '%s' ei löydy."
+
+#: legacy/includes/link-query.php:36
+msgid "Broken"
+msgstr "Rikkinäinen"
+
+#: legacy/includes/link-query.php:38
+msgid "No broken links found"
+msgstr "Rikkinäisiä linkkejä ei löytynyt"
+
+#: legacy/includes/link-query.php:56
+msgid "Redirects"
+msgstr "Uudelleenohjaukset"
+
+#: legacy/includes/link-query.php:57
+msgid "Redirected Links"
+msgstr "Uudelleenohjatut linkit"
+
+#: legacy/includes/link-query.php:58
+msgid "No redirects found"
+msgstr "Uudelleenohjauksia ei löytynyt"
+
+#: legacy/includes/link-query.php:25
+msgid "All"
+msgstr "Kaikki"
+
+#: legacy/includes/link-query.php:26
+msgid "Detected Links"
+msgstr "Havaitut linkit"
+
+#: legacy/includes/link-query.php:27
+msgid "No links found (yet)"
+msgstr "Linkkejä ei löytynyt (vielä)"
+
+#: legacy/includes/link-query.php:82
+msgid "Search Results"
+msgstr "Hakutulokset"
+
+#: legacy/includes/link-query.php:83 legacy/includes/link-query.php:131
+msgid "No links found for your query"
+msgstr "Kyselyllä ei löytynyt linkkejä."
+
+#: legacy/includes/links.php:225
+msgid "The plugin script was terminated while trying to check the link."
+msgstr "Lisäosan ohjelmisto keskeytettiin kesken linkkien tarkistuksen."
+
+#: legacy/includes/links.php:271
+msgid "The plugin doesn't know how to check this type of link."
+msgstr "Lisäosa ei tiedä kuinka tarkistaa tämän tyyppisiä linkkejä."
+
+#: legacy/includes/links.php:505
+msgid "Link is valid."
+msgstr "Linkki on kelvollinen."
+
+#: legacy/includes/links.php:503
+msgid "Link is broken."
+msgstr "Linkki on rikkinäinen."
+
+#: legacy/includes/links.php:738 legacy/includes/links.php:841
+#: legacy/includes/links.php:875
+msgid "Link is not valid"
+msgstr "Linkki on virheellinen"
+
+#: legacy/includes/links.php:755
+msgid "This link can not be edited because it is not used anywhere on this site."
+msgstr "Tätä linkkiä ei voi muokata, koska sitä ei ole käytetty missään tällä sivustolla."
+
+#: legacy/includes/links.php:781
+msgid "Failed to create a DB entry for the new URL."
+msgstr "Tietokantamerkinnän luominen uudelle URL-osoitteelle epäonnistui."
+
+#: legacy/includes/links.php:848
+msgid "This link is not a redirect"
+msgstr "Tämä linkki ei ole uudelleenohjaus"
+
+#: legacy/includes/links.php:902 legacy/includes/links.php:939
+msgid "Couldn't delete the link's database record"
+msgstr "Linkkien tietokantamerkintöjä ei voitu poistaa"
+
+#: legacy/includes/links.php:1016
+msgctxt "link status"
+msgid "Unknown"
+msgstr "Tuntematon"
+
+#: legacy/includes/links.php:1029 legacy/modules/checkers/http.php:313
+#: legacy/modules/checkers/http.php:317 legacy/modules/extras/mediafire.php:115
+#: legacy/modules/extras/youtube.php:135 legacy/modules/extras/youtube.php:230
+msgid "Unknown Error"
+msgstr "Tuntematon virhe"
+
+#: legacy/includes/links.php:1052
+msgid "Not checked"
+msgstr "Ei tarkistettu"
+
+#: legacy/includes/links.php:1055
+msgid "False positive"
+msgstr "Virheellinen positiivinen"
+
+#: legacy/includes/links.php:1058 legacy/modules/extras/rapidshare.php:145
+#: legacy/modules/extras/rapidshare.php:151
+#: legacy/modules/extras/rapidshare.php:178
+#: legacy/modules/extras/youtube.php:141 legacy/modules/extras/youtube.php:217
+msgctxt "link status"
+msgid "OK"
+msgstr "OK"
+
+#: legacy/includes/parsers.php:117
+msgid "Editing is not implemented in the '%s' parser"
+msgstr "Muokkausta ei ole toteutettu '%s' jäsentimeen"
+
+#: legacy/includes/parsers.php:132
+msgid "Unlinking is not implemented in the '%s' parser"
+msgstr "Linkkien poistamista ei ole toteutettu '%s' jäsentimeen"
+
+#: legacy/includes/utility-class.php:259
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d sekunti"
+msgstr[1] "%d sekuntia"
+
+#: legacy/includes/utility-class.php:260
+msgid "%d second ago"
+msgid_plural "%d seconds ago"
+msgstr[0] "%d sekunti sitten"
+msgstr[1] "%d sekuntia sitten"
+
+#: legacy/includes/utility-class.php:263
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minuutti"
+msgstr[1] "%d minuuttia"
+
+#: legacy/includes/utility-class.php:264
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d minuutti sitten"
+msgstr[1] "%d minuuttia sitten"
+
+#: legacy/includes/utility-class.php:267
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d tunti"
+msgstr[1] "%d tuntia"
+
+#: legacy/includes/utility-class.php:268
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d tunti sitten"
+msgstr[1] "%d tuntia sitten"
+
+#: legacy/includes/utility-class.php:271
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d päivä"
+msgstr[1] "%d päivää"
+
+#: legacy/includes/utility-class.php:272
+msgid "%d day ago"
+msgid_plural "%d days ago"
+msgstr[0] "%d päivä sitten"
+msgstr[1] "%d päivää sitten"
+
+#: legacy/includes/utility-class.php:275
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d kuukausi"
+msgstr[1] "%d kuukautta"
+
+#: legacy/includes/utility-class.php:276
+msgid "%d month ago"
+msgid_plural "%d months ago"
+msgstr[0] "%d kuukausi sitten"
+msgstr[1] "%d kuukautta sitten"
+
+#: legacy/modules/checkers/http.php:290
+msgid "Server Not Found"
+msgstr "Palvelinta ei löydy"
+
+#: legacy/modules/checkers/http.php:306
+msgid "Connection Failed"
+msgstr "Yhteys epäonnistui"
+
+#: legacy/modules/checkers/http.php:360 legacy/modules/checkers/http.php:449
+msgid "HTTP code : %d"
+msgstr "HTTP-koodi: %d"
+
+#: legacy/modules/checkers/http.php:362 legacy/modules/checkers/http.php:451
+msgid "(No response)"
+msgstr "(Ei vastausta)"
+
+#: legacy/modules/checkers/http.php:380
+msgid "Most likely the connection timed out or the domain doesn't exist."
+msgstr "Todennäköisimmin yhteyden aikakatkaisu tai verkkotunnusta ei ole olemassa."
+
+#: legacy/modules/checkers/http.php:460
+msgid "Request timed out."
+msgstr "Pyynnön aikakatkaisu."
+
+#: legacy/modules/containers/blogroll.php:21
+msgid "Bookmark"
+msgstr "Kirjanmerkki"
+
+#: legacy/modules/containers/blogroll.php:27
+#: legacy/modules/containers/blogroll.php:46
+msgid "Edit this bookmark"
+msgstr "Muokkaa tätä kirjanmerkkiä"
+
+#: legacy/modules/containers/blogroll.php:47
+msgid ""
+"You are about to delete this link '%s'\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Olet aikaissa poistaa linkin '%s'\n"
+"  'Peruuta' lopettaaksesi, 'OK' poistaaksi."
+
+#: legacy/modules/containers/blogroll.php:97
+msgid "Updating bookmark %d failed"
+msgstr "Kirjanmerkin %d päivitys epäonnistui"
+
+#: legacy/modules/containers/blogroll.php:298
+msgid "%d blogroll link deleted."
+msgid_plural "%d blogroll links deleted."
+msgstr[0] "%d blogilistan linkki poistettu."
+msgstr[1] "%d blogilistan linkkiä poistettu."
+
+#: legacy/modules/containers/comment.php:53
+msgid "Updating comment %d failed"
+msgstr "Kommentin %d päivitys epäonnistui"
+
+#: legacy/modules/containers/comment.php:74
+msgid "Failed to delete comment %d"
+msgstr "Kommentin %d poistaminen epäonnistui"
+
+#: legacy/modules/containers/comment.php:95
+msgid "Can't move comment %d to the trash"
+msgstr "Kommenttia %d ei voida siirtää roskakoriin"
+
+#: legacy/modules/containers/comment.php:159
+#: legacy/modules/containers/comment.php:201
+msgid "Edit comment"
+msgstr "Muokkaa kommenttia"
+
+#: legacy/modules/containers/comment.php:166
+msgid "Delete Permanently"
+msgstr "Poista pysyvästi"
+
+#: legacy/modules/containers/comment.php:168
+msgid "Move this comment to the trash"
+msgstr "Siirrä tämä kommentti roskakoriin"
+
+#: legacy/modules/containers/comment.php:168
+msgctxt "verb"
+msgid "Trash"
+msgstr "Roskakoriin"
+
+#: legacy/modules/containers/comment.php:172
+msgid "View comment"
+msgstr "Näytä kommentti"
+
+#: legacy/modules/containers/comment.php:189
+msgid "Comment"
+msgstr "Kommentti"
+
+#: legacy/modules/containers/comment.php:366
+msgid "%d comment has been deleted."
+msgid_plural "%d comments have been deleted."
+msgstr[0] "%d kommentti poistettu."
+msgstr[1] "%d kommenttia poistettu."
+
+#: legacy/modules/containers/comment.php:385
+msgid "%d comment moved to the Trash."
+msgid_plural "%d comments moved to the Trash."
+msgstr[0] "%d kommentti siirretty roskakoriin."
+msgstr[1] "%d kommenttia siirretty roskakoriin."
+
+#: legacy/modules/containers/acf_field.php:234
+#: legacy/modules/containers/custom_field.php:238
+msgid "Edit this post"
+msgstr "Muokkaa tätä artikkelia"
+
+#: legacy/modules/containers/acf_field.php:258
+#: legacy/modules/containers/custom_field.php:272
+msgid "View \"%s\""
+msgstr "Näytä \"%s\""
+
+#: legacy/modules/extras/dailymotion-embed.php:23
+msgid "DailyMotion Video"
+msgstr "DailyMotion-video"
+
+#: legacy/modules/extras/dailymotion-embed.php:24
+msgid "Embedded DailyMotion video"
+msgstr "Upotettu DailyMotion-video"
+
+#: legacy/modules/extras/embed-parser-base.php:199
+msgid "Embedded videos can't be edited using Broken Link Checker. Please edit or replace the video in question manually."
+msgstr "Upotettuja videoita ei voida muokata Broken Link Checkeria käyttäen. Muokkaa tai korvaa kyseinen video käsin."
+
+#: legacy/modules/extras/mediafire.php:97
+#: legacy/modules/extras/mediafire.php:103
+#: legacy/modules/extras/rapidshare.php:139
+msgid "Not Found"
+msgstr "Ei löydy"
+
+#: legacy/modules/extras/googlevideo-embed.php:24
+msgid "GoogleVideo Video"
+msgstr "GoogleVideo-video"
+
+#: legacy/modules/extras/googlevideo-embed.php:25
+msgid "Embedded GoogleVideo video"
+msgstr "Upotettu GoogleVideo-video"
+
+#: legacy/modules/extras/rapidshare.php:51
+msgid "Using RapidShare API"
+msgstr "Käytetään RapidShare API"
+
+#: legacy/modules/extras/rapidshare.php:158
+msgid "RS Server Down"
+msgstr "RS-palvelin alhaalla"
+
+#: legacy/modules/extras/rapidshare.php:165
+msgid "File Blocked"
+msgstr "Tiedosto estetty"
+
+#: legacy/modules/extras/rapidshare.php:172
+msgid "File Locked"
+msgstr "Tiedosto lukittu"
+
+#: legacy/modules/extras/rapidshare.php:183
+msgid "RapidShare : %s"
+msgstr "RapidShare : %s"
+
+#: legacy/modules/extras/rapidshare.php:189
+msgid "RapidShare API error: %s"
+msgstr "RapidShare API-virhe: %s"
+
+#: legacy/modules/extras/vimeo-embed.php:24
+msgid "Vimeo Video"
+msgstr "Vimeo-video"
+
+#: legacy/modules/extras/vimeo-embed.php:25
+msgid "Embedded Vimeo video"
+msgstr "Upotettu Vimeo-video"
+
+#: legacy/modules/extras/youtube-embed.php:24
+#: legacy/modules/extras/youtube-iframe.php:25
+msgid "YouTube Video"
+msgstr "YouTube-video"
+
+#: legacy/modules/extras/youtube-embed.php:25
+#: legacy/modules/extras/youtube-iframe.php:26
+msgid "Embedded YouTube video"
+msgstr "Upotettu YouTube-video"
+
+#: legacy/modules/extras/youtube.php:151 legacy/modules/extras/youtube.php:154
+msgid "Video Not Found"
+msgstr "Videota ei löydy"
+
+#: legacy/modules/extras/youtube.php:140
+msgid "Video OK"
+msgstr "Video OK"
+
+#: legacy/modules/extras/youtube.php:207
+msgid "Video Restricted"
+msgstr "Rajoitettu video"
+
+#: legacy/modules/extras/youtube.php:261
+msgid "Unknown YouTube API response received."
+msgstr "Vastaanotettiin tuntematon YouTube API-vastaus."
+
+#: legacy/modules/parsers/image.php:193
+msgid "Image"
+msgstr "Kuva"
+
+#: legacy/modules/parsers/acf_field.php:120
+#: legacy/modules/parsers/metadata.php:141
+msgid "Custom field"
+msgstr "Mukautettu kenttä"
+
+#: legacy/includes/link-query.php:46
+msgctxt "filter name"
+msgid "Warnings"
+msgstr "Varoitukset"
+
+#: legacy/includes/extra-strings.php:9
+msgctxt "module name"
+msgid "Embedded YouTube playlists (old embed code)"
+msgstr "Upotetut YouTuben soittolistat (vanha upotuskoodi)"
+
+#: legacy/includes/link-query.php:48
+msgid "No warnings found"
+msgstr "Varoituksia ei löytynyt"
+
+#: legacy/modules/extras/mediafire.php:109
+msgid "Permission Denied"
+msgstr "Oikeus evätty"
+
+#: legacy/modules/extras/youtube-playlist-embed.php:24
+msgid "YouTube Playlist"
+msgstr "YouTube-soittolista"
+
+#: legacy/modules/extras/youtube-playlist-embed.php:25
+msgid "Embedded YouTube playlist"
+msgstr "Upotettu YouTube-soittolista"
+
+#: legacy/modules/extras/youtube.php:173 legacy/modules/extras/youtube.php:176
+msgid "Playlist Not Found"
+msgstr "Soittolistaa ei löytynyt"
+
+#: legacy/modules/extras/youtube.php:183
+msgid "Playlist Restricted"
+msgstr "Soittolista on salattu"
+
+#: legacy/modules/extras/youtube.php:190
+msgid "This playlist has no entries or all entries have been deleted."
+msgstr "Tällä soittolistalla ei ole sisältöä tai kaikki sisältö on poistettu."
+
+#: legacy/modules/extras/youtube.php:191
+msgctxt "link status"
+msgid "Empty Playlist"
+msgstr "Tyhjä soittolista"
+
+#: legacy/modules/extras/youtube.php:216
+msgid "Playlist OK"
+msgstr "Soittolista OK"
+
+#: legacy/includes/extra-strings.php:17
+msgctxt "module name"
+msgid "Smart YouTube httpv:// URLs"
+msgstr "Smart YouTube httpv:// verkko-osoitteet/URL"
+
+#: legacy/includes/link-query.php:66
+msgid "Dismissed"
+msgstr "Piilotettu"
+
+#: legacy/includes/link-query.php:67
+msgid "Dismissed Links"
+msgstr "Piilotetut linkit"
+
+#: legacy/includes/link-query.php:68
+msgid "No dismissed links found"
+msgstr "Piilotettuja linkkejä ei löytynyt"
+
+#: legacy/core/core.php:245 legacy/includes/admin/links-page-js.php:45
+msgid "Loading..."
+msgstr "Ladataan..."
+
+#: legacy/core/core.php:269 legacy/includes/admin/options-page-js.php:18
+msgid "[ Network error ]"
+msgstr "[ Verkkovirhe ]"
+
+#: legacy/core/core.php:313
+msgid "Automatically expand the widget if broken links have been detected"
+msgstr "Laajenna vimpain automaattisesti mikäli rikkinäisiä linkkejä on havattu"
+
+#: app/admin-pages/cloud-page/class-controller.php:85
+msgid "Link Checker"
+msgstr "Linkkien tarkistus"
+
+#: app/action-links/plugin/class-controller.php:99
+#: app/admin-pages/local-submenu/class-view.php:66
+#: app/emails/scan-report/class-controller.php:80
+#: app/emails/scan-report/class-view.php:164 legacy/core/core.php:431
+#: legacy/core/core.php:432 legacy/includes/link-query.php:37
+msgid "Broken Links"
+msgstr "Rikkinäiset linkit"
+
+#: app/admin-pages/local-submenu/class-view.php:67 legacy/core/core.php:514
+msgid "Settings"
+msgstr "Asetukset"
+
+#: legacy/core/core.php:850
+msgid "Settings saved."
+msgstr "Asetukset tallennettu."
+
+#: legacy/core/core.php:857
+msgid "Complete site recheck started."
+msgstr "Koko sivuston uudelleentarkistus aloitettu."
+
+#: legacy/core/core.php:880
+msgid "General"
+msgstr "Yleinen"
+
+#: legacy/core/core.php:881
+msgid "Look For Links In"
+msgstr "Etsi linkkejä"
+
+#: legacy/core/core.php:882
+msgid "Which Links To Check"
+msgstr "Mitä linkkejä tarkistetaan"
+
+#: legacy/core/core.php:883
+msgid "Protocols & APIs"
+msgstr "Protokollat & API:t"
+
+#: legacy/core/core.php:884
+msgid "Advanced"
+msgstr "Lisäasetukset"
+
+#: app/emails/scan-report/class-view.php:167 legacy/core/core.php:939
+#: legacy/includes/admin/table-printer.php:215
+msgid "Status"
+msgstr "Tila"
+
+#: legacy/core/core.php:942 legacy/includes/admin/options-page-js.php:56
+msgid "Show debug info"
+msgstr "Näytä debug-tiedot"
+
+#: legacy/core/core.php:970
+msgid "Check each link"
+msgstr "Tarkista jokainen linkki"
+
+#: legacy/core/core.php:975
+msgid "Every %s hours"
+msgstr "Joka %s tunti"
+
+#: legacy/core/core.php:984
+msgid "Existing links will be checked this often. New links will usually be checked ASAP."
+msgstr "Olemassa olevat linkit tarkastetaan näin usein. Uudet linkit tarkastetaan yleensä heti kun se on mahdollista."
+
+#: legacy/core/core.php:991
+msgid "E-mail notifications"
+msgstr "Sähköposti-ilmoitukset"
+
+#: legacy/core/core.php:1003
+msgid "Send me e-mail notifications about newly detected broken links"
+msgstr "Lähetä sähköposti-ilmoituksia uusista havaituista rikkinäisistä linkeistä"
+
+#: legacy/core/core.php:1017
+msgid "Send authors e-mail notifications about broken links in their posts"
+msgstr "Lähetä tekijöille sähköposti-ilmoituksia rikkinäisistä linkeistä heidän artikkeleissaan"
+
+#: legacy/core/core.php:1068
+msgid "Link tweaks"
+msgstr "Linkkien lisätoiminnot"
+
+#: legacy/core/core.php:1080
+msgid "Apply custom formatting to broken links"
+msgstr "Käytä mukautettua muotoilua rikkinäisille linkeille"
+
+#: legacy/core/core.php:1085 legacy/core/core.php:1129
+msgid "Edit CSS"
+msgstr "Muokkaa CSS"
+
+#: legacy/core/core.php:1106
+msgid "Example : Lorem ipsum <a %s>broken link</a>, dolor sit amet."
+msgstr "Esimerkki : Lorem ipsum <a %s>rikkinäinen linkki</a>, dolor sit amet."
+
+#: legacy/core/core.php:1109 legacy/core/core.php:1154
+msgid "Click \"Save Changes\" to update example output."
+msgstr "Napsauta \"Tallenna muutokset\" päivittääksesi esimerkin ulosannin."
+
+#: legacy/core/core.php:1124
+msgid "Apply custom formatting to removed links"
+msgstr "Käytä mukautettua muotoilua poistetuille linkeille"
+
+#: legacy/core/core.php:1151
+msgid "Example : Lorem ipsum <span %s>removed link</span>, dolor sit amet."
+msgstr "Esimerkki : Lorem ipsum <span %s>poistettu linkki</span>, dolor sit amet."
+
+#: legacy/core/core.php:1170
+msgid "Stop search engines from following broken links"
+msgstr "Estä hakupalveluita seuraamasta rikkinäisiä linkkejä"
+
+#: legacy/core/core.php:1254
+msgid "Look for links in"
+msgstr "Etsi linkkejä"
+
+#: legacy/core/core.php:1271
+msgid "Post statuses"
+msgstr "Artikkelien tilat"
+
+#: legacy/core/core.php:1305
+msgid "Link types"
+msgstr "Linkkityypit"
+
+#: legacy/core/core.php:1311
+msgid "Error : All link parsers missing!"
+msgstr "Virhe : Kaikki linkkijäsentimet puuttuvat!"
+
+#: legacy/core/core.php:1318
+msgid "Exclusion list"
+msgstr "Pois suljetut"
+
+#: legacy/core/core.php:1319
+msgid "Don't check links where the URL contains any of these words (one per line) :"
+msgstr "Älä tarkasta linkkejä joiden URL-osoite sisältää minkä tahansa näistä sanoista (yksi per rivi):"
+
+#: legacy/core/core.php:1339
+msgid "Check links using"
+msgstr "Tarkista linkit käyttäen"
+
+#: legacy/core/core.php:1359 legacy/includes/links.php:1033
+msgid "Timeout"
+msgstr "Aikakatkaisu"
+
+#: legacy/core/core.php:1365 legacy/core/core.php:1462
+#: legacy/core/core.php:4031
+msgid "%s seconds"
+msgstr "%s sekuntia"
+
+#: legacy/core/core.php:1374
+msgid "Links that take longer than this to load will be marked as broken."
+msgstr "Linkit joiden avaaminen kestää kauemmin kuin tämän merkitään rikkinäisiksi."
+
+#: legacy/core/core.php:1381
+msgid "Link monitor"
+msgstr "Linkkien valvonta"
+
+#: legacy/core/core.php:1394
+msgid "Run continuously while the Dashboard is open"
+msgstr "Suorita toistuvasti kun ohjausnäkymä on auki"
+
+#: legacy/core/core.php:1407
+msgid "Run hourly in the background"
+msgstr "Suorita tunnin välein taustalla"
+
+#: legacy/core/core.php:1456
+msgid "Max. execution time"
+msgstr "Maksimi suoritusaika"
+
+#: legacy/core/core.php:1474
+msgid "The plugin works by periodically launching a background job that parses your posts for links, checks the discovered URLs, and performs other time-consuming tasks. Here you can set for how long, at most, the link monitor may run each time before stopping."
+msgstr "Lisäosa toimii määräajoin ajettavilla taustatehtävillä joka jäsentää artikkelisi linkkejä, tarkistaa havaitut URL-osoitteet ja suorittaa muita aikaa vieviä tehtäviä. Voit asettaa tässä kuinka kauan, korkeintaan, linkkienvalvonta voi toimia ennen pysäyttämistä."
+
+#: legacy/core/core.php:1483
+msgid "Server load limit"
+msgstr "Palvelimen kuormitusraja"
+
+#: legacy/core/core.php:1498
+msgid "Current load : %s"
+msgstr "Nykyinen kuorma : %s"
+
+#: legacy/core/core.php:1503
+msgid "Link checking will be suspended if the average <a href=\"%s\">server load</a> rises above this number. Leave this field blank to disable load limiting."
+msgstr "Linkkien tarkastus pysäytetään mikäli keskimääräinen <a href=\"%s\">palvelimen kuorma</a> nousee yli tämän arvon. Jätä tämä kenttä tyhjäksi poistaaksesi kuormituksenrajoituksen käytöstä."
+
+#: legacy/core/core.php:1512
+msgid "Not available"
+msgstr "Ei saatavilla"
+
+#: legacy/core/core.php:1514
+msgid "Load limiting only works on Linux-like systems where <code>/proc/loadavg</code> is present and accessible."
+msgstr "Kuorman rajoitus toimii ainoastaan Linux-tyyppisissä järjestelmissä mistä löytyy <code>/proc/loadavg</code> ja se on käytettävissä."
+
+#: legacy/core/core.php:1618
+msgid "Forced recheck"
+msgstr "Pakotettu uudelleentarkistus"
+
+#: legacy/core/core.php:1621
+msgid "Re-check all pages"
+msgstr "Tarkista kaikki sivut uudelleen"
+
+#: legacy/core/core.php:1626
+msgid "The \"Nuclear Option\". Click this button to make the plugin empty its link database and recheck the entire site from scratch."
+msgstr "\"Ydinase-valinta\". Napsauta tätä painiketta pakottaaksesi lisäosan tyhjentämään linkkitietokantansa ja tarkistamaan uudelleen koko sivuston alusta alkaen."
+
+#: legacy/core/core.php:1639
+msgid "Save Changes"
+msgstr "Tallenna muutokset"
+
+#: legacy/core/core.php:1690
+msgid "Configure"
+msgstr "Määrittele"
+
+#: legacy/core/core.php:1952 legacy/core/core.php:2042
+#: legacy/core/core.php:2074
+msgid "Database error : %s"
+msgstr "Tietokantavirhe : %s"
+
+#: legacy/core/core.php:2023
+msgid "You must enter a filter name!"
+msgstr "Suodattimen nimi vaaditaan!"
+
+#: legacy/core/core.php:2027
+msgid "Invalid search query."
+msgstr "Virheellinen hakulause."
+
+#: legacy/core/core.php:2037
+msgid "Filter \"%s\" created"
+msgstr "Suodatin \"%s\" luotu"
+
+#: legacy/core/core.php:2064
+msgid "Filter ID not specified."
+msgstr "Suodattimen ID:tä ei ole määritelty."
+
+#: legacy/core/core.php:2071
+msgid "Filter deleted"
+msgstr "Suodatin poistettu"
+
+#: legacy/core/core.php:2121
+msgid "Replaced %d redirect with a direct link"
+msgid_plural "Replaced %d redirects with direct links"
+msgstr[0] "Uudelleenohjaus %d korvattu suoralla linkillä"
+msgstr[1] "Uudelleenohjaukset %d korvattu suorilla linkeillä"
+
+#: legacy/core/core.php:2132
+msgid "Failed to fix %d redirect"
+msgid_plural "Failed to fix %d redirects"
+msgstr[0] "Uudelleenohjauksen %d korjaus epäonnistui"
+msgstr[1] "Uudelleenohjausten %d korjaus epäonnistui"
+
+#: legacy/core/core.php:2143
+msgid "None of the selected links are redirects!"
+msgstr "Mikään valituista linkeistä ei ole uudelleenohjaus!"
+
+#: legacy/core/core.php:2230
+msgid "%d link updated."
+msgid_plural "%d links updated."
+msgstr[0] "Linkki %d päivitetty."
+msgstr[1] "Linkit %d päivitetty."
+
+#: legacy/core/core.php:2241
+msgid "Failed to update %d link."
+msgid_plural "Failed to update %d links."
+msgstr[0] "Linkin %d päivitys epäonnistui."
+msgstr[1] "Linkkien %d päivitys epäonnistui."
+
+#: legacy/core/core.php:2334
+msgid "%d link removed"
+msgid_plural "%d links removed"
+msgstr[0] "Linkki %d poistettu"
+msgstr[1] "Linkit %d poistettu"
+
+#: legacy/core/core.php:2345
+msgid "Failed to remove %d link"
+msgid_plural "Failed to remove %d links"
+msgstr[0] "Linkin %d poistaminen epäonnistui"
+msgstr[1] "Linkkien %d poistaminen epäonnistui"
+
+#: legacy/core/core.php:2460
+msgid "%d item was skipped because it can't be moved to the Trash. You need to delete it manually."
+msgid_plural "%d items were skipped because they can't be moved to the Trash. You need to delete them manually."
+msgstr[0] "%d kohde ohitettiin koska sitä ei voitu siirtää roskakoriin. Sinun täytyy poistaa se käsin."
+msgstr[1] "%d kohdetta ohitettiin koska niitä ei voitu siirtää roskakoriin. Sinun täytyy poistaa ne käsin."
+
+#: legacy/core/core.php:2482
+msgid "Didn't find anything to delete!"
+msgstr "Mitään poistettavaa ei löytynyt!"
+
+#: legacy/core/core.php:2521
+msgid "%d link scheduled for rechecking"
+msgid_plural "%d links scheduled for rechecking"
+msgstr[0] "%d linkki aikataulutettu uudelleentarkastukseen"
+msgstr[1] "%d linkkiä aikataulutettu uudelleentarkastukseen"
+
+#: legacy/core/core.php:2571 legacy/core/core.php:3446
+msgid "This link was manually marked as working by the user."
+msgstr "Käyttäjä on merkinnyt tämän linkin toimivaksi."
+
+#: legacy/core/core.php:2579 legacy/core/core.php:2643
+msgid "Couldn't modify link %d"
+msgstr "Ei voitu muokata linkkiä %d"
+
+#: legacy/core/core.php:2590
+msgid "%d link marked as not broken"
+msgid_plural "%d links marked as not broken"
+msgstr[0] "%d linkki merkitty ei rikkinäiseksi"
+msgstr[1] "%d linkkiä merkitty ei rikkinäisiksi"
+
+#: legacy/core/core.php:2760
+msgid "Table columns"
+msgstr "Taulukon sarakkeet"
+
+#: legacy/core/core.php:2779
+msgid "Show on screen"
+msgstr "Näytä ruudulla"
+
+#: legacy/core/core.php:2786
+msgid "links"
+msgstr "linkit"
+
+#: legacy/core/core.php:2787 legacy/includes/admin/table-printer.php:175
+msgid "Apply"
+msgstr "Käytä"
+
+#: legacy/core/core.php:2791
+msgid "Misc"
+msgstr "Sekalaiset"
+
+#: legacy/core/core.php:2806
+msgid "Highlight links broken for at least %s days"
+msgstr "Korosta linkkejä, jotka ovat olleet rikki ainekin %s päivää"
+
+#: legacy/core/core.php:2815
+msgid "Color-code status codes"
+msgstr "Tilakoodien väriarvot"
+
+#: legacy/core/core.php:2835 legacy/core/core.php:3430
+#: legacy/core/core.php:3477 legacy/core/core.php:3516
+#: legacy/core/core.php:3642 legacy/core/core.php:3702
+#: legacy/core/core.php:3782
+msgid "You're not allowed to do that!"
+msgstr "Tämä ei ole sallittua!"
+
+#: legacy/core/core.php:3298
+msgid "View broken links"
+msgstr "Näytä rikkinäiset linkit"
+
+#: legacy/core/core.php:3299
+msgid "Found %d broken link"
+msgid_plural "Found %d broken links"
+msgstr[0] "Löydettiin %d rikkinäinen linkki"
+msgstr[1] "Löydettiin %d rikkinäistä linkkiä"
+
+#: legacy/core/core.php:3305
+msgid "No broken links found."
+msgstr "Rikkinäisiä linkkejä ei löydetty."
+
+#: legacy/core/core.php:3312
+msgid "%d URL in the work queue"
+msgid_plural "%d URLs in the work queue"
+msgstr[0] "%d URL-osoite työjonossa"
+msgstr[1] "%d URL-osoitetta työjonossa"
+
+#: legacy/core/core.php:3316
+msgid "No URLs in the work queue."
+msgstr "Ei URL-osoitteita työjonossa."
+
+#: legacy/core/core.php:3345
+msgid "Searching your blog for links..."
+msgstr "Haetaan blogista linkkejä..."
+
+#: legacy/core/core.php:3347
+msgid "No links detected."
+msgstr "Linkkejä ei löydetty."
+
+#: legacy/core/core.php:3373
+msgctxt "current load"
+msgid "Unknown"
+msgstr "Tuntematon"
+
+#: legacy/core/core.php:3438 legacy/core/core.php:3485
+#: legacy/core/core.php:3539 legacy/core/core.php:3656
+#: legacy/core/core.php:3725 legacy/core/core.php:3805
+msgid "Oops, I can't find the link %d"
+msgstr "Hups, linkkiä %d ei löydetty"
+
+#: legacy/core/core.php:3458 legacy/core/core.php:3499
+msgid "Oops, couldn't modify the link!"
+msgstr "Hups, linkkiä ei pystytty muokkaamaan!"
+
+#: legacy/core/core.php:3461 legacy/core/core.php:3502
+#: legacy/core/core.php:3690 legacy/core/core.php:3712
+#: legacy/core/core.php:3792
+msgid "Error : link_id not specified"
+msgstr "Virhe : link_id määrittely puuttuu"
+
+#: legacy/core/core.php:3552 legacy/core/core.php:3566
+msgid "Oops, the new URL is invalid!"
+msgstr "Hups, uusi URL in virheellinen!"
+
+#: legacy/core/core.php:3669
+msgid "An unexpected error occured!"
+msgstr "Odottamaton virhe tapahtui!"
+
+#: legacy/core/core.php:3526
+msgid "Error : link_id or new_url not specified"
+msgstr "Virhe : link_id tai new_url määrittely puuttuu"
+
+#: legacy/core/core.php:3841
+msgid "You don't have sufficient privileges to access this information!"
+msgstr "Sinulla ei ole tähän tietoon tarvittavia oikeuksia!"
+
+#: legacy/core/core.php:3854
+msgid "Error : link ID not specified"
+msgstr "Virhe : linkin ID:tä ei ole määritelty"
+
+#: legacy/core/core.php:3868
+msgid "Failed to load link details (%s)"
+msgstr "Virhe ladattaessa linkin tietoja (%s)"
+
+#. Plugin Name of the plugin
+#: app/admin-pages/cloud-page/class-controller.php:84
+#: app/admin-pages/cloud-submenu/class-controller.php:67
+#: app/emails/recipient-activation/class-controller.php:88
+#: app/emails/scan-report/class-controller.php:101 legacy/core/core.php:3922
+msgid "Broken Link Checker"
+msgstr "Broken Link Checker"
+
+#: legacy/core/core.php:3942
+msgid "PHP version"
+msgstr "PHP-versio"
+
+#: legacy/core/core.php:3948
+msgid "MySQL version"
+msgstr "MySQL-versio"
+
+#: legacy/core/core.php:3961
+msgid "You have an old version of CURL. Redirect detection may not work properly."
+msgstr "Käytössäsi on CURL:n vanha versio. Uudelleenohjausten tunnistus ei välttämättä toimi oikein."
+
+#: legacy/core/core.php:3972 legacy/core/core.php:3988
+#: legacy/core/core.php:3993
+msgid "Not installed"
+msgstr "Ei asennettu"
+
+#: legacy/core/core.php:3975
+msgid "CURL version"
+msgstr "CURL-versio"
+
+#: legacy/core/core.php:3981
+msgid "Installed"
+msgstr "Asennettu"
+
+#: legacy/core/core.php:3994
+msgid "You must have either CURL or Snoopy installed for the plugin to work!"
+msgstr "Lisäosan toiminta vaatii, että joko CURL tai Snoopy on asennettuna!"
+
+#: legacy/core/core.php:4004
+msgid "On"
+msgstr "Päällä"
+
+#: legacy/core/core.php:4005
+msgid "Redirects may be detected as broken links when safe_mode is on."
+msgstr "Uudelleenohjaukset voidaan tunnistaa rikkinäisiksi linkeiksi kun safe_mode on käytössä."
+
+#: legacy/core/core.php:4010 legacy/core/core.php:4024
+msgid "Off"
+msgstr "Pois"
+
+#: legacy/core/core.php:4018
+msgid "On ( %s )"
+msgstr "Päällä ( %s )"
+
+#: legacy/core/core.php:4019
+msgid "Redirects may be detected as broken links when open_basedir is on."
+msgstr "Uudelleenohjaukset voidaan tunnistaa rikkinäisiksi linkeiksi kun open_basedir on käytössä."
+
+#: legacy/core/core.php:4056
+msgid "If this value is zero even after several page reloads you have probably encountered a bug."
+msgstr "Mikäli tämä arvo on nolla vielä useiden sivujen päivitysten jälkeen, olet todennäköisesti kohdannut virheen."
+
+#: legacy/core/core.php:4191 legacy/core/core.php:4316
+msgid "[%s] Broken links detected"
+msgstr "[%s] rikkinäisiä linkkejä havaittu"
+
+#: legacy/core/core.php:4196
+msgid "Broken Link Checker has detected %d new broken link on your site."
+msgid_plural "Broken Link Checker has detected %d new broken links on your site."
+msgstr[0] "Broken Link Checker on havainnut %d uuden rikkinäisen linkin sivustoltasi."
+msgstr[1] "Broken Link Checker on havainnut %d uutta rikkinäistä linkkiä sivustoltasi."
+
+#: legacy/core/core.php:4228
+msgid "Here's a list of the first %d broken links:"
+msgid_plural "Here's a list of the first %d broken links:"
+msgstr[0] "Tässä on lista ensimmäisestä %d rikkinäisestä linkistä:"
+msgstr[1] "Tässä on lista ensimmäisistä %d rikkinäisestä linkistä:"
+
+#: legacy/core/core.php:4237
+msgid "Here's a list of the new broken links: "
+msgstr "Tässä on lista uusista rikkinäisistä linkeistä:"
+
+#: legacy/core/core.php:4247
+msgid "Link text : %s"
+msgstr "Linkin teksti : %s"
+
+#: legacy/core/core.php:4249
+msgid "Source : %s"
+msgstr "Lähde : %s"
+
+#: legacy/core/core.php:4263
+msgid "You can see all broken links here:"
+msgstr "Näet kaikki rikkinäiset linkit tässä:"
+
+#: legacy/core/core.php:4321
+msgid "Broken Link Checker has detected %d new broken link in your posts."
+msgid_plural "Broken Link Checker has detected %d new broken links in your posts."
+msgstr[0] "Broken Link Checker on havainnut %d uuden rikkinäisen linkin artikkeleistasi."
+msgstr[1] "Broken Link Checker on havainnut %d uutta rikkinäistä linkkiä artikkeleistasi."
+
+#: legacy/core/init.php:242 legacy/init.php:259
+msgid "Once Weekly"
+msgstr "Kerran viikossa"
+
+#: legacy/core/init.php:248 legacy/init.php:265
+msgid "Twice a Month"
+msgstr "Kaksi kertaa kuukaudessa"
+
+#: legacy/core/init.php:321 legacy/init.php:354
+msgid "Broken Link Checker installation failed. Try deactivating and then reactivating the plugin."
+msgstr "Broken Link Checker asennus epäonnistui. Yritä poistaa lisäosa käytöstä ja sitten aktivoida se uudelleen."
+
+#: legacy/includes/admin/db-upgrade.php:100
+msgid "Failed to delete old DB tables. Database error : %s"
+msgstr "Vanhojen tietokantataulujen poistaminen epäonnistui. Tietokantavirhe : %s"
+
+#: legacy/includes/admin/links-page-js.php:64
+#: legacy/includes/admin/links-page-js.php:659
+msgid "Wait..."
+msgstr "Odota..."
+
+#: legacy/core/core.php:552 legacy/includes/admin/links-page-js.php:111
+#: legacy/includes/admin/table-printer.php:719
+msgid "Not broken"
+msgstr "Ei-rikkinäinen"
+
+#: legacy/includes/admin/links-page-js.php:528
+msgid "%d instances of the link were successfully modified."
+msgstr "%d tapauksessa muokattiin linkkiä onnistuneesti."
+
+#: legacy/includes/admin/links-page-js.php:534
+msgid "However, %d instances couldn't be edited and still point to the old URL."
+msgstr "Kuitenkaan, %d tapausta ei voitu muokata ja ne osoittavat vielä vanhaan URL-osoitteeseen."
+
+#: legacy/includes/admin/links-page-js.php:540
+msgid "The link could not be modified."
+msgstr "Linkkiä ei voitu muokata."
+
+#: legacy/includes/admin/links-page-js.php:708
+msgid "The following error(s) occured :"
+msgstr "Seuraavat virheet tapahtuivat :"
+
+#: legacy/includes/admin/links-page-js.php:694
+msgid "%d instances of the link were successfully unlinked."
+msgstr "%d tapauksessa poistettiin linkki onnistuneesti."
+
+#: legacy/includes/admin/links-page-js.php:700
+msgid "However, %d instances couldn't be removed."
+msgstr "Kuitenkaan, %d kohdetta ei voitu poistaa."
+
+#: legacy/includes/admin/links-page-js.php:705
+msgid "The plugin failed to remove the link."
+msgstr "Lisäosa epäonnistui linkin poistamisessa."
+
+#: legacy/core/core.php:551 legacy/includes/admin/links-page-js.php:716
+#: legacy/includes/admin/table-printer.php:297
+#: legacy/includes/admin/table-printer.php:713
+msgid "Unlink"
+msgstr "Poista linkki"
+
+#: legacy/includes/admin/links-page-js.php:756
+msgid "Enter a name for the new custom filter"
+msgstr "Syötä nimi uudelle mukautetulle suodattimelle"
+
+#: legacy/includes/admin/links-page-js.php:768
+msgid ""
+"You are about to delete the current filter.\n"
+"'Cancel' to stop, 'OK' to delete"
+msgstr ""
+"Olet aikeissa poistaa nykyisen suodattimen.\n"
+"'Peruuta' lopettaaksesi, 'OK' poistaaksesi"
+
+#: legacy/includes/admin/links-page-js.php:792
+msgid ""
+"Are you sure you want to delete all posts, bookmarks or other items that contain any of the selected links? This action can't be undone.\n"
+"'Cancel' to stop, 'OK' to delete"
+msgstr ""
+"Oletko varma, että haluat poistaa kaikki artikkelit, kirjanmerkit tai muut kohteet, jotka sisältävät mitä tahansa valituista linkeistä? Tätä toimintoa ei voida peruuttaa.\n"
+"'Peruuta' lopettaaksesi, 'OK' poistaaksesi"
+
+#: legacy/includes/admin/links-page-js.php:806
+msgid ""
+"Are you sure you want to remove the selected links? This action can't be undone.\n"
+"'Cancel' to stop, 'OK' to remove"
+msgstr ""
+"Oletko varma, että haluat poistaa valitut linkit? Tätä toimintoa ei voida peruuttaa.\n"
+"'Peruuta' lopettaaksesi, 'OK' poistaaksesi"
+
+#: legacy/includes/admin/links-page-js.php:936
+msgid "Enter a search string first."
+msgstr "Syötä ensin hakulause."
+
+#: legacy/includes/admin/links-page-js.php:943
+msgid "Select one or more links to edit."
+msgstr "Valitse yksi tai useampi linkki muokattavaksi."
+
+#: legacy/includes/admin/options-page-js.php:54
+msgid "Hide debug info"
+msgstr "Piilota debug-tiedot"
+
+#: legacy/includes/admin/search-form.php:16
+msgid "Save This Search As a Filter"
+msgstr "Tallenna tämä haku suodattimeksi"
+
+#: legacy/includes/admin/search-form.php:26
+msgid "Delete This Filter"
+msgstr "Poista tämä suodatin"
+
+#: legacy/includes/admin/search-form.php:32 legacy/includes/link-query.php:81
+msgid "Search"
+msgstr "Hae"
+
+#: legacy/includes/admin/search-form.php:42
+msgid "Link text"
+msgstr "Linkin teksti"
+
+#: legacy/includes/admin/search-form.php:45
+#: legacy/includes/admin/table-printer.php:220
+msgid "URL"
+msgstr "URL"
+
+#: legacy/includes/admin/search-form.php:48
+#: legacy/includes/admin/table-printer.php:559
+msgid "HTTP code"
+msgstr "HTTP-koodi"
+
+#: legacy/includes/admin/search-form.php:51
+msgid "Link status"
+msgstr "Linkin tila"
+
+#: legacy/includes/admin/search-form.php:68
+#: legacy/includes/admin/search-form.php:85
+msgid "Link type"
+msgstr "Linkin tyyppi"
+
+#: legacy/includes/admin/search-form.php:70
+msgid "Any"
+msgstr "Mikä tahansa"
+
+#: legacy/includes/admin/search-form.php:74
+msgid "Links used in"
+msgstr "Linkkejä käytetty"
+
+#: legacy/includes/admin/search-form.php:112
+msgid "Search Links"
+msgstr "Hae linkkejä"
+
+#: legacy/includes/admin/search-form.php:113
+#: legacy/includes/admin/table-printer.php:375
+#: legacy/includes/admin/table-printer.php:779
+#: legacy/includes/admin/table-printer.php:904
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: legacy/includes/admin/table-printer.php:192
+msgid "Compact View"
+msgstr "Suppea näkymä"
+
+#: legacy/includes/admin/table-printer.php:197
+msgid "Detailed View"
+msgstr "Yksityiskohtainen näkymä"
+
+#: legacy/includes/admin/table-printer.php:227
+msgid "Source"
+msgstr "Lähde"
+
+#: legacy/includes/admin/table-printer.php:233
+msgid "Link Text"
+msgstr "Linkin teksti"
+
+#: legacy/includes/admin/table-printer.php:291
+msgid "Bulk Actions"
+msgstr "Joukkomuokkaustoiminnot"
+
+#: legacy/core/core.php:550 legacy/includes/admin/table-printer.php:292
+#: legacy/includes/admin/table-printer.php:710
+msgid "Edit URL"
+msgstr "Muokkaa URL"
+
+#: legacy/core/core.php:554 legacy/includes/admin/table-printer.php:293
+#: legacy/includes/admin/table-printer.php:739
+msgid "Recheck"
+msgstr "Tarkista uudelleen"
+
+#: legacy/includes/admin/table-printer.php:294
+msgid "Fix redirects"
+msgstr "Korjaa uudelleenohjaukset"
+
+#: legacy/includes/admin/table-printer.php:295
+msgid "Mark as not broken"
+msgstr "Merkitse ei-rikkinäiseksi"
+
+#: legacy/includes/admin/table-printer.php:300
+msgid "Move sources to Trash"
+msgstr "Siirrä lähteet roskakoriin"
+
+#: legacy/includes/admin/table-printer.php:302
+msgid "Delete sources"
+msgstr "Poista lähteet"
+
+#: legacy/includes/admin/table-printer.php:318
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: legacy/includes/admin/table-printer.php:319
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: legacy/includes/admin/table-printer.php:351
+msgid "Bulk Edit URLs"
+msgstr "Joukkomuokkaa URL-osoitteita"
+
+#: legacy/includes/admin/table-printer.php:353
+msgid "Find"
+msgstr "Etsi"
+
+#: legacy/includes/admin/table-printer.php:357
+msgid "Replace with"
+msgstr "Korvaa merkkijonolla"
+
+#: legacy/includes/admin/table-printer.php:365
+msgid "Case sensitive"
+msgstr "Sama merkkikoko"
+
+#: legacy/includes/admin/table-printer.php:369
+msgid "Regular expression"
+msgstr "Säännöllinen lauseke"
+
+#: legacy/includes/admin/table-printer.php:378
+#: legacy/includes/admin/table-printer.php:905
+msgid "Update"
+msgstr "Päivitä"
+
+#: legacy/includes/admin/table-printer.php:536
+msgid "Post published on"
+msgstr "Artikkeli julkaistu"
+
+#: legacy/includes/admin/table-printer.php:543
+msgid "Link last checked"
+msgstr "Linkki viimeksi tarkastettu"
+
+#: legacy/core/core.php:1596 legacy/includes/admin/table-printer.php:548
+msgid "Never"
+msgstr "Ei koskaan"
+
+#: legacy/includes/admin/table-printer.php:566
+msgid "Response time"
+msgstr "Vasteaika"
+
+#: legacy/includes/admin/table-printer.php:569
+msgid "%2.3f seconds"
+msgstr "%2.3f sekuntia"
+
+#: legacy/includes/admin/table-printer.php:573
+msgid "Final URL"
+msgstr "Lopullinen URL"
+
+#: legacy/includes/admin/table-printer.php:580
+msgid "Redirect count"
+msgstr "Uudelleenohjausten lukumäärä"
+
+#: legacy/includes/admin/table-printer.php:587
+msgid "Instance count"
+msgstr "Tapausten lukumäärä"
+
+#: legacy/includes/admin/table-printer.php:598
+msgid "This link has failed %d time."
+msgid_plural "This link has failed %d times."
+msgstr[0] "Tämä linkki on epäonnistunut %d kerran."
+msgstr[1] "Tämä linkki on epäonnistunut %d kertaa."
+
+#: legacy/includes/admin/table-printer.php:606
+msgid "This link has been broken for %s."
+msgstr "Tämä linkki on ollut rikkinäinen %s."
+
+#: legacy/includes/admin/table-printer.php:617
+msgid "Log"
+msgstr "Loki"
+
+#: legacy/includes/admin/table-printer.php:644
+#: legacy/includes/admin/table-printer.php:688
+msgid "Show more info about this link"
+msgstr "Näytä lisätietoja tästä linkistä"
+
+#: legacy/includes/admin/table-printer.php:662
+msgctxt "checked how long ago"
+msgid "Checked"
+msgstr "Tarkistettu"
+
+#: legacy/includes/admin/table-printer.php:677
+msgid "Broken for"
+msgstr "Rikkinäinen"
+
+#: legacy/includes/admin/table-printer.php:712
+msgid "Remove this link from all posts"
+msgstr "Poista tämä linkki kaikista artikkeleista"
+
+#: legacy/includes/admin/table-printer.php:718
+msgid "Remove this link from the list of broken links and mark it as valid"
+msgstr "Poista tämä linkki rikkinäisten linkkien listalta ja merkitse se kelvolliseksi"
+
+#: legacy/includes/admin/table-printer.php:780
+msgid "Update URL"
+msgstr "Päivitä URL"
+
+#: legacy/includes/admin/table-printer.php:807
+msgid "[An orphaned link! This is a bug.]"
+msgstr "[Orvoksi jäänyt linkki! Tämä on virhe.]"
+
+#: legacy/includes/any-post.php:486 legacy/modules/containers/acf_field.php:248
+#: legacy/modules/containers/blogroll.php:46
+#: legacy/modules/containers/comment.php:159
+#: legacy/modules/containers/custom_field.php:252
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: legacy/includes/any-post.php:494 legacy/modules/containers/acf_field.php:252
+#: legacy/modules/containers/custom_field.php:258
+msgid "Move this item to the Trash"
+msgstr "Siirrä tämä kohde roskakoriin"
+
+#: legacy/includes/any-post.php:496 legacy/modules/containers/acf_field.php:252
+#: legacy/modules/containers/custom_field.php:260
+msgid "Trash"
+msgstr "Roskakori"
+
+#: legacy/includes/any-post.php:501 legacy/modules/containers/acf_field.php:254
+#: legacy/modules/containers/custom_field.php:265
+msgid "Delete this item permanently"
+msgstr "Poista tämä kohde pysyvästi"
+
+#: legacy/includes/any-post.php:503 legacy/modules/containers/acf_field.php:254
+#: legacy/modules/containers/blogroll.php:47
+#: legacy/modules/containers/custom_field.php:267
+msgid "Delete"
+msgstr "Poista"
+
+#: legacy/includes/any-post.php:516
+msgid "Preview &#8220;%s&#8221;"
+msgstr "Esikatsele &#8220;%s&#8221;"
+
+#: legacy/includes/any-post.php:517
+msgid "Preview"
+msgstr "Esikatsele"
+
+#: legacy/includes/any-post.php:524
+msgid "View &#8220;%s&#8221;"
+msgstr "Näytä &#8220;%s&#8221;"
+
+#: legacy/includes/any-post.php:525 legacy/modules/containers/acf_field.php:258
+#: legacy/modules/containers/comment.php:172
+#: legacy/modules/containers/custom_field.php:272
+msgid "View"
+msgstr "Näytä"
+
+#: legacy/includes/any-post.php:544 legacy/modules/containers/acf_field.php:248
+#: legacy/modules/containers/custom_field.php:252
+msgid "Edit this item"
+msgstr "Muokkaa tätä kohdetta"
+
+#: legacy/includes/any-post.php:608 legacy/modules/containers/blogroll.php:83
+#: legacy/modules/containers/comment.php:43
+msgid "Nothing to update"
+msgstr "Ei mitään päivitettävää"
+
+#: legacy/includes/any-post.php:622
+msgid "Updating post %d failed"
+msgstr "Artikkelin %d päivitys epäonnistui"
+
+#: legacy/core/core.php:1548
+msgid "Enable logging"
+msgstr "Ota käyttöön loki"
+
+#: legacy/core/core.php:3326
+msgctxt "for the \"Detected X unique URLs in Y links\" message"
+msgid "%d link"
+msgid_plural "%d links"
+msgstr[0] "%d linkissä"
+msgstr[1] "%d linkistä"
+
+#: legacy/core/core.php:3338
+msgid "Detected %1$s in %2$s."
+msgstr "Havaittiin %1$s %2$s."
+
+#: legacy/core/core.php:3332
+msgid "Detected %1$s in %2$s and still searching..."
+msgstr "Havaittiin %1$s %2$s ja yhä etsitään..."
+
+#: legacy/core/core.php:1024
+msgid "Notification e-mail address"
+msgstr "Sähköpostiosoite ilmoituksille"
+
+#: legacy/core/core.php:1176
+msgctxt "\"Link tweaks\" settings"
+msgid "These settings only apply to the content of posts, not comments or custom fields."
+msgstr "Nämä asetukset vaikuttavat vain artikkeleiden ja sivujen sisältöön, eikä kommentteihin tai kustomoituihin kenttiin."
+
+#: legacy/core/core.php:1208
+msgid "Turning off this option will make the plugin report all problems as broken links."
+msgstr "Ottamalla pois käytöstä tämän asetuksen lisäosa ilmoittaa kaikki ongelmat rikkinäisinä linkkeinä."
+
+#: legacy/core/core.php:1522
+msgid "Target resource usage"
+msgstr "Resurssien käytön tavoite"
+
+#: legacy/core/core.php:1542
+msgid "Logging"
+msgstr "Kirjaaminen"
+
+#: legacy/core/core.php:1555
+msgid "Log file location"
+msgstr "Loki-tiedoston sijainti"
+
+#: legacy/core/core.php:1564
+msgctxt "log file location"
+msgid "Default"
+msgstr "Oletus"
+
+#: legacy/core/core.php:1415
+msgid "Show the dashboard widget for"
+msgstr "Näytä ohjausnäkymän vimpain"
+
+#: legacy/includes/admin/table-printer.php:884
+msgctxt "inline editor title"
+msgid "Edit Link"
+msgstr "Muokkaa linkkiä"
+
+#: legacy/includes/admin/table-printer.php:887
+msgctxt "inline link editor"
+msgid "Text"
+msgstr "Teksti"
+
+#: legacy/includes/admin/table-printer.php:897
+msgctxt "inline link editor"
+msgid "Suggestions"
+msgstr "Ehdotukset"
+
+#: legacy/core/core.php:1422
+msgctxt "dashboard widget visibility"
+msgid "Nobody (disables the widget)"
+msgstr "Ei kenellekkään (poistaa vimpaimen käytöstä)"
+
+#: legacy/core/core.php:1420
+msgctxt "dashboard widget visibility"
+msgid "Administrator"
+msgstr "Ylläpitäjälle"
+
+#: legacy/core/core.php:1421
+msgctxt "dashboard widget visibility"
+msgid "Editor and above"
+msgstr "Päätoimittajalle ja sitä ylemmille"
+
+#: legacy/core/core.php:1438
+msgctxt "settings page"
+msgid "Show link actions"
+msgstr "Näytä linkki-toiminnot"
+
+#: legacy/core/core.php:1204
+msgid "Show uncertain or minor problems as \"warnings\" instead of \"broken\""
+msgstr "Näytä epävarmat ja pienet ongelmat \"varoituksina\" \"rikkinäisen\" sijaan"
+
+#: legacy/core/core.php:1187
+msgctxt "settings page"
+msgid "Suggestions"
+msgstr "Ehdotukset"
+
+#: legacy/core/core.php:1193
+msgid "Suggest alternatives to broken links"
+msgstr "Ehdoita vaihtoehtoja rikkinäisille linkeille"
+
+#: legacy/includes/admin/links-page-js.php:429
+msgctxt "link suggestions"
+msgid "Searching..."
+msgstr "Etsitään..."
+
+#: legacy/includes/admin/links-page-js.php:430
+msgctxt "link suggestions"
+msgid "No suggestions available."
+msgstr "Ei ehdotuksia saatavissa."
+
+#: legacy/includes/admin/links-page-js.php:431
+msgctxt "link suggestions"
+msgid "Archived page from %s (via the Wayback Machine)"
+msgstr "Arkistoitu sivu %s (Wayback Machinesta)"
+
+#: legacy/includes/admin/links-page-js.php:370
+msgctxt "link text"
+msgid "(None)"
+msgstr "(Ei mitään)"
+
+#: legacy/includes/admin/links-page-js.php:371
+msgctxt "link text"
+msgid "(Multiple links)"
+msgstr "(Useita linkkejä)"
+
+#: legacy/includes/admin/links-page-js.php:543
+msgid "The following error(s) occurred :"
+msgstr "Seuraava(t) virhe tapahtui:"
+
+#: legacy/includes/admin/links-page-js.php:615
+msgid "Error: Link URL must not be empty."
+msgstr "Virhe: Linkin URL-osoite ei saa olla tyhjä."
+
+#: legacy/includes/admin/table-printer.php:689
+msgctxt "link in the \"Status\" column"
+msgid "Details"
+msgstr "Tiedot"
+
+#: legacy/includes/admin/table-printer.php:710
+msgid "Edit this link"
+msgstr "Muokkaa tätä linkkiä"
+
+#: legacy/includes/admin/table-printer.php:726
+msgid "Hide this link and do not report it again unless its status changes"
+msgstr "Piilota tämä linkki, äläkä raportoi siitä, ellei sen tila muutu"
+
+#: legacy/includes/admin/table-printer.php:746
+msgid "Replace this redirect with a direct link"
+msgstr "Korvaa tämä uudelleenohjaus suoralla linkillä"
+
+#: legacy/core/core.php:555 legacy/includes/admin/table-printer.php:747
+msgctxt "link action; replace one redirect with a direct link"
+msgid "Fix redirect"
+msgstr "Korjaa uudelleenohjaus"
+
+#: legacy/core/core.php:1199
+msgctxt "settings page"
+msgid "Warnings"
+msgstr "Varoitukset"
+
+#: legacy/core/core.php:2724
+msgid "The \"Warnings\" page lists problems that are probably temporary or suspected to be false positives.<br> Warnings that persist for a long time will usually be reclassified as broken links."
+msgstr "\"Varoitukset\"-sivu listaa ongelmat, jotka ovat luultavasti tilapäisiä tai epäillään olevan ehkä rikkinäisiä.<br> Varoitukset, jotka jatkuvat pitkän aikaa, siirretään yleensä rikkinäisiin linkkeihin."
+
+#: legacy/core/core.php:2729
+msgctxt "admin notice under Tools - Broken links - Warnings"
+msgid "Hide notice"
+msgstr "Piilota ilmoitus"
+
+#: legacy/core/core.php:2735
+msgctxt "a link from the admin notice under Tools - Broken links - Warnings"
+msgid "Change warning settings"
+msgstr "Muuta varoitus-asetukset"
+
+#: legacy/core/core.php:3586
+msgid "An unexpected error occurred!"
+msgstr "Odottamaton virhe tapahtui!"
+
+#: legacy/core/core.php:3322
+msgctxt "for the \"Detected X unique URLs in Y links\" message"
+msgid "%d unique URL"
+msgid_plural "%d unique URLs"
+msgstr[0] "%d uniikki verkko-osoite"
+msgstr[1] "%d uniikkia verkko-osoitetta"
+
+#: legacy/core/core.php:1036
+msgid "Leave empty to use the e-mail address specified in Settings &rarr; General."
+msgstr "Jätä tyhjäksi käyttääksesi sähköpostiosoitetta, jonka olet määritellyt kohdassa: Asetukset &rarr; Yleinen"
+
+#: legacy/core/core.php:1580
+msgctxt "log file location"
+msgid "Custom"
+msgstr "Mukautettu"
+
+#: legacy/includes/admin/table-printer.php:892
+msgctxt "inline link editor"
+msgid "URL"
+msgstr "verkko-osoite"
+
+#: legacy/includes/admin/table-printer.php:240
+msgid "Redirect URL"
+msgstr "Uudelleenohjaa verkko-osoite"
+
+#: legacy/includes/admin/table-printer.php:917
+msgid "Use this URL"
+msgstr "Käytä tätä verkko-osoitetta"
+
+#: legacy/core/core.php:1798
+msgid "Enter the names of custom fields you want to check (one per line). If a field contains HTML code, prefix its name with <code>html:</code>. For example, <code>html:field_name</code>."
+msgstr "Lisää niiden kustomoitujen kenttien nimet, jotka haluat tarkistaa (yksi per rivi). Jos kenttä sisältää HTML-koodia, kirjoita sen nimen eteen <code>html:</code>. Esim. <code>html:field_name</code>."
+
+#: legacy/core/core.php:4037
+msgid "Database character set"
+msgstr "Tietokannan merkistö"
+
+#: legacy/core/core.php:2654
+msgid "%d link dismissed"
+msgid_plural "%d links dismissed"
+msgstr[0] "%d linkki piilotettu"
+msgstr[1] "%d linkit piilotettu"
+
+#: legacy/includes/admin/table-printer.php:733
+msgid "Undismiss"
+msgstr "Poista piilotus"
+
+#: legacy/includes/admin/table-printer.php:732
+msgid "Undismiss this link"
+msgstr "Palauta tämä linkki"
+
+#: app/admin-notices/multisite/class-view.php:64 legacy/core/core.php:553
+#: legacy/includes/admin/table-printer.php:296
+#: legacy/includes/admin/table-printer.php:727
+msgid "Dismiss"
+msgstr "Piilota tämä huomautus."

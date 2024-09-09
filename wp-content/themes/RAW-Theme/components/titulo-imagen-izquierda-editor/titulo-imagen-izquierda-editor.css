@@ -1,0 +1,23 @@
+.titulo-imagen-izquierda-editor {
+	.grid {
+		.title {
+			padding-top: 3rem;
+			text-align: left;
+		}
+
+		ul li {
+			list-style: disc;
+		}
+	}
+
+}
+
+@media screen and (max-width:520px) {
+	.titulo-imagen-izquierda-editor {
+		.grid {
+			h2 {
+				margin-top: 2rem;
+			}
+		}
+	}
+}

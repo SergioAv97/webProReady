@@ -1,0 +1,13 @@
+{
+  "raw_boton_type" : "select",
+  "raw_boton_type_options" : [
+    "Normal",
+    "Button Contrast",
+    "Button AntiContrast",
+    "Section Contrast Button Contrast",
+    "Section Contrast Button AntiContrast"
+  ],
+  "raw_boton_link_text" : "text",
+  "raw_boton_link_url" : "text",
+  "raw_boton_link_class" : "text"
+}

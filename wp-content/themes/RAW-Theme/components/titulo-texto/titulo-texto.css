@@ -1,0 +1,8 @@
+.titulo-texto {
+
+	p {
+		font-size: var(--raw-font-size-bigger);
+		color: var(--raw-color-black);
+	}
+
+}

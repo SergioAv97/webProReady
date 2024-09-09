@@ -1,0 +1,33 @@
+.editor-imagen {
+	.grid {
+		h2 {
+			text-align: center !important;
+		}
+
+		span {
+			font-weight: var(--raw-font-weight-fat);
+			color: var(--raw-color-orange);
+		}
+
+		small {
+			color: var(--raw-color-grey-999);
+		}
+
+		div {
+			> div {
+				margin-left: 2rem;
+			}
+		}
+	}
+
+}
+
+@media screen and (max-width:520px) {
+	.editor-imagen {
+		.grid {
+			h2 {
+				margin-top: 2rem;
+			}
+		}
+	}
+}

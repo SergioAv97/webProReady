@@ -1,0 +1,47 @@
+.tres-cajas-contenido {
+
+	a {
+		color: var(--raw-color-orange);
+		line-height: var(--raw-font-size-big);
+		font-weight: var(--raw-font-weight-bold);
+	}
+
+	ul {
+		text-align: center;
+
+		li {
+			padding: 2.5rem;
+			border-radius: 1rem;
+			color: var(--raw-color-white);
+			background: var(--raw-color-blue-bg);
+			align-self: center;
+			align-items: center;
+
+			p {
+				font-size: var(--raw-font-size-normal);
+				font-weight: var(--raw-font-weight-thin);
+				color: var(--raw-color-white);
+			}
+
+			b {
+				font-size: var(--raw-font-size-big);
+				font-weight: var(--raw-font-weight-bold);
+				color: var(--raw-color-orange);
+			}
+
+			ol {
+				text-align: left;
+				color: var(--raw-color-white);
+
+				li {
+					list-style: decimal;
+					margin: 0 0 1rem;
+					padding: 0;
+					font-size: var(--raw-font-size-normal);
+					font-weight: var(--raw-font-weight-thin);
+				}
+			}
+		}
+	}
+
+}

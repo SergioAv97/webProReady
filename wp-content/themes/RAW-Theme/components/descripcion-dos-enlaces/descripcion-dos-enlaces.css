@@ -1,0 +1,13 @@
+.descripcion-dos-enlaces {
+	ul li {
+		list-style-type: disc;
+
+		&::marker {
+			color: var(--raw-color-orange);
+		}
+
+		a {
+			color: var(--raw-color-orange);
+		}
+	}
+}

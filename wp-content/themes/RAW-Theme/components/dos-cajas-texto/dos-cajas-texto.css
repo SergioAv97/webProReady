@@ -1,0 +1,52 @@
+.dos-cajas-texto {
+
+	.grid {
+		gap: 5rem;
+
+		div {
+			padding: 3rem 2.5rem 1rem;
+			border-radius: 2rem;
+			background-color: var(--raw-color-white);
+
+			h2, h3, h4, p {
+				text-align: center;
+			}
+
+			h2 {
+				font-size: var(--raw-font-size-biggest);
+				font-weight: var(--raw-font-weight-bold);
+				color: var(--raw-color-blue-bg);
+				margin-bottom: 1rem;
+			}
+
+			h3 {
+				font-size: var(--raw-font-size-bigger);
+				font-weight: var(--raw-font-weight-normal);
+				color: var(--raw-color-orange);
+			}
+
+			h4 {
+				font-size: var(--raw-font-size-enormous);
+				font-weight: var(--raw-font-weight-fattest);
+				color: var(--raw-color-blue-bg);
+			}
+
+			p {
+				font-size: var(--raw-font-size-large);
+				font-weight: var(--raw-font-weight-thin);
+				color: var(--raw-color-blue-bg);
+			}
+
+			a[role="button"] {
+				display: block;
+				margin: 0 auto 1.5rem;
+				padding: .75rem 1.5rem -5rem;
+				color: var(--raw-color-white);
+				font-size: var(--raw-font-size-large);
+				font-weight: var(--raw-font-weight-bold);
+				background-color: var(--raw-color-blue-bg);
+			}
+		}
+	}
+
+}

@@ -1,0 +1,125 @@
+
+    #body{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    
+        background-color: #FFFFFF;
+    
+        padding: 30px 80px 30px 30px;
+        margin: 10% 25%;
+        max-width: 657px;
+    
+        border-radius: 25px;
+        border: 1px solid #ccc;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    .pareja-inputs{
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        flex-direction: row;
+        margin-bottom: 25px;
+        
+        gap: 50px;
+    }
+    
+    .container-inputs{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .labels-form{
+        color: black !important;
+    }
+    
+    .inputs:valid:focus {
+        background-color: lightblue !important; /* Cambia este color por el que prefieras */
+    }
+    .inputs{
+        width: 270px !important;
+        height: 50px !important;
+        background-color: aliceblue !important;
+        color: black !important;
+        border-radius: 20px !important;
+        border-color:  rgb(178, 196, 212);
+    }
+    
+    .inputs-options{
+        width: 550px !important;
+        height: 50px !important;
+        
+        padding: 10px 15px;
+        
+        border-radius: 20px !important;
+        color: #14264D;
+        border-color:  rgb(178, 196, 212) !important;
+        background-color: aliceblue !important;
+        overflow: hidden;
+    }
+    
+    #button-form-leads-defending{
+        margin-top: 50px;
+        margin-bottom: 0px !important;
+        border-radius: 25px;
+        color: #14264D !important;
+        background-color: #F0F8FF !important;
+        border-color:  rgb(178, 196, 212) ;
+    }
+    
+    #button-form-leads:hover{
+        background-color: #324670 !important;
+        color: #F0F8FF !important;
+        border-color:  rgb(178, 196, 212) ;
+    }
+    
+    #container-inputs-pick-list{
+        width: 100%;
+    }
+
+    #politica-privacidad-defending{
+        margin-bottom: 0px;
+        margin-top: 15px;
+        color: black !important;
+    }
+
+    #politica-privacidad-defending:hover{
+        color: rgb(210, 141, 12) !important;
+        cursor: pointer;
+    }
+    
+    /* Estilos para ocultar las flechas en navegadores Webkit (Chrome, Safari) */
+    input[type="tel"]::-webkit-outer-spin-button,
+    input[type="tel"]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    
+    @media (max-width: 768px) {
+        .pareja-inputs {
+            flex-direction: column;
+            gap: 20px;
+        }
+        .inputs-options{
+            text-align: center;
+            width: 250px !important;
+        }
+        #body {
+            align-items: center;
+            text-align: center;
+            margin: 5% 10%;
+            padding: 20px;
+        }
+        #container-inputs-pick-list{
+            width: 250px !important;
+        }
+
+        #button-form-leads-defending{
+            width: 250px;
+            margin-left: 0px;
+        }
+    }
+

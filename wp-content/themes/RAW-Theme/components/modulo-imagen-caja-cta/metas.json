@@ -1,0 +1,10 @@
+{
+  "raw_titulo_Componente": "text",
+
+  "raw_Id_Imagen": "text",
+  "raw_titulo_caja": "text",
+  "raw_parrafo_1": "wpeditor",
+  "raw_titulo_caja_2": "text",
+  "raw_subtitulo_caja": "wpeditor",
+  "raw_button_caja_texto_modulo": "text"
+}

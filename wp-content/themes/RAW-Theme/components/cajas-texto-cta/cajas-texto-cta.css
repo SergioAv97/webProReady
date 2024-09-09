@@ -1,0 +1,29 @@
+.cajas-texto-cta {
+
+	ul {
+		text-align: center;
+
+		li {
+			padding: 2.5rem;
+			border-radius: 1rem;
+			background: var(--raw-color-blue-bg);
+
+			h3 {
+				color: var(--raw-color-orange);
+				line-height: 1.5rem;
+			}
+
+			p {
+				font-size: var(--raw-font-size-normal);
+				font-weight: var(--raw-font-weight-thin);
+				color: var(--raw-color-white);
+			}
+
+			a {
+				width: 100%;
+				text-transform: uppercase;
+				font-weight: var(--raw-font-weight-bold);
+			}
+		}
+	}
+}

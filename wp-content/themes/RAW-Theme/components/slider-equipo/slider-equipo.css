@@ -1,0 +1,185 @@
+#nuestroEquipo{
+	width: 50%;
+}
+
+
+.slider-equipo {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+
+	.raw-slider2 {
+		margin: 2.5rem auto 0;
+	}
+
+	h2{
+		font-size: 32px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        color: #7A7A7A;
+	}
+
+}
+
+.SliderLSO{
+	width: 70%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+
+	text-align: center;
+	
+	margin-bottom: 80px;
+	padding-left: 85px;
+	
+
+}
+
+#containerFundadores{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	text-align: center;
+
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+	h2{
+		font-size: 32px;
+		margin-top: 50px;
+		margin-bottom: 30px;
+		color: #7A7A7A;
+	}
+}
+
+.Fundadores{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+
+}
+.imagenFundadores{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	text-align: center;
+
+	margin: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#containerSlideLSO{
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	h2{
+		font-size: 32px;
+		margin-top: 50px;
+		margin-bottom: 30px;
+		color: #7A7A7A;
+	}
+}
+
+.Slidecontainer{
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+
+	padding-left: 100px;
+	margin-bottom: 180px;
+
+}
+
+#containerSlideBancario{
+	margin-top: 200px;
+	margin-bottom: 200px;
+
+	h2{
+		font-size: 32px;
+		margin-top: 50px;
+		margin-bottom: 30px;
+		color: #7A7A7A;
+
+	}
+}
+
+
+.imgEquipo{
+	width: 243px;
+	height: 364px;
+}
+
+.textImgEquipo{
+	width: 220px;
+	font-size: 16px;
+    color: #333;
+    line-height: 1.4;
+    font-style: italic;
+    font-weight: 400;
+	margin-top: 15px;
+}
+
+.SlidecontainerLSO{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.slide{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	text-align: center;
+}
+
+#contentStarTup{
+	margin-top:55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+#textTopStartups{
+	width:50%;
+}
+
+@media all and (max-width:768px) {
+
+	.slider-equipo {
+		display:none;
+		.raw-slider2 {
+			margin: 2.5rem auto 0;
+		}
+	}
+
+}
+
+@media all and (max-width:425px) {
+	
+	.slider-equipo {
+		
+		.raw-slider2 {
+			margin: 2.5rem auto 0;
+		}
+	}
+
+}

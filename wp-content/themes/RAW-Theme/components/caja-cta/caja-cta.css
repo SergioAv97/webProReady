@@ -1,0 +1,21 @@
+.caja-cta {
+	background-color: var(--raw-color-white) !important;
+	text-align: center;
+
+	div {
+		padding: 2rem;
+		border-radius: 1rem;
+		background-color: var(--raw-color-blue-bg);
+
+		.title {
+			font-size: var(--raw-font-size-bigger);
+		}
+	}
+}
+
+@media screen and (max-width:520px) {
+	.caja-cta {
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+}

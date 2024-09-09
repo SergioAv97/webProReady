@@ -1,0 +1,265 @@
+.guide-banner {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: space-around;
+	background-color: var(--raw-color-blue-bg);
+	color: var(--raw-color-white);
+	border-radius: 1rem;
+	margin: 5rem 0;
+
+	img {
+		display: flex;
+		max-width: 200px;
+		margin: -1.5rem 1.5% -1.5rem 2.5%;
+		box-shadow: 0 -1px 25px 1px rgba(0,0,0,.5);
+	}
+
+	p {
+		font-size: var(--raw-font-size-normal);
+		color: var(--raw-color-white);
+	}
+
+	div {
+		display: flex;
+		margin: 2.5%;
+		padding: 1.5rem 0 0;
+		text-align: center;
+
+		&:first-of-type {
+			width: 35%;
+			flex-direction: column;
+
+			strong {
+				font-size: var(--raw-font-size-banner-title);
+				font-weight: var(--raw-font-weight-fat);
+				line-height: 1;
+				font-family: var(--raw-font-roboto);
+				padding: 0 0 1rem;
+			}
+
+		}
+
+		&:last-of-type {
+			width: 20%;
+			flex-direction: column;
+			padding: 2.5rem 0 0;
+
+			p {
+				color: var(--raw-color-orange);
+				font-weight: var(--raw-font-weight-fat);
+			}
+
+			a {
+				padding: 1rem 0;
+				border-radius: .25rem;
+				font-weight: bold;
+				color: var(--raw-color-orange);
+			}
+
+		}
+
+	}
+
+	&.contrast {
+		background-color: var(--raw-color-orange);
+		color: var(--raw-color-white);
+
+		div {
+			&:last-of-type {
+				p {
+					color: var(--raw-color-blue-bg);
+				}
+
+				a {
+					color: var(--raw-color-white);
+					background-color: var(--raw-color-blue-bg);
+				}
+			}
+		}
+	}
+
+}
+
+.raw-share {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+
+	strong {
+		margin-right: auto;
+	}
+
+	h4 {
+		text-align: center;
+	}
+
+	a {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+
+		&:hover {
+			filter: saturate(1.5) brightness(1.2);
+		}
+
+		&.fb {
+			background-color: #3b5998;
+		}
+
+		&.tw {
+			background-color: #1da1f2;
+		}
+
+		&.in {
+			background-color: #0077b5;
+		}
+
+		&.mail {
+			background-color: #ea4335;
+		}
+
+		i {
+			margin: 0;
+			padding: .5rem;
+			color: white;
+			font-size: var(--raw-font-size-small);
+		}
+
+		span {
+			display: inline-block;
+			padding: .5rem .75rem;
+			color: white !important;
+			font-size: var(--raw-font-size-small);
+			background-image: linear-gradient( 90deg, rgba(0,0,0,.25), transparent );
+		}
+	}
+}
+
+.raw-related-posts {
+	margin: 3rem auto;
+
+	> h4 {
+		font-weight: var(--raw-font-weight-bolder);
+		text-align: center;
+	}
+
+	.post {
+		display: flex;
+		margin: 0 0 1rem;
+	}
+}
+
+.raw-accordion {
+	ul.accordion {
+		margin: 0 auto;
+		padding: 0;
+
+		> li {
+			position: relative;
+			margin: -1px 0 0;
+			padding: .5rem 1rem;
+			list-style: none;
+			border: 1px solid var(--raw-color-grey-ccc);
+
+			> br {
+				display: none;
+			}
+
+			ul {
+				margin-bottom: 1.5rem;
+			}
+
+			h3 {
+				text-wrap: unset;
+				margin-left: 2.5rem;
+				margin-bottom: 0;
+				color: var( --raw-color-orange );
+
+				&:hover {
+					cursor: pointer;
+				}
+
+				label {
+					color: var( --raw-color-orange );
+					font-weight: var(--raw-font-weight-bold);
+
+					&:hover {
+						cursor: pointer;
+					}
+				}
+
+				&:before {
+					content: ' + ';
+					line-height: 2rem;
+				}
+
+				&:before, &:after {
+					position: absolute;
+					top: .25rem;
+					left: 1rem;
+					display: inline-block;
+					font-size: 3rem;
+					font-weight: 400;
+					padding-right: 1.5rem;
+				}
+			}
+
+			input {
+				display: none;
+
+				&:checked + h3:before {
+					content: ' - ';
+				}
+
+				&:checked ~ div {
+					display: block;
+					color: var(--raw-color-blue-bg);
+				}
+			}
+
+			div {
+				margin: 1.5rem 0 1.5rem;
+				display: none;
+			}
+		}
+	}
+}
+
+.raw-form {
+	img {
+		display: block;
+		margin: 1rem auto;
+	}
+}
+
+@media all and (max-width:1024px) {
+
+	.guide-banner {
+		align-content: center;
+		flex-direction: column;
+
+		img {
+			align-self: center;
+			margin: -1.5rem 0 3rem;
+			padding: 0 !important;
+		}
+
+		div {
+			width: 75% !important;
+			margin: 0 0 2rem;
+			padding: 0 !important;
+		}
+	}
+
+	.raw-related-posts {
+		.grid {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+
+	.raw-form.grid {
+		grid-template-columns: 1fr !important;
+	}
+
+}

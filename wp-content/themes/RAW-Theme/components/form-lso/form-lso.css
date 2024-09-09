@@ -1,0 +1,150 @@
+#form-lso {
+    --primary-color: #14264D;
+    --text-color: #33475b;
+    --border-color: #cbd6e2;
+    --background-color: #FFFFFF;
+    --input-background: #f5f8fa;
+    --border-radius: 3px;
+    --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    --font-family: "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  #form-lso #container-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    margin: 20px auto;
+    background-color: var(--background-color);
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+    max-width: 400px;
+  }
+  
+  #form-lso #title-formulario {
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  #form-lso .label-form-web-leads {
+    font-size: 12px;
+    font-family: var(--font-family);
+    color: var(--text-color);
+    margin-left: 5px;
+    line-height: 1.4;
+    cursor: pointer;
+    text-align: left;
+    width: 300px;
+  }
+  
+  #form-lso .input-form-web-leads,
+  #form-lso .input-name,
+  #form-lso #mobile,
+  #form-lso #first_name,
+  #form-lso #last_name,
+  #form-lso #email {
+    width: 100%;
+    height: 40px;
+    padding: 8px 12px;
+    font-family: var(--font-family);
+    font-size: 16px;
+    color: var(--text-color);
+    background-color: var(--input-background);
+    border-radius: var(--border-radius);
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    border: 1px solid #cbd6e2;
+  }
+  
+  #form-lso select.input-form-web-leads {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%2333475b' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 30px;
+  }
+  
+  #form-lso .container-checkbox-form {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  #form-lso .label-checkbox-form {
+    font-size: 12px;
+    font-family: var(--font-family);
+    color: var(--text-color);
+    margin-left: 5px;
+    line-height: 1.4;
+    cursor: pointer;
+    text-align: left;
+	width: 300px;
+  }
+  
+  #form-lso .container-checkbox-form input {
+    margin-top: 2px;
+    background: aliceblue;
+  }
+  
+  #form-lso #button-form-leads {
+    display: block;
+    width: 50%;
+    padding: 12px;
+    background: var(--primary-color);
+    color: white;
+    font-size: 18px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0px 0px 0px 25%;
+  }
+  
+  #form-lso #button-form-leads:hover {
+    background-color: #0e1c3a;
+  }
+  
+  #form-lso input[type=number]::-webkit-inner-spin-button, 
+  #form-lso input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+  }
+  
+  #form-lso input[type=number] { -moz-appearance: textfield; }
+  
+  @media (max-width: 480px) {
+    #form-lso #container-formulario {
+      padding: 20px;
+      margin: 10px;
+    }
+  
+    #form-lso #title-formulario {
+      font-size: 20px;
+    }
+  
+    #form-lso .label-form-web-leads,
+    #form-lso .input-form-web-leads,
+    #form-lso .input-name,
+    #form-lso #mobile,
+    #form-lso #first_name,
+    #form-lso #last_name,
+    #form-lso #email {
+      font-size: 14px;
+    }
+  
+    #form-lso .label-checkbox-form {
+      font-size: 11px;
+    }
+  
+    #form-lso #button-form-leads {
+      font-size: 16px;
+    }
+  }

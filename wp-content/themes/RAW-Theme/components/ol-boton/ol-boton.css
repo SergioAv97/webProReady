@@ -1,0 +1,29 @@
+.ol-boton {
+	text-align: center;
+
+	h2 {
+		text-align: left;
+	}
+
+	ol {
+		text-align: left;
+
+		li {
+			font-size: var(--raw-font-size-bigger);
+			color: var(--raw-color-white);
+			line-height: 2rem;
+			padding-bottom: 1rem;
+
+			u {
+				color: var(--raw-color-white);
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.ol-boton {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}

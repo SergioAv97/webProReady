@@ -1,0 +1,43 @@
+.contenido-contador {
+
+	.grid {
+		grid-template-columns: 53% 47%;
+
+		& > div {
+			h3 {
+				text-align: center;
+				font-size: var(--raw-font-size-biggest);
+			}
+
+			iframe {
+				display: block;
+				width: 80%;
+				height: 275px;
+				margin: 2rem auto;
+			}
+
+			p {
+				text-align: center;
+				font-size: var(--raw-font-size-bigger);
+				font-family: var(--raw-font-poppins);
+				font-weight: var(--raw-font-weight-normal);
+				color: var(--raw-color-secondary);
+
+				b {
+					display: block;
+					font-family: var(--raw-font-roboto);
+					font-size: 5rem;
+					font-weight: var(--raw-font-weight-fattest);
+					color: var(--raw-color-black);
+				}
+			}
+		}
+	}
+
+}
+
+@media (max-width: 780px) {
+    .contenido-contador .grid div{
+    width: 100%;
+}
+}

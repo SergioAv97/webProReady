@@ -1,0 +1,22 @@
+.short-code {
+	color: var(--raw-color-text);
+
+	.ti-widget {
+		b, span {
+			color: var(--raw-color-white) !important;
+		}
+
+		.ti-rating-text {
+			margin: 1.5rem auto;
+
+			span:last-child b {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	a[role="button"] {
+		display: table;
+		margin: 1.5rem auto 0;
+	}
+}
