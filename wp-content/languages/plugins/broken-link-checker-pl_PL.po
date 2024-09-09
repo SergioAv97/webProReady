@@ -1,0 +1,2013 @@
+# Translation of Plugins - Broken Link Checker - Stable (latest release) in Polish
+# This file is distributed under the same license as the Plugins - Broken Link Checker - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-06-12 09:31:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: pl\n"
+"Project-Id-Version: Plugins - Broken Link Checker - Stable (latest release)\n"
+
+#: core/views/class-admin-page.php:122
+msgid "Community"
+msgstr "Społeczność"
+
+#: core/views/class-admin-page.php:124 core/views/class-admin-page.php:138
+msgid "Privacy Policy"
+msgstr "Polityka prywatności"
+
+#: core/views/class-admin-page.php:131
+msgid "Free Plugins"
+msgstr "Darmowe wtyczki"
+
+#: core/views/class-admin-page.php:132
+msgid "Membership"
+msgstr "Członkostwo"
+
+#: legacy/core/core.php:408
+msgid "Broken Links (Old)"
+msgstr "Uszkodzone linki (stare)"
+
+#: core/views/class-admin-page.php:120 core/views/class-admin-page.php:134
+msgid "Support"
+msgstr "Pomoc techniczna"
+
+#: core/views/class-admin-page.php:119 core/views/class-admin-page.php:133
+msgid "Roadmap"
+msgstr "Plan rozwoju"
+
+#: core/views/class-admin-page.php:118
+msgid "Plugins"
+msgstr "Wtyczki"
+
+#: core/views/class-admin-page.php:117 core/views/class-admin-page.php:136
+msgid "The Hub"
+msgstr "Centrum"
+
+#. translators: %s - icon
+#: core/views/class-admin-page.php:96
+msgid "Made with %s by WPMU DEV"
+msgstr "Stworzone z %s przez WPMU DEV"
+
+#: core/views/class-admin-page.php:67
+msgid "View Documentation"
+msgstr "Zobacz dokumentację"
+
+#: core/models/class-http-request.php:93
+msgid "Missing url."
+msgstr "Błędny adres URL."
+
+#: app/rest-endpoints/settings/includes/class-schema.php:90
+msgid "User role label"
+msgstr "Etykieta roli użytkownika"
+
+#: app/rest-endpoints/settings/includes/class-schema.php:86
+msgid "User role name"
+msgstr "Nazwa roli użytkownika"
+
+#: app/rest-endpoints/settings/class-controller.php:590
+msgid "Action forbidden."
+msgstr "Działanie zabronione."
+
+#: app/rest-endpoints/settings/class-controller.php:262
+msgid "Settings saved"
+msgstr "Ustawienia zostały zapisane"
+
+#: app/emails/scan-report/class-view.php:170
+msgid "Source URL"
+msgstr "Źródłowy adres URL"
+
+#: app/emails/scan-report/class-view.php:103
+msgid "Unknown"
+msgstr "Nieznane"
+
+#: app/emails/scan-report/class-controller.php:98
+msgid "View Report"
+msgstr "Zobacz raport"
+
+#: app/emails/scan-report/class-controller.php:98
+msgid "View Full Report"
+msgstr "Zobacz pełny raport"
+
+#: app/emails/scan-report/class-controller.php:76
+msgid "Summary"
+msgstr "Podsumowanie"
+
+#: app/emails/recipient-activation/class-model.php:106
+#: app/emails/scan-report/class-view.php:229
+msgid "Follow us"
+msgstr "Obserwuj nas"
+
+#: app/emails/recipient-activation/class-controller.php:94
+#: app/emails/scan-report/class-controller.php:108
+msgid "INCSUB PO BOX 163, ALBERT PARK, VICTORIA.3206 AUSTRALIA"
+msgstr "INCSUB PO BOX 163, ALBERT PARK, VICTORIA.3206 AUSTRALIA"
+
+#: app/emails/recipient-activation/class-controller.php:85
+msgid "Confirm Subscription"
+msgstr "Potwierdź subskrypcję"
+
+#: app/broken-links-actions/class-router.php:92
+msgid "Something went wrong"
+msgstr "Coś poszło nie tak"
+
+#: app/action-links/plugin/class-controller.php:79
+#: core/views/class-admin-page.php:121 core/views/class-admin-page.php:135
+msgid "Docs"
+msgstr "Dokumentacja"
+
+#: app/rest-endpoints/scan/class-controller.php:188
+msgid "The scan status."
+msgstr "Wyniki skanowania."
+
+#: core/views/class-admin-page.php:123 core/views/class-admin-page.php:137
+msgid "Terms of Service"
+msgstr "Regulamin"
+
+#: app/webhooks/user-review/class-controller.php:76
+#: app/webhooks/user-review/class-controller.php:85
+msgid "Invalid action"
+msgstr "Nieprawidłowe działanie"
+
+#: app/rest-endpoints/settings/class-controller.php:552
+msgid "You cannot view settings."
+msgstr "Nie możesz wyświetlić ustawień."
+
+#: app/emails/recipient-activation/class-controller.php:93
+#: app/emails/scan-report/class-controller.php:107
+msgid "Build A Better WordPress Business"
+msgstr "Zbuduj lepszy biznes za pomocą WordPressa"
+
+#: app/emails/recipient-activation/class-controller.php:81
+#: app/emails/scan-report/class-controller.php:70
+msgid "Hi {{USERNAME}}"
+msgstr "Cześć {{USERNAME}}"
+
+#. Author URI of the plugin
+msgid "https://wpmudev.com/"
+msgstr "https://wpmudev.com/"
+
+#: legacy/core/core.php:1060
+msgid "It's used on over 80,000 sites just like yours."
+msgstr "Wtyczka jest używana na ponad 80.000 witryn podobnych do twojej."
+
+#: legacy/core/core.php:1051
+msgid "Configure <a target=\"_blank\" href=\"%s\">External Links</a> settings."
+msgstr "Skonfiguruj ustawienia <a target=\"_blank\" href=\"%s\">zewnętrznych odnośników</a>."
+
+#: legacy/core/core.php:1044
+msgctxt "settings page"
+msgid "Control external links"
+msgstr "Kontrola zewnętrznych odnośników"
+
+#: legacy/core/core.php:1056
+msgid "Install the free <a href=\"%s\" class=\"thickbox open-plugin-details-modal\">External Links plugin</a> to control if external links open in a new tab, and their nofollow, noopener and UGC options."
+msgstr "Zainstaluj bezpłatną wtyczkę <a href=\"%s\" class=\"thickbox open-plugin-details-modal\">Zewnętrzne odnośniki</a>, aby kontrolować ich atrybuty nofollow, noopener czy UGC oraz to, czy wewnętrzne odnośniki otwierają się w nowych kartach."
+
+#: legacy/includes/admin/links-page-js.php:654
+msgid "Are you sure you want to unlink and remove this link from all posts?"
+msgstr "Czy na pewno usunąć odnośnik ze wszystkich wpisów?"
+
+#: legacy/modules/checkers/http.php:467
+msgid "Using WP HTTP"
+msgstr "Używając WP HTTP"
+
+#: legacy/core/core.php:1234
+msgid "Post Modified Date"
+msgstr "Data modyfikacji wpisu"
+
+#: legacy/core/core.php:1239
+msgid "Disable post modified date change when link is edited"
+msgstr "Zapobiegaj aktualizacji daty modyfikacji wpisu przy edycji odnośnika"
+
+#: legacy/core/core.php:1590
+msgid "Log file clear schedule"
+msgstr "Harmonogram czyszczenia loga"
+
+#. Author of the plugin
+msgid "WPMU DEV"
+msgstr "WPMU DEV"
+
+#: legacy/core/core.php:1215
+msgid "YouTube API Key"
+msgstr "Klucz API YouTube"
+
+#: legacy/core/core.php:1227
+msgid "Use your own %1$sapi key%2$s for checking youtube links."
+msgstr "Proszę użyć własnego %1$sapi key%2$s w celu sprawdzenia linków youtube."
+
+#: legacy/includes/link-query.php:47
+msgctxt "filter heading"
+msgid "Warnings"
+msgstr "Ostrzeżenia"
+
+#: legacy/includes/any-post.php:833
+msgid "%1$d \"%2$s\" deleted."
+msgid_plural "%1$d \"%2$s\" deleted."
+msgstr[0] "%1$d \"%2$s\" został skasowany."
+msgstr[1] "%1$d \"%2$s\" zostały skasowane."
+msgstr[2] "%1$d \"%2$s\" zostało skasowanych."
+
+#: legacy/core/init.php:235 legacy/init.php:252
+msgid "Every 10 minutes"
+msgstr "Co 10 minut"
+
+#: legacy/core/core.php:1813
+msgid "Enter the keys of acf fields you want to check (one per line). If a field contains HTML code, prefix its name with <code>html:</code>. For example, <code>html:field_586a3eaa4091b</code>."
+msgstr "Wprowadź klucze pól ACF, które chcesz sprawdzić (jeden na linię). Jeśli pole zawiera kod HTML, poprzedź jego nazwę zwrotem <code>html:</code>. Na przykład, <code>html:field_586a3eaa4091b</code>."
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/broken-link-checker/"
+msgstr "https://pl.wordpress.org/plugins/broken-link-checker/"
+
+#: legacy/includes/any-post.php:829
+msgid "%d post deleted."
+msgid_plural "%d posts deleted."
+msgstr[0] "%d wpis usunięty."
+msgstr[1] "Wpisów usuniętych: %d"
+msgstr[2] ""
+
+#: legacy/includes/any-post.php:831
+msgid "%d page deleted."
+msgid_plural "%d pages deleted."
+msgstr[0] "%d strona usunięta."
+msgstr[1] "Usuniętych stron: %d"
+msgstr[2] ""
+
+#: legacy/includes/any-post.php:852
+msgid "%d post moved to the Trash."
+msgid_plural "%d posts moved to the Trash."
+msgstr[0] "%d wpis przeniesiono do Kosza."
+msgstr[1] "Wpisów przeniesionych do Kosza: %d"
+msgstr[2] ""
+
+#: legacy/includes/any-post.php:854
+msgid "%d page moved to the Trash."
+msgid_plural "%d pages moved to the Trash."
+msgstr[0] "%d strona przeniesiona do Kosza."
+msgstr[1] "Stron przeniesionych do Kosza: %d"
+msgstr[2] ""
+
+#: legacy/includes/containers.php:932 legacy/includes/containers.php:950
+msgid "Container type '%s' not recognized"
+msgstr "Nie rozpoznano typu kontenera '%s'"
+
+#: legacy/includes/extra-strings.php:2
+msgctxt "module name"
+msgid "Basic HTTP"
+msgstr "Podstawowy HTTP"
+
+#: legacy/includes/extra-strings.php:3
+msgctxt "module name"
+msgid "Blogroll items"
+msgstr "Pozycje z Blogrolla"
+
+#: legacy/includes/extra-strings.php:4
+msgctxt "module name"
+msgid "Comments"
+msgstr "Komentarze"
+
+#: legacy/includes/extra-strings.php:5
+msgctxt "module name"
+msgid "Custom fields"
+msgstr "Własne pola"
+
+#: legacy/includes/extra-strings.php:12
+msgctxt "module name"
+msgid "HTML images"
+msgstr "Obrazki HTML"
+
+#: legacy/includes/extra-strings.php:13
+msgctxt "module name"
+msgid "HTML links"
+msgstr "Linki HTML"
+
+#: legacy/includes/extra-strings.php:14
+msgctxt "module name"
+msgid "MediaFire API"
+msgstr "API MediaFire"
+
+#: legacy/includes/extra-strings.php:15
+msgctxt "module name"
+msgid "Plaintext URLs"
+msgstr "URLe w czystym tekście"
+
+#: legacy/includes/extra-strings.php:16
+msgctxt "module name"
+msgid "RapidShare API"
+msgstr "API Rapidshare"
+
+#: legacy/includes/extra-strings.php:18
+msgctxt "module name"
+msgid "YouTube API"
+msgstr "API Youtube"
+
+#: legacy/includes/extra-strings.php:20
+msgctxt "module name"
+msgid "Pages"
+msgstr "Strony"
+
+#: legacy/includes/instances.php:118 legacy/includes/instances.php:174
+msgid "Parser '%s' not found."
+msgstr "Nie znaleziono parsera '%s'"
+
+#: legacy/includes/link-query.php:36
+msgid "Broken"
+msgstr "Niedziałające"
+
+#: legacy/includes/link-query.php:38
+msgid "No broken links found"
+msgstr "Nie znaleziono niedziałających linków"
+
+#: legacy/includes/link-query.php:57
+msgid "Redirected Links"
+msgstr "Przekierowane linki"
+
+#: legacy/includes/link-query.php:58
+msgid "No redirects found"
+msgstr "Nie znaleziono przekierowań"
+
+#: legacy/includes/link-query.php:26
+msgid "Detected Links"
+msgstr "Wykryte linki"
+
+#: legacy/includes/link-query.php:27
+msgid "No links found (yet)"
+msgstr "Nie znaleziono linków (na razie)"
+
+#: legacy/includes/link-query.php:83 legacy/includes/link-query.php:131
+msgid "No links found for your query"
+msgstr "Nie znaleziono linków dla tego zapytania"
+
+#: legacy/includes/links.php:225
+msgid "The plugin script was terminated while trying to check the link."
+msgstr "Działanie pluginu zostało przerwane w czasie sprawdzania linku."
+
+#: legacy/includes/links.php:271
+msgid "The plugin doesn't know how to check this type of link."
+msgstr "Plugin nie umie sprawdzać tego typu linków"
+
+#: legacy/includes/links.php:505
+msgid "Link is valid."
+msgstr "Link jest poprawny"
+
+#: legacy/includes/links.php:503
+msgid "Link is broken."
+msgstr "Link niedziałający."
+
+#: legacy/includes/links.php:738 legacy/includes/links.php:841
+#: legacy/includes/links.php:875
+msgid "Link is not valid"
+msgstr "Link nie jest poprawny"
+
+#: legacy/includes/links.php:755
+msgid "This link can not be edited because it is not used anywhere on this site."
+msgstr "Ten link nie może być edytowany, ponieważ nie jest użyty nigdzie na stronie."
+
+#: legacy/includes/links.php:781
+msgid "Failed to create a DB entry for the new URL."
+msgstr "Nie udało się utworzyć wpisu w bazie danych dla nowego URLa."
+
+#: legacy/includes/links.php:848
+msgid "This link is not a redirect"
+msgstr "Ten link nie jest przekierowaniem"
+
+#: legacy/includes/links.php:902 legacy/includes/links.php:939
+msgid "Couldn't delete the link's database record"
+msgstr "Nie udało się usunąć linka z bazy danych"
+
+#: legacy/includes/links.php:1029 legacy/modules/checkers/http.php:313
+#: legacy/modules/checkers/http.php:317 legacy/modules/extras/mediafire.php:115
+#: legacy/modules/extras/youtube.php:135 legacy/modules/extras/youtube.php:230
+msgid "Unknown Error"
+msgstr "Nieznany błąd"
+
+#: legacy/includes/links.php:1052
+msgid "Not checked"
+msgstr "Nie sprawdzono"
+
+#: legacy/includes/links.php:1055
+msgid "False positive"
+msgstr "Fałszywe alarmy"
+
+#: legacy/includes/links.php:1058 legacy/modules/extras/rapidshare.php:145
+#: legacy/modules/extras/rapidshare.php:151
+#: legacy/modules/extras/rapidshare.php:178
+#: legacy/modules/extras/youtube.php:141 legacy/modules/extras/youtube.php:217
+msgctxt "link status"
+msgid "OK"
+msgstr "OK"
+
+#: legacy/includes/parsers.php:117
+msgid "Editing is not implemented in the '%s' parser"
+msgstr "Edytowanie nie jest zaimplementowane w parserze '%s'"
+
+#: legacy/includes/parsers.php:132
+msgid "Unlinking is not implemented in the '%s' parser"
+msgstr "Usuwanie linków nie jest zaimplementowane w parserze '%s'"
+
+#: legacy/includes/utility-class.php:259
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d sekunda"
+msgstr[1] "sekundy: %d"
+msgstr[2] ""
+
+#: legacy/includes/utility-class.php:263
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minuta"
+msgstr[1] "minuty: %d"
+msgstr[2] ""
+
+#: legacy/includes/utility-class.php:264
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d minutę temu"
+msgstr[1] "Minuty temu: %d"
+msgstr[2] ""
+
+#: legacy/includes/utility-class.php:268
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d godzinę temu"
+msgstr[1] "Godzin temu: %d"
+msgstr[2] ""
+
+#: legacy/includes/utility-class.php:271
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d dzień"
+msgstr[1] "dni: %d"
+msgstr[2] ""
+
+#: legacy/includes/utility-class.php:272
+msgid "%d day ago"
+msgid_plural "%d days ago"
+msgstr[0] "%d dzień temu"
+msgstr[1] "Dni temu: %d"
+msgstr[2] ""
+
+#: legacy/includes/utility-class.php:275
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d miesiąc"
+msgstr[1] "miesięcy: %d"
+msgstr[2] ""
+
+#: legacy/includes/utility-class.php:276
+msgid "%d month ago"
+msgid_plural "%d months ago"
+msgstr[0] "%d miesiąc tem"
+msgstr[1] "Miesięcy temu: %d"
+msgstr[2] ""
+
+#: legacy/modules/checkers/http.php:290
+msgid "Server Not Found"
+msgstr "Nie znaleziono serwera"
+
+#: legacy/modules/checkers/http.php:306
+msgid "Connection Failed"
+msgstr "Błąd połączenia"
+
+#: legacy/modules/checkers/http.php:360 legacy/modules/checkers/http.php:449
+msgid "HTTP code : %d"
+msgstr "Kod HTTP: %d"
+
+#: legacy/modules/checkers/http.php:362 legacy/modules/checkers/http.php:451
+msgid "(No response)"
+msgstr "(Brak odpowiedzi)"
+
+#: legacy/modules/checkers/http.php:380
+msgid "Most likely the connection timed out or the domain doesn't exist."
+msgstr "Domena nie istnieje, albo serwer odpowiada za długo."
+
+#: legacy/modules/checkers/http.php:460
+msgid "Request timed out."
+msgstr "Przekroczono czas połączenia."
+
+#: legacy/modules/containers/blogroll.php:21
+msgid "Bookmark"
+msgstr "Zakładka"
+
+#: legacy/modules/containers/blogroll.php:27
+#: legacy/modules/containers/blogroll.php:46
+msgid "Edit this bookmark"
+msgstr "Edytuj zakładkę"
+
+#: legacy/modules/containers/blogroll.php:97
+msgid "Updating bookmark %d failed"
+msgstr "Nie udało się zaktualizować zakładki %d"
+
+#: legacy/modules/containers/blogroll.php:298
+msgid "%d blogroll link deleted."
+msgid_plural "%d blogroll links deleted."
+msgstr[0] "%d link usunięty z blogrolla"
+msgstr[1] "Usuniętych linków z blogrolla: %d"
+msgstr[2] ""
+
+#: legacy/modules/containers/comment.php:53
+msgid "Updating comment %d failed"
+msgstr "Nie udało się zaktualizować komentarza %d"
+
+#: legacy/modules/containers/comment.php:74
+msgid "Failed to delete comment %d"
+msgstr "Nie udało się usunąć komentarza %d"
+
+#: legacy/modules/containers/comment.php:95
+msgid "Can't move comment %d to the trash"
+msgstr "Nie udało się przenieść komentarza %d do Kosza"
+
+#: legacy/modules/containers/comment.php:159
+#: legacy/modules/containers/comment.php:201
+msgid "Edit comment"
+msgstr "Edytuj komentarz"
+
+#: legacy/modules/containers/comment.php:168
+msgctxt "verb"
+msgid "Trash"
+msgstr "Kosz"
+
+#: legacy/modules/containers/comment.php:172
+msgid "View comment"
+msgstr "Pokaż komentarz"
+
+#: legacy/modules/containers/comment.php:366
+msgid "%d comment has been deleted."
+msgid_plural "%d comments have been deleted."
+msgstr[0] "%d komentarz został usunięty."
+msgstr[1] "Usuniętych komentarzy: %d"
+msgstr[2] ""
+
+#: legacy/modules/containers/comment.php:385
+msgid "%d comment moved to the Trash."
+msgid_plural "%d comments moved to the Trash."
+msgstr[0] "%d komentarz przeniesiony do Kosza"
+msgstr[1] "Komentarzy przeniesionych do Kosza: %d"
+msgstr[2] ""
+
+#: legacy/modules/containers/acf_field.php:234
+#: legacy/modules/containers/custom_field.php:238
+msgid "Edit this post"
+msgstr "Edytuj wpis"
+
+#: legacy/modules/parsers/image.php:193
+msgid "Image"
+msgstr "Obrazek"
+
+#: legacy/modules/parsers/acf_field.php:120
+#: legacy/modules/parsers/metadata.php:141
+msgid "Custom field"
+msgstr "Własne pola"
+
+#: legacy/modules/extras/youtube-embed.php:24
+#: legacy/modules/extras/youtube-iframe.php:25
+msgid "YouTube Video"
+msgstr "Film YouTube"
+
+#: legacy/includes/link-query.php:46
+msgctxt "filter name"
+msgid "Warnings"
+msgstr "Ostrzeżenia"
+
+#: legacy/modules/extras/youtube.php:191
+msgctxt "link status"
+msgid "Empty Playlist"
+msgstr "Pusta lista utworów"
+
+#: legacy/modules/extras/rapidshare.php:183
+msgid "RapidShare : %s"
+msgstr "RapidShare : %s"
+
+#: legacy/modules/extras/mediafire.php:97
+#: legacy/modules/extras/mediafire.php:103
+#: legacy/modules/extras/rapidshare.php:139
+msgid "Not Found"
+msgstr "Nie znaleziono"
+
+#: legacy/includes/link-query.php:48
+msgid "No warnings found"
+msgstr "Nie znaleziono ostrzeżeń"
+
+#: legacy/includes/link-query.php:66
+msgid "Dismissed"
+msgstr "Odrzucono"
+
+#: legacy/modules/extras/dailymotion-embed.php:23
+msgid "DailyMotion Video"
+msgstr "Filmy DailyMotion"
+
+#: legacy/modules/extras/googlevideo-embed.php:24
+msgid "GoogleVideo Video"
+msgstr "Film GoogleVideo"
+
+#: legacy/modules/extras/rapidshare.php:51
+msgid "Using RapidShare API"
+msgstr "Używaj API RapidShare"
+
+#: legacy/modules/extras/rapidshare.php:158
+msgid "RS Server Down"
+msgstr "RS Serwer nie działa"
+
+#: legacy/modules/extras/rapidshare.php:165
+msgid "File Blocked"
+msgstr "Plik zablokowano"
+
+#: legacy/modules/extras/rapidshare.php:189
+msgid "RapidShare API error: %s"
+msgstr "Błąds API RapidShare: %s"
+
+#: legacy/modules/extras/vimeo-embed.php:24
+msgid "Vimeo Video"
+msgstr "Filmy Vimeo"
+
+#: legacy/modules/extras/youtube-playlist-embed.php:24
+msgid "YouTube Playlist"
+msgstr "Lista odtwarzania YouTube"
+
+#: legacy/modules/extras/youtube.php:151 legacy/modules/extras/youtube.php:154
+msgid "Video Not Found"
+msgstr "Nie znaleziono filmu"
+
+#: legacy/modules/extras/youtube.php:140
+msgid "Video OK"
+msgstr "Film OK"
+
+#: legacy/modules/extras/youtube.php:173 legacy/modules/extras/youtube.php:176
+msgid "Playlist Not Found"
+msgstr "Nie znaleziono list odtwarzania"
+
+#: legacy/modules/extras/youtube.php:216
+msgid "Playlist OK"
+msgstr "Lista odtwarzania OK"
+
+#: legacy/modules/extras/youtube.php:190
+msgid "This playlist has no entries or all entries have been deleted."
+msgstr "Lista nie ma wpisów lub wszystkie pozycje zostały usunięte."
+
+#: legacy/includes/any-post.php:702 legacy/modules/containers/acf_field.php:341
+#: legacy/modules/containers/custom_field.php:360
+msgid "Can't move post \"%1$s\" (%2$d) to the trash because the trash feature is disabled"
+msgstr "Nie udało się przenieść wpisu \"%1$s\" (%2$d) do kosza, ponieważ taka możliwość została wyłączona"
+
+#: legacy/includes/any-post.php:722 legacy/modules/containers/acf_field.php:353
+#: legacy/modules/containers/custom_field.php:379
+msgid "Failed to move post \"%1$s\" (%2$d) to the trash"
+msgstr "Nie udało się przenieść wpisu \"%1$s\" (%2$d) do kosza"
+
+#: legacy/includes/any-post.php:856
+msgid "%1$d \"%2$s\" moved to the Trash."
+msgid_plural "%1$d \"%2$s\" moved to the Trash."
+msgstr[0] "%1$d \"%2$s\" przeniesiono do kosza."
+msgstr[1] "%1$d \"%2$s\" przeniesiono do kosza."
+msgstr[2] "%1$d \"%2$s\" przeniesiono do kosza."
+
+#: legacy/includes/containers.php:123
+msgid "%1$d '%2$s' has been deleted"
+msgid_plural "%1$d '%2$s' have been deleted"
+msgstr[0] "%1$d '%2$s' został usunięty"
+msgstr[1] "%1$d '%2$s' zostało usuniętych"
+msgstr[2] "%1$d '%2$s' zostało usuniętych"
+
+#: legacy/includes/instances.php:109 legacy/includes/instances.php:165
+msgid "Container %1$s[%2$d] not found"
+msgstr "Nie znaleziono kontenera %1$s[%2$d]"
+
+#: legacy/modules/containers/blogroll.php:128
+msgid "Failed to delete blogroll link \"%1$s\" (%2$d)"
+msgstr "Nie udało się usunąć odnośnika z blogorolla \"%1$s\" (%2$d)"
+
+#: legacy/modules/containers/acf_field.php:102
+#: legacy/modules/containers/custom_field.php:107
+msgid "Failed to update the meta field '%1$s' on %2$s [%3$d]"
+msgstr "Nie udało się zaktualizować pola meta '%1$s' dla %2$s [%3$d]"
+
+#: legacy/modules/containers/acf_field.php:132
+#: legacy/modules/containers/custom_field.php:137
+msgid "Failed to delete the meta field '%1$s' on %2$s [%3$d]"
+msgstr "Nie udało się usunąć pola meta '%1$s' dla %2$s [%3$d]"
+
+#: legacy/modules/containers/dummy.php:34
+#: legacy/modules/containers/dummy.php:45
+msgid "I don't know how to edit a '%1$s' [%2$d]."
+msgstr "Nie wiem jak edytować '%1$s' [%2$d]."
+
+#: legacy/modules/containers/blogroll.php:47
+msgid ""
+"You are about to delete this link '%s'\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Zamierzasz usunąć odnośnik '%s'\n"
+"  Kliknij 'Anuluj', aby anulować tę operację, lub 'OK', aby ją sfinalizować."
+
+#: legacy/includes/link-query.php:82
+msgid "Search Results"
+msgstr "Wyniki wyszukiwania"
+
+#: legacy/modules/containers/comment.php:166
+msgid "Delete Permanently"
+msgstr "Usuń na zawsze"
+
+#: legacy/includes/extra-strings.php:17
+msgctxt "module name"
+msgid "Smart YouTube httpv:// URLs"
+msgstr "Sprytne adresy YouTube httpv://"
+
+#: legacy/includes/link-query.php:67
+msgid "Dismissed Links"
+msgstr "Odnośniki odrzucone"
+
+#: legacy/includes/link-query.php:68
+msgid "No dismissed links found"
+msgstr "Nie znaleziono odrzuconych odnośników"
+
+#: legacy/modules/extras/dailymotion-embed.php:24
+msgid "Embedded DailyMotion video"
+msgstr "Osadzone filmy DailyMotion"
+
+#: legacy/modules/extras/youtube-playlist-embed.php:25
+msgid "Embedded YouTube playlist"
+msgstr "Osadzona lista filmów YouTube"
+
+#: legacy/modules/extras/youtube-embed.php:25
+#: legacy/modules/extras/youtube-iframe.php:26
+msgid "Embedded YouTube video"
+msgstr "Osadzone filmy YouTube"
+
+#: legacy/modules/extras/vimeo-embed.php:25
+msgid "Embedded Vimeo video"
+msgstr "Osadzone filmy Vimeo"
+
+#: legacy/modules/extras/googlevideo-embed.php:25
+msgid "Embedded GoogleVideo video"
+msgstr "Osadzone filmy GoogleVideo"
+
+#: legacy/includes/extra-strings.php:10
+msgctxt "module name"
+msgid "Embedded YouTube videos"
+msgstr "Osadzone filmy YouTube"
+
+#: legacy/includes/extra-strings.php:8
+msgctxt "module name"
+msgid "Embedded Vimeo videos"
+msgstr "Osadzone filmy Vimeo"
+
+#: legacy/includes/extra-strings.php:6
+msgctxt "module name"
+msgid "Embedded DailyMotion videos"
+msgstr "Osadzonefilmy DailyMotion"
+
+#: legacy/includes/extra-strings.php:9
+msgctxt "module name"
+msgid "Embedded YouTube playlists (old embed code)"
+msgstr "Osadzone listy odtwarzania YouTube (stary kod embed)"
+
+#: legacy/modules/extras/rapidshare.php:172
+msgid "File Locked"
+msgstr "Zablokowany plik"
+
+#: legacy/modules/extras/youtube.php:201
+msgid "Video status : %1$s%2$s"
+msgstr "Status filmu: %1$s%2$s"
+
+#: legacy/includes/extra-strings.php:7
+msgctxt "module name"
+msgid "Embedded GoogleVideo videos"
+msgstr "Osadzone filmy GoogleVideo"
+
+#: legacy/includes/extra-strings.php:11
+msgctxt "module name"
+msgid "Embedded YouTube videos (old embed code)"
+msgstr "Osadzone listy odtwarzania YouTube (stary kod embed)"
+
+#: legacy/modules/extras/embed-parser-base.php:199
+msgid "Embedded videos can't be edited using Broken Link Checker. Please edit or replace the video in question manually."
+msgstr "Osadzone filmy nie mogą być edytowane za pomocą Broken Link Checker. Edytuj lub zamień wideo, którego dotyczy pytanie."
+
+#: legacy/modules/extras/youtube.php:261
+msgid "Unknown YouTube API response received."
+msgstr "Otrzymano nieznana odpowiedź API YouTube."
+
+#: legacy/modules/extras/youtube.php:183
+msgid "Playlist Restricted"
+msgstr "Lista odtwarzania ograniczona"
+
+#: legacy/modules/extras/youtube.php:207
+msgid "Video Restricted"
+msgstr "Film ograniczony"
+
+#: legacy/includes/extra-strings.php:19
+msgctxt "module name"
+msgid "Posts"
+msgstr "Wpisy"
+
+#: legacy/modules/containers/comment.php:168
+msgid "Move this comment to the trash"
+msgstr "Umieść komentarz w koszu"
+
+#: legacy/modules/containers/comment.php:189
+msgid "Comment"
+msgstr "Komentarz"
+
+#: legacy/includes/links.php:1016
+msgctxt "link status"
+msgid "Unknown"
+msgstr "Nieznane"
+
+#: legacy/includes/utility-class.php:267
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d godzina"
+msgstr[1] "%d godziny"
+msgstr[2] "%d godzin"
+
+#: legacy/modules/extras/mediafire.php:109
+msgid "Permission Denied"
+msgstr "Brak uprawnień"
+
+#: legacy/modules/containers/acf_field.php:258
+#: legacy/modules/containers/custom_field.php:272
+msgid "View \"%s\""
+msgstr "Zobacz \"%s\""
+
+#: legacy/includes/link-query.php:56
+msgid "Redirects"
+msgstr "Przekierowania"
+
+#: legacy/includes/utility-class.php:260
+msgid "%d second ago"
+msgid_plural "%d seconds ago"
+msgstr[0] "%d sekundę temu"
+msgstr[1] "%d sekundy temu"
+msgstr[2] "%d sekund temu"
+
+#: legacy/includes/link-query.php:25
+msgid "All"
+msgstr "Wszystko"
+
+#: legacy/core/core.php:269 legacy/includes/admin/options-page-js.php:18
+msgid "[ Network error ]"
+msgstr "[ Błąd sieci ]"
+
+#: legacy/core/core.php:313
+msgid "Automatically expand the widget if broken links have been detected"
+msgstr "Automatycznie rozwiń widget, jeśli wykryto niedziałające linki."
+
+#: app/admin-pages/cloud-page/class-controller.php:85
+msgid "Link Checker"
+msgstr "Link Checker"
+
+#: app/admin-pages/local-submenu/class-view.php:67 legacy/core/core.php:514
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: legacy/core/core.php:857
+msgid "Complete site recheck started."
+msgstr "Rozpoczęto sprawdzanie całej strony."
+
+#: legacy/core/core.php:881
+msgid "Look For Links In"
+msgstr "Szukasz linków w"
+
+#: legacy/core/core.php:882
+msgid "Which Links To Check"
+msgstr "Które linki sprawdzać"
+
+#: legacy/core/core.php:883
+msgid "Protocols & APIs"
+msgstr "Protokoły i API"
+
+#: legacy/core/core.php:884
+msgid "Advanced"
+msgstr "Zaawansowane"
+
+#: legacy/core/core.php:942 legacy/includes/admin/options-page-js.php:56
+msgid "Show debug info"
+msgstr "Pokaż informacje typu debug"
+
+#: legacy/core/core.php:970
+msgid "Check each link"
+msgstr "Sprawdź każdy link"
+
+#: legacy/core/core.php:975
+msgid "Every %s hours"
+msgstr "Co %s godzin"
+
+#: legacy/core/core.php:984
+msgid "Existing links will be checked this often. New links will usually be checked ASAP."
+msgstr "Częstość sprawdzania istniejących linków. Nowe linki będą sprawdzane tak szybko, jak to możliwe."
+
+#: legacy/core/core.php:1003
+msgid "Send me e-mail notifications about newly detected broken links"
+msgstr "Wysyłaj do mnie E-mail z wiadomością o nowowykrytych niedziałających linkach."
+
+#: legacy/core/core.php:1068
+msgid "Link tweaks"
+msgstr "Linki-dodatki"
+
+#: legacy/core/core.php:1080
+msgid "Apply custom formatting to broken links"
+msgstr "Ustaw odmienne formatowanie niedziałających linków"
+
+#: legacy/core/core.php:1085 legacy/core/core.php:1129
+msgid "Edit CSS"
+msgstr "Edytuj CSS"
+
+#: legacy/core/core.php:1124
+msgid "Apply custom formatting to removed links"
+msgstr "Zastosuje własne formatowanie do niedziałających linków"
+
+#: legacy/core/core.php:1170
+msgid "Stop search engines from following broken links"
+msgstr "Nie pozwól wyszukiwarkom podążać po niedziałających linkach"
+
+#: legacy/core/core.php:1254
+msgid "Look for links in"
+msgstr "Szukaj linków w"
+
+#: legacy/core/core.php:1271
+msgid "Post statuses"
+msgstr "Statury wpisów"
+
+#: legacy/core/core.php:1305
+msgid "Link types"
+msgstr "Typy linków"
+
+#: legacy/core/core.php:1311
+msgid "Error : All link parsers missing!"
+msgstr "Błąd: usunięto wszystkie parsery linków!"
+
+#: legacy/core/core.php:1318
+msgid "Exclusion list"
+msgstr "Lista wykluczeń"
+
+#: legacy/core/core.php:1319
+msgid "Don't check links where the URL contains any of these words (one per line) :"
+msgstr "Nie sprawdzaj linków, które zawierają w URLu następujące słowa (jedno słowo na linię):"
+
+#: legacy/core/core.php:1339
+msgid "Check links using"
+msgstr "Sprawdź linki używając"
+
+#: legacy/core/core.php:1359 legacy/includes/links.php:1033
+msgid "Timeout"
+msgstr "Timeout"
+
+#: legacy/core/core.php:1374
+msgid "Links that take longer than this to load will be marked as broken."
+msgstr "Linki, których sprawdzenie zajmie więcej niż ten czas, będą oznaczone jako niedziałające."
+
+#: legacy/core/core.php:1381
+msgid "Link monitor"
+msgstr "Monitor linków"
+
+#: legacy/core/core.php:1394
+msgid "Run continuously while the Dashboard is open"
+msgstr "Pracuj nieprzerwanie, kiedy Kokpit jest otwarty"
+
+#: legacy/core/core.php:1407
+msgid "Run hourly in the background"
+msgstr "Uruchom co godzinę w tle"
+
+#: legacy/core/core.php:1456
+msgid "Max. execution time"
+msgstr "Maksymalny czas wykonywania"
+
+#: legacy/core/core.php:1474
+msgid "The plugin works by periodically launching a background job that parses your posts for links, checks the discovered URLs, and performs other time-consuming tasks. Here you can set for how long, at most, the link monitor may run each time before stopping."
+msgstr "Ten plugin działa poprzez cykliczne odpalanie zadania w tle, które pobiera linków z wpisów, sprawdza ich URLe i wykonuje inne wymagające czasowo zadania. Tutaj możesz ustawić na jak długi maksymalnie czas monitor linków może działać, zanim się zatrzyma."
+
+#: legacy/core/core.php:1483
+msgid "Server load limit"
+msgstr "Limit obciążenia serwera"
+
+#: legacy/core/core.php:1498
+msgid "Current load : %s"
+msgstr "Bieżące obciążenie: %s"
+
+#: legacy/core/core.php:1503
+msgid "Link checking will be suspended if the average <a href=\"%s\">server load</a> rises above this number. Leave this field blank to disable load limiting."
+msgstr "Sprawdzanie linków będzie zawieszone, jeśli średnie <a href=\"%s\">obciążenie procesora</a> wzrośnie powyżej tej wartości. Zostaw puste, aby usunąć limit."
+
+#: legacy/core/core.php:1512
+msgid "Not available"
+msgstr "Niedostępne"
+
+#: legacy/core/core.php:1514
+msgid "Load limiting only works on Linux-like systems where <code>/proc/loadavg</code> is present and accessible."
+msgstr "Limit obciążenia działa tylko na serwerach Linux, w których jest dostępny <code>/proc/loadavg</code>."
+
+#: legacy/core/core.php:1618
+msgid "Forced recheck"
+msgstr "Wymuszone sprawdzenie"
+
+#: legacy/core/core.php:1621
+msgid "Re-check all pages"
+msgstr "Sprawdź wszystkie strony"
+
+#: legacy/core/core.php:1626
+msgid "The \"Nuclear Option\". Click this button to make the plugin empty its link database and recheck the entire site from scratch."
+msgstr "\"Opcja Atomowa\". Kliknij ten przycisk, jeśli chcesz wyczyścić bazę danych pluginu i sprawdzić całą stronę od początku."
+
+#: legacy/core/core.php:1639
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#: legacy/core/core.php:1952 legacy/core/core.php:2042
+#: legacy/core/core.php:2074
+msgid "Database error : %s"
+msgstr "Błąd bazy danych: %s"
+
+#: legacy/core/core.php:2023
+msgid "You must enter a filter name!"
+msgstr "Musisz podać nazwę filtra!"
+
+#: legacy/core/core.php:2027
+msgid "Invalid search query."
+msgstr "Nieprawidłowee wyszukiwanie."
+
+#: legacy/core/core.php:2037
+msgid "Filter \"%s\" created"
+msgstr "Filtr \"%s\" stworzony"
+
+#: legacy/core/core.php:2064
+msgid "Filter ID not specified."
+msgstr "Nie podano ID filtra."
+
+#: legacy/core/core.php:2071
+msgid "Filter deleted"
+msgstr "Filtr usunięty"
+
+#: legacy/core/core.php:2121
+msgid "Replaced %d redirect with a direct link"
+msgid_plural "Replaced %d redirects with direct links"
+msgstr[0] "Zamieniono %d przekierowanie na docelowy link"
+msgstr[1] "Zamieniono %d przekierować na docelowe linki"
+msgstr[2] ""
+
+#: legacy/core/core.php:2132
+msgid "Failed to fix %d redirect"
+msgid_plural "Failed to fix %d redirects"
+msgstr[0] "Nie udało się naprawić %d przekierowania"
+msgstr[1] "Nie udało się naprawić %d przekierowań"
+msgstr[2] ""
+
+#: legacy/core/core.php:2143
+msgid "None of the selected links are redirects!"
+msgstr "Żaden z zaznaczonych linków nie jest przekierowaniem!"
+
+#: legacy/core/core.php:2230
+msgid "%d link updated."
+msgid_plural "%d links updated."
+msgstr[0] "%d link uaktualniony."
+msgstr[1] "Linki uaktualnione: %d"
+msgstr[2] ""
+
+#: legacy/core/core.php:2241
+msgid "Failed to update %d link."
+msgid_plural "Failed to update %d links."
+msgstr[0] "Nie udało się uaktualnić %d linka"
+msgstr[1] "Nie udało się uaktualnić linków: %d"
+msgstr[2] ""
+
+#: legacy/core/core.php:2334
+msgid "%d link removed"
+msgid_plural "%d links removed"
+msgstr[0] "%d link usunięty"
+msgstr[1] "Usunięte linki: %d"
+msgstr[2] ""
+
+#: legacy/core/core.php:2345
+msgid "Failed to remove %d link"
+msgid_plural "Failed to remove %d links"
+msgstr[0] "Nie udało się usunąć %d linka"
+msgstr[1] "Nie udało się usunąć linków: %d"
+msgstr[2] ""
+
+#: legacy/core/core.php:2460
+msgid "%d item was skipped because it can't be moved to the Trash. You need to delete it manually."
+msgid_plural "%d items were skipped because they can't be moved to the Trash. You need to delete them manually."
+msgstr[0] "%d pozycja została pominięta, ponieważ nie może zostać przeniesiona do Kosza. Musisz ją usunąć ręcznie."
+msgstr[1] "%d pozycje zostały pominięte, ponieważ nie mogą zostać przeniesione do Kosza. Musisz je usunąć ręcznie."
+msgstr[2] ""
+
+#: legacy/core/core.php:2482
+msgid "Didn't find anything to delete!"
+msgstr "Nie znaleziono nic do usunięcia!"
+
+#: legacy/core/core.php:2521
+msgid "%d link scheduled for rechecking"
+msgid_plural "%d links scheduled for rechecking"
+msgstr[0] "%d link ustawiony do ponownego sprawdzenia"
+msgstr[1] "Linków ustawionych do ponownego sprawdzenia: %d"
+msgstr[2] ""
+
+#: legacy/core/core.php:2571 legacy/core/core.php:3446
+msgid "This link was manually marked as working by the user."
+msgstr "Ten link został przez użytkownika oznaczony jako działający."
+
+#: legacy/core/core.php:2579 legacy/core/core.php:2643
+msgid "Couldn't modify link %d"
+msgstr "Nie mogę zmodyfikować linku %d"
+
+#: legacy/core/core.php:2590
+msgid "%d link marked as not broken"
+msgid_plural "%d links marked as not broken"
+msgstr[0] "%d link oznaczony jako prawidłowy"
+msgstr[1] "Linków oznaczonych jako prawidłowe: %d"
+msgstr[2] ""
+
+#: legacy/core/core.php:2760
+msgid "Table columns"
+msgstr "Kolumny tabeli"
+
+#: legacy/core/core.php:2779
+msgid "Show on screen"
+msgstr "Pokaż na ekranie"
+
+#: legacy/core/core.php:2787 legacy/includes/admin/table-printer.php:175
+msgid "Apply"
+msgstr "Zastosuj"
+
+#: legacy/core/core.php:2806
+msgid "Highlight links broken for at least %s days"
+msgstr "Zaznacz linki niedziałające linki przez co najmniej %s dni"
+
+#: legacy/core/core.php:2815
+msgid "Color-code status codes"
+msgstr "Kolorowe kody statusów"
+
+#: legacy/core/core.php:2835 legacy/core/core.php:3430
+#: legacy/core/core.php:3477 legacy/core/core.php:3516
+#: legacy/core/core.php:3642 legacy/core/core.php:3702
+#: legacy/core/core.php:3782
+msgid "You're not allowed to do that!"
+msgstr "Nie wolno Ci tego zrobić!"
+
+#: legacy/core/core.php:3298
+msgid "View broken links"
+msgstr "Pokaż niedziałające linki"
+
+#: legacy/core/core.php:3299
+msgid "Found %d broken link"
+msgid_plural "Found %d broken links"
+msgstr[0] "Znaleziono %d niedziałający link"
+msgstr[1] "Znaleziono niedziałających linków: %d"
+msgstr[2] ""
+
+#: legacy/core/core.php:3305
+msgid "No broken links found."
+msgstr "Nie znaleziono niedziałających linków"
+
+#: legacy/core/core.php:3312
+msgid "%d URL in the work queue"
+msgid_plural "%d URLs in the work queue"
+msgstr[0] "%d URL w kolejce do sprawdzenia"
+msgstr[1] "URLi w kolejce do sprawdzenia: %d"
+msgstr[2] ""
+
+#: legacy/core/core.php:3316
+msgid "No URLs in the work queue."
+msgstr "Brak URLi w kolejce do sprawdzenia."
+
+#: legacy/core/core.php:3345
+msgid "Searching your blog for links..."
+msgstr "Przeszukiwanie bloga pod kątem linków"
+
+#: legacy/core/core.php:3347
+msgid "No links detected."
+msgstr "Nie znaleziono linków."
+
+#: legacy/core/core.php:3438 legacy/core/core.php:3485
+#: legacy/core/core.php:3539 legacy/core/core.php:3656
+#: legacy/core/core.php:3725 legacy/core/core.php:3805
+msgid "Oops, I can't find the link %d"
+msgstr "Ojj, nie mogę znaleść linkac %d"
+
+#: legacy/core/core.php:3458 legacy/core/core.php:3499
+msgid "Oops, couldn't modify the link!"
+msgstr "Ojj, nie mogę zmodyfikować linka!"
+
+#: legacy/core/core.php:3461 legacy/core/core.php:3502
+#: legacy/core/core.php:3690 legacy/core/core.php:3712
+#: legacy/core/core.php:3792
+msgid "Error : link_id not specified"
+msgstr "Błąd: nie ustalono link_id"
+
+#: legacy/core/core.php:3552 legacy/core/core.php:3566
+msgid "Oops, the new URL is invalid!"
+msgstr "Ojj, nowy URL nie niepoprawny!"
+
+#: legacy/core/core.php:3669
+msgid "An unexpected error occured!"
+msgstr "Wystąpił nieoczekiwany błąd!"
+
+#: legacy/core/core.php:3526
+msgid "Error : link_id or new_url not specified"
+msgstr "Błąd: nie ustalono link_id lub new_url"
+
+#: legacy/core/core.php:3841
+msgid "You don't have sufficient privileges to access this information!"
+msgstr "Nie masz wystarczających uprawnień aby uzyskać tę informację!"
+
+#: legacy/core/core.php:3854
+msgid "Error : link ID not specified"
+msgstr "Błąd: nie ustalono ID linka"
+
+#: legacy/core/core.php:3868
+msgid "Failed to load link details (%s)"
+msgstr "Nie udało się wczytać szczegółów linka (%s)"
+
+#. Plugin Name of the plugin
+#: app/admin-pages/cloud-page/class-controller.php:84
+#: app/admin-pages/cloud-submenu/class-controller.php:67
+#: app/emails/recipient-activation/class-controller.php:88
+#: app/emails/scan-report/class-controller.php:101 legacy/core/core.php:3922
+msgid "Broken Link Checker"
+msgstr "Broken Link Checker"
+
+#: legacy/core/core.php:3942
+msgid "PHP version"
+msgstr "Wersja PHP"
+
+#: legacy/core/core.php:3948
+msgid "MySQL version"
+msgstr "Wersja MySQL"
+
+#: legacy/core/core.php:3961
+msgid "You have an old version of CURL. Redirect detection may not work properly."
+msgstr "Posiadasz starą wersję biblioteki cURL. Wykrywanie przekierowań może nie działać prawidłowo."
+
+#: legacy/core/core.php:3975
+msgid "CURL version"
+msgstr "Wersja cURL"
+
+#: legacy/core/core.php:3994
+msgid "You must have either CURL or Snoopy installed for the plugin to work!"
+msgstr "Aby plugin działał, musisz mieć zainstalowany cURL lub Snoopy"
+
+#: legacy/core/core.php:4004
+msgid "On"
+msgstr "Włączony"
+
+#: legacy/core/core.php:4005
+msgid "Redirects may be detected as broken links when safe_mode is on."
+msgstr "Przekierowania mogą nie zostać wykryte, ponieważ włączony jest safe_mode."
+
+#: legacy/core/core.php:4018
+msgid "On ( %s )"
+msgstr "Włączony ( %s )"
+
+#: legacy/core/core.php:4019
+msgid "Redirects may be detected as broken links when open_basedir is on."
+msgstr "Przekierowania mogą nie zostać wykryte, ponieważ włączony jest open_basedir."
+
+#: legacy/core/core.php:4056
+msgid "If this value is zero even after several page reloads you have probably encountered a bug."
+msgstr "Jeśli ta wartość wynosi zero nawet po kilku odświeżeniach strony, prawdopodobnie mamy do czynienia z błędem."
+
+#: legacy/core/core.php:4191 legacy/core/core.php:4316
+msgid "[%s] Broken links detected"
+msgstr "[%s] Wykryto niedziałające linki"
+
+#: legacy/core/core.php:4196
+msgid "Broken Link Checker has detected %d new broken link on your site."
+msgid_plural "Broken Link Checker has detected %d new broken links on your site."
+msgstr[0] "Broken Link Checker wykrył %d nowy niedziałający link na Twojej stronie."
+msgstr[1] "Broken Link Checker wykrył nowe niedziałające linki na Twojej stronie: %d"
+msgstr[2] ""
+
+#: legacy/core/core.php:4228
+msgid "Here's a list of the first %d broken links:"
+msgid_plural "Here's a list of the first %d broken links:"
+msgstr[0] "Lista z %d nowym niedziałającym linkiem:"
+msgstr[1] "Lista z %d nowymi niedziałającymi linkami:"
+msgstr[2] ""
+
+#: legacy/core/core.php:4237
+msgid "Here's a list of the new broken links: "
+msgstr "Lista nowych niedziałających linków: "
+
+#: legacy/core/core.php:4247
+msgid "Link text : %s"
+msgstr "Tekst linka: %s"
+
+#: legacy/core/core.php:4249
+msgid "Source : %s"
+msgstr "Źródło: %s"
+
+#: legacy/core/core.php:4263
+msgid "You can see all broken links here:"
+msgstr "Lista wszystkich niedziałających linków:"
+
+#: legacy/core/init.php:248 legacy/init.php:265
+msgid "Twice a Month"
+msgstr "Dwa razy na miesiąc"
+
+#: legacy/includes/admin/db-upgrade.php:100
+msgid "Failed to delete old DB tables. Database error : %s"
+msgstr "Nie udało się usunąć starych tabel bazy danych. Błąd: %s"
+
+#: legacy/includes/admin/links-page-js.php:64
+#: legacy/includes/admin/links-page-js.php:659
+msgid "Wait..."
+msgstr "Czekaj..."
+
+#: legacy/core/core.php:552 legacy/includes/admin/links-page-js.php:111
+#: legacy/includes/admin/table-printer.php:719
+msgid "Not broken"
+msgstr "Działający"
+
+#: legacy/includes/admin/links-page-js.php:528
+msgid "%d instances of the link were successfully modified."
+msgstr "%d wystąpień linka zosta pomyślnie zmodyfikowanych"
+
+#: legacy/includes/admin/links-page-js.php:534
+msgid "However, %d instances couldn't be edited and still point to the old URL."
+msgstr "Jednakże, %d wystąpień nie mogło został edytowanych i nadal prowadzą do starego URLa."
+
+#: legacy/includes/admin/links-page-js.php:540
+msgid "The link could not be modified."
+msgstr "Link nie mógł zostać zmodyfikowany."
+
+#: legacy/includes/admin/links-page-js.php:708
+msgid "The following error(s) occured :"
+msgstr "Wystąpiły następujące błedy:"
+
+#: legacy/includes/admin/links-page-js.php:694
+msgid "%d instances of the link were successfully unlinked."
+msgstr "%d wystąpień linka zostało pomyślnie odlinkowanych"
+
+#: legacy/includes/admin/links-page-js.php:700
+msgid "However, %d instances couldn't be removed."
+msgstr "Jednakże, %d wystąpień nie można było usunąć"
+
+#: legacy/includes/admin/links-page-js.php:705
+msgid "The plugin failed to remove the link."
+msgstr "Nie udało się usunąć linku"
+
+#: legacy/includes/admin/links-page-js.php:756
+msgid "Enter a name for the new custom filter"
+msgstr "Podaj nazwę dla nowego filtra"
+
+#: legacy/includes/admin/links-page-js.php:768
+msgid ""
+"You are about to delete the current filter.\n"
+"'Cancel' to stop, 'OK' to delete"
+msgstr ""
+"Masz zamiar usunąć bieżący filtr.\n"
+"'Anuluj' aby przerwać, 'OK' aby usunąć"
+
+#: legacy/includes/admin/links-page-js.php:792
+msgid ""
+"Are you sure you want to delete all posts, bookmarks or other items that contain any of the selected links? This action can't be undone.\n"
+"'Cancel' to stop, 'OK' to delete"
+msgstr ""
+"Czy na pewno usunąć wszystkie wpisy, zakładki i inne rzeczy, zawierające wybrane linki? Nie da się ich później przywrócić.\n"
+"'Anuluj' aby przerwać, 'OK' aby usunąć"
+
+#: legacy/includes/admin/links-page-js.php:806
+msgid ""
+"Are you sure you want to remove the selected links? This action can't be undone.\n"
+"'Cancel' to stop, 'OK' to remove"
+msgstr ""
+"Czy na pewno usunąć zaznaczone linki? Nie da się je później przywrócić.\n"
+"'Anuluj' aby przerwać, 'OK' aby usunąć"
+
+#: legacy/includes/admin/links-page-js.php:936
+msgid "Enter a search string first."
+msgstr "Najpiew podaj szukany ciąg znaków"
+
+#: legacy/includes/admin/links-page-js.php:943
+msgid "Select one or more links to edit."
+msgstr "Wybierz jeden lub więcej linków o edycji"
+
+#: legacy/includes/admin/options-page-js.php:54
+msgid "Hide debug info"
+msgstr "Ukryj informacje debug"
+
+#: legacy/includes/admin/search-form.php:16
+msgid "Save This Search As a Filter"
+msgstr "Zapisz to wyszukania jako Filtr"
+
+#: legacy/includes/admin/search-form.php:26
+msgid "Delete This Filter"
+msgstr "Usuń ten filtr"
+
+#: legacy/includes/admin/search-form.php:32 legacy/includes/link-query.php:81
+msgid "Search"
+msgstr "Szukaj"
+
+#: legacy/includes/admin/search-form.php:48
+#: legacy/includes/admin/table-printer.php:559
+msgid "HTTP code"
+msgstr "Kod HTTP"
+
+#: legacy/includes/admin/search-form.php:51
+msgid "Link status"
+msgstr "Status linku"
+
+#: legacy/includes/admin/search-form.php:68
+#: legacy/includes/admin/search-form.php:85
+msgid "Link type"
+msgstr "Typ linku"
+
+#: legacy/includes/admin/search-form.php:74
+msgid "Links used in"
+msgstr "Linki użyte w"
+
+#: legacy/includes/admin/search-form.php:113
+#: legacy/includes/admin/table-printer.php:375
+#: legacy/includes/admin/table-printer.php:779
+#: legacy/includes/admin/table-printer.php:904
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: legacy/includes/admin/table-printer.php:192
+msgid "Compact View"
+msgstr "Zwięźle"
+
+#: legacy/includes/admin/table-printer.php:197
+msgid "Detailed View"
+msgstr "Szczegółowo"
+
+#: legacy/includes/admin/table-printer.php:227
+msgid "Source"
+msgstr "Źródło"
+
+#: legacy/core/core.php:554 legacy/includes/admin/table-printer.php:293
+#: legacy/includes/admin/table-printer.php:739
+msgid "Recheck"
+msgstr "Sprawdź ponownie"
+
+#: legacy/includes/admin/table-printer.php:294
+msgid "Fix redirects"
+msgstr "Napraw przekierowania"
+
+#: legacy/includes/admin/table-printer.php:295
+msgid "Mark as not broken"
+msgstr "Oznacz jako działający"
+
+#: legacy/includes/admin/table-printer.php:300
+msgid "Move sources to Trash"
+msgstr "Przenieś źródła do Kosza"
+
+#: legacy/includes/admin/table-printer.php:302
+msgid "Delete sources"
+msgstr "Usuń źródła"
+
+#: legacy/includes/admin/table-printer.php:318
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: legacy/includes/admin/table-printer.php:319
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: legacy/includes/admin/table-printer.php:351
+msgid "Bulk Edit URLs"
+msgstr "Masowa edycja URLi"
+
+#: legacy/includes/admin/table-printer.php:353
+msgid "Find"
+msgstr "Znajdź"
+
+#: legacy/includes/admin/table-printer.php:357
+msgid "Replace with"
+msgstr "Zamień na"
+
+#: legacy/includes/admin/table-printer.php:369
+msgid "Regular expression"
+msgstr "Wyrażenie regularne"
+
+#: legacy/includes/admin/table-printer.php:536
+msgid "Post published on"
+msgstr "Data publikacji wpisu"
+
+#: legacy/includes/admin/table-printer.php:543
+msgid "Link last checked"
+msgstr "Link ostatnio sprawdzony"
+
+#: legacy/core/core.php:1596 legacy/includes/admin/table-printer.php:548
+msgid "Never"
+msgstr "Nigdy"
+
+#: legacy/includes/admin/table-printer.php:566
+msgid "Response time"
+msgstr "Czas odpowiedzi"
+
+#: legacy/includes/admin/table-printer.php:569
+msgid "%2.3f seconds"
+msgstr "%2.3f sekund"
+
+#: legacy/includes/admin/table-printer.php:573
+msgid "Final URL"
+msgstr "Docelowy URL"
+
+#: legacy/includes/admin/table-printer.php:580
+msgid "Redirect count"
+msgstr "Ilość przekierować"
+
+#: legacy/includes/admin/table-printer.php:587
+msgid "Instance count"
+msgstr "Licznik"
+
+#: legacy/includes/admin/table-printer.php:598
+msgid "This link has failed %d time."
+msgid_plural "This link has failed %d times."
+msgstr[0] "Ten link nie działał %d raz."
+msgstr[1] "Ten link nie działał %d razy."
+msgstr[2] ""
+
+#: legacy/includes/admin/table-printer.php:606
+msgid "This link has been broken for %s."
+msgstr "Ten link nie działa przez %s"
+
+#: legacy/includes/admin/table-printer.php:644
+#: legacy/includes/admin/table-printer.php:688
+msgid "Show more info about this link"
+msgstr "Pokaż więcej informacji o tym linku"
+
+#: legacy/includes/admin/table-printer.php:677
+msgid "Broken for"
+msgstr "Niedziałający przez"
+
+#: legacy/includes/admin/table-printer.php:712
+msgid "Remove this link from all posts"
+msgstr "Usuń ten link ze wszyskich wpisów"
+
+#: legacy/includes/admin/table-printer.php:718
+msgid "Remove this link from the list of broken links and mark it as valid"
+msgstr "Usuń ten link z listy niedziałających linków i oznacz jako poprawny"
+
+#: legacy/includes/admin/table-printer.php:780
+msgid "Update URL"
+msgstr "Zaktualizuj URL"
+
+#: legacy/includes/admin/table-printer.php:807
+msgid "[An orphaned link! This is a bug.]"
+msgstr "[Porzucony link! To jest bug.]"
+
+#: legacy/includes/any-post.php:486 legacy/modules/containers/acf_field.php:248
+#: legacy/modules/containers/blogroll.php:46
+#: legacy/modules/containers/comment.php:159
+#: legacy/modules/containers/custom_field.php:252
+msgid "Edit"
+msgstr "Edytuj"
+
+#: legacy/includes/any-post.php:496 legacy/modules/containers/acf_field.php:252
+#: legacy/modules/containers/custom_field.php:260
+msgid "Trash"
+msgstr "Kosz"
+
+#: legacy/includes/any-post.php:503 legacy/modules/containers/acf_field.php:254
+#: legacy/modules/containers/blogroll.php:47
+#: legacy/modules/containers/custom_field.php:267
+msgid "Delete"
+msgstr "Usuń"
+
+#: legacy/includes/any-post.php:622
+msgid "Updating post %d failed"
+msgstr "Nie udało się zaktualizować wpisu %d"
+
+#: legacy/core/core.php:1199
+msgctxt "settings page"
+msgid "Warnings"
+msgstr "Ostrzeżenia"
+
+#: legacy/core/core.php:1187
+msgctxt "settings page"
+msgid "Suggestions"
+msgstr "Sugestie"
+
+#: legacy/core/core.php:3326
+msgctxt "for the \"Detected X unique URLs in Y links\" message"
+msgid "%d link"
+msgid_plural "%d links"
+msgstr[0] "%d link"
+msgstr[1] "%d linki"
+msgstr[2] "%d linków"
+
+#: legacy/core/core.php:2735
+msgctxt "a link from the admin notice under Tools - Broken links - Warnings"
+msgid "Change warning settings"
+msgstr "Zmień ustawienia ostrzeżeń"
+
+#: legacy/core/core.php:1548
+msgid "Enable logging"
+msgstr "Włącz logowanie"
+
+#: legacy/core/core.php:1542
+msgid "Logging"
+msgstr "Logowanie"
+
+#: legacy/core/core.php:1420
+msgctxt "dashboard widget visibility"
+msgid "Administrator"
+msgstr "Administrator"
+
+#: legacy/includes/admin/table-printer.php:689
+msgctxt "link in the \"Status\" column"
+msgid "Details"
+msgstr "Szczegóły"
+
+#: legacy/includes/admin/table-printer.php:887
+msgctxt "inline link editor"
+msgid "Text"
+msgstr "Tekst"
+
+#: legacy/core/core.php:555 legacy/includes/admin/table-printer.php:747
+msgctxt "link action; replace one redirect with a direct link"
+msgid "Fix redirect"
+msgstr "Napraw przekierowanie"
+
+#: legacy/core/core.php:1024
+msgid "Notification e-mail address"
+msgstr "Adres e-mail do powiadomień"
+
+#: legacy/core/core.php:1036
+msgid "Leave empty to use the e-mail address specified in Settings &rarr; General."
+msgstr "Pozostaw puste, by użyć adresu ustawionego w Ustawienia &rarr; Ogólne."
+
+#: legacy/core/core.php:1106
+msgid "Example : Lorem ipsum <a %s>broken link</a>, dolor sit amet."
+msgstr "Przykład: Lorem ipsum <a %s>broken link</a>, dolor sit amet."
+
+#: legacy/core/core.php:1109 legacy/core/core.php:1154
+msgid "Click \"Save Changes\" to update example output."
+msgstr "Kliknij \"Zapisz zmiany\", by zaktualizować."
+
+#: legacy/core/core.php:1151
+msgid "Example : Lorem ipsum <span %s>removed link</span>, dolor sit amet."
+msgstr "Przykład: Lorem ipsum <span %s>removed link</span>, dolor sit amet."
+
+#: legacy/core/core.php:1193
+msgid "Suggest alternatives to broken links"
+msgstr "Sugeruj zamienniki do błędnych linków"
+
+#: legacy/core/core.php:1204
+msgid "Show uncertain or minor problems as \"warnings\" instead of \"broken\""
+msgstr "Pokaż niepewne lub drobne problemy jako \"ostrzeżenia\" zamiast \"uszkodzone\""
+
+#: legacy/core/core.php:1208
+msgid "Turning off this option will make the plugin report all problems as broken links."
+msgstr "Wyłączenie tej opcji spowoduje, że wtyczka zgłosi wszystkie problemy jako uszkodzone linki."
+
+#: legacy/core/core.php:1415
+msgid "Show the dashboard widget for"
+msgstr "Pokaż widżet w panelu administracyjnym dla"
+
+#: legacy/core/core.php:1421
+msgctxt "dashboard widget visibility"
+msgid "Editor and above"
+msgstr "Wydawca i wyżej"
+
+#: legacy/core/core.php:1422
+msgctxt "dashboard widget visibility"
+msgid "Nobody (disables the widget)"
+msgstr "Nikt (wyłącza widżet)"
+
+#: legacy/core/core.php:1522
+msgid "Target resource usage"
+msgstr "Docelowe wykorzystanie zasobów"
+
+#: legacy/core/core.php:1555
+msgid "Log file location"
+msgstr "Lokalizacja pliku logów"
+
+#: legacy/includes/admin/links-page-js.php:371
+msgctxt "link text"
+msgid "(Multiple links)"
+msgstr "(wiele linków)"
+
+#: legacy/includes/admin/links-page-js.php:430
+msgctxt "link suggestions"
+msgid "No suggestions available."
+msgstr "Brak dostępnych sugestii."
+
+#: legacy/includes/admin/links-page-js.php:543
+msgid "The following error(s) occurred :"
+msgstr "Wystąpiły następujące błędy: "
+
+#: legacy/includes/admin/table-printer.php:733
+msgid "Undismiss"
+msgstr "Przywróć"
+
+#: legacy/includes/admin/table-printer.php:746
+msgid "Replace this redirect with a direct link"
+msgstr "Zastąp przekierowanie linkiem bezpośrednim"
+
+#: legacy/includes/admin/table-printer.php:897
+msgctxt "inline link editor"
+msgid "Suggestions"
+msgstr "Sugestie"
+
+#: legacy/core/init.php:321 legacy/init.php:354
+msgid "Broken Link Checker installation failed. Try deactivating and then reactivating the plugin."
+msgstr "Nie powiodła się instalacja wtyczki: Broken Link Checker. Proszę spróbować ją wyłączyć i włączyć jeszcze raz."
+
+#: legacy/includes/admin/links-page-js.php:431
+msgctxt "link suggestions"
+msgid "Archived page from %s (via the Wayback Machine)"
+msgstr "Zarchiwizowana strona z %s (za pomocą Wayback Machine)"
+
+#: legacy/includes/admin/links-page-js.php:615
+msgid "Error: Link URL must not be empty."
+msgstr "Błąd: Odnośnik nie może być pusty."
+
+#: legacy/includes/admin/table-printer.php:240
+msgid "Redirect URL"
+msgstr "Adres URL przekierowania"
+
+#: legacy/includes/admin/table-printer.php:710
+msgid "Edit this link"
+msgstr "Edytuj odnośnik"
+
+#: legacy/includes/admin/table-printer.php:726
+msgid "Hide this link and do not report it again unless its status changes"
+msgstr "Ukryj ten odnośnik i nie zgłaszaj go więcej, aż do zmiany jego statusu"
+
+#: legacy/includes/admin/table-printer.php:732
+msgid "Undismiss this link"
+msgstr "Przywróć odnośnik"
+
+#: legacy/includes/admin/table-printer.php:917
+msgid "Use this URL"
+msgstr "Użyj adresu URL"
+
+#: legacy/core/core.php:1564
+msgctxt "log file location"
+msgid "Default"
+msgstr "Domyślny"
+
+#: legacy/core/core.php:4248
+msgid "Link URL : <a href=\"%1$s\">%2$s</a>"
+msgstr "Adres URL: <a href=\"%1$s\">%2$s</a>"
+
+#: legacy/includes/admin/table-printer.php:328
+msgid "Displaying %1$s&#8211;%2$s of <span class=\"current-link-count\">%3$s</span>"
+msgstr "Wyświetlanie %1$s&#8211;%2$s z <span class=\"current-link-count\">%3$s</span>"
+
+#: legacy/includes/any-post.php:683 legacy/modules/containers/acf_field.php:327
+#: legacy/modules/containers/custom_field.php:341
+msgid "Failed to delete post \"%1$s\" (%2$d)"
+msgstr "Nie udało się usunąć wpisu \"%1$s\" (%2$d)"
+
+#: legacy/core/core.php:850
+msgid "Settings saved."
+msgstr "Ustawienia zostały zapisane."
+
+#: legacy/includes/any-post.php:525 legacy/modules/containers/acf_field.php:258
+#: legacy/modules/containers/comment.php:172
+#: legacy/modules/containers/custom_field.php:272
+msgid "View"
+msgstr "Zobacz"
+
+#: legacy/includes/admin/search-form.php:112
+msgid "Search Links"
+msgstr "Szukaj odnośników"
+
+#: legacy/includes/any-post.php:516
+msgid "Preview &#8220;%s&#8221;"
+msgstr "Podejrzyj &#8222;%s&#8221;"
+
+#: legacy/includes/any-post.php:524
+msgid "View &#8220;%s&#8221;"
+msgstr "Zobacz &#8222;%s&#8221;"
+
+#: legacy/core/core.php:550 legacy/includes/admin/table-printer.php:292
+#: legacy/includes/admin/table-printer.php:710
+msgid "Edit URL"
+msgstr "Edytuj adres URL"
+
+#: legacy/core/core.php:551 legacy/includes/admin/links-page-js.php:716
+#: legacy/includes/admin/table-printer.php:297
+#: legacy/includes/admin/table-printer.php:713
+msgid "Unlink"
+msgstr "Usuń odnośnik"
+
+#: app/admin-notices/multisite/class-view.php:64 legacy/core/core.php:553
+#: legacy/includes/admin/table-printer.php:296
+#: legacy/includes/admin/table-printer.php:727
+msgid "Dismiss"
+msgstr "Odrzuć"
+
+#: legacy/includes/admin/search-form.php:45
+#: legacy/includes/admin/table-printer.php:220
+msgid "URL"
+msgstr "Adres URL"
+
+#: legacy/core/core.php:1176
+msgctxt "\"Link tweaks\" settings"
+msgid "These settings only apply to the content of posts, not comments or custom fields."
+msgstr "Ustawienia dotyczą tylko treści wpisów, a nie komentarzy i własnych pól."
+
+#: legacy/core/core.php:2729
+msgctxt "admin notice under Tools - Broken links - Warnings"
+msgid "Hide notice"
+msgstr "Ukryj powiadomienie"
+
+#: legacy/core/core.php:3322
+msgctxt "for the \"Detected X unique URLs in Y links\" message"
+msgid "%d unique URL"
+msgid_plural "%d unique URLs"
+msgstr[0] "%d unikatowy adres URL"
+msgstr[1] "%d unikatowe adresy URL"
+msgstr[2] "%d unikatowych adresów URL"
+
+#: legacy/core/core.php:3332
+msgid "Detected %1$s in %2$s and still searching..."
+msgstr "Wykryto %1$s z %2$s i nadal szukam..."
+
+#: legacy/core/core.php:3338
+msgid "Detected %1$s in %2$s."
+msgstr "Wykryto %1$s z %2$s."
+
+#: legacy/core/core.php:3586
+msgid "An unexpected error occurred!"
+msgstr "Wystąpił nieoczekiwany błąd!"
+
+#: legacy/core/core.php:4321
+msgid "Broken Link Checker has detected %d new broken link in your posts."
+msgid_plural "Broken Link Checker has detected %d new broken links in your posts."
+msgstr[0] "Broken Link Checker znalazł %d nowy, popsuty odnośnik we wpisach."
+msgstr[1] "Broken Link Checker znalazł %d nowe, popsute odnośniki we wpisach."
+msgstr[2] "Broken Link Checker znalazł %d nowych, popsutych odnośników we wpisach."
+
+#: legacy/core/core.php:2654
+msgid "%d link dismissed"
+msgid_plural "%d links dismissed"
+msgstr[0] "%d odnośnik został odrzucony"
+msgstr[1] "%d odnośniki zostały odrzucone"
+msgstr[2] "%d odnośników zostało odrzucone"
+
+#: legacy/core/core.php:1017
+msgid "Send authors e-mail notifications about broken links in their posts"
+msgstr "Powiadom mailem autora o błędnych odnośnikach we wpisach"
+
+#: legacy/core/core.php:1438
+msgctxt "settings page"
+msgid "Show link actions"
+msgstr "Pokaż akcje dla odnośników"
+
+#: legacy/core/core.php:1798
+msgid "Enter the names of custom fields you want to check (one per line). If a field contains HTML code, prefix its name with <code>html:</code>. For example, <code>html:field_name</code>."
+msgstr "Podaj nazwy własnych pól, do sprawdzenia (jedno w linii). Jeśli pole zawiera kod HTML, poprzedź jego nazwę <code>html:</code>. Na przykład, <code>html:field_name</code>."
+
+#: legacy/core/core.php:2724
+msgid "The \"Warnings\" page lists problems that are probably temporary or suspected to be false positives.<br> Warnings that persist for a long time will usually be reclassified as broken links."
+msgstr "Strona \"Ostrzeżenia\" zawiera listę problemów prawdopodobnie tymczasowych lub podejrzewanych o fałszywe alarmy.<br>  Ostrzeżenia, które utrzymują się przez dłuższy czas, zwykle zostaną przeklasyfikowane jako uszkodzone odnośniki."
+
+#: legacy/core/core.php:245 legacy/includes/admin/links-page-js.php:45
+msgid "Loading..."
+msgstr "Wczytywanie…"
+
+#: legacy/includes/any-post.php:501 legacy/modules/containers/acf_field.php:254
+#: legacy/modules/containers/custom_field.php:265
+msgid "Delete this item permanently"
+msgstr "Usuń wybrany element"
+
+#: legacy/includes/admin/links-page-js.php:429
+msgctxt "link suggestions"
+msgid "Searching..."
+msgstr "Szukam…"
+
+#: legacy/core/core.php:1365 legacy/core/core.php:1462
+#: legacy/core/core.php:4031
+msgid "%s seconds"
+msgstr "%s sekund"
+
+#: legacy/core/core.php:4037
+msgid "Database character set"
+msgstr "Zestaw znaków bazy danych"
+
+#: legacy/core/core.php:880
+msgid "General"
+msgstr "Ogólne"
+
+#: legacy/includes/admin/table-printer.php:892
+msgctxt "inline link editor"
+msgid "URL"
+msgstr "Adres URL"
+
+#: legacy/includes/admin/table-printer.php:378
+#: legacy/includes/admin/table-printer.php:905
+msgid "Update"
+msgstr "Aktualizuj"
+
+#: legacy/includes/any-post.php:494 legacy/modules/containers/acf_field.php:252
+#: legacy/modules/containers/custom_field.php:258
+msgid "Move this item to the Trash"
+msgstr "Przenieś element do kosza"
+
+#: legacy/includes/any-post.php:544 legacy/modules/containers/acf_field.php:248
+#: legacy/modules/containers/custom_field.php:252
+msgid "Edit this item"
+msgstr "Edytuj element"
+
+#: legacy/core/init.php:242 legacy/init.php:259
+msgid "Once Weekly"
+msgstr "Raz w tygodniu"
+
+#: legacy/includes/admin/search-form.php:70
+msgid "Any"
+msgstr "Dowolne"
+
+#: legacy/includes/admin/search-form.php:42
+msgid "Link text"
+msgstr "Treść odnośnika"
+
+#: legacy/includes/admin/table-printer.php:662
+msgctxt "checked how long ago"
+msgid "Checked"
+msgstr "Sprawdzono"
+
+#: legacy/core/core.php:2791
+msgid "Misc"
+msgstr "Różne"
+
+#: legacy/core/core.php:3373
+msgctxt "current load"
+msgid "Unknown"
+msgstr "Nieznane"
+
+#: legacy/core/core.php:3981
+msgid "Installed"
+msgstr "Zainstalowano"
+
+#: legacy/includes/admin/table-printer.php:884
+msgctxt "inline editor title"
+msgid "Edit Link"
+msgstr "Edytuj odnośnik"
+
+#: legacy/includes/any-post.php:517
+msgid "Preview"
+msgstr "Podgląd"
+
+#: legacy/core/core.php:1580
+msgctxt "log file location"
+msgid "Custom"
+msgstr "Własne"
+
+#: legacy/includes/admin/table-printer.php:365
+msgid "Case sensitive"
+msgstr "Rozróżnianie wielkości liter"
+
+#: legacy/core/core.php:2786
+msgid "links"
+msgstr "odnośniki"
+
+#: legacy/includes/admin/table-printer.php:617
+msgid "Log"
+msgstr "Dziennik"
+
+#: legacy/core/core.php:3972 legacy/core/core.php:3988
+#: legacy/core/core.php:3993
+msgid "Not installed"
+msgstr "Nie zainstalowano"
+
+#: app/emails/scan-report/class-view.php:167 legacy/core/core.php:939
+#: legacy/includes/admin/table-printer.php:215
+msgid "Status"
+msgstr "Status"
+
+#: legacy/includes/admin/links-page-js.php:370
+msgctxt "link text"
+msgid "(None)"
+msgstr "(brak)"
+
+#: legacy/core/core.php:1690
+msgid "Configure"
+msgstr "Konfiguruj"
+
+#: legacy/includes/any-post.php:608 legacy/modules/containers/blogroll.php:83
+#: legacy/modules/containers/comment.php:43
+msgid "Nothing to update"
+msgstr "Nic do aktualizacji"
+
+#: legacy/core/core.php:991
+msgid "E-mail notifications"
+msgstr "Powiadomienia e-mail"
+
+#: app/action-links/plugin/class-controller.php:99
+#: app/admin-pages/local-submenu/class-view.php:66
+#: app/emails/scan-report/class-controller.php:80
+#: app/emails/scan-report/class-view.php:164 legacy/core/core.php:431
+#: legacy/core/core.php:432 legacy/includes/link-query.php:37
+msgid "Broken Links"
+msgstr "Niedziałające odnośniki"
+
+#: legacy/core/core.php:4010 legacy/core/core.php:4024
+msgid "Off"
+msgstr "Wyłączono"
+
+#: legacy/includes/admin/table-printer.php:233
+msgid "Link Text"
+msgstr "Treść odnośnika"
+
+#: legacy/includes/admin/table-printer.php:291
+msgid "Bulk Actions"
+msgstr "Działania zbiorcze"

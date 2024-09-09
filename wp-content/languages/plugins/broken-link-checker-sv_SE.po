@@ -1,0 +1,2209 @@
+# Translation of Plugins - Broken Link Checker - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - Broken Link Checker - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-03-06 10:03:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Broken Link Checker - Stable (latest release)\n"
+
+#: app/action-links/plugin/class-controller.php:79
+#: core/views/class-admin-page.php:121 core/views/class-admin-page.php:135
+msgid "Docs"
+msgstr "Dokumentation"
+
+#: app/admin-modals/legacy/class-controller.php:216
+#: app/admin-modals/local/class-controller.php:180
+#: app/admin-pages/cloud-page/class-controller.php:267
+msgid "Something went wrong here."
+msgstr "Något gick fel här."
+
+#: app/emails/recipient-activation/class-controller.php:81
+#: app/emails/scan-report/class-controller.php:70
+msgid "Hi {{USERNAME}}"
+msgstr "Hej {{USERNAME}}"
+
+#: app/emails/recipient-activation/class-controller.php:85
+msgid "Confirm Subscription"
+msgstr "Bekräfta prenumeration"
+
+#: app/emails/recipient-activation/class-controller.php:96
+#: app/emails/scan-report/class-controller.php:110
+msgid "Unsubscribe"
+msgstr "Avsluta prenumeration"
+
+#: app/emails/recipient-activation/class-model.php:106
+#: app/emails/scan-report/class-view.php:229
+msgid "Follow us"
+msgstr "Följ oss"
+
+#: app/emails/recipient-activation/class-model.php:47
+msgid "Broken Link Notification"
+msgstr "Avisering om brutna länkar"
+
+#: app/emails/scan-report/class-controller.php:180
+#: app/virtual-posts/recipient-activation/class-controller.php:29
+msgid "Broken links reports"
+msgstr "Rapporter för brutna länkar"
+
+#: app/emails/scan-report/class-controller.php:69
+msgid "Broken Link Report for"
+msgstr "Rapport om brutna länkar för"
+
+#: app/emails/scan-report/class-controller.php:76
+msgid "Summary"
+msgstr "Sammanfattning"
+
+#: app/emails/scan-report/class-controller.php:77
+msgid "Here are your latest broken link test results."
+msgstr "Här är ditt senaste testresultat för brutna länkar."
+
+#: app/emails/scan-report/class-controller.php:86
+msgid "Total Links"
+msgstr "Totalt antal länkar"
+
+#: app/emails/scan-report/class-controller.php:89
+msgid "Unique URLs"
+msgstr "Unika URL:er"
+
+#: app/emails/scan-report/class-controller.php:95
+msgid "Broken link report"
+msgstr "Rapport om brutna länkar"
+
+#: app/emails/scan-report/class-controller.php:98
+msgid "View Full Report"
+msgstr "Visa fullständig rapport"
+
+#: app/emails/scan-report/class-controller.php:98
+msgid "View Report"
+msgstr "Visa rapport"
+
+#: app/emails/scan-report/class-model.php:61
+msgid "BLC Report"
+msgstr "BLC-rapport"
+
+#: app/emails/scan-report/class-view.php:103
+msgid "Unknown"
+msgstr "Okänt"
+
+#: app/emails/scan-report/class-view.php:170
+msgid "Source URL"
+msgstr "Käll-URL"
+
+#: app/rest-endpoints/avatars/class-controller.php:87
+msgid "Avatar url"
+msgstr "Profilbilds-URL"
+
+#: app/rest-endpoints/avatars/class-controller.php:92
+msgid "Invalid email address"
+msgstr "Ogiltig e-postadress"
+
+#: app/rest-endpoints/settings/class-controller.php:262
+msgid "Settings saved"
+msgstr "Inställningar sparades"
+
+#: app/rest-endpoints/settings/class-controller.php:552
+msgid "You cannot view settings."
+msgstr "Du kan inte visa inställningar."
+
+#: app/rest-endpoints/settings/class-controller.php:590
+msgid "Action forbidden."
+msgstr "Åtgärd förbjuden."
+
+#. translators: 1. The Hours of the datetime.
+#: core/utils/class-utilities.php:872
+msgid "%d h "
+msgid_plural "%d h "
+msgstr[0] "%d tim "
+msgstr[1] "%d tim "
+
+#. translators: 1. The Minutes of the datetime.
+#: core/utils/class-utilities.php:884
+msgid "%d min "
+msgid_plural "%d min "
+msgstr[0] "%d min "
+msgstr[1] "%d min "
+
+#. translators: 1. The Seconds of the datetime.
+#: core/utils/class-utilities.php:895
+msgid "%d s "
+msgid_plural "%d s "
+msgstr[0] "%d sek "
+msgstr[1] "%d sek "
+
+#: core/utils/class-utilities.php:956
+msgctxt "date time sep"
+msgid " "
+msgstr " "
+
+#: core/views/class-admin-page.php:117 core/views/class-admin-page.php:136
+msgid "The Hub"
+msgstr "The Hub"
+
+#: core/views/class-admin-page.php:118
+msgid "Plugins"
+msgstr "Tillägg"
+
+#: core/views/class-admin-page.php:119 core/views/class-admin-page.php:133
+msgid "Roadmap"
+msgstr "Utvecklingsbeskrivning"
+
+#: core/views/class-admin-page.php:120 core/views/class-admin-page.php:134
+msgid "Support"
+msgstr "Support"
+
+#: core/views/class-admin-page.php:122
+msgid "Community"
+msgstr "Community"
+
+#: core/views/class-admin-page.php:123 core/views/class-admin-page.php:137
+msgid "Terms of Service"
+msgstr "Användarvillkor"
+
+#: core/views/class-admin-page.php:124 core/views/class-admin-page.php:138
+msgid "Privacy Policy"
+msgstr "Integritetspolicy"
+
+#: core/views/class-admin-page.php:131
+msgid "Free Plugins"
+msgstr "Gratis tillägg"
+
+#: core/views/class-admin-page.php:132
+msgid "Membership"
+msgstr "Medlemskap"
+
+#: core/views/class-admin-page.php:67
+msgid "View Documentation"
+msgstr "Visa dokumentationen"
+
+#: legacy/core/core.php:408
+msgid "Broken Links (Old)"
+msgstr "Brutna länkar (gamla)"
+
+#: core/models/class-http-request.php:93
+msgid "Missing url."
+msgstr "Saknar URL."
+
+#. translators: %s - icon
+#: core/views/class-admin-page.php:96
+msgid "Made with %s by WPMU DEV"
+msgstr "Gjort med %s av WPMU DEV"
+
+#: app/rest-endpoints/settings/includes/class-schema.php:86
+msgid "User role name"
+msgstr "Namn på användarroll"
+
+#: app/rest-endpoints/settings/includes/class-schema.php:90
+msgid "User role label"
+msgstr "Etikett för användarroll"
+
+#: app/rest-endpoints/avatars/class-controller.php:157
+#: app/rest-endpoints/scan/class-controller.php:198
+#: app/rest-endpoints/settings/includes/class-schema.php:99
+msgid "Response message."
+msgstr "Svarsmeddelande."
+
+#: app/webhooks/scan-complete/class-controller.php:66
+msgid "Scan results"
+msgstr "Genomsökningsresultat"
+
+#: app/rest-endpoints/scan/class-controller.php:188
+msgid "The scan status."
+msgstr "Genomsökningens status."
+
+#: app/http-requests/sync-scan-results/class-controller.php:251
+msgid "Scan completed successfully."
+msgstr "Genomsökningen har genomförts."
+
+#: app/http-requests/sync-scan-results/class-controller.php:347
+msgid "Scan is currently in progress. Please try again in a few minutes."
+msgstr "En genomsökning pågår redan. Försök igen senare om några minuter."
+
+#: app/rest-endpoints/scan/class-controller.php:154
+msgid "You are not allowed to start a new scan."
+msgstr "Du har inte behörighet att starta en ny genomsökning."
+
+#: app/http-requests/scan/class-controller.php:244
+msgid "Scan is currently in progress. Please try again in 15 minutes."
+msgstr "En genomsökning pågår redan. Försök igen om 15 minuter."
+
+#: app/rest-endpoints/scan/class-controller.php:203
+msgid "Scan response data/results."
+msgstr "Svarsdata/resultat för genomsökning."
+
+#: app/http-requests/scan/class-controller.php:156
+msgid "Scan for Broken Links is in progress. Please wait a few minutes until scan completes."
+msgstr "Genomsökning för brutna länkar pågår. Vänta några minuter tills genomsökningen slutförs."
+
+#: app/http-requests/scan/class-controller.php:243
+#: app/http-requests/sync-scan-results/class-controller.php:346
+msgid "Something went wrong with request."
+msgstr "Något gick fel med förfrågan."
+
+#: app/http-requests/sync-scan-results/class-controller.php:258
+msgid "Data successfully updated."
+msgstr "Data har uppdaterats."
+
+#: app/rest-endpoints/avatars/class-controller.php:118
+msgid "You can not fetch avatars."
+msgstr "Du kan inte hämta profilbilder."
+
+#: app/rest-endpoints/settings/includes/class-schema.php:69
+msgid "All BLC settings."
+msgstr "Alla BLC-inställningar."
+
+#: app/rest-endpoints/settings/includes/class-schema.php:78
+msgid "Use legacy BLC"
+msgstr "Använd äldre BLC"
+
+#. Description of the plugin
+msgid "Checks your blog for broken links and notifies you on the dashboard if any are found."
+msgstr "Kontrollerar om det finns brutna länkar i din blogg och meddelar dig via adminpanelen om några har hittats."
+
+#: app/action-links/plugin/class-controller.php:75
+msgid "Cloud"
+msgstr "Moln"
+
+#: app/action-links/plugin/class-controller.php:77
+msgid "Local"
+msgstr "Lokal"
+
+#: app/admin-notices/features/class-view.php:40 assets/dist/welcome.js:1
+msgid "Introducing Edit Link and Unlink features in Broken Link Checker!"
+msgstr "Vi introducerar funktionerna Redigera länk och Ta bort länk i Broken Link Checker!"
+
+#: app/admin-pages/cloud-submenu/class-controller.php:68
+msgid "Cloud [new]"
+msgstr "Moln [ny]"
+
+#: app/admin-pages/local-submenu/class-controller.php:80
+msgid "Local [old]"
+msgstr "Lokal [gammal]"
+
+#: app/broken-links-actions/class-link.php:269
+msgid "Missing origins"
+msgstr "Saknat ursprung"
+
+#: app/broken-links-actions/class-router.php:139
+msgid "Empty link"
+msgstr "Tom länk"
+
+#: app/broken-links-actions/class-router.php:181
+msgid "Aborting as there are no links"
+msgstr "Avbryter eftersom det inte finns några länkar"
+
+#: app/broken-links-actions/class-router.php:92
+msgid "Something went wrong"
+msgstr "Något gick fel"
+
+#: app/broken-links-actions/processors/class-main.php:432
+msgid "Unmapped action"
+msgstr "Åtgärd som inte omfattas"
+
+#: app/emails/recipient-activation/class-controller.php:93
+#: app/emails/scan-report/class-controller.php:107
+msgid "Build A Better WordPress Business"
+msgstr "Bygg ett bättre WordPress-företag"
+
+#: app/http-requests/scan/class-controller.php:188
+#: app/http-requests/sync-scan-results/class-controller.php:291
+msgid "Can not make request."
+msgstr "Kan inte göra förfrågan."
+
+#: app/http-requests/sync-scan-results/class-controller.php:350
+msgid "Results are missing. Aborting importing data."
+msgstr "Resultat saknas. Avbryter import av data."
+
+#: app/hub-endpoints/edit-link/class-controller.php:37
+#: app/hub-endpoints/nofollow-link/class-controller.php:36
+#: app/hub-endpoints/unlink-link/class-controller.php:36
+#: core/controllers/class-hub-endpoint.php:95
+msgid "Something went wrong with this HTTP request"
+msgstr "Något gick fel med denna HTTP-förfrågan"
+
+#: app/rest-endpoints/avatars/class-controller.php:147
+msgid "Avatar by email."
+msgstr "Avatar via e-post."
+
+#: app/rest-endpoints/avatars/class-controller.php:162
+#: app/rest-endpoints/scan/class-controller.php:208
+#: app/rest-endpoints/settings/includes/class-schema.php:104
+msgid "Response status code."
+msgstr "Statuskod för svar."
+
+#: app/rest-endpoints/settings/class-controller.php:455
+msgid "Schedule frequency was not set"
+msgstr "Schemafrekvensen angavs inte"
+
+#: app/rest-endpoints/settings/includes/class-schema.php:117
+msgid "Response instructions."
+msgstr "Instruktioner för svar."
+
+#: app/webhooks/user-review/class-controller.php:75
+msgid "It seems there is some missing input"
+msgstr "Det verkar som om det saknas några uppgifter"
+
+#: app/webhooks/user-review/class-controller.php:76
+#: app/webhooks/user-review/class-controller.php:85
+msgid "Invalid action"
+msgstr "Ogiltig åtgärd"
+
+#: app/webhooks/user-review/class-controller.php:84
+msgid "No user found for given input data."
+msgstr "Ingen användare hittades för angivna indata."
+
+#: app/broken-links-actions/class-router.php:306
+msgid "Invalid sub-site id"
+msgstr "Ogiltigt ID för underwebbplats"
+
+#: app/rest-endpoints/settings/includes/class-schema.php:73
+msgid "Activation modal shown or not."
+msgstr "Aktiveringsmodal visad eller ej."
+
+#: app/webhooks/user-review/class-controller.php:59
+msgid "Review Broken Link Checker plugin"
+msgstr "Granska tillägget ”Broken Link Checker”"
+
+#: app/rest-endpoints/avatars/class-controller.php:152
+msgid "Auto-confirmed when email belongs to user."
+msgstr "Bekräftas automatiskt när e-post tillhör användaren."
+
+#: app/http-requests/sync-scan-results/class-controller.php:348
+msgid "Something went wrong while storing new data to DB. More likely there is nothing to update"
+msgstr "Något gick fel när nya data lagrades i databasen. Mer troligt är att det inte finns något att uppdatera"
+
+#: app/http-requests/sync-scan-results/class-controller.php:349
+msgid "The start time is missing. Aborting importing data."
+msgstr "Starttiden saknas. Avbryter import av data."
+
+#. Author URI of the plugin
+msgid "https://wpmudev.com/"
+msgstr "https://wpmudev.com/"
+
+#: legacy/core/core.php:1044
+msgctxt "settings page"
+msgid "Control external links"
+msgstr "Kontrollera externa länkar"
+
+#: legacy/core/core.php:1051
+msgid "Configure <a target=\"_blank\" href=\"%s\">External Links</a> settings."
+msgstr "Konfigurera inställningar för <a target=\"_blank\" href=\"%s\">externa länkar</a>."
+
+#: legacy/core/core.php:1060
+msgid "It's used on over 80,000 sites just like yours."
+msgstr "Den används på över 80 000 webbplatser precis som din."
+
+#: legacy/core/core.php:1056
+msgid "Install the free <a href=\"%s\" class=\"thickbox open-plugin-details-modal\">External Links plugin</a> to control if external links open in a new tab, and their nofollow, noopener and UGC options."
+msgstr "Installera gratistillägget <a href=\"%s\" class=\"thickbox open-plugin-details-modal\">External Links</a> för att hantera om externa länkar öppnas i en ny flik och deras alternativ för ”nofollow”, ”noopener” och ”UGC”."
+
+#: legacy/core/core.php:1234
+msgid "Post Modified Date"
+msgstr "Ändringsdatum för inlägg"
+
+#: legacy/core/core.php:1590
+msgid "Log file clear schedule"
+msgstr "Rensningsschema för loggfil"
+
+#: legacy/includes/admin/links-page-js.php:654
+msgid "Are you sure you want to unlink and remove this link from all posts?"
+msgstr "Är du säker på att du avlänka och ta bort den här länken från alla inlägg?"
+
+#: legacy/core/core.php:1239
+msgid "Disable post modified date change when link is edited"
+msgstr "Inaktivera ändring av inläggets ändringsdatum när en länk redigeras"
+
+#: legacy/modules/checkers/http.php:467
+msgid "Using WP HTTP"
+msgstr "Använder WP HTTP"
+
+#. Author of the plugin
+msgid "WPMU DEV"
+msgstr "WPMU DEV"
+
+#: legacy/core/core.php:1215
+msgid "YouTube API Key"
+msgstr "YouTube API-nyckel"
+
+#: legacy/core/core.php:1227
+msgid "Use your own %1$sapi key%2$s for checking youtube links."
+msgstr "Använd din egen %1$sapi-nyckel%2$s för att kontrollera YouTube-länkar."
+
+#: legacy/includes/link-query.php:47
+msgctxt "filter heading"
+msgid "Warnings"
+msgstr "Varningar"
+
+#: legacy/includes/any-post.php:833
+msgid "%1$d \"%2$s\" deleted."
+msgid_plural "%1$d \"%2$s\" deleted."
+msgstr[0] "%1$d ”%2$s” togs bort."
+msgstr[1] "%1$d ”%2$s” togs bort."
+
+#: legacy/core/init.php:235 legacy/init.php:252
+msgid "Every 10 minutes"
+msgstr "Var 10:e minut"
+
+#: legacy/core/core.php:1813
+msgid "Enter the keys of acf fields you want to check (one per line). If a field contains HTML code, prefix its name with <code>html:</code>. For example, <code>html:field_586a3eaa4091b</code>."
+msgstr "Ange nycklarna för de ACF-fält du vill kontrollera (en per rad). Om ett fält innehåller HTML-kod ska du ange <code>html:</code> före dess namn. Till exempel: <code>html:field_586a3eaa4091b</code>."
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/broken-link-checker/"
+msgstr "https://sv.wordpress.org/plugins/broken-link-checker/"
+
+#: legacy/includes/any-post.php:829
+msgid "%d post deleted."
+msgid_plural "%d posts deleted."
+msgstr[0] "%d inlägg borttaget."
+msgstr[1] "%d inlägg borttagna."
+
+#: legacy/includes/any-post.php:831
+msgid "%d page deleted."
+msgid_plural "%d pages deleted."
+msgstr[0] "%d sida borttagen."
+msgstr[1] "%d sidor borttagna."
+
+#: legacy/includes/containers.php:932 legacy/includes/containers.php:950
+msgid "Container type '%s' not recognized"
+msgstr "Behållartypen '%s' är okänd"
+
+#: legacy/includes/extra-strings.php:2
+msgctxt "module name"
+msgid "Basic HTTP"
+msgstr "Standard HTTP"
+
+#: legacy/includes/extra-strings.php:3
+msgctxt "module name"
+msgid "Blogroll items"
+msgstr "Länkmenyposter (Blogroll items)"
+
+#: legacy/includes/extra-strings.php:4
+msgctxt "module name"
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: legacy/includes/extra-strings.php:5
+msgctxt "module name"
+msgid "Custom fields"
+msgstr "Anpassade fält"
+
+#: legacy/includes/extra-strings.php:6
+msgctxt "module name"
+msgid "Embedded DailyMotion videos"
+msgstr "Inbäddade DailyMotion-videor"
+
+#: legacy/includes/extra-strings.php:7
+msgctxt "module name"
+msgid "Embedded GoogleVideo videos"
+msgstr "Inbäddade GoogleVideo-videor"
+
+#: legacy/includes/extra-strings.php:8
+msgctxt "module name"
+msgid "Embedded Vimeo videos"
+msgstr "Inbäddade Vimeo-videor"
+
+#: legacy/includes/extra-strings.php:9
+msgctxt "module name"
+msgid "Embedded YouTube playlists (old embed code)"
+msgstr "Inbäddade YouTube-spellistor (gammal inbäddningskod)"
+
+#: legacy/includes/extra-strings.php:10
+msgctxt "module name"
+msgid "Embedded YouTube videos"
+msgstr "Inbäddade YouTube-videor"
+
+#: legacy/includes/extra-strings.php:11
+msgctxt "module name"
+msgid "Embedded YouTube videos (old embed code)"
+msgstr "Inbäddade YouTube-videor (gammal inbäddningskod)"
+
+#: legacy/includes/extra-strings.php:12
+msgctxt "module name"
+msgid "HTML images"
+msgstr "HTML-bilder"
+
+#: legacy/includes/extra-strings.php:13
+msgctxt "module name"
+msgid "HTML links"
+msgstr "HTML-länkar"
+
+#: legacy/includes/extra-strings.php:14
+msgctxt "module name"
+msgid "MediaFire API"
+msgstr "MediaFire API"
+
+#: legacy/includes/extra-strings.php:15
+msgctxt "module name"
+msgid "Plaintext URLs"
+msgstr "Råtext-URL:er"
+
+#: legacy/includes/extra-strings.php:16
+msgctxt "module name"
+msgid "RapidShare API"
+msgstr "RapidShare API"
+
+#: legacy/includes/extra-strings.php:17
+msgctxt "module name"
+msgid "Smart YouTube httpv:// URLs"
+msgstr "Smart YouTube httpv:// URL:er"
+
+#: legacy/includes/extra-strings.php:18
+msgctxt "module name"
+msgid "YouTube API"
+msgstr "YouTube API"
+
+#: legacy/includes/extra-strings.php:19
+msgctxt "module name"
+msgid "Posts"
+msgstr "Inlägg"
+
+#: legacy/includes/extra-strings.php:20
+msgctxt "module name"
+msgid "Pages"
+msgstr "Sidor"
+
+#: legacy/includes/link-query.php:25
+msgid "All"
+msgstr "Alla"
+
+#: legacy/includes/link-query.php:36
+msgid "Broken"
+msgstr "Brutna"
+
+#: legacy/includes/link-query.php:46
+msgctxt "filter name"
+msgid "Warnings"
+msgstr "Varningar"
+
+#: legacy/includes/link-query.php:56
+msgid "Redirects"
+msgstr "Omdirigeringar"
+
+#: legacy/includes/link-query.php:82
+msgid "Search Results"
+msgstr "Sökresultat"
+
+#: legacy/includes/links.php:225
+msgid "The plugin script was terminated while trying to check the link."
+msgstr "Tilläggets skriptkodskörning avbröts när länken skulle kontrolleras."
+
+#: legacy/includes/links.php:271
+msgid "The plugin doesn't know how to check this type of link."
+msgstr "Tillägget vet inte hur man kontrollerar denna typ av länk."
+
+#: legacy/includes/links.php:755
+msgid "This link can not be edited because it is not used anywhere on this site."
+msgstr "Denna länk kan inte redigeras eftersom den inte används någonstans på webbplatsen."
+
+#: legacy/includes/links.php:781
+msgid "Failed to create a DB entry for the new URL."
+msgstr "Misslyckades med att skapa DB-post för den nya URL:en."
+
+#: legacy/includes/links.php:848
+msgid "This link is not a redirect"
+msgstr "Denna länk är inte en omdirigering"
+
+#: legacy/includes/links.php:902 legacy/includes/links.php:939
+msgid "Couldn't delete the link's database record"
+msgstr "Kunde inte ta bort länkens databaspost"
+
+#: legacy/includes/links.php:1016
+msgctxt "link status"
+msgid "Unknown"
+msgstr "Okänd"
+
+#: legacy/includes/links.php:1055
+msgid "False positive"
+msgstr "Falskt positiv"
+
+#: legacy/includes/links.php:1058 legacy/modules/extras/rapidshare.php:145
+#: legacy/modules/extras/rapidshare.php:151
+#: legacy/modules/extras/rapidshare.php:178
+#: legacy/modules/extras/youtube.php:141 legacy/modules/extras/youtube.php:217
+msgctxt "link status"
+msgid "OK"
+msgstr "OK"
+
+#: legacy/includes/utility-class.php:259
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d sekund"
+msgstr[1] "%d sekunder"
+
+#: legacy/includes/utility-class.php:260
+msgid "%d second ago"
+msgid_plural "%d seconds ago"
+msgstr[0] "%d sekund sedan"
+msgstr[1] "%d sekunder sedan"
+
+#: legacy/includes/utility-class.php:263
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minut"
+msgstr[1] "%d minuter"
+
+#: legacy/includes/utility-class.php:264
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d minut sedan"
+msgstr[1] "%d minuter sedan"
+
+#: legacy/includes/utility-class.php:267
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d timme"
+msgstr[1] "%d timmar"
+
+#: legacy/includes/utility-class.php:268
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d timme sedan"
+msgstr[1] "%d timmar sedan"
+
+#: legacy/includes/utility-class.php:271
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d dag"
+msgstr[1] "%d dagar"
+
+#: legacy/includes/utility-class.php:272
+msgid "%d day ago"
+msgid_plural "%d days ago"
+msgstr[0] "%d dag sedan"
+msgstr[1] "%d dagar sedan"
+
+#: legacy/includes/utility-class.php:275
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d månad"
+msgstr[1] "%d månader"
+
+#: legacy/includes/utility-class.php:276
+msgid "%d month ago"
+msgid_plural "%d months ago"
+msgstr[0] "%d månad sedan"
+msgstr[1] "%d månader sedan"
+
+#: legacy/modules/checkers/http.php:360 legacy/modules/checkers/http.php:449
+msgid "HTTP code : %d"
+msgstr "HTTP-kod: %d"
+
+#: legacy/modules/checkers/http.php:362 legacy/modules/checkers/http.php:451
+msgid "(No response)"
+msgstr "(Inget svar)"
+
+#: legacy/modules/checkers/http.php:380
+msgid "Most likely the connection timed out or the domain doesn't exist."
+msgstr "Troligast är att tidsgränsen för anslutning löpte ut eller att domänen inte finns."
+
+#: legacy/modules/checkers/http.php:460
+msgid "Request timed out."
+msgstr "Tidsgräns för förfrågan överskriden."
+
+#: legacy/modules/containers/blogroll.php:27
+#: legacy/modules/containers/blogroll.php:46
+msgid "Edit this bookmark"
+msgstr "Redigera detta bokmärke"
+
+#: legacy/modules/containers/blogroll.php:97
+msgid "Updating bookmark %d failed"
+msgstr "Uppdatering av bokmärket %d misslyckades"
+
+#: legacy/modules/containers/blogroll.php:298
+msgid "%d blogroll link deleted."
+msgid_plural "%d blogroll links deleted."
+msgstr[0] "%d länkmenylänk (blogroll link) borttagen."
+msgstr[1] "%d länkmenylänkar (blogroll links) borttagna."
+
+#: legacy/modules/containers/comment.php:53
+msgid "Updating comment %d failed"
+msgstr "Uppdatering av kommentar %d misslyckades"
+
+#: legacy/modules/containers/comment.php:74
+msgid "Failed to delete comment %d"
+msgstr "Misslyckades med att ta bort kommentar %d"
+
+#: legacy/modules/containers/comment.php:95
+msgid "Can't move comment %d to the trash"
+msgstr "Kan inte flytta kommentar %d till papperskorgen"
+
+#: legacy/modules/containers/comment.php:159
+#: legacy/modules/containers/comment.php:201
+msgid "Edit comment"
+msgstr "Redigera kommentar"
+
+#: legacy/modules/containers/comment.php:168
+msgid "Move this comment to the trash"
+msgstr "Flytta denna kommentar till papperskorgen"
+
+#: legacy/modules/containers/comment.php:168
+msgctxt "verb"
+msgid "Trash"
+msgstr "Släng"
+
+#: legacy/modules/containers/comment.php:172
+msgid "View comment"
+msgstr "Visa kommentar"
+
+#: legacy/modules/containers/comment.php:189
+msgid "Comment"
+msgstr "Kommentar"
+
+#: legacy/modules/containers/comment.php:366
+msgid "%d comment has been deleted."
+msgid_plural "%d comments have been deleted."
+msgstr[0] "%d kommentar har tagits bort."
+msgstr[1] "%d kommentarer har tagits bort."
+
+#: legacy/modules/containers/acf_field.php:234
+#: legacy/modules/containers/custom_field.php:238
+msgid "Edit this post"
+msgstr "Redigera detta inlägg"
+
+#: legacy/modules/extras/dailymotion-embed.php:23
+msgid "DailyMotion Video"
+msgstr "DailyMotion-video"
+
+#: legacy/modules/extras/dailymotion-embed.php:24
+msgid "Embedded DailyMotion video"
+msgstr "Inbäddad DailyMotion-video"
+
+#: legacy/modules/extras/googlevideo-embed.php:24
+msgid "GoogleVideo Video"
+msgstr "GoogleVideo-video"
+
+#: legacy/modules/extras/googlevideo-embed.php:25
+msgid "Embedded GoogleVideo video"
+msgstr "Inbäddad GoogleVideo-video"
+
+#: legacy/modules/extras/rapidshare.php:51
+msgid "Using RapidShare API"
+msgstr "Använder RapidShare API"
+
+#: legacy/modules/extras/rapidshare.php:183
+msgid "RapidShare : %s"
+msgstr "RapidShare: %s"
+
+#: legacy/modules/extras/rapidshare.php:189
+msgid "RapidShare API error: %s"
+msgstr "RapidShare API-fel: %s"
+
+#: legacy/modules/extras/vimeo-embed.php:25
+msgid "Embedded Vimeo video"
+msgstr "Inbäddad Vimeo-video"
+
+#: legacy/modules/extras/youtube-embed.php:24
+#: legacy/modules/extras/youtube-iframe.php:25
+msgid "YouTube Video"
+msgstr "YouTube-video"
+
+#: legacy/modules/extras/youtube-embed.php:25
+#: legacy/modules/extras/youtube-iframe.php:26
+msgid "Embedded YouTube video"
+msgstr "Inbäddad YouTube-video"
+
+#: legacy/modules/extras/youtube-playlist-embed.php:24
+msgid "YouTube Playlist"
+msgstr "YouTube-spellista"
+
+#: legacy/modules/extras/youtube-playlist-embed.php:25
+msgid "Embedded YouTube playlist"
+msgstr "Inbäddad YouTube-spellista"
+
+#: legacy/modules/extras/youtube.php:140
+msgid "Video OK"
+msgstr "Video OK"
+
+#: legacy/modules/extras/youtube.php:261
+msgid "Unknown YouTube API response received."
+msgstr "Okänt svar från YouTube API mottaget."
+
+#: legacy/modules/extras/youtube.php:183
+msgid "Playlist Restricted"
+msgstr "Spellista Begränsad"
+
+#: legacy/modules/extras/youtube.php:216
+msgid "Playlist OK"
+msgstr "Spellista OK"
+
+#: legacy/modules/extras/youtube.php:190
+msgid "This playlist has no entries or all entries have been deleted."
+msgstr "Spellistan har inga poster eller så har alla poster tagits bort."
+
+#: legacy/modules/parsers/image.php:193
+msgid "Image"
+msgstr "Bild"
+
+#: legacy/modules/parsers/acf_field.php:120
+#: legacy/modules/parsers/metadata.php:141
+msgid "Custom field"
+msgstr "Anpassat fält"
+
+#: legacy/modules/extras/youtube.php:191
+msgctxt "link status"
+msgid "Empty Playlist"
+msgstr "Tom spellista"
+
+#: legacy/includes/instances.php:109 legacy/includes/instances.php:165
+msgid "Container %1$s[%2$d] not found"
+msgstr "Behållare %1$s[%2$d] hittades inte"
+
+#: legacy/modules/extras/youtube.php:173 legacy/modules/extras/youtube.php:176
+msgid "Playlist Not Found"
+msgstr "Spellista hittades inte"
+
+#: legacy/modules/extras/youtube.php:151 legacy/modules/extras/youtube.php:154
+msgid "Video Not Found"
+msgstr "Video hittades inte"
+
+#: legacy/modules/extras/rapidshare.php:172
+msgid "File Locked"
+msgstr "Fil låst"
+
+#: legacy/modules/extras/rapidshare.php:165
+msgid "File Blocked"
+msgstr "Fil blockerad"
+
+#: legacy/modules/extras/rapidshare.php:158
+msgid "RS Server Down"
+msgstr "RS-server nere"
+
+#: legacy/modules/extras/mediafire.php:109
+msgid "Permission Denied"
+msgstr "Behörighet nekad"
+
+#: legacy/modules/extras/mediafire.php:97
+#: legacy/modules/extras/mediafire.php:103
+#: legacy/modules/extras/rapidshare.php:139
+msgid "Not Found"
+msgstr "Hittades inte"
+
+#: legacy/modules/containers/comment.php:385
+msgid "%d comment moved to the Trash."
+msgid_plural "%d comments moved to the Trash."
+msgstr[0] "%d kommentar flyttad till papperskorgen."
+msgstr[1] "%d kommentarer flyttade till papperskorgen."
+
+#: legacy/modules/containers/comment.php:166
+msgid "Delete Permanently"
+msgstr "Ta bort permanent"
+
+#: legacy/modules/containers/blogroll.php:21
+msgid "Bookmark"
+msgstr "Bokmärk"
+
+#: legacy/modules/checkers/http.php:306
+msgid "Connection Failed"
+msgstr "Anslutning misslyckades"
+
+#: legacy/modules/checkers/http.php:290
+msgid "Server Not Found"
+msgstr "Server hittades inte"
+
+#: legacy/includes/links.php:1029 legacy/modules/checkers/http.php:313
+#: legacy/modules/checkers/http.php:317 legacy/modules/extras/mediafire.php:115
+#: legacy/modules/extras/youtube.php:135 legacy/modules/extras/youtube.php:230
+msgid "Unknown Error"
+msgstr "Okänt fel"
+
+#: legacy/includes/link-query.php:58
+msgid "No redirects found"
+msgstr "Inga omdirigeringar hittades"
+
+#: legacy/includes/link-query.php:57
+msgid "Redirected Links"
+msgstr "Omdirigerade länkar"
+
+#: legacy/includes/link-query.php:48
+msgid "No warnings found"
+msgstr "Inga varningar hittades"
+
+#: legacy/includes/link-query.php:27
+msgid "No links found (yet)"
+msgstr "Inga länkar hittades (ännu)"
+
+#: legacy/modules/extras/youtube.php:207
+msgid "Video Restricted"
+msgstr "Video begränsad"
+
+#: legacy/modules/extras/vimeo-embed.php:24
+msgid "Vimeo Video"
+msgstr "Vimeo-video"
+
+#: legacy/includes/links.php:738 legacy/includes/links.php:841
+#: legacy/includes/links.php:875
+msgid "Link is not valid"
+msgstr "Länk är inte giltig"
+
+#: legacy/includes/links.php:505
+msgid "Link is valid."
+msgstr "Länk är giltig."
+
+#: legacy/includes/links.php:503
+msgid "Link is broken."
+msgstr "Länk är bruten."
+
+#: legacy/includes/link-query.php:67
+msgid "Dismissed Links"
+msgstr "Avfärdade länkar"
+
+#: legacy/includes/link-query.php:66
+msgid "Dismissed"
+msgstr "Avfärdad"
+
+#: legacy/includes/link-query.php:26
+msgid "Detected Links"
+msgstr "Upptäckta länkar"
+
+#: legacy/modules/containers/dummy.php:34
+#: legacy/modules/containers/dummy.php:45
+msgid "I don't know how to edit a '%1$s' [%2$d]."
+msgstr "Jag vet inte hur man redigerar en ”%1$s” [%2$d]."
+
+#: legacy/modules/containers/acf_field.php:258
+#: legacy/modules/containers/custom_field.php:272
+msgid "View \"%s\""
+msgstr "Visa ”%s”"
+
+#: legacy/modules/containers/blogroll.php:47
+msgid ""
+"You are about to delete this link '%s'\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Du håller på att ta bort denna länk ”%s”\n"
+"  ”Avbryt” för att avbryta, ”OK” för att ta bort."
+
+#: legacy/includes/instances.php:118 legacy/includes/instances.php:174
+msgid "Parser '%s' not found."
+msgstr "Texttolken ”%s” hittades inte."
+
+#: legacy/includes/parsers.php:132
+msgid "Unlinking is not implemented in the '%s' parser"
+msgstr "Avlänkning är inte implementerat i texttolken ”%s”"
+
+#: legacy/includes/parsers.php:117
+msgid "Editing is not implemented in the '%s' parser"
+msgstr "Redigering är inte implementerat i texttolken ”%s”"
+
+#: legacy/includes/links.php:1052
+msgid "Not checked"
+msgstr "Inte kontrollerad"
+
+#: legacy/includes/containers.php:123
+msgid "%1$d '%2$s' has been deleted"
+msgid_plural "%1$d '%2$s' have been deleted"
+msgstr[0] "%1$d ”%2$s” har tagits bort"
+msgstr[1] "%1$d ”%2$s” har tagits bort"
+
+#: legacy/includes/any-post.php:854
+msgid "%d page moved to the Trash."
+msgid_plural "%d pages moved to the Trash."
+msgstr[0] "%d sida flyttades till papperskorgen."
+msgstr[1] "%d sidor flyttades till papperskorgen."
+
+#: legacy/includes/any-post.php:856
+msgid "%1$d \"%2$s\" moved to the Trash."
+msgid_plural "%1$d \"%2$s\" moved to the Trash."
+msgstr[0] "%1$d ”%2$s” flyttades till papperskorgen."
+msgstr[1] "%1$d ”%2$s” flyttades till papperskorgen."
+
+#: legacy/includes/any-post.php:702 legacy/modules/containers/acf_field.php:341
+#: legacy/modules/containers/custom_field.php:360
+msgid "Can't move post \"%1$s\" (%2$d) to the trash because the trash feature is disabled"
+msgstr "Kan inte flytta inlägget ”%1$s” (%2$d) till papperskorgen eftersom papperskorgsfunktionen är inaktiverad"
+
+#: legacy/includes/any-post.php:722 legacy/modules/containers/acf_field.php:353
+#: legacy/modules/containers/custom_field.php:379
+msgid "Failed to move post \"%1$s\" (%2$d) to the trash"
+msgstr "Misslyckades att flytta inlägget ”%1$s” (%2$d) till papperskorgen"
+
+#: legacy/modules/containers/acf_field.php:132
+#: legacy/modules/containers/custom_field.php:137
+msgid "Failed to delete the meta field '%1$s' on %2$s [%3$d]"
+msgstr "Misslyckades att ta bort metafältet ”%1$s” på %2$s [%3$d]"
+
+#: legacy/modules/containers/acf_field.php:102
+#: legacy/modules/containers/custom_field.php:107
+msgid "Failed to update the meta field '%1$s' on %2$s [%3$d]"
+msgstr "Misslyckades att uppdatera metafältet ”%1$s” på %2$s [%3$d]"
+
+#: legacy/includes/any-post.php:852
+msgid "%d post moved to the Trash."
+msgid_plural "%d posts moved to the Trash."
+msgstr[0] "%d inlägg flyttades till papperskorgen."
+msgstr[1] "%d inlägg flyttades till papperskorgen."
+
+#: legacy/modules/extras/embed-parser-base.php:199
+msgid "Embedded videos can't be edited using Broken Link Checker. Please edit or replace the video in question manually."
+msgstr "Inbäddade videoklipp kan inte redigeras med Broken Link Checker. Redigera eller ersätt videoklippet ifråga manuellt."
+
+#: legacy/modules/containers/blogroll.php:128
+msgid "Failed to delete blogroll link \"%1$s\" (%2$d)"
+msgstr "Misslyckades att ta bort blogroll-länk ”%1$s” (%2$d)"
+
+#: legacy/modules/extras/youtube.php:201
+msgid "Video status : %1$s%2$s"
+msgstr "Videostatus: %1$s%2$s"
+
+#: legacy/includes/link-query.php:38
+msgid "No broken links found"
+msgstr "Inga brutna länkar hittades"
+
+#: legacy/includes/link-query.php:83 legacy/includes/link-query.php:131
+msgid "No links found for your query"
+msgstr "Inga länkar hittades för din sökning"
+
+#: legacy/includes/link-query.php:68
+msgid "No dismissed links found"
+msgstr "Inga avfärdade länkar hittades"
+
+#: legacy/core/core.php:269 legacy/includes/admin/options-page-js.php:18
+msgid "[ Network error ]"
+msgstr "[ Nätverksfel ]"
+
+#: legacy/core/core.php:313
+msgid "Automatically expand the widget if broken links have been detected"
+msgstr "Expandera widgeten automatiskt om brutna länkar har hittats"
+
+#: app/action-links/plugin/class-controller.php:99
+#: app/admin-pages/local-submenu/class-view.php:66
+#: app/emails/scan-report/class-controller.php:80
+#: app/emails/scan-report/class-view.php:164 legacy/core/core.php:431
+#: legacy/core/core.php:432 legacy/includes/link-query.php:37
+msgid "Broken Links"
+msgstr "Brutna länkar"
+
+#: app/admin-pages/local-submenu/class-view.php:67 legacy/core/core.php:514
+msgid "Settings"
+msgstr "Inställningar"
+
+#: legacy/core/core.php:550 legacy/includes/admin/table-printer.php:292
+#: legacy/includes/admin/table-printer.php:710
+msgid "Edit URL"
+msgstr "Redigera URL"
+
+#: legacy/core/core.php:551 legacy/includes/admin/links-page-js.php:716
+#: legacy/includes/admin/table-printer.php:297
+#: legacy/includes/admin/table-printer.php:713
+msgid "Unlink"
+msgstr "Avlänka"
+
+#: legacy/core/core.php:850
+msgid "Settings saved."
+msgstr "Inställningar sparade."
+
+#: legacy/core/core.php:857
+msgid "Complete site recheck started."
+msgstr "Fullständig återkontroll av webbplatsen startad."
+
+#: legacy/core/core.php:880
+msgid "General"
+msgstr "Allmänt"
+
+#: legacy/core/core.php:881
+msgid "Look For Links In"
+msgstr "Sök efter länkar i"
+
+#: legacy/core/core.php:884
+msgid "Advanced"
+msgstr "Avancerat"
+
+#: app/emails/scan-report/class-view.php:167 legacy/core/core.php:939
+#: legacy/includes/admin/table-printer.php:215
+msgid "Status"
+msgstr "Status"
+
+#: legacy/core/core.php:970
+msgid "Check each link"
+msgstr "Kontrollera varje länk"
+
+#: legacy/core/core.php:975
+msgid "Every %s hours"
+msgstr "Var %s timme"
+
+#: legacy/core/core.php:1036
+msgid "Leave empty to use the e-mail address specified in Settings &rarr; General."
+msgstr "Lämna tomt för att använde e-postadressen som angetts i Inställningar &rarr; Allmänt."
+
+#: legacy/core/core.php:1068
+msgid "Link tweaks"
+msgstr "Länkmodifieringar"
+
+#: legacy/core/core.php:1080
+msgid "Apply custom formatting to broken links"
+msgstr "Tillämpa anpassad formattering av brutna länkar"
+
+#: legacy/core/core.php:1085 legacy/core/core.php:1129
+msgid "Edit CSS"
+msgstr "Redigera CSS"
+
+#: legacy/core/core.php:1124
+msgid "Apply custom formatting to removed links"
+msgstr "Tillämpa anpassad formattering av borttagna länkar"
+
+#: legacy/core/core.php:1151
+msgid "Example : Lorem ipsum <span %s>removed link</span>, dolor sit amet."
+msgstr "Exempel: Lorem ipsum <span %s>borttagen länk</span>, dolor sit amet."
+
+#: legacy/core/core.php:1170
+msgid "Stop search engines from following broken links"
+msgstr "Hindra sökmotorer från att följa brutna länkar"
+
+#: legacy/core/core.php:1187
+msgctxt "settings page"
+msgid "Suggestions"
+msgstr "Förslag"
+
+#: legacy/core/core.php:1193
+msgid "Suggest alternatives to broken links"
+msgstr "Föreslå alternativ till brutna länkar"
+
+#: legacy/core/core.php:1199
+msgctxt "settings page"
+msgid "Warnings"
+msgstr "Varningar"
+
+#: legacy/core/core.php:1208
+msgid "Turning off this option will make the plugin report all problems as broken links."
+msgstr "Deaktivering av detta alternativ kommer göra så att tillägget rapporterar alla problem som brutna länkar."
+
+#: legacy/core/core.php:1254
+msgid "Look for links in"
+msgstr "Sök efter länkar i"
+
+#: legacy/core/core.php:1271
+msgid "Post statuses"
+msgstr "Status för inlägg"
+
+#: legacy/core/core.php:1305
+msgid "Link types"
+msgstr "Länktyper"
+
+#: legacy/core/core.php:1311
+msgid "Error : All link parsers missing!"
+msgstr "Fel: Alla länktolkar saknas!"
+
+#: legacy/core/core.php:1318
+msgid "Exclusion list"
+msgstr "Undantagslista"
+
+#: legacy/core/core.php:1319
+msgid "Don't check links where the URL contains any of these words (one per line) :"
+msgstr "Kontrollera inte länkar där URL:en innehåller något av dessa ord (ett per rad):"
+
+#: legacy/core/core.php:1339
+msgid "Check links using"
+msgstr "Kontrollera länkar med"
+
+#: legacy/core/core.php:1359 legacy/includes/links.php:1033
+msgid "Timeout"
+msgstr "Tidsgräns"
+
+#: legacy/core/core.php:1365 legacy/core/core.php:1462
+#: legacy/core/core.php:4031
+msgid "%s seconds"
+msgstr "%s sekunder"
+
+#: legacy/core/core.php:1374
+msgid "Links that take longer than this to load will be marked as broken."
+msgstr "Länkar som tar längre tid än detta kommer att flaggas som brutna."
+
+#: legacy/core/core.php:1381
+msgid "Link monitor"
+msgstr "Länkövervakare"
+
+#: legacy/core/core.php:1407
+msgid "Run hourly in the background"
+msgstr "Kör timsvis i bakgrunden"
+
+#: legacy/core/core.php:1420
+msgctxt "dashboard widget visibility"
+msgid "Administrator"
+msgstr "Administratör"
+
+#: legacy/core/core.php:1422
+msgctxt "dashboard widget visibility"
+msgid "Nobody (disables the widget)"
+msgstr "Ingen (avaktiverar widgeten)"
+
+#: legacy/core/core.php:1438
+msgctxt "settings page"
+msgid "Show link actions"
+msgstr "Visa länkåtgärder"
+
+#: legacy/core/core.php:1483
+msgid "Server load limit"
+msgstr "Serverns lastgräns"
+
+#: legacy/core/core.php:1498
+msgid "Current load : %s"
+msgstr "Nuvarande belastning: %s"
+
+#: legacy/core/core.php:1514
+msgid "Load limiting only works on Linux-like systems where <code>/proc/loadavg</code> is present and accessible."
+msgstr "Lastbegränsning fungerar bara på Linuxliknande system där <code>/proc/loadavg</code> finns och är tillgänglig."
+
+#: legacy/core/core.php:1522
+msgid "Target resource usage"
+msgstr "Målets resursanvändning"
+
+#: legacy/core/core.php:1542
+msgid "Logging"
+msgstr "Loggning"
+
+#: legacy/core/core.php:1548
+msgid "Enable logging"
+msgstr "Aktivera loggning"
+
+#: legacy/core/core.php:1555
+msgid "Log file location"
+msgstr "Loggfilens plats"
+
+#: legacy/core/core.php:1564
+msgctxt "log file location"
+msgid "Default"
+msgstr "Standard"
+
+#: legacy/core/core.php:1580
+msgctxt "log file location"
+msgid "Custom"
+msgstr "Anpassad"
+
+#: legacy/core/core.php:1618
+msgid "Forced recheck"
+msgstr "Tvingad återkontroll"
+
+#: legacy/core/core.php:1639
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: legacy/core/core.php:1690
+msgid "Configure"
+msgstr "Konfigurera"
+
+#: legacy/core/core.php:1798
+msgid "Enter the names of custom fields you want to check (one per line). If a field contains HTML code, prefix its name with <code>html:</code>. For example, <code>html:field_name</code>."
+msgstr "Ange namnen på de anpassade fält som du vill kontrollera (ett per rad). Om ett fält innehåller HTML-kod så ange <code>html:</code> som prefix. Till exempel, <code>html:fält_namn</code>."
+
+#: legacy/core/core.php:1952 legacy/core/core.php:2042
+#: legacy/core/core.php:2074
+msgid "Database error : %s"
+msgstr "Databasfel: %s"
+
+#: legacy/core/core.php:2023
+msgid "You must enter a filter name!"
+msgstr "Du måste ange ett filternamn!"
+
+#: legacy/core/core.php:2027
+msgid "Invalid search query."
+msgstr "Ogiltig sökterm."
+
+#: legacy/core/core.php:2121
+msgid "Replaced %d redirect with a direct link"
+msgid_plural "Replaced %d redirects with direct links"
+msgstr[0] "Ersatte %d omdirigering med en direktlänk"
+msgstr[1] "Ersatte %d omdirigeringar med direktlänkar"
+
+#: legacy/core/core.php:2132
+msgid "Failed to fix %d redirect"
+msgid_plural "Failed to fix %d redirects"
+msgstr[0] "Misslyckades med att fixa %d omdirigering"
+msgstr[1] "Misslyckades med att fixa %d omdirigeringar"
+
+#: legacy/core/core.php:2143
+msgid "None of the selected links are redirects!"
+msgstr "Ingen av de valda länkarna är omdirigeringar!"
+
+#: legacy/core/core.php:2230
+msgid "%d link updated."
+msgid_plural "%d links updated."
+msgstr[0] "%d länk uppdaterad."
+msgstr[1] "%d länkar uppdaterade."
+
+#: legacy/core/core.php:2241
+msgid "Failed to update %d link."
+msgid_plural "Failed to update %d links."
+msgstr[0] "Misslyckades med att uppdatera %d länk."
+msgstr[1] "Misslyckades med att uppdatera %d länkar."
+
+#: legacy/core/core.php:2334
+msgid "%d link removed"
+msgid_plural "%d links removed"
+msgstr[0] "%d länk borttagen"
+msgstr[1] "%d länkar borttagna"
+
+#: legacy/core/core.php:2345
+msgid "Failed to remove %d link"
+msgid_plural "Failed to remove %d links"
+msgstr[0] "Misslyckades med att ta bort %d länk"
+msgstr[1] "Misslyckades med att ta bort %d länkar"
+
+#: legacy/core/core.php:2460
+msgid "%d item was skipped because it can't be moved to the Trash. You need to delete it manually."
+msgid_plural "%d items were skipped because they can't be moved to the Trash. You need to delete them manually."
+msgstr[0] "%d objekt hoppades över eftersom det inte kan flyttas till Papperskorgen. Du får ta bort det manuellt."
+msgstr[1] "%d objekt hoppades över eftersom de inte kan flyttas till Papperskorgen. Du får ta bort dem manuellt."
+
+#: legacy/core/core.php:2482
+msgid "Didn't find anything to delete!"
+msgstr "Hittade ingenting att ta bort!"
+
+#: legacy/core/core.php:2521
+msgid "%d link scheduled for rechecking"
+msgid_plural "%d links scheduled for rechecking"
+msgstr[0] "%d länk schemalagd för återkontrollering"
+msgstr[1] "%d länkar schemalagda för återkontrollering"
+
+#: legacy/core/core.php:2571 legacy/core/core.php:3446
+msgid "This link was manually marked as working by the user."
+msgstr "Denna länk har manuellt markerats som fungerande av användaren."
+
+#: legacy/core/core.php:2579 legacy/core/core.php:2643
+msgid "Couldn't modify link %d"
+msgstr "Kunde inte modifiera länk %d"
+
+#: legacy/core/core.php:2735
+msgctxt "a link from the admin notice under Tools - Broken links - Warnings"
+msgid "Change warning settings"
+msgstr "Ändra varningsinställningar"
+
+#: legacy/core/core.php:2760
+msgid "Table columns"
+msgstr "Tabellkolumner"
+
+#: legacy/core/core.php:2779
+msgid "Show on screen"
+msgstr "Visa på skärmen"
+
+#: legacy/core/core.php:2786
+msgid "links"
+msgstr "länkar"
+
+#: legacy/core/core.php:2787 legacy/includes/admin/table-printer.php:175
+msgid "Apply"
+msgstr "Tillämpa"
+
+#: legacy/core/core.php:2806
+msgid "Highlight links broken for at least %s days"
+msgstr "Markera länkar som varit brutna i minst %s dagar"
+
+#: legacy/core/core.php:2815
+msgid "Color-code status codes"
+msgstr "Statuskoder för färgkod"
+
+#: legacy/core/core.php:2835 legacy/core/core.php:3430
+#: legacy/core/core.php:3477 legacy/core/core.php:3516
+#: legacy/core/core.php:3642 legacy/core/core.php:3702
+#: legacy/core/core.php:3782
+msgid "You're not allowed to do that!"
+msgstr "Du har inte tillstånd att göra det där!"
+
+#: legacy/core/core.php:3298
+msgid "View broken links"
+msgstr "Visa brutna länkar"
+
+#: legacy/core/core.php:3299
+msgid "Found %d broken link"
+msgid_plural "Found %d broken links"
+msgstr[0] "Hittade %d bruten länk"
+msgstr[1] "Hittade %d brutna länkar"
+
+#: legacy/core/core.php:3312
+msgid "%d URL in the work queue"
+msgid_plural "%d URLs in the work queue"
+msgstr[0] "%d URL i arbetskön"
+msgstr[1] "%d URL:er i arbetskön"
+
+#: legacy/core/core.php:3316
+msgid "No URLs in the work queue."
+msgstr "Inga URL:er i arbetskön."
+
+#: legacy/core/core.php:3322
+msgctxt "for the \"Detected X unique URLs in Y links\" message"
+msgid "%d unique URL"
+msgid_plural "%d unique URLs"
+msgstr[0] "%d unik URL"
+msgstr[1] "%d unika URL:er"
+
+#: legacy/core/core.php:3326
+msgctxt "for the \"Detected X unique URLs in Y links\" message"
+msgid "%d link"
+msgid_plural "%d links"
+msgstr[0] "%d länk"
+msgstr[1] "%d länkar"
+
+#: legacy/core/core.php:3338
+msgid "Detected %1$s in %2$s."
+msgstr "Hittade %1$s i %2$s."
+
+#: legacy/core/core.php:3373
+msgctxt "current load"
+msgid "Unknown"
+msgstr "Okänt"
+
+#: legacy/core/core.php:3458 legacy/core/core.php:3499
+msgid "Oops, couldn't modify the link!"
+msgstr "Hoppsan, kunde inte modifiera länken!"
+
+#: legacy/core/core.php:3552 legacy/core/core.php:3566
+msgid "Oops, the new URL is invalid!"
+msgstr "Hoppsan, den nya URL:en är ogiltig!"
+
+#: legacy/core/core.php:3586
+msgid "An unexpected error occurred!"
+msgstr "Ett okänt fel uppstod!"
+
+#: legacy/core/core.php:3669
+msgid "An unexpected error occured!"
+msgstr "Ett okänt fel uppstod!"
+
+#: legacy/core/core.php:3841
+msgid "You don't have sufficient privileges to access this information!"
+msgstr "Du har inte tillräckliga tillstånd för åtkomst till denna information!"
+
+#: legacy/core/core.php:3868
+msgid "Failed to load link details (%s)"
+msgstr "Misslyckades med att ladda länkdetaljer (%s)"
+
+#. Plugin Name of the plugin
+#: app/admin-pages/cloud-page/class-controller.php:84
+#: app/admin-pages/cloud-submenu/class-controller.php:67
+#: app/emails/recipient-activation/class-controller.php:88
+#: app/emails/scan-report/class-controller.php:101 legacy/core/core.php:3922
+msgid "Broken Link Checker"
+msgstr "Broken Link Checker"
+
+#: legacy/core/core.php:3942
+msgid "PHP version"
+msgstr "PHP-version"
+
+#: legacy/core/core.php:3948
+msgid "MySQL version"
+msgstr "MySQL-version"
+
+#: legacy/core/core.php:3961
+msgid "You have an old version of CURL. Redirect detection may not work properly."
+msgstr "Du har en gammal version av CURL. Spårning av omdirigeringar kanske inte fungerar ordentligt."
+
+#: legacy/core/core.php:3975
+msgid "CURL version"
+msgstr "CURL-version"
+
+#: legacy/core/core.php:3981
+msgid "Installed"
+msgstr "Installerat"
+
+#: legacy/core/core.php:4004
+msgid "On"
+msgstr "På"
+
+#: legacy/core/core.php:4005
+msgid "Redirects may be detected as broken links when safe_mode is on."
+msgstr "Omdirigeringar kan hittas och uppfattas som bruna länkar när safe_mode är aktiverat."
+
+#: legacy/core/core.php:4010 legacy/core/core.php:4024
+msgid "Off"
+msgstr "Av"
+
+#: legacy/core/core.php:4018
+msgid "On ( %s )"
+msgstr "På ( %s )"
+
+#: legacy/core/core.php:4019
+msgid "Redirects may be detected as broken links when open_basedir is on."
+msgstr "Omdirigeringar kan hittas och uppfattas som brutna länkar när open_basedir är aktiverat."
+
+#: legacy/core/core.php:4056
+msgid "If this value is zero even after several page reloads you have probably encountered a bug."
+msgstr "Om detta värde är noll även efter flera omladdningar av sidan så har du troligen stött på en bugg."
+
+#: legacy/core/core.php:4228
+msgid "Here's a list of the first %d broken links:"
+msgid_plural "Here's a list of the first %d broken links:"
+msgstr[0] "Här är en lista över de första %d brutna länkarna:"
+msgstr[1] "Här är en lista över de första %d brutna länkarna:"
+
+#: legacy/core/core.php:4247
+msgid "Link text : %s"
+msgstr "Länktext: %s"
+
+#: legacy/core/core.php:4249
+msgid "Source : %s"
+msgstr "Källa: %s"
+
+#: legacy/core/core.php:4263
+msgid "You can see all broken links here:"
+msgstr "Du kan se alla brutna länkar här:"
+
+#: legacy/core/core.php:4321
+msgid "Broken Link Checker has detected %d new broken link in your posts."
+msgid_plural "Broken Link Checker has detected %d new broken links in your posts."
+msgstr[0] "Broken Link Checker har hittat %d ny bruten länk i dina inlägg."
+msgstr[1] "Broken Link Checker har hittat %d nya brutna länkar i dina inlägg."
+
+#: legacy/includes/admin/links-page-js.php:370
+msgctxt "link text"
+msgid "(None)"
+msgstr "(Ingen)"
+
+#: legacy/includes/admin/links-page-js.php:371
+msgctxt "link text"
+msgid "(Multiple links)"
+msgstr "(Multipla länkar)"
+
+#: legacy/includes/admin/links-page-js.php:431
+msgctxt "link suggestions"
+msgid "Archived page from %s (via the Wayback Machine)"
+msgstr "Arkiverad sida från %s (via Wayback Machine)"
+
+#: legacy/includes/admin/links-page-js.php:528
+msgid "%d instances of the link were successfully modified."
+msgstr "%d förekomster av länken modifierades."
+
+#: legacy/includes/admin/links-page-js.php:534
+msgid "However, %d instances couldn't be edited and still point to the old URL."
+msgstr "Men, %d förekomster kunde inte redigeras och hänvisar fortfarande till den gamla URL:en."
+
+#: legacy/includes/admin/links-page-js.php:540
+msgid "The link could not be modified."
+msgstr "Länken kunde inte modifieras."
+
+#: legacy/includes/admin/links-page-js.php:543
+msgid "The following error(s) occurred :"
+msgstr "Följande fel uppstod:"
+
+#: legacy/includes/admin/links-page-js.php:615
+msgid "Error: Link URL must not be empty."
+msgstr "Fel: Länkens URL får inte vara tom."
+
+#: legacy/includes/admin/links-page-js.php:694
+msgid "%d instances of the link were successfully unlinked."
+msgstr "%d förekomster av länken avlänkades."
+
+#: legacy/includes/admin/links-page-js.php:700
+msgid "However, %d instances couldn't be removed."
+msgstr "Men, %d förekomster kunde inte tas bort."
+
+#: legacy/includes/admin/links-page-js.php:705
+msgid "The plugin failed to remove the link."
+msgstr "Tillägget misslyckades med att ta bort länken."
+
+#: legacy/includes/admin/links-page-js.php:708
+msgid "The following error(s) occured :"
+msgstr "Följande fel uppstod:"
+
+#: legacy/includes/admin/links-page-js.php:756
+msgid "Enter a name for the new custom filter"
+msgstr "Ange ett namn för det nya anpassade filtret"
+
+#: legacy/includes/admin/links-page-js.php:936
+msgid "Enter a search string first."
+msgstr "Skriv en söksträng först."
+
+#: legacy/includes/admin/links-page-js.php:943
+msgid "Select one or more links to edit."
+msgstr "Välj en eller flera länkar att redigera."
+
+#: legacy/includes/admin/search-form.php:32 legacy/includes/link-query.php:81
+msgid "Search"
+msgstr "Sök"
+
+#: legacy/includes/admin/search-form.php:42
+msgid "Link text"
+msgstr "Länktext"
+
+#: legacy/includes/admin/search-form.php:45
+#: legacy/includes/admin/table-printer.php:220
+msgid "URL"
+msgstr "URL"
+
+#: legacy/includes/admin/search-form.php:48
+#: legacy/includes/admin/table-printer.php:559
+msgid "HTTP code"
+msgstr "HTTP-kod"
+
+#: legacy/includes/admin/search-form.php:51
+msgid "Link status"
+msgstr "Länkstatus"
+
+#: legacy/includes/admin/search-form.php:68
+#: legacy/includes/admin/search-form.php:85
+msgid "Link type"
+msgstr "Länktyp"
+
+#: legacy/includes/admin/search-form.php:70
+msgid "Any"
+msgstr "Godtycklig"
+
+#: legacy/includes/admin/search-form.php:74
+msgid "Links used in"
+msgstr "Länkar använda i"
+
+#: legacy/includes/admin/search-form.php:112
+msgid "Search Links"
+msgstr "Söklänkar"
+
+#: legacy/includes/admin/search-form.php:113
+#: legacy/includes/admin/table-printer.php:375
+#: legacy/includes/admin/table-printer.php:779
+#: legacy/includes/admin/table-printer.php:904
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: legacy/includes/admin/table-printer.php:227
+msgid "Source"
+msgstr "Källa"
+
+#: legacy/includes/admin/table-printer.php:240
+msgid "Redirect URL"
+msgstr "Omdirigera URL"
+
+#: legacy/includes/admin/table-printer.php:318
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: legacy/includes/admin/table-printer.php:319
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: legacy/includes/admin/table-printer.php:353
+msgid "Find"
+msgstr "Hitta"
+
+#: legacy/includes/admin/table-printer.php:357
+msgid "Replace with"
+msgstr "Ersätt med"
+
+#: legacy/includes/admin/table-printer.php:365
+msgid "Case sensitive"
+msgstr "Skiftlägeskänslig"
+
+#: legacy/includes/admin/table-printer.php:378
+#: legacy/includes/admin/table-printer.php:905
+msgid "Update"
+msgstr "Uppdatera"
+
+#: legacy/includes/admin/table-printer.php:536
+msgid "Post published on"
+msgstr "Inlägg publicerat den"
+
+#: legacy/includes/admin/table-printer.php:543
+msgid "Link last checked"
+msgstr "Länken senast kontrollerad"
+
+#: legacy/core/core.php:1596 legacy/includes/admin/table-printer.php:548
+msgid "Never"
+msgstr "Aldrig"
+
+#: legacy/includes/admin/table-printer.php:566
+msgid "Response time"
+msgstr "Svarstid"
+
+#: legacy/includes/admin/table-printer.php:569
+msgid "%2.3f seconds"
+msgstr "%2.3f sekunder"
+
+#: legacy/includes/admin/table-printer.php:573
+msgid "Final URL"
+msgstr "Slutgiltig URL"
+
+#: legacy/includes/admin/table-printer.php:580
+msgid "Redirect count"
+msgstr "Antal omdirigeringar"
+
+#: legacy/includes/admin/table-printer.php:587
+msgid "Instance count"
+msgstr "Antal förekomster"
+
+#: legacy/includes/admin/table-printer.php:598
+msgid "This link has failed %d time."
+msgid_plural "This link has failed %d times."
+msgstr[0] "Denna länk har misslyckats %d gång."
+msgstr[1] "Denna länk har misslyckats %d gånger."
+
+#: legacy/includes/admin/table-printer.php:606
+msgid "This link has been broken for %s."
+msgstr "Denna länk har varit bruten i %s."
+
+#: legacy/includes/admin/table-printer.php:617
+msgid "Log"
+msgstr "Logg"
+
+#: legacy/includes/admin/table-printer.php:644
+#: legacy/includes/admin/table-printer.php:688
+msgid "Show more info about this link"
+msgstr "Visa mer info om denna länk"
+
+#: legacy/includes/admin/table-printer.php:662
+msgctxt "checked how long ago"
+msgid "Checked"
+msgstr "Kontrollerad"
+
+#: legacy/includes/admin/table-printer.php:677
+msgid "Broken for"
+msgstr "Bruten i"
+
+#: legacy/includes/admin/table-printer.php:689
+msgctxt "link in the \"Status\" column"
+msgid "Details"
+msgstr "Detaljer"
+
+#: legacy/includes/admin/table-printer.php:710
+msgid "Edit this link"
+msgstr "Redigera denna länk"
+
+#: legacy/includes/admin/table-printer.php:712
+msgid "Remove this link from all posts"
+msgstr "Ta bort denna länk från alla inlägg"
+
+#: legacy/includes/admin/table-printer.php:726
+msgid "Hide this link and do not report it again unless its status changes"
+msgstr "Göm denna länk och rapportera den inte igen om inte dess status ändras"
+
+#: legacy/includes/admin/table-printer.php:746
+msgid "Replace this redirect with a direct link"
+msgstr "Ersätt denna omdirigering med en direkt länk"
+
+#: legacy/includes/admin/table-printer.php:780
+msgid "Update URL"
+msgstr "Uppdatera URL"
+
+#: legacy/includes/admin/table-printer.php:807
+msgid "[An orphaned link! This is a bug.]"
+msgstr "[En föräldralös länk! Detta är en bugg.]"
+
+#: legacy/includes/admin/table-printer.php:887
+msgctxt "inline link editor"
+msgid "Text"
+msgstr "Text"
+
+#: legacy/includes/admin/table-printer.php:892
+msgctxt "inline link editor"
+msgid "URL"
+msgstr "URL"
+
+#: legacy/includes/admin/table-printer.php:897
+msgctxt "inline link editor"
+msgid "Suggestions"
+msgstr "Förslag"
+
+#: legacy/includes/admin/table-printer.php:917
+msgid "Use this URL"
+msgstr "Använd denna URL"
+
+#: legacy/includes/any-post.php:486 legacy/modules/containers/acf_field.php:248
+#: legacy/modules/containers/blogroll.php:46
+#: legacy/modules/containers/comment.php:159
+#: legacy/modules/containers/custom_field.php:252
+msgid "Edit"
+msgstr "Redigera"
+
+#: legacy/includes/any-post.php:496 legacy/modules/containers/acf_field.php:252
+#: legacy/modules/containers/custom_field.php:260
+msgid "Trash"
+msgstr "Papperskorgen"
+
+#: legacy/includes/any-post.php:501 legacy/modules/containers/acf_field.php:254
+#: legacy/modules/containers/custom_field.php:265
+msgid "Delete this item permanently"
+msgstr "Ta bort detta objekt permanent"
+
+#: legacy/includes/any-post.php:503 legacy/modules/containers/acf_field.php:254
+#: legacy/modules/containers/blogroll.php:47
+#: legacy/modules/containers/custom_field.php:267
+msgid "Delete"
+msgstr "Ta bort"
+
+#: legacy/includes/any-post.php:516
+msgid "Preview &#8220;%s&#8221;"
+msgstr "Förhandsgranska &#8220;%s&#8221;"
+
+#: legacy/includes/any-post.php:517
+msgid "Preview"
+msgstr "Förhandsgranska"
+
+#: legacy/includes/any-post.php:524
+msgid "View &#8220;%s&#8221;"
+msgstr "Visa &#8220;%s&#8221;"
+
+#: legacy/includes/any-post.php:525 legacy/modules/containers/acf_field.php:258
+#: legacy/modules/containers/comment.php:172
+#: legacy/modules/containers/custom_field.php:272
+msgid "View"
+msgstr "Visa"
+
+#: legacy/includes/any-post.php:544 legacy/modules/containers/acf_field.php:248
+#: legacy/modules/containers/custom_field.php:252
+msgid "Edit this item"
+msgstr "Redigera detta objekt"
+
+#: legacy/includes/any-post.php:608 legacy/modules/containers/blogroll.php:83
+#: legacy/modules/containers/comment.php:43
+msgid "Nothing to update"
+msgstr "Ingenting att uppdatera"
+
+#: legacy/includes/any-post.php:622
+msgid "Updating post %d failed"
+msgstr "Uppdatering av inlägget %d misslyckades"
+
+#: legacy/core/core.php:4037
+msgid "Database character set"
+msgstr "Databasens teckenuppsättning"
+
+#: legacy/core/core.php:4248
+msgid "Link URL : <a href=\"%1$s\">%2$s</a>"
+msgstr "Länk-URL: <a href=\"%1$s\">%2$s</a>"
+
+#: legacy/includes/any-post.php:494 legacy/modules/containers/acf_field.php:252
+#: legacy/modules/containers/custom_field.php:258
+msgid "Move this item to the Trash"
+msgstr "Flytta detta objekt till papperskorgen"
+
+#: legacy/includes/admin/table-printer.php:884
+msgctxt "inline editor title"
+msgid "Edit Link"
+msgstr "Redigera länk"
+
+#: legacy/includes/admin/table-printer.php:351
+msgid "Bulk Edit URLs"
+msgstr "Massredigera URL:er"
+
+#: legacy/includes/admin/table-printer.php:302
+msgid "Delete sources"
+msgstr "Ta bort källor"
+
+#: legacy/includes/admin/table-printer.php:300
+msgid "Move sources to Trash"
+msgstr "Flytta källor till papperskorgen"
+
+#: legacy/includes/admin/table-printer.php:294
+msgid "Fix redirects"
+msgstr "Åtgärda omdirigeringar"
+
+#: legacy/includes/admin/table-printer.php:291
+msgid "Bulk Actions"
+msgstr "Massåtgärder"
+
+#: legacy/includes/admin/table-printer.php:197
+msgid "Detailed View"
+msgstr "Detaljerad vy"
+
+#: legacy/includes/admin/table-printer.php:192
+msgid "Compact View"
+msgstr "Kompakt vy"
+
+#: legacy/includes/admin/search-form.php:26
+msgid "Delete This Filter"
+msgstr "Ta bort detta filter"
+
+#: legacy/includes/admin/search-form.php:16
+msgid "Save This Search As a Filter"
+msgstr "Spara denna sökning som ett filter"
+
+#: legacy/includes/admin/options-page-js.php:54
+msgid "Hide debug info"
+msgstr "Dölj felsökningsinformation"
+
+#: legacy/includes/admin/links-page-js.php:430
+msgctxt "link suggestions"
+msgid "No suggestions available."
+msgstr "Inga förslag tillgängliga."
+
+#: legacy/core/init.php:248 legacy/init.php:265
+msgid "Twice a Month"
+msgstr "Två gånger per månad"
+
+#: legacy/core/init.php:242 legacy/init.php:259
+msgid "Once Weekly"
+msgstr "En gång i veckan"
+
+#: legacy/core/core.php:3972 legacy/core/core.php:3988
+#: legacy/core/core.php:3993
+msgid "Not installed"
+msgstr "Inte installerat"
+
+#: legacy/core/core.php:2791
+msgid "Misc"
+msgstr "Övrigt"
+
+#: legacy/core/core.php:2071
+msgid "Filter deleted"
+msgstr "Filter borttaget"
+
+#: legacy/core/core.php:1512
+msgid "Not available"
+msgstr "Inte tillgänglig"
+
+#: legacy/core/core.php:555 legacy/includes/admin/table-printer.php:747
+msgctxt "link action; replace one redirect with a direct link"
+msgid "Fix redirect"
+msgstr "Åtgärda omdirigering"
+
+#: legacy/core/core.php:554 legacy/includes/admin/table-printer.php:293
+#: legacy/includes/admin/table-printer.php:739
+msgid "Recheck"
+msgstr "Kontrollera igen"
+
+#: legacy/includes/admin/table-printer.php:233
+msgid "Link Text"
+msgstr "Länktext"
+
+#: legacy/core/core.php:2729
+msgctxt "admin notice under Tools - Broken links - Warnings"
+msgid "Hide notice"
+msgstr "Dölj notis"
+
+#: legacy/core/core.php:883
+msgid "Protocols & APIs"
+msgstr "Protokoll och API:er"
+
+#: legacy/core/core.php:882
+msgid "Which Links To Check"
+msgstr "Vilka länkar ska kontrolleras"
+
+#: app/admin-notices/multisite/class-view.php:64 legacy/core/core.php:553
+#: legacy/includes/admin/table-printer.php:296
+#: legacy/includes/admin/table-printer.php:727
+msgid "Dismiss"
+msgstr "Avfärda"
+
+#: legacy/includes/admin/table-printer.php:295
+msgid "Mark as not broken"
+msgstr "Markera som inte bruten"
+
+#: legacy/core/core.php:3854
+msgid "Error : link ID not specified"
+msgstr "Fel: länk-ID har inte angetts"
+
+#: legacy/core/core.php:3526
+msgid "Error : link_id or new_url not specified"
+msgstr "Fel: link_id eller new_url har inte angetts"
+
+#: legacy/core/core.php:3461 legacy/core/core.php:3502
+#: legacy/core/core.php:3690 legacy/core/core.php:3712
+#: legacy/core/core.php:3792
+msgid "Error : link_id not specified"
+msgstr "Fel: link_id har inte angetts"
+
+#: legacy/core/core.php:2590
+msgid "%d link marked as not broken"
+msgid_plural "%d links marked as not broken"
+msgstr[0] "%d länk markerad som inte bruten"
+msgstr[1] "%d länkar markerade som inte brutna"
+
+#: legacy/core/core.php:2064
+msgid "Filter ID not specified."
+msgstr "Filter-ID har inte angetts."
+
+#: legacy/core/core.php:552 legacy/includes/admin/links-page-js.php:111
+#: legacy/includes/admin/table-printer.php:719
+msgid "Not broken"
+msgstr "Inte bruten"
+
+#: legacy/includes/any-post.php:683 legacy/modules/containers/acf_field.php:327
+#: legacy/modules/containers/custom_field.php:341
+msgid "Failed to delete post \"%1$s\" (%2$d)"
+msgstr "Misslyckades att ta bort inlägget ”%1$s” (%2$d)"
+
+#: legacy/includes/admin/table-printer.php:369
+msgid "Regular expression"
+msgstr "Reguljärt uttryck (RegEx)"
+
+#: legacy/includes/admin/table-printer.php:328
+msgid "Displaying %1$s&#8211;%2$s of <span class=\"current-link-count\">%3$s</span>"
+msgstr "Visar %1$s&#8211;%2$s av <span class=\"current-link-count\">%3$s</span>"
+
+#: legacy/includes/admin/links-page-js.php:768
+msgid ""
+"You are about to delete the current filter.\n"
+"'Cancel' to stop, 'OK' to delete"
+msgstr ""
+"Du håller på att ta bort det nuvarande filtret.\n"
+"”Avbryt” för att avbryta, ”OK” för att ta bort"
+
+#: legacy/includes/admin/links-page-js.php:806
+msgid ""
+"Are you sure you want to remove the selected links? This action can't be undone.\n"
+"'Cancel' to stop, 'OK' to remove"
+msgstr ""
+"Är du säker på att du vill ta bort de valda länkarna? Detta kan inte ångras.\n"
+"”Avbryt” för att avbryta, ”OK” för att ta bort"
+
+#: legacy/includes/admin/links-page-js.php:792
+msgid ""
+"Are you sure you want to delete all posts, bookmarks or other items that contain any of the selected links? This action can't be undone.\n"
+"'Cancel' to stop, 'OK' to delete"
+msgstr ""
+"Är du säker på att du vill ta bort alla inlägg, bokmärken eller andra objekt som innehåller någon av de valda länkarna? Detta kan inte ångras.\n"
+"”Avbryt” för att avbryta, ”OK” för att ta bort"
+
+#: legacy/core/init.php:321 legacy/init.php:354
+msgid "Broken Link Checker installation failed. Try deactivating and then reactivating the plugin."
+msgstr "Installationen av Broken Link Checker misslyckades. Försök att först inaktivera tillägget och sedan aktivera det igen."
+
+#: legacy/core/core.php:3438 legacy/core/core.php:3485
+#: legacy/core/core.php:3539 legacy/core/core.php:3656
+#: legacy/core/core.php:3725 legacy/core/core.php:3805
+msgid "Oops, I can't find the link %d"
+msgstr "Hoppsan, jag kan inte hitta länken %d"
+
+#: legacy/core/core.php:2724
+msgid "The \"Warnings\" page lists problems that are probably temporary or suspected to be false positives.<br> Warnings that persist for a long time will usually be reclassified as broken links."
+msgstr "Sidan för ”Varningar” listar problem som förmodas vara temporära eller som misstänks vara falskt positiva.<br> Varningar som kvarstår under lång tid kommer vanligtvis att omklassificeras som brutna länkar."
+
+#: legacy/core/core.php:1503
+msgid "Link checking will be suspended if the average <a href=\"%s\">server load</a> rises above this number. Leave this field blank to disable load limiting."
+msgstr "Länkkontrollen kommer att stoppas om den genomsnittliga <a href=\"%s\">serverbelastningen</a> överstiger detta värde. Lämna fältet tomt för att inaktivera lastbegränsning."
+
+#: legacy/core/core.php:1456
+msgid "Max. execution time"
+msgstr "Maximal körtid"
+
+#: legacy/core/core.php:1421
+msgctxt "dashboard widget visibility"
+msgid "Editor and above"
+msgstr "Redaktör och högre"
+
+#: legacy/core/core.php:1415
+msgid "Show the dashboard widget for"
+msgstr "Visa adminpanel-widgeten för"
+
+#: legacy/core/core.php:1204
+msgid "Show uncertain or minor problems as \"warnings\" instead of \"broken\""
+msgstr "Visa osäkra eller mindre problem som ”varningar” istället för ”brutna”"
+
+#: legacy/core/core.php:1024
+msgid "Notification e-mail address"
+msgstr "E-postadress för avisering"
+
+#: legacy/core/core.php:991
+msgid "E-mail notifications"
+msgstr "E-postaviseringar"
+
+#: legacy/core/core.php:942 legacy/includes/admin/options-page-js.php:56
+msgid "Show debug info"
+msgstr "Visa felsökningsinformation"
+
+#: legacy/core/core.php:984
+msgid "Existing links will be checked this often. New links will usually be checked ASAP."
+msgstr "Befintliga länkar kommer att kontrolleras så här ofta. Nya länkar kommer vanligtvis kontrolleras så fort som möjligt."
+
+#: legacy/core/core.php:1621
+msgid "Re-check all pages"
+msgstr "Kontrollera alla sidor igen"
+
+#: legacy/core/core.php:1017
+msgid "Send authors e-mail notifications about broken links in their posts"
+msgstr "Skicka e-postaviseringar till författare om brutna länkar i deras inlägg"
+
+#: legacy/core/core.php:1003
+msgid "Send me e-mail notifications about newly detected broken links"
+msgstr "Skicka e-postaviseringar till mig om nyligen upptäckta brutna länkar"
+
+#: legacy/core/core.php:1176
+msgctxt "\"Link tweaks\" settings"
+msgid "These settings only apply to the content of posts, not comments or custom fields."
+msgstr "De här inställningarna tillämpas endast för innehållet i inlägg, inte för kommentarer eller anpassade fält."
+
+#: legacy/core/core.php:1474
+msgid "The plugin works by periodically launching a background job that parses your posts for links, checks the discovered URLs, and performs other time-consuming tasks. Here you can set for how long, at most, the link monitor may run each time before stopping."
+msgstr "Tillägget startar ett bakgrundsjobb regelbundet som genomsöker dina inlägg efter länkar, kontrollerar de upptäckta URL:erna och utför andra tidskrävande uppgifter. Här kan du ställa in hur länge, som mest, länkövervakaren kan köras varje gång innan den stoppas."
+
+#: legacy/core/core.php:3994
+msgid "You must have either CURL or Snoopy installed for the plugin to work!"
+msgstr "Du måste antingen ha CURL eller Snoppy installerat för att tillägget ska fungera!"
+
+#: app/admin-pages/cloud-page/class-controller.php:85
+msgid "Link Checker"
+msgstr "Länkkontroll"
+
+#: legacy/core/core.php:1394
+msgid "Run continuously while the Dashboard is open"
+msgstr "Kör oavbrutet när adminpanelen är öppen"
+
+#: legacy/core/core.php:4237
+msgid "Here's a list of the new broken links: "
+msgstr "Här är en lista över de nya brutna länkarna: "
+
+#: legacy/core/core.php:2037
+msgid "Filter \"%s\" created"
+msgstr "Filtret ”%s” skapades"
+
+#: legacy/core/core.php:1626
+msgid "The \"Nuclear Option\". Click this button to make the plugin empty its link database and recheck the entire site from scratch."
+msgstr "”Atombombsalternativet”: Klicka på denna knapp för att tvinga tillägget att tömma sin länkdatabas och kontrollera hela webbplatsen igen på nytt."
+
+#: legacy/core/core.php:1109 legacy/core/core.php:1154
+msgid "Click \"Save Changes\" to update example output."
+msgstr "Klicka på ”Spara ändringar” för att uppdatera exempelresultat."
+
+#: legacy/includes/admin/links-page-js.php:429
+msgctxt "link suggestions"
+msgid "Searching..."
+msgstr "Söker …"
+
+#: legacy/includes/admin/links-page-js.php:64
+#: legacy/includes/admin/links-page-js.php:659
+msgid "Wait..."
+msgstr "Vänta …"
+
+#: legacy/core/core.php:3345
+msgid "Searching your blog for links..."
+msgstr "Genomsöker din blogg efter länkar …"
+
+#: legacy/core/core.php:3332
+msgid "Detected %1$s in %2$s and still searching..."
+msgstr "Hittade %1$s i %2$s och söker fortfarande …"
+
+#: legacy/core/core.php:245 legacy/includes/admin/links-page-js.php:45
+msgid "Loading..."
+msgstr "Laddar in …"
+
+#: legacy/core/core.php:1106
+msgid "Example : Lorem ipsum <a %s>broken link</a>, dolor sit amet."
+msgstr "Exempel: Lorem ipsum <a %s>bruten länk</a>, dolor sit amet."
+
+#: legacy/includes/admin/db-upgrade.php:100
+msgid "Failed to delete old DB tables. Database error : %s"
+msgstr "Misslyckades ta bort gamla DB-tabeller. Databasfel: %s"
+
+#: legacy/core/core.php:4191 legacy/core/core.php:4316
+msgid "[%s] Broken links detected"
+msgstr "[%s] Brutna länkar hittade"
+
+#: legacy/core/core.php:4196
+msgid "Broken Link Checker has detected %d new broken link on your site."
+msgid_plural "Broken Link Checker has detected %d new broken links on your site."
+msgstr[0] "Broken Link Checker har hittat %d ny bruten länk på din webbplats."
+msgstr[1] "Broken Link Checker har hittat %d nya brutna länkar på din webbplats."
+
+#: legacy/core/core.php:3305
+msgid "No broken links found."
+msgstr "Inga brutna länkar hittades."
+
+#: legacy/core/core.php:3347
+msgid "No links detected."
+msgstr "Inga länkar upptäckta."
+
+#: legacy/includes/admin/table-printer.php:733
+msgid "Undismiss"
+msgstr "Ta bort avfärdning"
+
+#: legacy/includes/admin/table-printer.php:732
+msgid "Undismiss this link"
+msgstr "Avfärda inte denna länk"
+
+#: legacy/core/core.php:2654
+msgid "%d link dismissed"
+msgid_plural "%d links dismissed"
+msgstr[0] "%d länk avfärdad"
+msgstr[1] "%d länkar avfärdade"
+
+#: legacy/includes/admin/table-printer.php:718
+msgid "Remove this link from the list of broken links and mark it as valid"
+msgstr "Ta bort denna länk från listan över brutna länkar och markera den som giltig"

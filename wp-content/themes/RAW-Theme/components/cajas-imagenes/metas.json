@@ -1,0 +1,12 @@
+{
+    "raw-title-cajas-imagenes":"text",
+    "raw-title-izquierda":"text",
+    "raw-parrafo-izquierda":"wpeditor",
+    "raw-title-caja-izquierda-1":"text",
+    "raw-parrafo-izquierda-1":"wpeditor",
+    "raw-title-caja-izquierda-2":"text",
+    "raw-parrafo-izquierda-2":"wpeditor",
+    "raw-texto-button-cajas-imagenes":"text",
+    "raw-imagen-derecha": "text",
+    "raw-parrafo-derecha": "wpeditor"
+}   

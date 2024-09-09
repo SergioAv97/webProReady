@@ -1,0 +1,7 @@
+Copyright (C) 2024 Raul Illana <raul.illana@gmail.com>
+
+This code is NOT free software: you can NOT redistribute or sell it. You can modify it to suit your needs, but you can NOT sell or redistribute any derivative work also.
+
+This code is authorized to run ONLY in the website https://solucionamideuda.es and only in ONE ADDITIONAL STAGING SITE.
+
+This code is distributed WITHOUT ANY WARRANTY and with ALL RIGHTS RESERVED.

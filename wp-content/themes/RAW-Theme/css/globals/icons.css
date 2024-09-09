@@ -1,0 +1,67 @@
+/* buttons with icons */
+#social a:not([role="button"]):before {
+	display: inline-block;
+	font-family: var(--raw-font-awesome-brands);
+}
+
+a.raw-phone:before {
+	font: var(--raw-font-icons-small);
+	content: '\f095';
+}
+
+a.raw-chart-pie:before {
+	font: var(--raw-font-icons-small);
+	content: '\f200';
+}
+
+a.raw-file-excel:before {
+	font: var(--raw-font-icons-small);
+	content: '\f1c3';
+}
+
+a.raw-balance-scale:before {
+	font: var(--raw-font-icons-small);
+	content: '\f24e';
+}
+
+a.raw-arrow-right:after {
+	font: var(--raw-font-icons-small);
+	content: '\f061';
+}
+
+/* standalone icons */
+
+a.raw-pin:before {
+	font: var(--raw-font-icons-small);
+	content: '\f3c5';
+	margin-right: .5rem;
+}
+
+/* social icons */
+
+a.raw-whatsapp:before,
+a.raw-facebook:before,
+a.raw-twitter:before,
+a.raw-youtube:before,
+a.raw-instagram:before,
+a.raw-tiktok:before{
+	font: var(--raw-font-icons-small);
+}
+
+a.raw-whatsapp:before,
+.whatsapp a:before { content: '\f232'; }
+
+a.raw-facebook:before,
+.facebook a:before { content: '\f09a'; }
+
+a.raw-twitter:before,
+.twitter a:before { content: '\f099'; }
+
+a.raw-youtube:before,
+.youtube a:before { content: '\f167'; }
+
+a.raw-instagram:before,
+.instagram a:before { content: '\f16d'; }
+
+a.raw-tiktok:before,
+.tiktok a:before { content: '\e07b'; }

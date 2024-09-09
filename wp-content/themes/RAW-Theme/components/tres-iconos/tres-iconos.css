@@ -1,0 +1,25 @@
+.tres-iconos {
+	ul {
+		li {
+			text-align: center;
+			padding: 0 .5rem;
+
+			.title {
+				color: var(--raw-color-white);
+				font: var(--raw-font-weight-bolder) var(--raw-font-size-bigger) var(--raw-font-roboto);
+			}
+
+			p {
+				padding: 0 1.5rem;
+				color: var(--raw-color-white);
+				font-size: var(--raw-font-size-big);
+			}
+
+			i {
+				color: var( --raw-color-orange );
+				font-size: 5rem;
+				margin-bottom: 2rem;
+			}
+		}
+	}
+}

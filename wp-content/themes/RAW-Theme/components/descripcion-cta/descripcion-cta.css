@@ -1,0 +1,6 @@
+.description-cta {
+	a[role="button"] {
+		display: table;
+		margin: 3rem auto 0;
+	}
+}

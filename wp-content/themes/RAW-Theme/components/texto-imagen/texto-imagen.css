@@ -1,0 +1,21 @@
+.texto-imagen {
+	p, b {
+		color: var(--raw-color-white);
+	}
+
+	.grid {
+		grid-template-columns: 53% 47%;
+		column-gap: 3rem;
+
+		img {
+			border-radius: 2rem;
+			position: sticky;
+			top: 3rem;
+		}
+		div{
+			p{
+				color: white !important;
+			}
+		}
+	}
+}

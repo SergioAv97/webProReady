@@ -1,0 +1,28 @@
+.sticker {
+	.grid {
+		grid-template-columns: 60% 40%;
+
+		h2 {
+			text-align: left;
+		}
+
+		img {
+			display: block;
+			margin: 0 auto;
+			transform: rotate(22.5deg);
+		}
+
+		p, b, u {
+			color: var(--raw-color-white);
+		}
+	}
+
+}
+
+
+
+@media (max-width: 780px) {
+	#sticker-image img{
+		width:80%;
+	}	
+}

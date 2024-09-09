@@ -1,0 +1,185 @@
+# Translation of Plugins - Media Cleaner: Clean your WordPress! - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - Media Cleaner: Clean your WordPress! - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-05-20 15:18:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Media Cleaner: Clean your WordPress! - Stable (latest release)\n"
+
+#: classes/rest.php:177
+msgid "Issues were reset."
+msgstr "Problem återställdes."
+
+#: common/ratings.php:99
+msgid "✌️ Done!"
+msgstr "✌️ Klart!"
+
+#: common/ratings.php:89
+msgid "<h2 style=\"margin: 0\" class=\"title\">You have been using <b>%1$s</b> for some time now. Thank you! 💕</h2><p>If you have a minute, can you write a <b><a target=\"_blank\" href=\""
+msgstr "<h2 style=\"margin: 0\" class=\"title\">Nu har du använt <b>%1$s</b> ett tag. Tack för det! 💕</h2><p>Om du har en minut över får du gärna skriva en <b><a target=\"_blank\" href=\""
+
+#: common/news.php:96
+msgid "❌ Delete"
+msgstr "❌ Ta bort"
+
+#: common/news.php:87
+msgid "👉 AI Engine at WordPress.org"
+msgstr "👉 AI Engine på WordPress.org"
+
+#: common/news.php:79
+msgid "<h2 style=\"margin: 0 0 10px 0\" class=\"title\">AI Engine by Meow Apps: The Power of AI into WordPress 💫</h2>"
+msgstr "<h2 style=\"margin: 0 0 10px 0\" class=\"title\">AI Engine från Meow Apps: Lägger till styrkan hos AI i WordPress 💫</h2>"
+
+#. Description of the plugin
+#: media-cleaner.php
+msgid "Clean your WordPress! Eliminate unused and broken media files. For a faster, and better website."
+msgstr "Snygga upp din WordPress-installation! Gör dig av med mediafiler som inte används eller är skadade för att få en snabbare och bättre webbplats."
+
+#: classes/core.php:1575
+msgid "Not found in content"
+msgstr "Hittades inte i innehåll"
+
+#: common/news.php:91 common/ratings.php:107
+msgid "⏰ Remind me later"
+msgstr "⏰ Påminn mig senare"
+
+#. Author URI of the plugin
+#: media-cleaner.php
+msgid "https://jordymeow.com"
+msgstr "https://jordymeow.com"
+
+#: common/admin.php:89
+msgid "<a target=\"_blank\" href=\"https://meowapps.com\">Get the <u>Pro Version</u></a>"
+msgstr "<a target=\"_blank\" href=\"https://meowapps.com\">Skaffa <u>Pro-versionen</u></a>"
+
+#: common/admin.php:89
+msgid "License Issue"
+msgstr "Licensproblem"
+
+#: common/admin.php:85
+msgid "<a href=\"admin.php?page=%s_settings\">Settings</a>"
+msgstr "<a href=\"admin.php?page=%s_settings\">Inställningar</a>"
+
+#: classes/rest.php:287
+msgid "No files for this path (%s)."
+msgstr "Inga filer under denna sökväg (%s)."
+
+#: classes/init.php:5
+msgid "Thanks for installing the Pro version of Media Cleaner :) However, the free version is still enabled. Please disable or uninstall it."
+msgstr "Tack för att du har installerat Pro-versionen av Media Cleaner :) Men du har fortfarande den fria versionen aktiverad. Inaktivera eller avinstallera den."
+
+#: classes/ui.php:47
+msgid "Cleaner"
+msgstr "Rensare"
+
+#: classes/engine.php:167
+msgid "Extracted references from %d medias in %s."
+msgstr "Referenser från %d mediafiler extraherade på %s."
+
+#: classes/core.php:1587
+msgid "No attached file"
+msgstr "Bilagefil saknas"
+
+#: classes/core.php:1578
+msgid "Not in Library"
+msgstr "Finns inte i biblioteket"
+
+#: classes/engine.php:140
+msgid "Skipped, as Media Library is not selected."
+msgstr "Hoppades över eftersom mediabiblioteksmetoden inte är vald."
+
+#: classes/engine.php:135
+msgid "Skipped, as it is not needed for the Media Library method."
+msgstr "Hoppades över eftersom detta inte behövs för mediabiblioteksmetoden."
+
+#. translators: %1$d is number of posts, %2$s is time in milliseconds
+#: classes/engine.php:126
+msgid "Extracted references from %1$d posts in %2$s."
+msgstr "Referenser från %1$d inlägg extraherades på %2$s."
+
+#: classes/engine.php:66 classes/engine.php:71
+msgid "Skipped, as Content is not selected."
+msgstr "Hoppades över eftersom inget innehåll är valt."
+
+#. translators: %1$s is the version of the interface; %2$s is a file path.
+#: common/admin.php:199
+msgid "Thanks for using <a href=\"https://meowapps.com\">Meow Apps</a>! This is the Meow Admin %1$s <br /><i>Loaded from %2$s </i>"
+msgstr "Tack för att du använder <a href=\"https://meowapps.com\">Meow Apps</a>! Det här är Meow Admin %1$s <br /><i>Hämtat från %2$s </i>"
+
+#: common/admin.php:88
+msgid "Pro Version"
+msgstr "Pro-versionen"
+
+#: common/admin.php:126
+msgid "Remove the license"
+msgstr "Ta bort licensen"
+
+#: common/admin.php:120
+msgid "<p>It looks like you are using the free version of the plugin (<b>%s</b>) but a license for the Pro version was also found. The Pro version might have been replaced by the Free version during an update (might be caused by a temporarily issue). If it is the case, <b>please download it again</b> from the <a target=\"_blank\" href=\"https://meowapps.com\">Meow Store</a>. If you wish to continue using the free version and clear this message, click on this button."
+msgstr "<p>Det verkar som att du använder gratisversionen av tillägget (<b>%s</b>) men en licens för Pro-versionen hittades också. Pro-versionen kan ha ersatts av gratisversionen under en uppdatering (kan orsakas av ett tillfälligt problem). Om det är så i detta fall, <b>ladda ner det igen</b> från <a target=\"_blank\" href=\"https://meowapps.com\">Meow Store</a>. Om du vill fortsätta använda gratisversionen och ta bort detta meddelande, klicka på denna knapp."
+
+#: common/ratings.php:113
+msgid "Hide"
+msgstr "Dölj"
+
+#. translators: %1$d is a number of targets, %2$d is a number of issues, %3$s
+#. is elapsed time in milliseconds
+#: classes/rest.php:367
+msgid "Checked %1$d targets and found %2$d issues in %3$s."
+msgstr "Kollat %1$d mål och upptäckte %2$d problem på %3$s."
+
+#: classes/rest.php:290 classes/rest.php:308
+msgid "Retrieved %d targets."
+msgstr "Hämtat %d mål."
+
+#: classes/core.php:1584
+msgid "Orphan WebP"
+msgstr "WebP utan huvudfil"
+
+#: classes/rest.php:169
+msgid "Invalid Regular-Expression"
+msgstr "Ogiltigt reguljärt uttryck"
+
+#: common/admin.php:164
+msgid "<label>Hide <b>Meow Apps</b> Menu</label><br /><small>Hide Meow Apps menu and all its components, for a cleaner admin. This option will be reset if a new Meow Apps plugin is installed.<br /><b>Once activated, an option will be added in your General settings to display it again.</b></small>"
+msgstr "<label>Dölj <b>Meow Apps</b> meny</label><br /><small>Dölj Meow Apps-menyn och alla dess komponenter, för att få ett renare admin-gränssnitt. Detta alternativ återställs om något nytt Meow Apps-tillägg installeras.<br /><b>När inställningen är aktiv kommer ett alternativ att läggas till i dina allmänna inställningar för att visa det igen.</b></small>"
+
+#: classes/ui.php:125
+msgid "Restore with Media Cleaner"
+msgstr "Återställ med Media Cleaner"
+
+#: classes/ui.php:122
+msgid "Trash with Media Cleaner"
+msgstr "Kasta i papperskorgen med Media Cleaner"
+
+#: classes/ui.php:119
+msgid "Delete with Media Cleaner"
+msgstr "Ta bort tillsammans med Media Cleaner"
+
+#: common/admin.php:146 common/admin.php:147
+msgid "Dashboard"
+msgstr "Adminpanel"
+
+#. Plugin URI of the plugin
+#: media-cleaner.php
+msgid "https://meowapps.com"
+msgstr "https://meowapps.com"
+
+#. Author of the plugin
+#: media-cleaner.php
+msgid "Jordy Meow"
+msgstr "Jordy Meow"
+
+#. Plugin Name of the plugin
+#: media-cleaner.php
+msgid "Media Cleaner"
+msgstr "Media Cleaner"
+
+#: classes/core.php:1581
+msgid "Orphan Retina"
+msgstr "Retinabild utan huvudfil"

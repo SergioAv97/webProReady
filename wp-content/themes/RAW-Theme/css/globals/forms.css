@@ -1,0 +1,16 @@
+.form-asesoria {
+	height: auto !important;
+	padding: 1.5rem;
+	border-radius: 1.5rem;
+	background-color: var(--raw-color-white) !important;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.33);
+
+	b {
+		margin: 0 0 1.5rem;
+		display: block;
+		text-align: center;
+		font-family: var(--raw-font-roboto);
+		font-size: var(--raw-font-size-banner-title);
+		font-weight: var(--raw-font-weight-bolder);
+	}
+}

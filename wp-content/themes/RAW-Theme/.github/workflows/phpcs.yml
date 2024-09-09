@@ -1,0 +1,72 @@
+name: PHPCBF + PHPCS with WPCS3x
+on:
+  push:
+  pull_request:
+  # Allow manually triggering the workflow.
+  workflow_dispatch:
+
+# Cancel all previous workflow runs for the same branch that have not yet completed.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  phpcs:
+    name: PHPCBF + PHPCS with WPCS3x
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo code
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
+          fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
+
+      - name: Setup PHP
+        uses: "shivammathur/setup-php@v2"
+        with:
+          php-version: '8.2'
+          ini-values: 'memory_limit=1G'
+          coverage: none
+
+      - name: Install Composer dependencies
+        uses: "ramsey/composer-install@v2"
+        with:
+          # Bust the cache at least once a month - output format: YYYY-MM.
+          custom-cache-suffix: $(date -u "+%Y-%m")
+
+      - name: Check last commit files
+        continue-on-error: true
+        run: git diff-tree --no-commit-id --name-only -r HEAD HEAD^
+
+      - name: Run PHPCBF
+        continue-on-error: true
+        run: vendor/bin/phpcbf $(git diff-tree --no-commit-id --name-only -r HEAD HEAD^)
+
+      - name: Commit PHPCBF autofix to repo
+        continue-on-error: true
+        run: |
+          git config --local user.email "wtf@acronyms.agency"
+          git config --local user.name "PHPCBF + PHPCS with WPCS3x autofixer"
+          git commit -a -m "[PHPCBF] autofix"
+
+      - name: Push PHPCBF autofix to repo
+        uses: ad-m/github-push-action@master
+        continue-on-error: true
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+
+      - name: Run PHPCS and export a JSON file
+        continue-on-error: true
+        run: vendor/bin/phpcs -n --report=json --encoding=UTF-8 $(git diff-tree --no-commit-id --name-only -r HEAD HEAD^) > ./phpcs.json
+
+      - name: Check the JSON file
+        continue-on-error: true
+        run: cat ./phpcs.json
+
+      - name: Update summary
+        continue-on-error: true
+        run: |
+          npx --yes github:10up/phpcs-json-to-md --path ./phpcs.json --output ./phpcs.md
+          cat phpcs.md >> $GITHUB_STEP_SUMMARY
+        if: always()

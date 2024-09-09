@@ -1,0 +1,5678 @@
+# Translation of Plugins - Pods &#8211; Custom Content Types and Fields - Stable (latest release) in Finnish
+# This file is distributed under the same license as the Plugins - Pods &#8211; Custom Content Types and Fields - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-09-17 09:18:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0\n"
+"Language: fi\n"
+"Project-Id-Version: Plugins - Pods &#8211; Custom Content Types and Fields - Stable (latest release)\n"
+
+#: classes/fields/currency.php:472
+msgid "Nigerian Naira"
+msgstr "Nigerian Naira"
+
+#: classes/PodsAdmin.php:4715
+msgid "Pods Allow Deprecated"
+msgstr "Pods Allow Vanhentunut"
+
+#: classes/PodsAdmin.php:4711
+msgid "Pods Strict Activated"
+msgstr "Pods Strict aktivoitu"
+
+#: classes/PodsAdmin.php:4707
+msgid "Pods Light Mode Activated"
+msgstr "Pods vaalea tila aktivoitua"
+
+#: classes/PodsAdmin.php:4695
+msgid "Pods Tableless Mode Activated"
+msgstr "Pods tauluton tila aktioitu"
+
+#: classes/PodsAdmin.php:4691
+msgid "Pods Developer Activated"
+msgstr "Pods Kehittäjä -tila käytössä"
+
+#: classes/PodsAdmin.php:4719
+msgid "Pods API Cache Activated"
+msgstr "Pods API välimuisti aktivoitu käyttöön"
+
+#: classes/PodsAdmin.php:4687
+msgid "Pods Install Location"
+msgstr "Pods asennuksen sijainti"
+
+#: classes/PodsAdmin.php:4683
+msgid "Pods Network-Wide Activated"
+msgstr "Pds Network-Wide -tila käytössä"
+
+#: classes/PodsAdmin.php:4679
+msgid "Current Memory Usage (real)"
+msgstr "Tämänhetkinen muistin käyttö (oikea)"
+
+#: classes/PodsAdmin.php:4675
+msgid "Current Memory Usage"
+msgstr "Tämänhetkinen muistin käyttö"
+
+#: classes/PodsAdmin.php:4671
+msgid "Object Cache: Redis"
+msgstr "Object Cache: Redis"
+
+#: classes/PodsAdmin.php:4667
+msgid "Object Cache: Memcached"
+msgstr "Object Cache: Memcached"
+
+#: classes/PodsAdmin.php:4663
+msgid "Object Cache: Memcache"
+msgstr "Object Cache: Memcache"
+
+#: classes/PodsAdmin.php:4659
+msgid "Object Cache: APCu"
+msgstr "Object Cache: APCu"
+
+#: classes/PodsAdmin.php:4655
+msgid "Object Cache: APC"
+msgstr "Object Cache: APC"
+
+#: classes/PodsAdmin.php:4651
+msgid "Opcode Cache: Redis"
+msgstr "Opcode Cache: Redis"
+
+#: classes/PodsAdmin.php:4647
+msgid "Opcode Cache: OPcache"
+msgstr "Opcode Cache: OPcache"
+
+#: classes/PodsAdmin.php:4643
+msgid "Opcode Cache: Memcached"
+msgstr "Opcode Cache: Memcached"
+
+#: classes/PodsAdmin.php:4639
+msgid "Opcode Cache: Apc"
+msgstr "Opcode Cache: Apc"
+
+#: classes/PodsAdmin.php:4635
+msgid "Session Max Lifetime"
+msgstr "Istunnon maksimi elinaika"
+
+#: classes/PodsAdmin.php:4631
+msgid "Session Save Path Writeable"
+msgstr "Istunnon tallennuspolku kirjoitettavissa"
+
+#: classes/PodsAdmin.php:4627
+msgid "Session Save Path Exists"
+msgstr "Istunnon tallennuspolku on olemassa"
+
+#: classes/PodsAdmin.php:4623
+msgid "Session Save Path"
+msgstr "Istunnon tallennuspolku"
+
+#: classes/PodsAdmin.php:4619
+msgid "Your User Agent"
+msgstr "Oma User Agenttisi"
+
+#: classes/PodsAdmin.php:4615
+msgid "Server Software"
+msgstr "Palvelinohjelmisto"
+
+#: classes/PodsAdmin.php:4600
+msgid "Debug information for Pods installations."
+msgstr "Pods asennusten debug informaatio."
+
+#: classes/PodsInit.php:2027
+msgid "%s updated"
+msgstr "%s päivitetty"
+
+#: classes/fields/currency.php:556
+msgid "US Dollar Cent"
+msgstr "US Dollar Cent"
+
+#: classes/fields/currency.php:436
+msgid "Indonesian Rupiah"
+msgstr "Indonesian Rupiah"
+
+#: classes/fields/currency.php:394
+msgid "Chinese Yuan (元)"
+msgstr "Chinese Yuan (元)"
+
+#: classes/fields/currency.php:388
+msgid "Chinese Yen (¥)"
+msgstr "Chinese Yen (¥)"
+
+#: classes/PodsInit.php:2026
+msgid "%s scheduled"
+msgstr "%s ajastettu"
+
+#: classes/PodsInit.php:2025
+msgid "%s reverted to draft"
+msgstr "%s muutettu luonnokseksi"
+
+#: classes/PodsInit.php:2024
+msgid "%s published privately"
+msgstr "%s julkaistu yksityisenä"
+
+#: classes/PodsInit.php:2023
+msgid "%s published"
+msgstr "%s julkaistu"
+
+#: src/Pods/Admin/Config/Pod.php:1101
+msgid "Taxonomy Description"
+msgstr "Taksonomian kuvaus"
+
+#: src/Pods/Admin/Config/Pod.php:1102
+msgid "A short descriptive summary of what the taxonomy is."
+msgstr "Lyhyt selitys siitä, mikä taksonomia on."
+
+#: components/Roles/ui/edit.php:141
+msgid "Add Another Custom Capability"
+msgstr "Lisää uusi räätälöity ominaisuus"
+
+#: src/Pods/Admin/Config/Pod.php:1295
+msgid "Hierarchical taxonomies will have a list with checkboxes to select an existing category in the taxonomy admin box on the post edit page (like default post categories). Non-hierarchical taxonomies will just have an empty text field to type-in taxonomy terms to associate with the post (like default post tags)."
+msgstr "Hierarkisilla taksonomioilla on ylläpitotilassa valintaruudut kategorian valitsemiseksi (samaan tapaan kuin artikkelien kategorioilla). Ei-hierarkisilla taksonomioilla on vain kenttä termien kirjoittamiseen (samaan tapaan kuin avainsanat artikkeleissa)."
+
+#: components/Roles/ui/edit.php:22 ui/admin/settings-settings.php:94
+msgid "<strong>Success!</strong> %1$s %2$s successfully."
+msgstr "<strong>Onnistui!</strong> %1$s %2$s onnistuneesti."
+
+#: classes/widgets/PodsWidgetSingle.php:15
+msgid "Display a Single Pod Item"
+msgstr "Näytä yksittäinen Pod nimike"
+
+#: classes/fields/currency.php:92
+msgid "After with space (ex. 100 $)"
+msgstr "Jälkeen tilan kera (esim. 100 €)"
+
+#: classes/fields/currency.php:91
+msgid "Before with space (ex. $ 100)"
+msgstr "Edessä tilan kera (esim. € 100)"
+
+#: classes/cli/Pods_CLI_Command.php:381
+msgid "No pod item export data found."
+msgstr "Ei löytynyt pod nimikkeen vientidataa."
+
+#: classes/cli/Pods_CLI_Command.php:378
+msgid "Pod items not exported."
+msgstr "Pod nimikkeitä ei viety."
+
+#: classes/cli/Pods_CLI_Command.php:376
+msgid "Pod items exported: %s"
+msgstr "Pod nimikkeitä viety: %s"
+
+#: classes/cli/Pods_CLI_Command.php:364
+msgid "Error exporting pod items: %s"
+msgstr "Virhe pod nimikkeiden viennissä: %s"
+
+#: classes/cli/Pods_CLI_Command.php:293
+msgid "No export data found."
+msgstr "Vientidataa ei löytynyt."
+
+#: classes/cli/Pods_CLI_Command.php:290
+msgid "Pod item not exported."
+msgstr "Pod -nimikettä ei viety."
+
+#: classes/cli/Pods_CLI_Command.php:288
+msgid "Pod item exported: %s"
+msgstr "Pod -nimike viety: %s"
+
+#: classes/cli/Pods_CLI_Command.php:276
+msgid "Error exporting pod item: %s"
+msgstr "Virhe pod -nimikkeen viennissä: %s"
+
+#: classes/cli/Pods_CLI_Command.php:211
+msgid "Pod item not deleted."
+msgstr "Pod -nimikettä ei poistettu."
+
+#: classes/cli/Pods_CLI_Command.php:165
+msgid "Pod item not duplicated."
+msgstr "Pod -nimikettä ei monistettu."
+
+#: classes/cli/Pods_CLI_Command.php:115
+msgid "Pod item not saved."
+msgstr "Pod -nimikettä ei tallennettu."
+
+#: classes/cli/Pods_CLI_Command.php:99 classes/cli/Pods_CLI_Command.php:150
+#: classes/cli/Pods_CLI_Command.php:197 classes/cli/Pods_CLI_Command.php:263
+msgid "Pod \"%1$s\" item \"%2$s\" does not exist."
+msgstr "Pod \"%1$s\" -nimikettä \"%2$s\" ei ole olemassa."
+
+#: classes/cli/Pods_CLI_Command.php:51
+msgid "Pod item not added."
+msgstr "Pod -nimikettä ei lisätty."
+
+#: classes/cli/PodsAPI_CLI_Command.php:500
+msgid "Pods Package not imported."
+msgstr "Pods pakettia ei tuotu."
+
+#: classes/cli/PodsAPI_CLI_Command.php:498
+msgid "Pods Package imported."
+msgstr "Pods paketti tuotiin."
+
+#: classes/cli/PodsAPI_CLI_Command.php:483
+msgid "Invalid file format, the file must use the .json extension: %s"
+msgstr "Epäkelpo tiedostomuoto, käytä .json -tiedostopäätettä: %s"
+
+#: classes/cli/PodsAPI_CLI_Command.php:437
+#: classes/cli/PodsAPI_CLI_Command.php:489
+#: src/Pods/CLI/Commands/Playbook.php:213
+msgid "No Pods Package data found."
+msgstr "Pods pakettia ei löytynyt."
+
+#: classes/cli/PodsAPI_CLI_Command.php:434
+msgid "Pods Package not exported."
+msgstr "Pods pakettia ei viety."
+
+#: classes/cli/PodsAPI_CLI_Command.php:432
+msgid "Pods Package exported: %s"
+msgstr "Pods paketti vietiin: %s"
+
+#: classes/cli/PodsAPI_CLI_Command.php:417
+#: classes/cli/PodsAPI_CLI_Command.php:494
+msgid "Error exporting Pods Package: %s"
+msgstr "Virhe Pods paketin viennissä: %s"
+
+#: classes/cli/PodsAPI_CLI_Command.php:391
+#: classes/cli/PodsAPI_CLI_Command.php:464
+#: src/Pods/CLI/Commands/Playbook.php:189
+msgid "Migrate Package is not activated. Try activating it: %s"
+msgstr "Siirtopakettia ei aktivoituna. Koeta aktivoida se: %s"
+
+#: classes/cli/PodsAPI_CLI_Command.php:334
+msgid "Component %s is not active."
+msgstr "Komponentti %s ei ole aktiivinen."
+
+#: classes/cli/PodsAPI_CLI_Command.php:260
+msgid "Pod not deleted."
+msgstr "Podia ei poistettu."
+
+#: classes/cli/PodsAPI_CLI_Command.php:254
+msgid "Error deleting pod: %s"
+msgstr "Virhe podin poistossa: %s"
+
+#: classes/cli/PodsAPI_CLI_Command.php:206
+msgid "Pod content not reset."
+msgstr "Pod sisältöä ei nollattu."
+
+#: classes/cli/PodsAPI_CLI_Command.php:163
+msgid "Pod not duplicated."
+msgstr "Podia ei monistettu."
+
+#: classes/cli/PodsAPI_CLI_Command.php:106
+msgid "Pod not saved."
+msgstr "Podia ei tallennettu."
+
+#: classes/cli/PodsAPI_CLI_Command.php:104 classes/cli/Pods_CLI_Command.php:113
+msgid "ID: %s"
+msgstr "ID: %s"
+
+#: classes/cli/PodsAPI_CLI_Command.php:94
+#: classes/cli/PodsAPI_CLI_Command.php:151
+#: classes/cli/PodsAPI_CLI_Command.php:195
+#: classes/cli/PodsAPI_CLI_Command.php:249 classes/cli/Pods_CLI_Command.php:35
+#: classes/cli/Pods_CLI_Command.php:95 classes/cli/Pods_CLI_Command.php:146
+#: classes/cli/Pods_CLI_Command.php:193 classes/cli/Pods_CLI_Command.php:259
+#: classes/cli/Pods_CLI_Command.php:336
+msgid "Pod \"%s\" does not exist."
+msgstr "Podia \"%s\" ei ole olemassa."
+
+#: classes/cli/PodsAPI_CLI_Command.php:52
+msgid "Pod not added."
+msgstr "Podia ei lisätty."
+
+#: classes/cli/PodsAPI_CLI_Command.php:50
+#: classes/cli/PodsAPI_CLI_Command.php:161 classes/cli/Pods_CLI_Command.php:49
+#: classes/cli/Pods_CLI_Command.php:163
+msgid "New ID: %s"
+msgstr "Uusi ID: %s"
+
+#: classes/cli/PodsAPI_CLI_Command.php:45
+#: classes/cli/PodsAPI_CLI_Command.php:99
+msgid "Error saving pod: %s"
+msgstr "Virhe podia tallennettaessa: %s"
+
+#: classes/PodsUI.php:1967
+msgid "<strong>Success!</strong> %1\\$s %2\\$s successfully."
+msgstr "<strong>Onnistui!</strong> %1\\$s %2\\$s onnistuneesti."
+
+#: classes/fields/currency.php:95
+msgid "Before with space and with Currency Code after (ex. $ 100 USD)"
+msgstr "Tyhjä tila ennen ja valuuttakoodi jälkeen (esim. € 100 USD)"
+
+#: ui/fields/oembed.php:29
+msgid "Preview"
+msgstr "Esikatselu"
+
+#: ui/fields/link.php:73
+msgid "Or link to existing content"
+msgstr "Tai linkitä olemassa olevaan sisältöön"
+
+#: ui/fields/link.php:66
+msgid "Open link in a new tab"
+msgstr "Avaa linkki uudessa välilehdessä"
+
+#: ui/fields/link.php:61
+msgid "Link Text"
+msgstr "Linkkiteksti"
+
+#: ui/fields/link.php:58
+msgid "URL"
+msgstr "URL"
+
+#: ui/fields/link.php:55
+msgid "Enter the destination URL"
+msgstr "Lisää kohteen URL-osoite"
+
+#: classes/PodsAdmin.php:533 classes/PodsAdmin.php:1803
+msgid "Edit Pod"
+msgstr "Muokkaa Podia"
+
+#: components/I18n/I18n.php:758
+msgid "Updated active languages."
+msgstr "Päivitä aktiiviset kielet."
+
+#: components/I18n/I18n.php:700
+msgid "Locale"
+msgstr "Alueasetus"
+
+#: components/I18n/I18n.php:696
+msgid "Active"
+msgstr "Aktiivinen"
+
+#: components/I18n/I18n.php:692 components/I18n/I18n.php:703
+msgid "Language"
+msgstr "Kieli"
+
+#: components/I18n/I18n.php:691
+msgid "Languages"
+msgstr "Kielet"
+
+#: components/I18n/I18n.php:240
+msgid "Select"
+msgstr "Valitse"
+
+#: components/I18n/I18n.php:239
+msgid "Hide translations"
+msgstr "Piilota käännökset"
+
+#: components/I18n/I18n.php:238
+msgid "Show translations"
+msgstr "Näytä käännökset"
+
+#: components/I18n/I18n.php:237
+msgid "Toggle translations"
+msgstr "Käännökset päälle/pois päältä"
+
+#: components/I18n/I18n.php:236
+msgid "Add translation"
+msgstr "Lisää käännös"
+
+#: src/Pods/Integrations/WPML.php:278
+msgid "WPML"
+msgstr "WPML"
+
+#: src/Pods/Integrations/Polylang.php:116
+#: src/Pods/Integrations/Polylang.php:326
+msgid "Polylang"
+msgstr "Polylang"
+
+#: classes/fields/time.php:86
+msgid "Time format for input"
+msgstr "Ajan esitysmuoto"
+
+#: classes/fields/time.php:76
+msgid "Time format for display"
+msgstr "Näytettävä ajan esitysmuoto"
+
+#: classes/fields/pick.php:3926
+msgid "Yukon"
+msgstr "Yukon"
+
+#: classes/fields/pick.php:3925
+msgid "Saskatchewan"
+msgstr "Saskatchewan"
+
+#: classes/fields/pick.php:3924
+msgid "Quebec"
+msgstr "Quebec"
+
+#: classes/fields/pick.php:3923
+msgid "Prince Edward Island"
+msgstr "Prince Edward Island"
+
+#: classes/fields/pick.php:3922
+msgid "Ontario"
+msgstr "Ontario"
+
+#: classes/fields/pick.php:3921
+msgid "Nunavut"
+msgstr "Nunavut"
+
+#: classes/fields/pick.php:3920
+msgid "Nova Scotia"
+msgstr "Nova Scotia"
+
+#: classes/fields/pick.php:3919
+msgid "Northwest Territories"
+msgstr "Northwest Territories"
+
+#: classes/fields/pick.php:3918
+msgid "Newfoundland and Labrador"
+msgstr "Newfoundland and Labrador"
+
+#: classes/fields/pick.php:3917
+msgid "New Brunswick"
+msgstr "New Brunswick"
+
+#: classes/fields/pick.php:3916
+msgid "Manitoba"
+msgstr "Manitoba"
+
+#: classes/fields/pick.php:3915
+msgid "British Columbia"
+msgstr "British Columbia"
+
+#: classes/fields/pick.php:3914
+msgid "Alberta"
+msgstr "Alberta"
+
+#: classes/fields/pick.php:1374
+msgid "%s: Edit"
+msgstr "%s: Muokkaa"
+
+#: classes/fields/pick.php:1373
+msgid "%s: Add New"
+msgstr "%s: Lisää uusi"
+
+#: classes/fields/pick.php:799
+msgid "CA Provinces"
+msgstr "CA Provinces"
+
+#: classes/fields/pick.php:344
+msgid "Show View Links"
+msgstr "Näytä katselulinkit"
+
+#: classes/fields/pick.php:331
+msgid "Show Edit Links"
+msgstr "Näytä muokkauslinkit"
+
+#: classes/fields/pick.php:318
+msgid "Show Icons"
+msgstr "Näytä ikonit"
+
+#: classes/fields/pick.php:281
+msgid "Allow new related records to be created in a modal window"
+msgstr "Salli uusien tähän liittyvien tietueiden luomisen modaalisessa ikkunassa"
+
+#: classes/fields/pick.php:280
+msgid "Allow Add New"
+msgstr "Salli Lisää uusi"
+
+#: classes/fields/oembed.php:509
+msgid "Please choose a valid oEmbed URL."
+msgstr "Valitse kelvollinen oEmbed URL."
+
+#: classes/fields/oembed.php:114
+msgid "Select enabled providers"
+msgstr "Valitse aktiiviset toimittajat"
+
+#: classes/fields/oembed.php:108
+msgid "Restrict input to specific WordPress oEmbed compatible providers."
+msgstr "Rajoita syöttö WordPress oEmbed -yhteensopiviin toimittajiin.."
+
+#: classes/fields/oembed.php:107
+msgid "Restrict to providers"
+msgstr "Rajoita toimittajiin"
+
+#: classes/fields/oembed.php:89
+msgid "Show preview"
+msgstr "Näytä esikatselu"
+
+#: classes/fields/oembed.php:83
+msgid "Embed Height"
+msgstr "Embed korkeus"
+
+#: classes/fields/oembed.php:80
+msgid "Optional width to use for this oEmbed. Leave as 0 (zero) to default to none."
+msgstr "Vaihtoehtoinen oEmbed -leveys. Jätä 0 (nolla) oletukseksi ei mitään."
+
+#: classes/fields/oembed.php:77
+msgid "Embed Width"
+msgstr "Embed leveys"
+
+#: classes/fields/oembed.php:58
+msgid "oEmbed"
+msgstr "oEmbed"
+
+#: classes/fields/link.php:242
+msgid "Invalid link provided for the field %s."
+msgstr "Epäkelpo linkki kentälle %s."
+
+#: classes/fields/link.php:74
+msgid "Link Text Output Options"
+msgstr "Linkkitekstin tulostuksen vaihtoehdot"
+
+#: classes/fields/link.php:50
+msgid "No URL format restrictions"
+msgstr "Ei rajoituksia URLn muotoon"
+
+#: classes/fields/link.php:36
+msgid "Link"
+msgstr "Linkki"
+
+#: classes/fields/file.php:908
+msgid "This method has been deprecated and will be removed from Pods 3.0"
+msgstr "Tämä metodi on vanhentunut ja se poistetaan Pods 3.0 versiossa"
+
+#: classes/fields/file.php:233
+msgid "Rows"
+msgstr "Rivit"
+
+#: classes/fields/file.php:221
+msgid "You can choose which style you would like the files to appear within the form."
+msgstr "Voit valita millä tyylillä tiedot näkyvät lomakkeella."
+
+#: classes/fields/file.php:220
+msgid "List Style"
+msgstr "Listan tyyli"
+
+#: ui/forms/type/post.php:134
+msgid "You are about to permanently delete this item. Choose CANCEL to stop, OK to delete."
+msgstr "Olet lopullisesti poistamassa tämän nimikkeen. Valitse PERU peruaksesi, OK poistaaksesi."
+
+#: classes/fields/website.php:53
+msgid "No format"
+msgstr "Ei esitysmuotoa"
+
+#: classes/fields/oembed.php:86
+msgid "Optional height to use for this oEmbed. Leave as 0 (zero) to default to none."
+msgstr "Vaihtoehtoinen tämän oEmbed'in korkeus. Jätä 0 (nolla) oletukseksi ei mitään."
+
+#: classes/fields/file.php:409
+msgid "You do not have access to upload / browse files. Contact your website admin to resolve."
+msgstr "Sinulla ei ole oikeutta ladata / selata tiedostoja. Ota yhteys sivuston ylläpitoon."
+
+#: classes/fields/file.php:234
+msgid "Tiles"
+msgstr "Kaakelimainen asetelu"
+
+#: components/I18n/I18n.php:704
+msgid "Native name"
+msgstr "Nimi alkuperäkielellä"
+
+#: classes/fields/file.php:213
+msgid "Valid size suffixes are: GB (gigabytes), MB (megabytes), KB (kilobytes), or B (bytes).  Defaults to the <a href=\"https://developer.wordpress.org/reference/functions/wp_max_upload_size/\">wp_max_upload_size</a> setting."
+msgstr "Kelvolliset päätteet ovat: GB (gigabittiä), MB (megabittiä), KB (kilobittiä), tai B (bittiä).  Oletuksena <a href=\"https://developer.wordpress.org/reference/functions/wp_max_upload_size/\">wp_max_upload_size</a> asetus."
+
+#: classes/fields/file.php:201
+msgid "Show Download Link"
+msgstr "Näytä latauslinkki"
+
+#: classes/fields/file.php:196
+msgid "Show Edit Link"
+msgstr "Näytä muokkauslinkki"
+
+#: classes/fields/file.php:95
+msgid "Upload and/or Select (Media Library)"
+msgstr "Lataa ja/tai Valitse (Media Kirjasto)"
+
+#. Translators: %1$s is the field label and %2$s is the input value.
+#: classes/fields/datetime.php:359
+msgid "%1$s was not provided in a recognizable format: \"%2$s\""
+msgstr "%1$s ei tarjottu tunnistettavassa muodossa: \"%2$s\""
+
+#: classes/fields/time.php:92
+msgid "jQuery UI timepicker documentation"
+msgstr "jQuery UI timepicker documentaatio"
+
+#: classes/fields/datetime.php:124 classes/fields/time.php:64
+msgid "12/24 hour will allow you to select from a list of commonly used time formats."
+msgstr "12/24 tuntia mahdollistaa yleisimmin käytettyjen esitysmuotojen käytön."
+
+#: classes/fields/datetime.php:124 classes/fields/time.php:64
+msgid "WordPress Default is the format used in Settings, General under \"Time Format\"."
+msgstr "WordPress Default on Asetukset -kohdassa käytetty muoto, Yleinen \"Ajan Esitysmuoto\" -kohdassa."
+
+#: classes/fields/date.php:86 classes/fields/datetime.php:95
+#: classes/fields/datetime.php:155 classes/fields/time.php:93
+msgid "Leave empty to auto-generate from PHP format."
+msgstr "Jätä tyhjäksi jotta generoidaan automaattisesti PHP muodossa."
+
+#: classes/fields/date.php:85 classes/fields/date.php:120
+msgid "jQuery UI datepicker documentation"
+msgstr "jQuery UI datepicker dokumentaatio"
+
+#: classes/fields/date.php:79
+msgid "Date format for input"
+msgstr "Päivämääräsyötteen muoto"
+
+#: classes/fields/date.php:75 classes/fields/time.php:82
+msgid "PHP date documentation"
+msgstr "PHP date dokumentaatio"
+
+#: classes/fields/date.php:69
+msgid "Date format for display"
+msgstr "Päivämäärän näyttämisen esitysmuoto"
+
+#: classes/fields/date.php:62 classes/fields/datetime.php:71
+#: classes/fields/time.php:69
+msgid "Custom format"
+msgstr "Räätälöity esitysmuoto"
+
+#: classes/fields/date.php:61 classes/fields/datetime.php:70
+msgid "Predefined format"
+msgstr "Ennaltamääritelty esitysmuoto"
+
+#: classes/fields/date.php:60 classes/fields/datetime.php:69
+#: classes/fields/datetime.php:126 classes/fields/time.php:66
+msgid "WordPress default"
+msgstr "WordPress oletus"
+
+#: classes/fields/date.php:58 classes/fields/datetime.php:67
+#: classes/fields/datetime.php:124 classes/fields/time.php:64
+msgid "Custom will allow you to enter your own using PHP Date/Time Strings."
+msgstr "Räätälöity -vaihtoehto sallii sinun käyttää omia PHP Date/Time stringejä."
+
+#: classes/fields/date.php:58 classes/fields/datetime.php:67
+msgid "WordPress Default is the format used in Settings, General under \"Date Format\"."
+msgstr "WordPress Default on käytetty muoto Asetukset -kohdassa, Yleinen \"Päivämäärän Esitusmuoto\" -kohdassa."
+
+#: classes/fields/date.php:54 classes/fields/datetime.php:63
+msgid "Date Format Type"
+msgstr "Päivämäärän esitysmuodon tyyppi"
+
+#: classes/fields/currency.php:174 classes/fields/email.php:59
+#: classes/fields/number.php:126 classes/fields/paragraph.php:149
+#: classes/fields/password.php:53 classes/fields/phone.php:87
+#: classes/fields/slug.php:50 classes/fields/text.php:104
+#: classes/fields/website.php:100
+msgid "Placeholders can provide instructions or an example of the required data format for a field. Please note: It is not a replacement for labels or description text, and it is less accessible for people using screen readers."
+msgstr "Placeholder voi kertoa ohjeen tai esimerkin kenttään soveltuvasta esitysformaatista. Huomaa: se ei korvaa valikkotekstiä eikä selitetekstiä, ja on myös ruudunlukijaohjelmia käyttäville esteettömyysmielessä kehnompi."
+
+#: classes/cli/Pods_CLI_Command.php:209
+msgid "Pod item deleted."
+msgstr "Pod nimike poistettu."
+
+#: classes/cli/Pods_CLI_Command.php:162
+msgid "Pod item duplicated."
+msgstr "Pod nimike monistettu."
+
+#: classes/cli/Pods_CLI_Command.php:112
+msgid "Pod item saved."
+msgstr "Pod nimike tallennettu."
+
+#: classes/cli/Pods_CLI_Command.php:54 classes/cli/Pods_CLI_Command.php:118
+msgid "No data sent for saving."
+msgstr "Dataa ei lähetetty tallennukseen."
+
+#: classes/cli/Pods_CLI_Command.php:44 classes/cli/Pods_CLI_Command.php:108
+#: classes/cli/Pods_CLI_Command.php:158 classes/cli/Pods_CLI_Command.php:205
+msgid "Error saving pod item: %s"
+msgstr "Virhe pod -nimikettä tallennettaessa: %s"
+
+#: classes/cli/Pods_CLI_Command.php:48
+msgid "Pod item added."
+msgstr "Pod -nimike lisätty."
+
+#: classes/cli/PodsAPI_CLI_Command.php:356
+msgid "Pods cache cleared"
+msgstr "Pod -välimuisti tyhjennetty"
+
+#: classes/cli/PodsAPI_CLI_Command.php:299
+msgid "Component activated."
+msgstr "Komponentti otettu käyttöön."
+
+#: classes/cli/PodsAPI_CLI_Command.php:295
+msgid "Component %s is already active."
+msgstr "Komponentti %s on jo käytössä."
+
+#: classes/cli/PodsAPI_CLI_Command.php:285
+#: classes/cli/PodsAPI_CLI_Command.php:324
+msgid "PodsInit not available"
+msgstr "PodsInit ei käytettävissä"
+
+#: classes/cli/PodsAPI_CLI_Command.php:258
+msgid "Pod deleted."
+msgstr "Pod poistettu."
+
+#: classes/cli/PodsAPI_CLI_Command.php:200
+msgid "Error resetting pod: %s"
+msgstr "Virhe podia nollatessa: %s"
+
+#: classes/cli/PodsAPI_CLI_Command.php:204
+msgid "Pod content reset."
+msgstr "Pod sisältö tyhjennetty."
+
+#: classes/cli/PodsAPI_CLI_Command.php:156
+msgid "Error duplicating pod: %s"
+msgstr "Virhe podia monistettaessa: %s"
+
+#: classes/cli/PodsAPI_CLI_Command.php:160
+msgid "Pod duplicated."
+msgstr "Pod monistettu."
+
+#: classes/cli/PodsAPI_CLI_Command.php:103
+msgid "Pod saved."
+msgstr "Pod tallennettu."
+
+#: classes/cli/PodsAPI_CLI_Command.php:49
+msgid "Pod added."
+msgstr "Pod lisätty."
+
+#: classes/PodsUI.php:3081
+msgid "Export all %s"
+msgstr "Vie kaikki %s"
+
+#: classes/PodsUI.php:2169
+msgid "Export as:"
+msgstr "Vie muodossa:"
+
+#: classes/PodsUI.php:2145
+msgid "Choose Export Fields"
+msgstr "Valitse vietävät kentät"
+
+#: classes/PodsInit.php:2044
+msgid "No %s found."
+msgstr "Yhtään %s ei löytynyt."
+
+#: classes/PodsInit.php:2017 src/Pods/Admin/Config/Pod.php:400
+msgid "%s Attributes"
+msgstr "%s Attribuutit"
+
+#: classes/PodsI18n.php:206
+msgid "Icon"
+msgstr "Ikoni"
+
+#. Translators: %s stands for a number.
+#: classes/PodsI18n.php:198
+msgid "%s items"
+msgstr "%s nimikettä"
+
+#. Translators: %s stands for a number.
+#: classes/PodsI18n.php:195
+msgid "%s item"
+msgstr "%s nimike"
+
+#: classes/PodsI18n.php:192
+msgid "You can only select"
+msgstr "Voit käyttää vain valintaa"
+
+#: classes/PodsI18n.php:190
+msgid "Select from existing"
+msgstr "Valitse olemassa olevista"
+
+#: classes/PodsI18n.php:188
+msgid "The Title"
+msgstr "Otsikko"
+
+#: classes/PodsI18n.php:182 ui/js/jquery.pods.js:480
+#: ui/js/jquery.pods.upgrade.js:60 ui/js/jquery.pods.upgrade.js:154
+msgid "Unable to process request, please try again."
+msgstr "Pyyntöä ei voida käsitellä, yritä myöhemmin uudestaan."
+
+#: classes/PodsI18n.php:180
+msgid "Some fields have changes that were not saved yet, please save them or cancel the changes before saving the Pod."
+msgstr "Joissain kentissä on muutoksia, joita ei ole tallennettu. Tallenna tai peru muutokset ennen Podin tallennusta."
+
+#: classes/PodsI18n.php:178 ui/js/jquery.pods.js:2009
+msgid "Navigating away from this page will discard any changes you have made."
+msgstr "Lähtiessäsi pois tältä sivulta, mitään tekemiäsi muutoksia ei tallenneta."
+
+#: classes/PodsI18n.php:167 ui/admin/help-addons-row.php:14
+#: ui/admin/help.php:69 ui/admin/help.php:107 ui/admin/help.php:136
+#: ui/admin/help.php:165 ui/admin/help.php:194 ui/admin/help.php:218
+#: ui/admin/help.php:251 ui/admin/help.php:280 ui/admin/help.php:315
+#: ui/admin/help.php:334 ui/admin/help.php:353 ui/admin/help.php:372
+#: ui/admin/help.php:391
+msgid "Download"
+msgstr "Lataa palvelimelta"
+
+#: classes/PodsI18n.php:165
+msgid "Deselect"
+msgstr "Poista valinta"
+
+#: classes/PodsI18n.php:163
+msgid "Remove"
+msgstr "Poista"
+
+#: classes/PodsI18n.php:159 ui/js/jquery.pods.js:1919
+msgid "Copy"
+msgstr "Kopioi"
+
+#: classes/PodsI18n.php:157
+msgid "Added! Choose another or <a href=\"#\">close this box</a>"
+msgstr "Lisätty! Valitse toinen tai <a href=\"#\">sulje tämä laatikko</a>"
+
+#: classes/PodsI18n.php:155
+msgid "Added!"
+msgstr "Lisätty!"
+
+#: classes/PodsI18n.php:153
+msgid "Add New Record"
+msgstr "Lisää uusi tietue"
+
+#: classes/PodsI18n.php:149
+msgid "Add"
+msgstr "Lisää"
+
+#. Translators: %s stands for a name/identifier.
+#: classes/PodsI18n.php:145 ui/js/jquery.pods.js:55 ui/js/jquery.pods.js:57
+msgid "%s is required."
+msgstr "%s tarvitaan."
+
+#: classes/PodsAdmin.php:4394
+msgid "Show All Fields (read-only)"
+msgstr "Näytä kaikki kentät (ei muokattavissa, read-only)"
+
+#: classes/PodsAdmin.php:4380
+msgid "This will form the url for the route. Default / empty value here will use the pod name."
+msgstr "Tämä muodostaa url -polun. Oletus / tyhjä arvo tässä, niin käytetään podin nimeä."
+
+#: classes/PodsAdmin.php:4379
+msgid "REST Base (if any)"
+msgstr "REST Base (jos on)"
+
+#: classes/PodsAdmin.php:3686
+msgid "Component"
+msgstr "Komponentti"
+
+#: classes/PodsAdmin.php:3590
+msgid "Version %s"
+msgstr "Versio %s"
+
+#: src/Pods/Admin/Config/Pod.php:1186
+msgid "Allow in quick/bulk edit panel"
+msgstr "Salli pika/massamuokkauspaneeli"
+
+#: src/Pods/Admin/Config/Pod.php:1142 src/Pods/Admin/Config/Pod.php:1459
+#: ui/admin/setup-add.php:278
+msgid "Make a new menu item below Settings"
+msgstr "Tee uusi valikkokohta Asetukset alapuolelle"
+
+#: src/Pods/Admin/Config/Pod.php:1141
+msgid "Make a new menu item"
+msgstr "Tee uusi valikkokohta"
+
+#: src/Pods/Admin/Config/Pod.php:1138 src/Pods/Admin/Config/Pod.php:1456
+msgid "Add a submenu item to Settings menu"
+msgstr "Lisää alavalikko Asetukset -valikkoon"
+
+#: src/Pods/Admin/Config/Pod.php:1139 src/Pods/Admin/Config/Pod.php:1457
+msgid "Add a submenu item to Appearances menu"
+msgstr "Lisää alavalikko Ulkoasu -valikkoon"
+
+#: src/Pods/Admin/Config/Pod.php:731
+msgid "Defaults to singular name"
+msgstr "Oletukset nimen yksikkömuodolle"
+
+#: src/Pods/Admin/Config/Pod.php:730
+msgid "Admin bar name"
+msgstr "Ylläpitopalkin nimi"
+
+#: src/Pods/Admin/Config/Pod.php:451
+msgid "Use as featured Image"
+msgstr "Käytä artikkelikuvana"
+
+#: src/Pods/Admin/Config/Pod.php:443
+msgid "Remove featured Image"
+msgstr "Poista artikkelikuva"
+
+#: src/Pods/Admin/Config/Pod.php:435
+msgid "Set featured Image"
+msgstr "Aseta artikkelikuva"
+
+#: classes/fields/currency.php:170 classes/fields/email.php:55
+#: classes/fields/number.php:122 classes/fields/paragraph.php:145
+#: classes/fields/password.php:49 classes/fields/phone.php:83
+#: classes/fields/slug.php:46 classes/fields/text.php:100
+#: classes/fields/website.php:96
+msgid "HTML Placeholder"
+msgstr "HTML paikanvaraaja"
+
+#: classes/fields/file.php:96
+msgid "Upload only (Plupload)"
+msgstr "Vain siirto palvelimelle (Plupload)"
+
+#: classes/cli/PodsAPI_CLI_Command.php:338
+msgid "Component deactivated."
+msgstr "Komponentti poistettu käytöstä."
+
+#: classes/PodsI18n.php:184
+msgid "Error uploading file: "
+msgstr "Virhe ladattaessa tiedostoa: "
+
+#: classes/fields/date.php:58 classes/fields/datetime.php:67
+msgid "Predefined Format will allow you to select from a list of commonly used date formats."
+msgstr "Ennaltamäärätty Esitysmuoto mahdollistaa valinnan yleisimmin käytettyjen esitysmuotojen joukosta."
+
+#: components/Templates/includes/functions-pod_reference.php:21
+msgid "No reference Pod selected"
+msgstr "Lähteenä olevaa Podia ei valittuna"
+
+#: classes/fields/number.php:80
+msgid "Remove trailing decimals (0)"
+msgstr "Poista perässä olevat desimaalit"
+
+#: classes/fields/currency.php:532
+msgid "Taiwan New Dollar"
+msgstr "Taiwan New Dollar"
+
+#: classes/fields/currency.php:496
+msgid "Polish Złoty"
+msgstr "Polish Złoty"
+
+#: classes/fields/currency.php:490
+msgid "Philippine Peso"
+msgstr "Philippine Peso"
+
+#: classes/fields/currency.php:466
+msgid "Mexican Peso"
+msgstr "Mexican Peso"
+
+#: classes/fields/currency.php:442
+msgid "Israeli New Sheqel"
+msgstr "Israeli New Sheqel"
+
+#: classes/fields/currency.php:424
+msgid "Hungarian Forint"
+msgstr "Hungarian Forint"
+
+#: classes/fields/currency.php:418
+msgid "Hong Kong Dollar"
+msgstr "Hong Kong Dollar"
+
+#: classes/fields/currency.php:400
+msgid "Czech Koruna"
+msgstr "Czech Koruna"
+
+#: classes/fields/currency.php:370
+msgid "Brazilian Real"
+msgstr "Brazilian Real"
+
+#: classes/PodsUI.php:4700
+msgid "%s per page"
+msgstr "%s per sivu"
+
+#: classes/PodsUI.php:4259 classes/PodsUI.php:4275 classes/PodsUI.php:4309
+msgid "Show more details"
+msgstr "Näytä lisätiedot"
+
+#: classes/PodsAPI.php:6877
+msgid "Settings do not support duplication."
+msgstr "Asetukset eivät tue monistamista."
+
+#: classes/fields/wysiwyg.php:34
+msgid "WYSIWYG (Visual Editor)"
+msgstr "WYSIWYG (Visuaalinen muokkain)"
+
+#: classes/fields/website.php:33
+msgid "Website"
+msgstr "Web -sivusto"
+
+#: classes/fields/time.php:50
+msgid "Time"
+msgstr "Aika"
+
+#: classes/fields/text.php:34
+msgid "Plain Text"
+msgstr "Teksti"
+
+#: classes/fields/pick.php:97
+msgid "Relationship"
+msgstr "Suhde"
+
+#: classes/fields/phone.php:34
+msgid "Phone"
+msgstr "Puhelin"
+
+#: classes/fields/password.php:34
+msgid "Password"
+msgstr "Salasana"
+
+#: classes/fields/paragraph.php:38
+msgid "Plain Paragraph Text"
+msgstr "Tekstikappale"
+
+#: classes/fields/number.php:34
+msgid "Plain Number"
+msgstr "Numero"
+
+#: classes/fields/file.php:279
+msgid "None"
+msgstr "Ei mitään"
+
+#: classes/fields/file.php:278
+msgid "Media File"
+msgstr "Mediatiedosto"
+
+#: classes/fields/file.php:277
+msgid "Attachment Page"
+msgstr "Liitteen sivu"
+
+#: classes/fields/file.php:260
+msgid "Output as a WP Gallery"
+msgstr "Näytä WP Galleriana"
+
+#: classes/fields/file.php:43
+msgid "File / Image / Video"
+msgstr "Tiedosto / Kuva / Video"
+
+#: classes/fields/email.php:34
+msgid "E-mail"
+msgstr "Sähköposti"
+
+#: classes/fields/date.php:43 classes/fields/datetime.php:52
+#: classes/fields/datetime.php:53 classes/fields/time.php:49
+msgid "Date / Time"
+msgstr "Päivä / Aika"
+
+#: classes/fields/date.php:44
+msgid "Date"
+msgstr "Päivä"
+
+#: classes/fields/currency.php:460
+msgid "Malaysian Ringgit"
+msgstr "Malaysian Ringgit"
+
+#: classes/fields/currency.php:562
+msgid "Vietnamese Dong"
+msgstr "Vietnamese Dong"
+
+#: classes/fields/currency.php:544
+msgid "Turkish Lira"
+msgstr "Turkish Lira"
+
+#: classes/fields/currency.php:538
+msgid "Thai Baht"
+msgstr "Thai Baht"
+
+#: classes/fields/currency.php:454
+msgid "Korean Won"
+msgstr "Korean Won"
+
+#: classes/fields/currency.php:514
+msgid "Singapore Dollar"
+msgstr "Singapore Dollar"
+
+#: classes/fields/currency.php:448
+msgid "Japanese Yen"
+msgstr "Japanese Yen"
+
+#: classes/fields/currency.php:430
+msgid "Indian Rupee"
+msgstr "Indian Rupee"
+
+#: classes/fields/currency.php:520
+msgid "South African Rand"
+msgstr "South African Rand"
+
+#: classes/fields/currency.php:508
+msgid "Swedish Krona"
+msgstr "Swedish Krona"
+
+#: classes/fields/currency.php:484
+msgid "Norwegian Krone"
+msgstr "Norwegian Krone"
+
+#: classes/fields/currency.php:406
+msgid "Danish Krone"
+msgstr "Danish Krone"
+
+#: classes/fields/currency.php:526
+msgid "Swiss Franc"
+msgstr "Swiss Franc"
+
+#: classes/fields/currency.php:502
+msgid "Russian Ruble"
+msgstr "Russian Ruble"
+
+#: classes/fields/currency.php:478
+msgid "New Zealand Dollar"
+msgstr "New Zealand Dollar"
+
+#: classes/fields/currency.php:364
+msgid "Australian Dollar"
+msgstr "Australian Dollar"
+
+#: classes/fields/currency.php:382
+msgid "Canadian Dollar"
+msgstr "Canadian Dollar"
+
+#: classes/fields/currency.php:376
+msgid "British Pound"
+msgstr "British Pound"
+
+#: classes/fields/currency.php:412
+msgid "Euro"
+msgstr "Euro"
+
+#: classes/fields/currency.php:550
+msgid "US Dollar"
+msgstr "US Dollar"
+
+#: classes/fields/currency.php:129
+msgid "Convert to dash"
+msgstr "Muunna ajatusviivaksi"
+
+#: classes/fields/currency.php:128
+msgid "Remove decimals"
+msgstr "Poista desimaalit"
+
+#: classes/fields/currency.php:123
+msgid "Decimal handling when zero"
+msgstr "Desimaalin käsittely kun nolla"
+
+#: classes/fields/currency.php:42
+msgid "Currency"
+msgstr "Valuutta"
+
+#: classes/fields/color.php:28
+msgid "Color Picker"
+msgstr "Värivalitsin"
+
+#: classes/fields/code.php:36
+msgid "Code (Syntax Highlighting)"
+msgstr "Koodi (syntaksin korostaminen)"
+
+#: classes/fields/boolean.php:30
+msgid "Yes / No"
+msgstr "Kyllä / Ei"
+
+#: classes/fields/avatar.php:40
+msgid "Avatar"
+msgstr "Avatar"
+
+#: src/Pods/Admin/Config/Pod.php:1116
+msgid "Whether to show the taxonomy in the admin menu."
+msgstr "Määritä näkyykö taksonomia ylläpitovalikossa."
+
+#: src/Pods/Admin/Config/Pod.php:1108
+msgid "Whether to generate a default UI for managing this taxonomy."
+msgstr "Määritä luodaanko oletusnäkymä tämän taksonomian hallinnassa."
+
+#: src/Pods/Admin/Config/Pod.php:678
+msgid "Whether to show the post type in the admin menu."
+msgstr "Määritä näytetäänkö julkaisutyyppi ylläpitovalikossa."
+
+#: src/Pods/Admin/Config/Pod.php:671
+msgid "Whether to generate a default UI for managing this post type in the admin."
+msgstr "Määritä luodaanko oletusnäkymä tämän julkaisutyypin hallintaan ylläpito-osiossa."
+
+#: classes/fields/slug.php:36
+msgid "Permalink (url-friendly)"
+msgstr "Kestolinkki (url-ystävällinen)"
+
+#: src/Pods/Admin/Config/Pod.php:1348
+msgid "Enables additional capabilities for this Taxonomy including: manage_{capability}_terms, edit_{capability}_terms, assign_{capability}_terms, and delete_{capability}_terms"
+msgstr "Ottaa käyttöön lisäominaisuuksia tälle taksonomialle mukaanlukien: manage_{capability}_terms, edit_{capability}_terms, assign_{capability}_terms, and delete_{capability}_terms"
+
+#: src/Pods/Admin/Config/Pod.php:1335
+msgid "Uses WordPress term capabilities by default"
+msgstr "Käyttää oletuksena WordPress termin ominaisuuksia"
+
+#: classes/PodsMeta.php:1304
+msgid "There are no fields to display"
+msgstr "Ei näytettäviä kenttiä"
+
+#: classes/PodsInit.php:2045 src/Pods/Admin/Config/Pod.php:554
+msgid "No %s"
+msgstr "Ei %s"
+
+#: ui/admin/widgets/field.php:58 ui/admin/widgets/single.php:60
+msgid "Use current post (singular) or term (term archive)"
+msgstr "Käytä nykyistä julkaisua (yksikkö) tai termiä (termin arkisto)"
+
+#: classes/PodsInit.php:2022 classes/PodsInit.php:2047
+#: src/Pods/Admin/Config/Pod.php:477
+msgid "%s list"
+msgstr "%s lista"
+
+#: classes/PodsInit.php:2021 classes/PodsInit.php:2046
+msgid "%s navigation"
+msgstr "%s valikko"
+
+#: classes/PodsInit.php:2020
+msgid "Filter %s lists"
+msgstr "Suodata %s listat"
+
+#: classes/PodsInit.php:2019 src/Pods/Admin/Config/Pod.php:418
+msgid "Uploaded to this %s"
+msgstr "Siirretty tähän %s"
+
+#: classes/PodsInit.php:2016 src/Pods/Admin/Config/Pod.php:391
+msgid "%s Archives"
+msgstr "%s arkistot"
+
+#: classes/PodsInit.php:2018 src/Pods/Admin/Config/Pod.php:409
+msgid "Insert into %s"
+msgstr "Liitä %s"
+
+#: classes/PodsInit.php:2015
+msgid "Use as featured image"
+msgstr "Käytä artikkelikuvana"
+
+#: classes/PodsInit.php:2013
+msgid "Set featured image"
+msgstr "Aseta artikkelikuva"
+
+#: classes/PodsInit.php:2014
+msgid "Remove featured image"
+msgstr "Poista artikkelikuva"
+
+#: classes/PodsAdmin.php:4517
+msgid "Depth"
+msgstr "Syvyys"
+
+#: classes/PodsAdmin.php:4508 src/Pods/Integrations/WPGraphQL/Settings.php:133
+#: src/Pods/Integrations/WPGraphQL/Settings.php:150
+#: src/Pods/Integrations/WPGraphQL/Settings.php:207
+#: src/Pods/Integrations/WPGraphQL/Settings.php:240
+msgid "ID only"
+msgstr "Vain ID"
+
+#: classes/PodsAdmin.php:4497
+msgid "Response Type"
+msgstr "Vastaustyyppi"
+
+#: classes/PodsAdmin.php:4490
+msgid "Relationship Field Options"
+msgstr "Suhdekentän vaihtoehdot"
+
+#: classes/PodsAdmin.php:4403
+msgid "Allow all fields to be updated via the REST API. If unchecked fields must be enabled on a field by field basis."
+msgstr "Salli kaikkien kenttien päivitys REST APIn kautta. Mikäli rastittamattomien kenttien tulee olla käytössä kenttä per kenttä pohjalta."
+
+#: classes/PodsAdmin.php:4402
+msgid "Allow All Fields To Be Updated"
+msgstr "Salli kaikkien kenttien päivitettävyys"
+
+#: classes/PodsAdmin.php:4373
+msgid "Add REST API support for this Pod."
+msgstr "Lisää REST API tuki tähän Podiin."
+
+#: classes/PodsAdmin.php:4349 classes/PodsAdmin.php:4563
+msgid "REST API"
+msgstr "REST API"
+
+#: classes/PodsAdmin.php:4395
+msgid "Show all fields in REST API. If unchecked fields must be enabled on a field by field basis."
+msgstr "Näytä kaikki REST APIn kentät. Mikäli ei rastitettuna, tulee kentät aktivoida yksitellen."
+
+#: classes/PodsAdmin.php:4472
+msgid "Should this field be readable via the REST API? You must enable REST API support for this Pod."
+msgstr "Tuleeko tämän kentän olla luettavissa REST APIn kautta? Sinun tulee ottaa REST API tuki käyttöön tähän Podiin."
+
+#: src/Pods/Admin/Config/Pod.php:957 ui/admin/widgets/field.php:21
+#: ui/admin/widgets/form.php:21 ui/admin/widgets/list.php:23
+#: ui/admin/widgets/single.php:23 ui/admin/widgets/view.php:21
+msgid "Title"
+msgstr "Otsikko"
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:139
+#: ui/admin/upgrade/upgrade_2_0_0.php:247
+msgid "Content"
+msgstr "Sisältö"
+
+#: classes/fields/currency.php:127 components/I18n/I18n.php:821
+#: src/Pods/Admin/Config/Group.php:230 ui/fields/color.php:20
+msgid "Default"
+msgstr "Oletus"
+
+#: src/Pods/Whatsit/Block.php:40
+msgid "Options"
+msgstr "Asetukset"
+
+#: src/Pods/Admin/Config/Pod.php:967
+msgid "Author"
+msgstr "Tekijä"
+
+#: classes/PodsAPI.php:1089 classes/PodsInit.php:2012
+#: src/Pods/Admin/Config/Pod.php:427 src/Pods/Admin/Config/Pod.php:972
+msgid "Featured Image"
+msgstr "Artikkelikuva"
+
+#: src/Pods/Admin/Config/Field.php:598 src/Pods/Admin/Config/Field.php:599
+#: src/Pods/Admin/Config/Field.php:602
+msgid "Other"
+msgstr "Muu"
+
+#: classes/fields/color.php:39 classes/fields/color.php:97
+#: ui/fields/color.php:21
+msgid "Select Color"
+msgstr "﻿Valitse väri"
+
+#: ui/fields/color.php:22
+msgid "Current Color"
+msgstr "Nykyinen väri"
+
+#. Author URI of the plugin
+#: init.php
+msgid "https://pods.io/about/"
+msgstr "https://pods.io/about/"
+
+#. Author of the plugin
+#: init.php
+msgid "Pods Framework Team"
+msgstr "Pods Framework Team"
+
+#. Plugin URI of the plugin
+#: init.php
+msgid "https://pods.io/"
+msgstr "https://pods.io/"
+
+#: classes/fields/file.php:547 classes/PodsI18n.php:186
+msgid "Allowed Files"
+msgstr "Sallitut tiedostot"
+
+#: ui/admin/widgets/list.php:94
+msgid "After Content"
+msgstr "Sisällön jälkeen"
+
+#: ui/admin/widgets/list.php:82
+msgid "Before Content"
+msgstr "Ennen sisältöä"
+
+#: ui/admin/upgrade/upgrade_2_1_0.php:122
+msgid "Upgrade Complete!"
+msgstr "Päivitys suoritettu!"
+
+#: ui/admin/upgrade/upgrade_2_1_0.php:80
+msgid "During this process your Relationships will be optimized."
+msgstr "Tämän prosessin aikana käyttämäsi suhteet optimoidaan."
+
+#: ui/admin/upgrade/upgrade_2_1_0.php:59
+msgid "Preparing Your Relationships for Upgrade"
+msgstr "Valmistellaan suhteita päivitystä varten"
+
+#: ui/admin/upgrade/upgrade_2_1_0.php:51
+msgid "We will prepare your relationships for the upgrade. If any issues are found they will be displayed below for your review. Be sure to backup your database before continuing onto the next step for the Upgrade."
+msgstr "Valmistelemme käyttämäsi suhteen päivitystä varten Mikäli jotain mainittavaa löytyy, näytetään tieto arvoitavaksesi. Muista huolehtia varmuuskopion ottamisesta ennen kuin etenet päivityksessä seuraavaan vaiheeseen."
+
+#: ui/admin/upgrade/upgrade_2_1_0.php:37
+msgid "We need to run a few updates to your database to optimize your relationship data."
+msgstr "Tietokantaasi on tehtävä muutama päivitys suhdetietojen datan optimoimiseksi."
+
+#: ui/admin/upgrade/upgrade_2_1_0.php:37
+msgid "Thanks for upgrading your Pods 2.x site! We sincerely hope you enjoy over two years worth of planning and work, available to you for <em>free</em>."
+msgstr "Kiitos kun päivitit pods 2.x -sivustosi! Vilpittömästi toivomme että nautit tästä tekemästämme yli kahden vuoden suunnittelusta ja työstä, jonka tarjoamme <em>maksuttomasti</em>  käyttöösi."
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:275
+msgid "Migration Complete!"
+msgstr "Siirto valmis!"
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:272
+#: ui/admin/upgrade/upgrade_2_1_0.php:119
+msgid "Start using Pods"
+msgstr "Aloita Podien käyttö"
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:260
+#: ui/admin/upgrade/upgrade_2_1_0.php:107
+msgid "Cleanup"
+msgstr "Siivoa"
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:172
+msgid "1.x Updates"
+msgstr "1.x päivitykset"
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:162
+msgid "Migrating Your Content"
+msgstr "Siirrämme sisältösi"
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:154
+msgid "During this process your Pods, Settings, and Content will be migrated into the optimized Pods 2.x architecture. We will not delete any of your old data, the tables will remain until you choose to clean them up after a successful upgrade."
+msgstr "Tämän prosessin aikana siirrämme Podisi, asetuksesi ja sisältösi optimoituun Pods 2.x arkkitehtuuriin. Emme poista vanhaa dataasi, taulut säilyvät sellaisenaan, kunnes päätät siivota ne onnistuneen päivityksen jälkeen."
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:127
+#: ui/admin/upgrade/upgrade_2_0_0.php:235
+msgid "Helpers"
+msgstr "Avustajat"
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:118
+#: ui/admin/upgrade/upgrade_2_0_0.php:226
+msgid "Pod Pages"
+msgstr "Pods sivut"
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:100
+msgid "Item Indexes"
+msgstr "Nimikkeiden indeksit"
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:91 ui/admin/upgrade/upgrade_2_0_0.php:199
+#: ui/admin/upgrade/upgrade_2_1_0.php:69 ui/admin/upgrade/upgrade_2_1_0.php:98
+msgid "Relationships"
+msgstr "Suhteet"
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:59
+msgid "Preparing Your Content for Migration"
+msgstr "Sisältösi siirtämistä valmistellaan"
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:51
+msgid "We will prepare all of your Pods, Settings, and Content for migration. If any issues are found they will be displayed below for your review. Be sure to backup your database before continuing onto the next step for Migration."
+msgstr "Valmistelemme Podisi, asetuksesi ja sisällön päivitystä varten. Mikäli jotain mainittavaa löytyy, näytetään tieto arvoitavaksesi. Muista huolehtia varmuuskopion ottamisesta ennen kuin etenet päivityksessä seuraavaan vaiheeseen."
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:37
+msgid "Due to a number of optimizations in Pods 2.x, we need to run a few updates to your database. This should not remove or change your existing Pod data from 1.x, so if you wish to rollback to Pods 1.x - you can easily do that."
+msgstr "Erilaisten Pods 2.x optimointien vuoksia tietokantasi tarvitsee pientä päivitystä. Tämän ei pitäisi poistaa eikä muuttaa olemassa olevaa Pods 1.x dataa, joten jos haluat palata takaisin versioon 1,x, voit helposti tehdä sen."
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:37
+msgid "Welcome to Pods 2.x! We sincerely hope you enjoy over two years worth of planning and work, available to you for <em>free</em>."
+msgstr "Tervetuloa Pods 2.x versioon! Vilpittömästi toivomme että nautit tekemästämme parin vuoden suunnittelu- ja toteutustyöstä, jonka annamme sinulle <em>maksutta</em> käyttöön."
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:23 ui/admin/upgrade/upgrade_2_1_0.php:23
+msgid "Prepare"
+msgstr "Valmistele"
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:20 ui/admin/upgrade/upgrade_2_1_0.php:20
+msgid "Getting Started"
+msgstr "Aloita tästä"
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:12 ui/admin/upgrade/upgrade_2_1_0.php:12
+msgid "Upgrade Pods"
+msgstr "Päivitä Pods"
+
+#: ui/admin/upgrade/backup.php:33
+msgid "A service that provides realtime continuous backups, restores, and security scanning."
+msgstr "Palvelu, joka tarjoaa reaaliaikaisen varmuuskopioinnin, palautuksen sekä tietoturvaskannauksen."
+
+#: ui/admin/upgrade/backup.php:29
+msgid "Click to sign up"
+msgstr "Napsauta tehdäksesi tunnukset"
+
+#: ui/admin/upgrade/backup.php:27
+msgid "1 free month"
+msgstr "1 vapaa kuukausi"
+
+#: ui/admin/upgrade/backup.php:16
+msgid "Coupon Code"
+msgstr "Kuponkikoodi"
+
+#: ui/admin/upgrade/backup.php:14
+msgid "Receive 25% off"
+msgstr "Hanki 25% alennus"
+
+#: ui/admin/upgrade/backup.php:7
+msgid "We recommend that you back your database up, it can really save you in a bind or a really weird situation that you may not be expecting. Check out a few options we think are <em>great</em> below."
+msgstr "Suosittelemme tietokantasi varmuuskopiointia, se todellakin voi pelastaa odottamattomilta vastoinkäymisiltä. Tsekkaa muutama <em>hyvä juttu</em> alta."
+
+#: ui/admin/shortcode.php:528
+msgid "Insert"
+msgstr "Sijoita"
+
+#: ui/admin/shortcode.php:446 ui/admin/widgets/form.php:49
+msgid "ID or Slug"
+msgstr "ID tai Slug"
+
+#: ui/admin/shortcode.php:433
+msgid "Pods Page"
+msgstr "Pods sivu"
+
+#: ui/admin/shortcode.php:373
+msgid "Choose a Pod"
+msgstr "Valitse Pod"
+
+#: ui/admin/shortcode.php:362
+msgid "Embed content from a Pods Page"
+msgstr "Upota sisältöä Pods sivulta"
+
+#: ui/admin/shortcode.php:358
+msgid "Display a field from this item"
+msgstr "Näytä kenttä tästä nimikkeestä"
+
+#: ui/admin/shortcode.php:357
+msgid "Display a field from a single Pod item"
+msgstr "Näytä kenttä yksittäisestä Pod -nimikkeestä"
+
+#: ui/admin/shortcode.php:356
+msgid "List multiple Pod items"
+msgstr "Listaa useampi Pods nimike"
+
+#: ui/admin/shortcode.php:352
+msgid "What would you like to do?"
+msgstr "Mitä haluaisit tehdä?"
+
+#: ui/admin/shortcode.php:347
+msgid "Pods &raquo; Embed"
+msgstr "Pods &raquo; Embed"
+
+#: src/Pods/Admin/Config/Pod.php:1654
+msgid "No Hierarchical Fields found"
+msgstr "Hierarkisia kenttiä ei löytynyt"
+
+#: src/Pods/Admin/Config/Pod.php:1667
+msgid "If you delete the \"name\" field, we need to specify the field to use as your primary title field. This field will serve as an index of your content. Most commonly this field represents the name of a person, place, thing, or a summary field."
+msgstr "Mikäli poistat \"nimi\" -kentän, täytyy pääkenttä määrittää uudestaan. Tämä kenttä toimii avaimena (index) sisältöösi. Tyypillisesti tämä kenttä kuvaa henkilöä, paikkaa, asiaa tai selostekenttää."
+
+#: src/Pods/Admin/Config/Pod.php:1666
+msgid "Title Field"
+msgstr "Otsikkokenttä"
+
+#: src/Pods/Admin/Config/Pod.php:1660
+msgid "Detail Page URL"
+msgstr "Lisätietosivun URL"
+
+#: src/Pods/Admin/Config/Pod.php:1375
+msgid "Function to call when updating counts"
+msgstr "Päivityksen yhteydessä kutsuttavan funktion kutsu"
+
+#: src/Pods/Admin/Config/Pod.php:1368
+msgid "Remember order saved on Post Types"
+msgstr "Muista järjestys, joka tallennettiin sisältötyyppeihin"
+
+#: src/Pods/Admin/Config/Pod.php:1361
+msgid "Custom Query Var Name"
+msgstr "Oman kyselymuuttujan nimi"
+
+#: src/Pods/Admin/Config/Pod.php:1326
+msgid "Hierarchical Permalinks"
+msgstr "Hierarkiset kestolinkit"
+
+#: src/Pods/Admin/Config/Pod.php:1017
+msgid "Comma-separated list of custom \"supports\" values to pass to register_post_type."
+msgstr "Pilkulla erotettu lista räätälöidyistä \"tukee\" arvoista, jotka välitetään register_post_type -funktiolle."
+
+#: src/Pods/Admin/Config/Pod.php:1016
+msgid "Advanced Supports"
+msgstr "Edistyneet vaihtoehdot tuettaviin toimintoihin"
+
+#: src/Pods/Integrations/Jetpack.php:34
+msgid "Jetpack Markdown Support"
+msgstr "Jetpack Markdown -tuki"
+
+#: src/Pods/Integrations/Jetpack.php:28
+msgid "Jetpack Publicize Support"
+msgstr "Jetpack Publicize -tuki"
+
+#: src/Pods/Integrations/YARPP.php:28
+msgid "YARPP Support"
+msgstr "YARPP -tuki"
+
+#: src/Pods/Integrations/Genesis.php:40
+msgid "Genesis: Simple Sidebars"
+msgstr "Genesis: Simple Sidebars"
+
+#: src/Pods/Integrations/Genesis.php:34
+msgid "Genesis: Layouts"
+msgstr "Genesis: Layouts"
+
+#: src/Pods/Integrations/Genesis.php:28
+msgid "Genesis: SEO"
+msgstr "Genesis: SEO"
+
+#: src/Pods/Admin/Config/Pod.php:1003
+msgid "Page Attributes"
+msgstr "Sivun attribuutit"
+
+#: src/Pods/Admin/Config/Pod.php:998
+msgid "Revisions"
+msgstr "Tarkistukset"
+
+#: src/Pods/Admin/Config/Pod.php:983
+msgid "Trackbacks"
+msgstr "Paluuviitteet"
+
+#: src/Pods/Admin/Config/Pod.php:978
+msgid "Excerpt"
+msgstr "Ote"
+
+#: src/Pods/Admin/Config/Pod.php:953
+msgid "Supports"
+msgstr "Tukee seuraavia"
+
+#: src/Pods/Admin/Config/Pod.php:369
+msgid "Not Found"
+msgstr "Ei löydy"
+
+#: src/Pods/Admin/Config/Field.php:559
+msgid "No Related Fields Found"
+msgstr "Tähän liittyviä kenttiä ei löytynyt"
+
+#: src/Pods/Admin/Config/Field.php:538
+msgid "-- Select Table --"
+msgstr "-- Valitse taulu --"
+
+#: src/Pods/Admin/Config/Field.php:707
+msgid "Unique"
+msgstr "Uniikki"
+
+#: src/Pods/Admin/Config/Field.php:215
+msgid "Bi-directional fields will update their related field for any item you select. This feature is only available for two relationships between two Pods.<br /><br />For example, when you update a Parent pod item to relate to a Child item, when you go to edit that Child item you will see the Parent pod item selected."
+msgstr "Kaksisuuntaiset kentät päivittävät valitsemaasi nimikkeeseen liittyvät kentät. Tämä ominaisuus on tarjolla ainoastaan kahden Podin välisissä suhteissa.<br /><br />Esimerkiksi, kun päivität isäntäPod nimikkeen olevan suhteessa lapsinimikkeeseen, niin kun muokkaat lapsinimikettä, näet valitun isäntäPodin."
+
+#: src/Pods/Admin/Config/Field.php:206
+msgid "Bi-directional Field"
+msgstr "Kaksisuuntainen kenttä"
+
+#: src/Pods/Admin/Config/Field.php:192
+msgid "Related Table"
+msgstr "Tähän liittyvä taulu"
+
+#: src/Pods/Admin/Config/Field.php:188
+msgid "One option per line, use <em>value|Label</em> for separate values and labels"
+msgstr "Yksi vaihtoehto per rivi, käytä <em>arvo|Otsikko</em> erottaaksesi arvot ja otsikot"
+
+#: src/Pods/Admin/Config/Field.php:180
+msgid "Custom Defined Options"
+msgstr "Räätälöidyt vaihtoehdot"
+
+#: src/Pods/Admin/Config/Field.php:154
+msgid "Field Type"
+msgstr "Kenttätyyppi"
+
+#: ui/admin/setup-add.php:516
+msgid "Taxonomy"
+msgstr "Taksonomia"
+
+#: ui/admin/setup-add.php:475
+msgid "Post Type"
+msgstr "Sisältötyyppi"
+
+#: ui/admin/setup-add.php:418
+msgid "Post Types (Posts, Pages, etc..)"
+msgstr "Sisältötyypit (artikkelit, sivut, jne.)"
+
+#: ui/admin/setup-add.php:405
+msgid "Extend an Existing Content Type"
+msgstr "Laajenna olemassa olevaa sisältötyyppiä"
+
+#: ui/admin/setup-add.php:401
+msgid "Extending an existing Content Type allows you to add fields to it and take advantage of the Pods architecture for management and optionally for theming."
+msgstr "Olemassa olevan sisältötyypin laajentaminen antaa sinun lisätä kenttiä siihen ja hyötyä Pods arkkitehtuurista ylläpidossa ja vaihtoehtoisesti teemoitteluun."
+
+#: ui/admin/setup-add.php:377 ui/admin/setup-add.php:547
+msgid "Table Based"
+msgstr "Taulukkopohjainen"
+
+#: ui/admin/setup-add.php:376 ui/admin/setup-add.php:546
+msgid "Meta Based (WP Default)"
+msgstr "Metapohjainen (WP oletus)"
+
+#: src/Pods/Blocks/Types/Field.php:98 src/Pods/Blocks/Types/Form.php:163
+#: src/Pods/Blocks/Types/Item_List.php:211
+#: src/Pods/Blocks/Types/Item_Single.php:167
+#: src/Pods/Blocks/Types/Item_Single_List_Fields.php:67
+#: ui/admin/setup-add.php:319 ui/admin/setup-add.php:338
+msgid "Pod Name"
+msgstr "Podin nimi"
+
+#: ui/admin/setup-add.php:262
+msgid "Menu Label"
+msgstr "Valikon teksti"
+
+#: ui/admin/setup-add.php:239
+msgid "Plural Label"
+msgstr "Teksti monikossa"
+
+#: src/Pods/Admin/Config/Pod.php:149 ui/admin/setup-add.php:227
+msgid "Singular Label"
+msgstr "Teksti yksikössä"
+
+#: ui/admin/upgrade/upgrade_2_1_0.php:88
+msgid "Optimizing Your Relationships"
+msgstr "Suhteiden optimointi meneillään"
+
+#. Description of the plugin
+#: init.php
+msgid "Pods is a framework for creating, managing, and deploying customized content types and fields"
+msgstr "Pods on framework, jonka avulla voi luoda, hallita ja julkaista räätälöityjä sisältötyyppejä sekä kenttiä"
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:109
+#: ui/admin/upgrade/upgrade_2_0_0.php:217
+msgid "Templates"
+msgstr "Mallipohjat"
+
+#: ui/admin/upgrade/backup.php:20
+msgid "The all-in-one WordPress backup plugin to easily backup, restore, and migrate to any number of local or external locations."
+msgstr "All-in-one WordPress backup -lisäosan avulla teet varmuuskopioinnin, palautukset ja siirron rajattomaan määrään paikallisia tai ulkoisia kohteita."
+
+#: src/Pods/Admin/Config/Pod.php:384
+msgid "Not Found in Trash"
+msgstr "Ei löytynyt roskakorista"
+
+#: src/Pods/Admin/Config/Field.php:219
+msgid "Required"
+msgstr "Vaaditaan"
+
+#. Plugin Name of the plugin
+#: init.php
+msgid "Pods - Custom Content Types and Fields"
+msgstr "Pods - räätälöityjä, omia sisältötyyppejä ja kenttiä"
+
+#: components/Templates/includes/auto-template/Pods_Templates_Auto_Template_Settings.php:331
+msgid "Replace"
+msgstr "Korvaa"
+
+#: components/Pages.php:200 src/Pods/Admin/Config/Pod.php:645
+#: ui/admin/setup-add.php:250
+msgid "Page Title"
+msgstr "Sivun otsikko"
+
+#: components/Migrate-Packages/ui/wizard.php:52
+msgid "Import"
+msgstr "Tuonti"
+
+#: ui/admin/view.php:124 ui/forms/type/post.php:230
+msgid "Previous %s"
+msgstr "Edelliset %s"
+
+#: ui/admin/view.php:132 ui/forms/type/post.php:238
+msgid "Next %s"
+msgstr "Seuraavat %s"
+
+#: components/Templates/includes/auto-template/Pods_Templates_Auto_Template_Settings.php:330
+msgid "Before"
+msgstr "Ennen"
+
+#: components/Templates/includes/auto-template/Pods_Templates_Auto_Template_Settings.php:329
+msgid "After"
+msgstr "Jälkeen"
+
+#: components/Migrate-Packages/ui/wizard.php:381
+msgid "Continue"
+msgstr "Jatka"
+
+#: components/Pages.php:363
+msgid "Page"
+msgstr "Sivu"
+
+#: includes/data.php:2041
+msgid "and"
+msgstr "ja"
+
+#: ui/admin/view.php:60 ui/forms/type/post.php:89
+msgid "Last Modified"
+msgstr "Viimeksi muokattu"
+
+#: components/Roles/ui/edit.php:46 ui/forms/form.php:179
+msgid "Save"
+msgstr "Tallenna"
+
+#: ui/admin/setup-add.php:202
+msgid "Custom Taxonomy (like Categories or Tags)"
+msgstr "Oma taksonomia (kuten kategoriat ja avainsanat)"
+
+#: ui/admin/setup-add.php:201
+msgid "Custom Post Type (like Posts or Pages)"
+msgstr "Oma sisältötyyppi (kuten artikkelit ja sivut)"
+
+#: ui/admin/setup-add.php:195 ui/admin/setup-add.php:412
+msgid "Content Type"
+msgstr "Sisältötyyppi"
+
+#: ui/admin/setup-add.php:189
+msgid "Create a New Content Type"
+msgstr "Luo uusi sisältötyyppi"
+
+#: ui/admin/setup-add.php:186
+msgid "Creating a new Content Type allows you to control exactly what that content type does, how it acts like, the fields it has, and the way you manage it."
+msgstr "Luomalla uuden sisältötyypin voit kontrolloida tarkkaan mitä sisältötyyppi tekee, kuinka se toimii, mitä kenttiä siinä on ja miten tulet sitä ylläpitämään."
+
+#: ui/admin/setup-add.php:175
+msgid "Extend Existing"
+msgstr "Laajenna olemassaolevaa"
+
+#: ui/admin/setup-add.php:169
+msgid "Create entirely new content types using <strong>Post Types</strong>, <strong>Taxonomies</strong>, or <strong>Custom Settings Pages</strong>."
+msgstr "Tee kokonaan uusia käyttäen <strong>sisältötyyppejä</strong>, <strong>taksonomioita</strong>, tai <strong>omat asetussivut</strong>."
+
+#: ui/admin/setup-add.php:167
+msgid "Create New"
+msgstr "Luo uusi"
+
+#: ui/admin/setup-add.php:121
+msgid "Configure"
+msgstr "Määritä"
+
+#: ui/admin/setup-add.php:117
+msgid "Create or Extend"
+msgstr "Luo tai laajenna"
+
+#: classes/PodsAdmin.php:545 ui/admin/setup-add.php:100
+msgid "Add New Pod"
+msgstr "Lisää uusi Pod"
+
+#: ui/admin/settings.php:28
+msgid "Cleanup &amp; Reset"
+msgstr "Siivoa &amp; ja palauta alkuarvot"
+
+#: ui/admin/settings-reset.php:274
+msgid ""
+"Are you sure you want to Reset your Weekend?\n"
+"\n"
+"There is no going back, you cannot reclaim anything you've gained throughout your weekend.\n"
+"\n"
+"You are about to be groundhoggin' it"
+msgstr ""
+"Oletko varma että haluat nollata viikonloppusi?\n"
+"\n"
+"Tässä ei sitten ole paluuta, et voi saada mitään viikonloppuna aikaansaamaasi takaisin.\n"
+"\n"
+"Olet pyyhkimässä sen"
+
+#: ui/admin/settings-reset.php:271
+msgid "By resetting the weekend, you will be sent back to Friday night and the weekend you've just spent will be erased. You will retain all of your memories of the weekend, and be able to relive it in any way you wish."
+msgstr "Nollaamalla viikonlopun, palaat takaisin perjantaihin ja viettämäsi viikonloppu pyyhitään pois. Saatat säilyttää muistosi ja elää sen uudelleen haluamallasi tavalla."
+
+#: ui/admin/settings-reset.php:270
+msgid "This feature has been exclusively built for Pods to help developers suffering from \"Monday\", and allows them to reset the weekend."
+msgstr "Tämä ominaisuus on rakennettu Podiin erityisesti kehittäjille, jotka kärsivät \"maanantaista\", ja sallii heidän nollata viikonlopun."
+
+#: ui/admin/settings-reset.php:268
+msgid "Reset Weekend"
+msgstr "Nollaa viikonloppu"
+
+#: classes/PodsAdmin.php:569 classes/PodsAdmin.php:590
+msgid "Pods Help"
+msgstr "Apua Podsiin"
+
+#: classes/PodsAdmin.php:963 ui/admin/upgrade/upgrade_2_0_0.php:82
+#: ui/admin/upgrade/upgrade_2_0_0.php:190 ui/admin/view.php:191
+#: ui/forms/type/post.php:406
+msgid "Fields"
+msgstr "Kentät"
+
+#: ui/forms/type/post.php:343
+msgid "Enter name here"
+msgstr "Syötä nimi tähän"
+
+#: ui/admin/view.php:114 ui/forms/type/post.php:220
+msgid "Navigate"
+msgstr "Navigoi"
+
+#: ui/admin/view.php:51 ui/forms/type/post.php:80
+msgid "Created on"
+msgstr "Luotu"
+
+#: ui/admin/settings-reset.php:201
+msgid "<strong>Please Note:</strong> This does not remove any items from any Post Types, Taxonomies, Media, Users, or Comments data you have added/modified."
+msgstr "<strong>Huom!:</strong> Tämä ei poista yhtään nimikettä mistään sisätötyypistä, taksonomiasta, mediasta, käyttäjistä tai kommenteista, jotka olet syöttänyt/muokannut järjestelmään."
+
+#: ui/admin/settings-reset.php:200
+msgid "This will delete Pods 2.x settings, data, and deactivate itself once done. Your database will be as if Pods 2.x never existed."
+msgstr "Tämä poistaa Pods 2.x asetukset ja datan ja poistaa lopuksi itsensä käytöstä. Tietokantasi on tilassa kuin Pods 2.x ei olisi siellä koskaan ollutkaan."
+
+#: ui/admin/settings-reset.php:198 ui/admin/settings-reset.php:205
+msgid "Deactivate and Delete Pods 2.x data"
+msgstr "Poista käytöstä ja poista Pods 2.x data"
+
+#: ui/admin/settings-reset.php:192
+msgid ""
+"Are you sure you want to do this?\n"
+"\n"
+"This is a good time to make sure you have a backup. We are deleting all of the data that surrounds 2.x, resetting it to a clean first install."
+msgstr ""
+"Haluatko varmasti tehdä tämän?\n"
+"\n"
+"Nyt on hyvä hetki ottaa varmuuskopio. Kaikki Pods versioon 2.x liittyvä data poistetaan, nollaten sen puhtaan uusasennuksen kaltaiseksi."
+
+#: ui/admin/settings-reset.php:189
+msgid "This does not remove any items from any Post Types, Taxonomies, Media, Users, or Comments data you have added/modified. Any custom fields stored using the table storage component, content in Advanced Content Types, and relationships between posts will be lost."
+msgstr "Tämä ei poista mitään nimikkeitä sisältötyypeistä, taksonomioista, medioista, käyttäjistä tai kommenteista, jotka olet luonut/muokannut. Kaikki räätälöidyt kentät, jotka käyttävät taulukkopohjaista tietosäilöä, omat räätälöidyt sisältötyypit sekä mahdolliset suhteet niiden välillä menetetään."
+
+#: ui/admin/settings-reset.php:188
+msgid "This does not delete any Pods 1.x data, it simply resets the Pods 2.x settings, removes all of it's data, and performs a fresh install."
+msgstr "Tämä ei poista mitään Pods 1.x dataa, vaan yksinkertaisesti nollaa Pods 2.x asetukset, poistaa kaiken sen datan ja suorittaa puhtaan uusasennuksen."
+
+#: ui/admin/settings-reset.php:181
+msgid "Delete Pods 1.x settings and data"
+msgstr "Poista Pods 1.x asetukset ja data"
+
+#: ui/admin/settings-reset.php:175
+msgid "Delete Pods 1.x data"
+msgstr "Poista Pods 1.x data"
+
+#: ui/admin/settings-reset.php:88
+msgid "Please Note:"
+msgstr "Ole hyvä ja huomaa:"
+
+#: ui/admin/settings-settings.php:98
+msgid "<strong>Error:</strong> %1$s %2$s successfully."
+msgstr "<strong>Virhe:</strong> %1$s %2$s onnistuneesti."
+
+#: ui/admin/components-admin.php:20
+msgid "Settings saved successfully."
+msgstr "Asetusten tallennus onnistui."
+
+#: sql/upgrade/PodsUpgrade_2_0_0.php:920
+msgid "Pod <strong>%s</strong> not found, items cannot be migrated"
+msgstr "Pod <strong>%s</strong> ei löytynyt, nimikkeitä ei voi siirtää"
+
+#: sql/upgrade/PodsUpgrade_2_0_0.php:906
+msgid "Pod Types table not found, items cannot be migrated"
+msgstr "Pod tyyppien taulua ei löytynyt, nimikkeitä ei voi siirtää"
+
+#: sql/upgrade/PodsUpgrade_2_0_0.php:902
+msgid "New table not found, items cannot be migrated"
+msgstr "Uutta taulua ei löytynyt, nimikkeitä ei voi siirtää"
+
+#: sql/upgrade/PodsUpgrade_2_0_0.php:898
+msgid "Table not found, items cannot be migrated"
+msgstr "Taulua ei löytynyt, nimikkeitä ei voi siirtää"
+
+#: sql/upgrade/PodsUpgrade_2_0_0.php:587
+msgid "Pod <strong>%s</strong> not found, relationships cannot be migrated"
+msgstr "Pod <strong>%s</strong> ei löytynyt, suhteita ei voida siirtää"
+
+#: sql/upgrade/PodsUpgrade_2_0_0.php:242
+msgid "is a field in this pod, but was not found in the table - the field data will not be migrated."
+msgstr "on kenttä tässä podissa, mutta sitä ei löytynyt taulusta - kentän dataa ei voida siirtää."
+
+#: sql/upgrade/PodsUpgrade_2_0_0.php:236
+msgid "is a field in the table, but was not found in this pod - the field data will not be migrated."
+msgstr "on kenttä taulussa, mutta ei löytynyt tästä podista - kentän dataa ei voida siirtää."
+
+#: sql/upgrade/PodsUpgrade_2_0_0.php:215
+msgid "Pod not found, it cannot be migrated"
+msgstr "Podia ei löytynyt, sitä ei voida siirtää"
+
+#: sql/upgrade/PodsUpgrade_2_0_0.php:193 sql/upgrade/PodsUpgrade_2_0_0.php:892
+msgid "Invalid Pod."
+msgstr "Kelvoton Pod."
+
+#: sql/upgrade/PodsUpgrade_2_0_0.php:23 sql/upgrade/PodsUpgrade_2_0_0.php:47
+#: sql/upgrade/PodsUpgrade_2_0_0.php:71 sql/upgrade/PodsUpgrade_2_0_0.php:95
+#: sql/upgrade/PodsUpgrade_2_0_0.php:119 sql/upgrade/PodsUpgrade_2_0_0.php:143
+#: sql/upgrade/PodsUpgrade_2_0_0.php:167 sql/upgrade/PodsUpgrade_2_0_0.php:199
+msgid "Table not found, it cannot be migrated"
+msgstr "Taulua ei löytynyt, sitä ei voida siirtää"
+
+#: sql/upgrade/PodsUpgrade.php:214
+msgid "Upgrade method not found."
+msgstr "Päivitysmetodia ei löytynyt."
+
+#: sql/upgrade/PodsUpgrade.php:210
+msgid "Invalid upgrade method."
+msgstr "Kelvoton päivitysmetodi."
+
+#: sql/upgrade/PodsUpgrade.php:206
+msgid "Invalid upgrade process."
+msgstr "Kelvoton päivitysprosessi."
+
+#: includes/general.php:2391
+msgid "Please upgrade (or have your Hosting Provider upgrade it for you) your PHP version to continue."
+msgstr "Ole hyvä, jatkaaksesi, sinun tulee päivittää uudempaan PHP -versioon (tai pyydä hosting-palveluasi tekemään se)."
+
+#: includes/general.php:2412
+msgid "Please upgrade (or have your Hosting Provider upgrade it for you) your MySQL version to continue."
+msgstr "Ole hyvä, jatkaaksesi sinun tulee päivitätä uudempaan MySQL versioon (tai pyydä hosting-palveluasi tekemään se)."
+
+#: includes/general.php:2372
+msgid "Please upgrade your WordPress to continue."
+msgstr "Ole hyvä, jatkaaksesi, sinun tulee päivittää WordPress."
+
+#: includes/general.php:2371 includes/general.php:2390
+#: includes/general.php:2411
+msgid "to function. You are currently running"
+msgstr "funktioon. Käytät nykyisellään"
+
+#: includes/general.php:2370 includes/general.php:2389
+#: includes/general.php:2410
+msgid "NOTICE"
+msgstr "HUOMAA"
+
+#: includes/general.php:1090
+msgid "Find out more"
+msgstr "Lue lisää aiheesta"
+
+#: includes/general.php:1019
+msgid "%1$s has been <strong>deprecated</strong> since Pods version %2$s with no alternative available."
+msgstr "%1$s on <strong>vanhentunut</strong> Pods versiosta %2$s lähtien, eikä vaihtoehtoa ole tarjolla."
+
+#: includes/general.php:1017
+msgid "%1$s has been <strong>deprecated</strong> since Pods version %2$s! Use %3$s instead."
+msgstr "%1$s on <strong>vanhentunut</strong>  Pods versiosta %2$s lähtien! Käytä %3$s sen sijasta."
+
+#: includes/general.php:321
+msgid "An unknown error has occurred"
+msgstr "Tuntematon virhe tapahtui"
+
+#: includes/general.php:316
+msgid "The following issues occurred:"
+msgstr "Seuraavat asiat tapahtuivat:"
+
+#: includes/general.php:314
+msgid "The following issue occurred:"
+msgstr "Tämä tapahtui:"
+
+#: components/Templates/class-pods_templates.php:221
+msgid "Pod Reference"
+msgstr "Pod viite"
+
+#: components/Templates/Templates.php:209
+#: components/Templates/Templates.php:591
+msgid "You do not have access to view this content."
+msgstr "Sinulla ei ole pääsyä näkemään tätä sisältöä."
+
+#: components/Templates/Templates.php:426
+msgid "Enter template name here"
+msgstr "Ota mallipohja käyttöön täällä"
+
+#: ui/admin/setup-add.php:419
+msgid "Taxonomies (Categories, Tags, etc..)"
+msgstr "Taksonomiat (kategoriat, avainsanat, jne.)"
+
+#: components/Roles/ui/edit.php:28
+msgid "Choose below which Capabilities you would like this existing user role to have."
+msgstr "Valitse alta ne ominaisuudet, jotka haluat tällä käyttäjäroolilla olevan käytössä."
+
+#: components/Roles/ui/edit.php:12
+msgid "Roles &amp; Capabilities: Edit Role"
+msgstr "Roolien &amp; ominaisuudet: Muokkaa roolia"
+
+#: components/Roles/ui/add.php:108 components/Roles/ui/edit.php:118
+msgid "These capabilities will automatically be created and assigned to this role"
+msgstr "Nämä ominaisuudet luodaan ja otetaan käyttöön automaattisesti tälle roolille"
+
+#: components/Roles/ui/add.php:108 components/Roles/ui/edit.php:118
+msgid "Custom Capabilities"
+msgstr "Omat räätälöidyt ominaisuudet"
+
+#: components/Roles/ui/add.php:74 components/Roles/ui/edit.php:82
+msgid "Toggle All Capabilities on / off"
+msgstr "Kaikki ominaisuudet päälle / pois päältä"
+
+#: components/Roles/ui/add.php:63
+msgid "Choose below which Capabilities you would like this new user role to have."
+msgstr "Valitse alta ne ominaisuudet, jotka haluat tällä uudella käyttäjäroolilla olevat."
+
+#: components/Roles/ui/add.php:50
+msgid "You will use this name to programatically reference this role throughout WordPress"
+msgstr "Tulet käyttämään tätä nimeä viitteenä tähän rooliin ohjelmallisesti kauttaaltaan WordPressissa"
+
+#: components/Roles/ui/add.php:40
+msgid "Users will see this as the name of their role"
+msgstr "Käyttäjät näkevät tämän oman roolinsa nimenä"
+
+#: components/Roles/ui/add.php:35
+msgid "Name your new Role"
+msgstr "Uuden roolin nimi"
+
+#: components/Roles/ui/add.php:31
+msgid "Roles allow you to specify which capabilities a user should be able to do within WordPress."
+msgstr "Roolien avulla voit määrittää ne ominaisuudet, jotka käyttäjällä on käytössään WordPressissa."
+
+#: components/Roles/ui/add.php:19
+msgid "Naming"
+msgstr "Nimeäminen"
+
+#: components/Roles/ui/add.php:11
+msgid "Roles &amp; Capabilities: Add New Role"
+msgstr "Roolien &amp; ominaisuudet: Lisää uusi rooli"
+
+#: components/Roles/Roles.php:303
+msgid "Role label is required"
+msgstr "Roolin otsikkoteksti tarvitaan"
+
+#: components/Roles/Roles.php:299
+msgid "Role name is required"
+msgstr "Roolin nimi tarvitaan"
+
+#: components/Roles/Roles.php:258
+msgid "role removed from site."
+msgstr "rooli poistettu sivustolta."
+
+#: components/Roles/Roles.php:210
+msgid "You cannot remove the <strong>%s</strong> role, you must set a new default role for the site first."
+msgstr "Et voi poistaa <strong>%s</strong> roolia, uusi oletusrooli täytyy määrittää ensin."
+
+#: components/Roles/Roles.php:204
+msgid "Role not found, it cannot be deleted."
+msgstr "Roolia ei löytynyt, sitä ei voi poistaa."
+
+#: components/Roles/Roles.php:181 components/Roles/Roles.php:330
+msgid "Role not found, cannot edit it."
+msgstr "Roolia ei löytynyt, sitä ei voi muokata."
+
+#: components/Roles/Roles.php:92 components/Roles/ui/add.php:23
+msgid "Capabilities"
+msgstr "Ominaisuudet"
+
+#: components/Roles/Roles.php:77 components/Roles/Roles.php:248
+msgid "View Users"
+msgstr "Näytä käyttäjät"
+
+#: components/Roles/Roles.php:69 components/Roles/Roles.php:240
+msgid "%s User"
+msgid_plural "%s Users"
+msgstr[0] "%s Käyttäjä"
+msgstr[1] "%s Käyttäjät"
+
+#: components/Pages.php:350
+msgid "Redirect to a Custom URL"
+msgstr "Ohjaa edelleen räätälöityyn URL -osoitteeseen"
+
+#: components/Pages.php:340
+msgid "Redirect to WP Login page"
+msgstr "Ohjaa edelleen WP kirjautumissivulle"
+
+#: components/Pages.php:287
+msgid "<h6>Roles</h6> Roles are assigned to users to provide them access to specific functionality in WordPress. Please see the Roles and Capabilities component in Pods for an easy tool to add your own roles and edit existing ones."
+msgstr "<h6>Roolit</h6> Roolit on kytketty käyttäjiin antaen heille pääsyn erityisiin WordPress toiminnallisuuksiin. Ole hyvä ja tutustu Podsin Roolit ja Ominaisuudet -komponenttiin, sen avulla voit helposti luoda ja muokata omia rooleja."
+
+#: components/Pages.php:311
+msgid "<h6>Capabilities</h6> Capabilities denote access to specific functionality in WordPress, and are assigned to specific User Roles. Please see the Roles and Capabilities component in Pods for an easy tool to add your own capabilities and roles."
+msgstr "<h6>Ominaisuudet</h6> Ominaisuudet tarkoittaa pääsyä tiettyyn toiminnallisuuteen WordPressissä, ja ne asetetaan tiettyihin käyttäjärooleihin. Ole hyvä ja tutustu Roolit ja Ominaisuudet -komponenttiin, sen avulla voit helposti luoda omia ominaisuuksia ja rooleja."
+
+#: components/Pages.php:237
+msgid "-- Select a Pod --"
+msgstr "-- Valitse Pod --"
+
+#: components/Pages.php:224
+msgid "Page Template"
+msgstr "Sivun mallipohja"
+
+#: components/Pages.php:220
+msgid "Precode will run before your theme outputs the page. It is expected that this value will be a block of PHP. You must open the PHP tag here, as we do not open it for you by default."
+msgstr "Esikoodi suoritetaan ennenkuin teemasi tulostaa sivun. Oletuksena on, että tämä on PHP koodia. Alkuun tulee laittaa PHP:n avaustagi, sillä järjestelmä ei luo sitä puolestasi."
+
+#: components/Pages.php:218
+msgid "Page Precode"
+msgstr "Sivun esikoodi"
+
+#: components/Pages.php:205
+msgid "Page Code"
+msgstr "Sivun koodi"
+
+#: components/Pages.php:189
+msgid "Index (WP Fallback)"
+msgstr "Index (WP Fallback)"
+
+#: components/Pages.php:185
+msgid "Page (WP Default)"
+msgstr "Sivu (WP oletus)"
+
+#: components/Pages.php:181
+msgid "Pods (Pods Default)"
+msgstr "Pods (Pods oletus)"
+
+#: components/Pages.php:178
+msgid "Custom (uses only Pod Page content)"
+msgstr "Oma (käyttää vain Pods sivun sisältöä)"
+
+#: components/Pages.php:638
+msgid "Enter URL here"
+msgstr "Syötä URL tähän"
+
+#: components/Migrate-Packages/ui/wizard.php:381
+msgid "Process Again"
+msgstr "Suorita uudelleen"
+
+#: components/Migrate-Packages/ui/wizard.php:310
+msgid "Choose which Pod Helpers to export"
+msgstr "Valitse mitkä Pods avustajat viedään"
+
+#: components/Migrate-Packages/ui/wizard.php:264
+msgid "Choose which Pod Pages to export"
+msgstr "Valitse mitä Pods sivut viedään"
+
+#: components/Migrate-Packages/ui/wizard.php:218
+msgid "Choose which Pod Templates to export"
+msgstr "Valitse mitä Pod mallipohjat viedään"
+
+#: components/Migrate-Packages/ui/wizard.php:179
+#: components/Migrate-Packages/ui/wizard.php:225
+#: components/Migrate-Packages/ui/wizard.php:271
+#: components/Migrate-Packages/ui/wizard.php:317
+msgid "Toggle all on / off"
+msgstr "Kaikki päälle / pois päältä"
+
+#: components/Migrate-Packages/ui/wizard.php:172
+msgid "Choose which Pods to export"
+msgstr "Valitse mitkä Podit viedään"
+
+#: components/Migrate-Packages/ui/wizard.php:23
+msgid "Import / Export"
+msgstr "Tuonti / Vienti"
+
+#: ui/admin/setup-add.php:130
+msgid "Pods are content types that you can customize and define fields for based on your needs. You can choose to create a Custom Post Type, Custom Taxonomy, or Custom Settings Pages for site-specific data. You can also extend existing content types like WP Objects such as Post Types, Taxonomies, Users, or Comments."
+msgstr "Podsit ovat sisältötyyppejä, joissa voit itse määrittää kentät tarpeittesi mukaan. Voit valita oman sisältötyypin, oman taksonomian tai oman asetussivun kuvaamaan sivustosi erityistä dataa. Voit myös laajentaa olemassa olevia WP sisältötyyppejä kuten sisältötyyppejä, taksonomioita, käyttäjiä tai kommentteja."
+
+#: src/Pods/Admin/Config/Pod.php:272 ui/admin/setup-add.php:105
+msgid "Back to Manage"
+msgstr "Takaisin ylläpitoon"
+
+#: ui/admin/settings-reset.php:232
+msgid "Reset Pods settings and data"
+msgstr "Palauta Pods alkuasetukset ja data"
+
+#: ui/admin/settings-reset.php:193
+msgid "Reset Pods 2.x settings and data"
+msgstr "Palauta Pods 2.x alkuasetukset ja data"
+
+#: ui/admin/settings-reset.php:186
+msgid "Reset Pods 2.x"
+msgstr "Palauta Pods 2.x alkuasetukset"
+
+#: ui/admin/settings-reset.php:177
+msgid "This will delete all of your Pods 1.x data, it's only recommended if you've verified your data has been properly migrated into Pods 2.x."
+msgstr "Tämä poistaa kaiken Pods 1.x datan, tätä suositellaan tehtäväksi vasta sen jälkeen, kun olet todennut datan siirtyneet onnistuneesti versioon 2.x ."
+
+#: sql/upgrade/PodsUpgrade_2_0_0.php:874
+msgid "Input Helpers may not function in our new forms, we have imported and disabled them for your review."
+msgstr "Syötteen avustajat eivät ehkä toimi uusissa lomakkeissamme, toimme ne ja poistimme samalla käytöstä, jotta voisit läpikäydä ne ensin."
+
+#: includes/general.php:2370 includes/general.php:2389
+#: includes/general.php:2410
+msgid "requires a minimum of"
+msgstr "edellyttää vähintään"
+
+#: components/Templates/includes/element-pod_reference.php:15
+msgid "Select Pod to use as reference"
+msgstr "Valitse Pod, johon viittaat"
+
+#: components/Templates/includes/auto-template/Pods_Templates_Auto_Template_Settings.php:102
+msgid "Auto Template Options"
+msgstr "Automaattisen mallin asetukset"
+
+#: components/Roles/ui/add.php:67 components/Roles/ui/edit.php:73
+msgid "Assign the Capabilities for"
+msgstr "Aseta ominaisuudet:"
+
+#: ui/admin/setup-add.php:177
+msgid "Extend any existing content type within WordPress, including <strong>Post Types</strong> (Posts, Pages, etc), <strong>Taxonomies</strong> (Categories, Tags, etc), <strong>Media</strong>, <strong>Users</strong>, or <strong>Comments</strong>."
+msgstr "Laajenna mitä vain WordPress sisältötyyppiä, kuten <strong>Sisältötyypit</strong> (artikkelit, sivut, jne.), <strong>Taksonomiat</strong> (kategoriat, avainsanat, jne.), <strong>Media</strong>, <strong>Käyttäjät</strong>, tai <strong>Kommentit</strong>."
+
+#: components/Pages.php:376
+msgid "Pod Association"
+msgstr "Pod liitos"
+
+#: components/Pages.php:256
+msgid "Associated Pod"
+msgstr "Liitetty Pod"
+
+#: components/Pages.php:268
+msgid "Wildcard Slug"
+msgstr "Wildcard Slug"
+
+#: components/Pages.php:269
+msgid "Setting the Wildcard Slug is an easy way to setup a detail page. You can use the special tag {@url.2} to match the *third* level of the URL of a Pod Page named \"first/second/*\" part of the pod page. This is functionally the same as using pods_v_sanitized( 2, \"url\" ) in PHP."
+msgstr "Helpoin tapa luoda tietosivu on asettaa Wildcard Slug. Voit käyttää erityistagia {@url.2}  osuaksesi *kolmanteen* tasoon URLia \"first/second/*\" -nimisessä podissa osana pod sivua. Tämä on toiminnallisesti sama asia kuin käytettäessä PHP:ssa pods_v_sanitized(2,\"url\")."
+
+#: ui/admin/settings-reset.php:237 ui/admin/settings-reset.php:259
+msgid "Deactivate and Delete Pods data"
+msgstr "Poista Podsien data ja itse Pods pois käytöstä"
+
+#: ui/admin/settings-settings.php:115
+msgid "Clear Pods Cache"
+msgstr "Tyhjennä Podsien välimuisti"
+
+#: sql/upgrade/PodsUpgrade_2_0_0.php:910
+msgid "Pod table not found, items cannot be migrated"
+msgstr "Pod taulua ei löytynyt, nimikkeitä ei voi siirtää"
+
+#: classes/widgets/PodsWidgetForm.php:38 classes/widgets/PodsWidgetForm.php:59
+#: classes/widgets/PodsWidgetForm.php:74
+#: components/Builder/modules/form/PodsBuilderModuleForm.php:47
+#: components/Builder/modules/form/PodsBuilderModuleForm.php:145
+msgid "Submit"
+msgstr "Lähetä"
+
+#: classes/fields/pick.php:3875
+msgid "North Dakota"
+msgstr "North Dakota"
+
+#: src/Pods/Whatsit/Storage/Collection.php:39
+msgid "Code"
+msgstr "Koodi"
+
+#: classes/fields/pick.php:3760
+msgid "Serbia"
+msgstr "Serbia"
+
+#: components/Builder/modules/list/PodsBuilderModuleList.php:169
+#: src/Pods/Blocks/Types/Item_List.php:270 ui/admin/shortcode.php:458
+#: ui/admin/widgets/list.php:106
+msgid "Order By"
+msgstr "Järjestystapa"
+
+#: classes/fields/pick.php:3764
+msgid "Singapore"
+msgstr "Singapore"
+
+#: classes/fields/pick.php:3756
+msgid "Samoa"
+msgstr "Samoa"
+
+#: classes/fields/pick.php:3757
+msgid "San Marino"
+msgstr "San Marino"
+
+#: classes/fields/pick.php:3855
+msgid "Indiana"
+msgstr "Indiana"
+
+#: classes/fields/link.php:51
+msgid "http://example.com/"
+msgstr "http://example.com/"
+
+#: classes/fields/pick.php:3891
+msgid "Wyoming"
+msgstr "Wyoming"
+
+#: classes/fields/pick.php:3890
+msgid "Wisconsin"
+msgstr "Wisconsin"
+
+#: classes/fields/pick.php:3889
+msgid "West Virginia"
+msgstr "West Virginia"
+
+#: classes/fields/pick.php:3888
+msgid "Washington"
+msgstr "Washington"
+
+#: classes/fields/pick.php:3887
+msgid "Virginia"
+msgstr "Virginia"
+
+#: classes/fields/pick.php:3880
+msgid "Rhode Island"
+msgstr "Rhode Island"
+
+#: classes/fields/pick.php:3879
+msgid "Pennsylvania"
+msgstr "Pennsylvania"
+
+#: classes/fields/pick.php:3878
+msgid "Oregon"
+msgstr "Oregon"
+
+#: classes/fields/pick.php:3877
+msgid "Oklahoma"
+msgstr "Oklahoma"
+
+#: classes/fields/pick.php:3876
+msgid "Ohio"
+msgstr "Ohio"
+
+#: classes/fields/pick.php:3874
+msgid "North Carolina"
+msgstr "North Carolina"
+
+#: classes/fields/pick.php:3873
+msgid "New York"
+msgstr "New York"
+
+#: classes/fields/pick.php:3872
+msgid "New Mexico"
+msgstr "New Mexico"
+
+#: classes/fields/pick.php:3871
+msgid "New Jersey"
+msgstr "New Jersey"
+
+#: classes/fields/pick.php:3870
+msgid "New Hampshire"
+msgstr "New Hampshire"
+
+#: classes/fields/pick.php:3869
+msgid "Nevada"
+msgstr "Nevada"
+
+#: classes/fields/pick.php:3868
+msgid "Nebraska"
+msgstr "Nebraska"
+
+#: classes/fields/pick.php:3867
+msgid "Montana"
+msgstr "Montana"
+
+#: classes/fields/pick.php:3866
+msgid "Missouri"
+msgstr "Missouri"
+
+#: classes/fields/pick.php:3865
+msgid "Mississippi"
+msgstr "Mississippi"
+
+#: classes/fields/pick.php:3847
+msgid "Connecticut"
+msgstr "Connecticut"
+
+#: classes/fields/pick.php:3846
+msgid "Colorado"
+msgstr "Colorado"
+
+#: classes/fields/pick.php:3845
+msgid "California"
+msgstr "California"
+
+#: classes/fields/pick.php:3844
+msgid "Arkansas"
+msgstr "Arkansas"
+
+#: classes/fields/pick.php:3843
+msgid "Arizona"
+msgstr "Arizona"
+
+#: classes/fields/pick.php:3842
+msgid "Alaska"
+msgstr "Alaska"
+
+#: classes/fields/pick.php:3841
+msgid "Alabama"
+msgstr "Alabama"
+
+#: classes/fields/pick.php:3817
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+#: classes/fields/pick.php:3818
+msgid "Åland Islands"
+msgstr "Ahvenanmaa"
+
+#: classes/fields/pick.php:3816
+msgid "Zambia"
+msgstr "Sambia"
+
+#: classes/fields/pick.php:3815
+msgid "Yemen"
+msgstr "Jemen"
+
+#: classes/fields/pick.php:3814
+msgid "Western Sahara"
+msgstr "Länsi-Sahara"
+
+#: classes/fields/pick.php:3813
+msgid "Wallis and Futuna"
+msgstr "Wallis ja Futuna"
+
+#: classes/fields/pick.php:3812
+msgid "Wake Island"
+msgstr "Wake Island"
+
+#: classes/fields/pick.php:3811
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: classes/fields/pick.php:3795
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: classes/fields/pick.php:3794
+msgid "Turks and Caicos Islands"
+msgstr "Turks- ja Caicossaaret"
+
+#: classes/fields/pick.php:3793
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#: classes/fields/pick.php:3792
+msgid "Turkey"
+msgstr "Turkki"
+
+#: classes/fields/pick.php:3791
+msgid "Tunisia"
+msgstr "Tunisia"
+
+#: classes/fields/pick.php:3790
+msgid "Trinidad and Tobago"
+msgstr "Trinidad ja Tobago"
+
+#: classes/fields/pick.php:3789
+msgid "Tonga"
+msgstr "Tonga"
+
+#: classes/fields/pick.php:3788
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: classes/fields/pick.php:3787
+msgid "Togo"
+msgstr "Togo"
+
+#: classes/fields/pick.php:3786
+msgid "Timor-Leste"
+msgstr "Timor-Leste"
+
+#: classes/fields/pick.php:3785
+msgid "Thailand"
+msgstr "Thaimaa"
+
+#: classes/fields/pick.php:3784
+msgid "Tanzania"
+msgstr "Tansania"
+
+#: classes/fields/pick.php:3783
+msgid "Tajikistan"
+msgstr "Tadžikistan"
+
+#: classes/fields/pick.php:3782
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: classes/fields/pick.php:3781
+msgid "São Tomé and Príncipe"
+msgstr "São Tomé ja Príncipe"
+
+#: classes/fields/pick.php:3765
+msgid "Slovakia"
+msgstr "Slovakia"
+
+#: classes/fields/pick.php:3763
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: classes/fields/pick.php:3762
+msgid "Seychelles"
+msgstr "Seychellit"
+
+#: classes/fields/pick.php:3761
+msgid "Serbia and Montenegro"
+msgstr "Serbia ja Montenegro"
+
+#: classes/fields/pick.php:3759
+msgid "Senegal"
+msgstr "Senegal"
+
+#: classes/fields/pick.php:3758
+msgid "Saudi Arabia"
+msgstr "Saudi Arabia"
+
+#: classes/fields/pick.php:3755
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent ja Grenadiinit"
+
+#: classes/fields/pick.php:3754
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint Pierre ja Miquelon"
+
+#: classes/fields/pick.php:3753
+msgid "Saint Martin"
+msgstr "Saint Martin"
+
+#: classes/fields/pick.php:3752
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+#: classes/fields/pick.php:3751
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts ja Nevis"
+
+#: classes/fields/pick.php:3750
+msgid "Saint Helena"
+msgstr "Saint Helena"
+
+#: components/Migrate-Packages/ui/wizard.php:20
+msgid "Choose"
+msgstr "Valitse"
+
+#: components/Migrate-Packages/ui/wizard.php:12
+msgid "Migrate: Packages"
+msgstr "Siirto: paketit"
+
+#: components/Migrate-ACF/ui/wizard.php:155
+#: components/Migrate-CPTUI/ui/wizard.php:154
+#: components/Migrate-Packages/ui/wizard.php:381
+#: components/Roles/ui/add.php:142 ui/admin/setup-add.php:577
+msgid "Processing"
+msgstr "Suoritetaan"
+
+#: components/Migrate-ACF/ui/wizard.php:155
+#: components/Migrate-CPTUI/ui/wizard.php:154
+#: components/Migrate-Packages/ui/wizard.php:381
+#: components/Roles/ui/add.php:142 ui/admin/setup-add.php:577
+msgid "Finished"
+msgstr "Valmis"
+
+#: components/Migrate-ACF/ui/wizard.php:154
+#: components/Migrate-CPTUI/ui/wizard.php:153
+#: components/Migrate-Packages/ui/wizard.php:380
+#: components/Roles/ui/add.php:141 ui/admin/setup-add.php:576
+#: ui/admin/upgrade/upgrade_2_0_0.php:271
+#: ui/admin/upgrade/upgrade_2_1_0.php:118
+msgid "Start Over"
+msgstr "Aloita alusta"
+
+#: components/Migrate-ACF/ui/wizard.php:117
+#: components/Migrate-CPTUI/ui/wizard.php:116
+msgid "Available Taxonomies"
+msgstr "Tarjolla olevat taksonomiat"
+
+#: components/Migrate-ACF/ui/wizard.php:108
+#: components/Migrate-CPTUI/ui/wizard.php:107
+msgid "Choose Taxonomies to Import"
+msgstr "Valitse tuotavat taksonomiat"
+
+#: components/Migrate-ACF/ui/wizard.php:71
+#: components/Migrate-CPTUI/ui/wizard.php:70
+msgid "Available Post Types"
+msgstr "Tarjolla olevat sisältötyypit"
+
+#: components/Migrate-ACF/ui/wizard.php:62
+#: components/Migrate-CPTUI/ui/wizard.php:61
+msgid "Choose Post Types to Import"
+msgstr "Valitse tuotavat sisältötyypit"
+
+#: components/Migrate-CPTUI/ui/wizard.php:48
+msgid "This will import your Custom Post Types and Taxonomies, and then remove them from Custom Post Type UI."
+msgstr "Tämä tuo omat sisältötyypit ja taksonomiat, ja sen jälkeen poistaa ne Custom Post Type UI:sta."
+
+#: components/Migrate-ACF/ui/wizard.php:47
+#: components/Migrate-CPTUI/ui/wizard.php:46
+msgid "Import and Clean Up"
+msgstr "Tuo ja siivoa"
+
+#: components/Migrate-ACF/ui/wizard.php:39
+#: components/Migrate-CPTUI/ui/wizard.php:39
+msgid "This will import your Custom Post Types and Taxonomies."
+msgstr "Tämä tuo omat sisältötyypit ja taksonomiat."
+
+#: components/Migrate-ACF/ui/wizard.php:37
+#: components/Migrate-CPTUI/ui/wizard.php:37
+msgid "Import Only"
+msgstr "Vain tuonti"
+
+#: components/Migrate-ACF/ui/wizard.php:24
+#: components/Migrate-CPTUI/ui/wizard.php:24
+#: ui/admin/upgrade/upgrade_2_0_0.php:26
+msgid "Migrate"
+msgstr "Siirrä"
+
+#: components/Migrate-ACF/ui/wizard.php:20
+#: components/Migrate-CPTUI/ui/wizard.php:20
+msgid "Setup"
+msgstr "Määritä"
+
+#: components/Migrate-CPTUI/ui/wizard.php:12
+msgid "Migrate: Import from Custom Post Type UI"
+msgstr "Siirrä: tuo Custom Post Type UI:sta"
+
+#: components/Migrate-ACF/Migrate-ACF.php:333
+#: components/Migrate-ACF/Migrate-ACF.php:456
+#: components/Migrate-CPTUI/Migrate-CPTUI.php:326
+#: components/Migrate-CPTUI/Migrate-CPTUI.php:454
+msgid "Pod with the name %s already exists"
+msgstr "%s niminen pod on jo olemassa"
+
+#: classes/widgets/PodsWidgetView.php:15
+#: components/Builder/modules/view/PodsBuilderModuleView.php:28
+#: src/Pods/Blocks/Types/View.php:34 ui/admin/shortcode.php:360
+msgid "Include a file from a theme, with caching options"
+msgstr "Sisällytä tiedosto teemasta, välimuistiominaisuuksineen"
+
+#: components/Builder/modules/view/PodsBuilderModuleView.php:76
+#: ui/admin/shortcode.php:494 ui/admin/widgets/view.php:27
+msgid "File to include"
+msgstr "Sisällytä tiedosto"
+
+#: classes/widgets/PodsWidgetView.php:13
+#: components/Builder/modules/view/PodsBuilderModuleView.php:27
+msgid "Pods - View"
+msgstr "Pods - Näytä"
+
+#: classes/widgets/PodsWidgetSingle.php:13
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:27
+msgid "Pods - Single Item"
+msgstr "Podit - yksittäinen nimike"
+
+#: components/Builder/modules/list/PodsBuilderModuleList.php:202
+#: components/Builder/modules/view/PodsBuilderModuleView.php:101
+#: ui/admin/shortcode.php:522 ui/admin/widgets/list.php:138
+#: ui/admin/widgets/view.php:54
+msgid "Cache Expiration (in seconds)"
+msgstr "Välimuistin vanheneminen (sekuntia)"
+
+#: components/Builder/modules/list/PodsBuilderModuleList.php:193
+#: components/Builder/modules/view/PodsBuilderModuleView.php:92
+#: ui/admin/shortcode.php:507 ui/admin/widgets/list.php:125
+#: ui/admin/widgets/view.php:40
+msgid "Site Transient"
+msgstr "Site Transient"
+
+#: components/Builder/modules/list/PodsBuilderModuleList.php:192
+#: components/Builder/modules/view/PodsBuilderModuleView.php:91
+#: ui/admin/shortcode.php:506 ui/admin/widgets/list.php:124
+#: ui/admin/widgets/view.php:39
+msgid "Transient"
+msgstr "Transient"
+
+#: components/Builder/modules/list/PodsBuilderModuleList.php:191
+#: components/Builder/modules/view/PodsBuilderModuleView.php:90
+#: ui/admin/shortcode.php:505 ui/admin/widgets/list.php:123
+#: ui/admin/widgets/view.php:38
+msgid "Object Cache"
+msgstr "Objektin välimuisti"
+
+#: components/Builder/modules/list/PodsBuilderModuleList.php:190
+#: components/Builder/modules/view/PodsBuilderModuleView.php:89
+#: ui/admin/shortcode.php:504 ui/admin/widgets/list.php:122
+#: ui/admin/widgets/view.php:37
+msgid "Disable Caching"
+msgstr "Poista välimuisti käytöstä"
+
+#: components/Builder/modules/list/PodsBuilderModuleList.php:185
+#: components/Builder/modules/view/PodsBuilderModuleView.php:84
+#: ui/admin/shortcode.php:500 ui/admin/widgets/list.php:118
+#: ui/admin/widgets/view.php:33
+msgid "Cache Type"
+msgstr "Välimuistin tyyppi"
+
+#: components/Builder/modules/list/PodsBuilderModuleList.php:117
+#: components/Builder/modules/list/PodsBuilderModuleList.php:134
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:121
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:138
+#: components/Templates/class-pods_templates.php:211
+#: src/Pods/Blocks/Types/Item_List.php:230
+#: src/Pods/Blocks/Types/Item_Single.php:192 ui/admin/shortcode.php:397
+#: ui/admin/shortcode.php:413 ui/admin/widgets/list.php:57
+#: ui/admin/widgets/list.php:73 ui/admin/widgets/single.php:73
+#: ui/admin/widgets/single.php:89
+msgid "Template"
+msgstr "Mallipohja"
+
+#: components/Builder/modules/list/PodsBuilderModuleList.php:108
+#: components/Builder/modules/list/PodsBuilderModuleList.php:146
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:112
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:150
+#: src/Pods/Blocks/Types/Item_List.php:238
+#: src/Pods/Blocks/Types/Item_Single.php:200 ui/admin/shortcode.php:400
+#: ui/admin/shortcode.php:422 ui/admin/widgets/list.php:60
+#: ui/admin/widgets/list.php:88 ui/admin/widgets/single.php:76
+#: ui/admin/widgets/single.php:98
+msgid "Custom Template"
+msgstr "Oma mallipohja"
+
+#: classes/widgets/PodsWidgetList.php:15
+#: components/Builder/modules/list/PodsBuilderModuleList.php:28
+msgid "Display multiple Pod items"
+msgstr "Näytä useampi Pod -nimike"
+
+#: classes/widgets/PodsWidgetList.php:13
+#: components/Builder/modules/list/PodsBuilderModuleList.php:27
+msgid "Pods - List Items"
+msgstr "Pods - Listaa nimikkeet"
+
+#: components/Builder/modules/form/PodsBuilderModuleForm.php:125
+#: ui/admin/shortcode.php:488 ui/admin/widgets/form.php:67
+msgid "Thank You URL upon submission"
+msgstr "Kiitossivun URL lähetyksen yhteydessä"
+
+#: components/Builder/modules/form/PodsBuilderModuleForm.php:117
+#: ui/admin/shortcode.php:482 ui/admin/widgets/form.php:61
+msgid "Submit Label"
+msgstr "Lähettämisen teksti"
+
+#: components/Builder/modules/form/PodsBuilderModuleForm.php:109
+#: ui/admin/shortcode.php:476 ui/admin/widgets/form.php:55
+msgid "Fields (comma-separated)"
+msgstr "Kentät (erota toisistaan pilkulla)"
+
+#: classes/widgets/PodsWidgetForm.php:13
+#: components/Builder/modules/form/PodsBuilderModuleForm.php:27
+msgid "Pods - Form"
+msgstr "Pods - Lomake"
+
+#: components/Builder/modules/field/PodsBuilderModuleField.php:107
+#: components/Templates/includes/element-pod_reference-content.php:19
+#: components/Templates/includes/element-pod_reference.php:30
+#: ui/admin/shortcode.php:470 ui/admin/widgets/field.php:65
+msgid "Field"
+msgstr "Kenttä"
+
+#: components/Builder/modules/field/PodsBuilderModuleField.php:92
+#: components/Builder/modules/form/PodsBuilderModuleForm.php:94
+#: components/Builder/modules/list/PodsBuilderModuleList.php:97
+#: components/Builder/modules/list/PodsBuilderModuleList.php:124
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:93
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:128
+#: components/Pages.php:247 ui/admin/shortcode.php:388
+#: ui/admin/widgets/field.php:44 ui/admin/widgets/form.php:44
+#: ui/admin/widgets/list.php:46 ui/admin/widgets/single.php:46
+msgid "None Found"
+msgstr "Ei löytynyt mitään"
+
+#: classes/widgets/PodsWidgetField.php:14
+#: components/Builder/modules/field/PodsBuilderModuleField.php:28
+msgid "Display a single Pod item's field value"
+msgstr "Näytä yksittäisen pod-nimikkeen kentän arvo"
+
+#: classes/widgets/PodsWidgetField.php:12
+#: components/Builder/modules/field/PodsBuilderModuleField.php:27
+msgid "Pods - Field Value"
+msgstr "Pods - Kentän arvo"
+
+#: classes/fields/pick.php:776
+msgid "Taxonomy Objects"
+msgstr "Taksonomiaobjektit"
+
+#: classes/fields/pick.php:769
+msgid "Post Type Objects"
+msgstr "Sisältötyyppiobjektit"
+
+#: components/Advanced-Relationships.php:77
+msgid "Sidebars"
+msgstr "Sivupalkit"
+
+#: components/Advanced-Relationships.php:70
+msgid "Page Templates"
+msgstr "Sivun mallipohjat"
+
+#: components/Advanced-Relationships.php:63
+msgid "Themes"
+msgstr "Teemat"
+
+#: components/Advanced-Relationships.php:57
+msgid "Multisite Networks"
+msgstr "Multisite Verkot"
+
+#: components/Advanced-Relationships.php:52
+msgid "Multisite Sites"
+msgstr "Multisite Sivustot"
+
+#: components/Advanced-Relationships.php:47
+#: components/Advanced-Relationships.php:53
+#: components/Advanced-Relationships.php:58
+#: components/Advanced-Relationships.php:64
+#: components/Advanced-Relationships.php:71
+#: components/Advanced-Relationships.php:78
+msgid "Advanced Objects"
+msgstr "Edistyneet objektit"
+
+#: components/Advanced-Relationships.php:46
+msgid "Database Tables"
+msgstr "Tietokantataulut"
+
+#: classes/fields/wysiwyg.php:58
+msgid "Editor Options"
+msgstr "Muokkaimen asetukset"
+
+#: classes/fields/wysiwyg.php:43 src/Pods/Admin/Config/Pod.php:962
+msgid "Editor"
+msgstr "Muokkain"
+
+#: classes/fields/website.php:226
+msgid "Invalid website provided for the field %s."
+msgstr "Kelvoton websivusto tarjolla kenttään %s."
+
+#: classes/fields/link.php:56 classes/fields/website.php:52
+msgid "www.example.com (force www if no sub-domain provided)"
+msgstr "www.example.com (pakota www jos alidomainia ei tarjolla)"
+
+#: classes/fields/link.php:55 classes/fields/website.php:51
+msgid "example.com (force removal of www)"
+msgstr "example.com (pakota www poisto)"
+
+#: classes/fields/link.php:54 classes/fields/website.php:50
+msgid "example.com"
+msgstr "example.com"
+
+#: classes/fields/link.php:53
+msgid "http://www.example.com/ (force www if no sub-domain provided)"
+msgstr "http://www.example.com/ (pakota www jos alidomainia ei tarjolla)"
+
+#: classes/fields/link.php:52
+msgid "http://example.com/ (remove www)"
+msgstr "http://example.com/ (poista www)"
+
+#: classes/fields/pick.php:3886
+msgid "Vermont"
+msgstr "Vermont"
+
+#: classes/fields/pick.php:3885
+msgid "Utah"
+msgstr "Utah"
+
+#: classes/fields/pick.php:3884
+msgid "Texas"
+msgstr "Texas"
+
+#: classes/fields/pick.php:3883
+msgid "Tennessee"
+msgstr "Tennessee"
+
+#: classes/fields/pick.php:3882
+msgid "South Dakota"
+msgstr "South Dakota"
+
+#: classes/fields/pick.php:3881
+msgid "South Carolina"
+msgstr "South Carolina"
+
+#: components/Migrate-ACF/ui/wizard.php:155
+#: components/Migrate-CPTUI/ui/wizard.php:154 components/Roles/ui/add.php:142
+#: ui/admin/setup-add.php:577 ui/admin/upgrade/upgrade_2_0_0.php:272
+#: ui/admin/upgrade/upgrade_2_1_0.php:119
+msgid "Next Step"
+msgstr "Jatka"
+
+#: components/Migrate-ACF/ui/wizard.php:144
+#: components/Migrate-CPTUI/ui/wizard.php:143
+msgid "No Taxonomies were found."
+msgstr "Taksonomioita ei löytynyt."
+
+#: components/Migrate-ACF/ui/wizard.php:100
+#: components/Migrate-CPTUI/ui/wizard.php:99
+msgid "No Post Types were found."
+msgstr "Sisältötyyppejä ei löytynyt."
+
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:28
+#: ui/admin/shortcode.php:355
+msgid "Display a single Pod item"
+msgstr "Näytä yksittäinen Pod nimike"
+
+#: components/Builder/modules/list/PodsBuilderModuleList.php:177
+#: src/Pods/Blocks/Types/Item_List.php:276 ui/admin/shortcode.php:464
+#: ui/admin/widgets/list.php:112
+msgid "Where"
+msgstr "Jossa"
+
+#: components/Builder/modules/list/PodsBuilderModuleList.php:161
+#: src/Pods/Blocks/Types/Item_List.php:263 ui/admin/shortcode.php:452
+#: ui/admin/widgets/list.php:100
+msgid "Limit"
+msgstr "Rajoita"
+
+#: classes/widgets/PodsWidgetForm.php:15
+#: components/Builder/modules/form/PodsBuilderModuleForm.php:28
+#: ui/admin/shortcode.php:359
+msgid "Display a form for creating and editing Pod items"
+msgstr "Näytä lomake, jolla luodaan ja muokataan Pod -nimikkeitä"
+
+#: components/Builder/modules/field/PodsBuilderModuleField.php:99
+#: components/Builder/modules/form/PodsBuilderModuleForm.php:101
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:100
+#: src/Pods/Blocks/Types/Field.php:117 src/Pods/Blocks/Types/Form.php:182
+#: src/Pods/Blocks/Types/Item_Single.php:186
+#: src/Pods/Blocks/Types/Item_Single_List_Fields.php:86
+#: ui/admin/widgets/field.php:50 ui/admin/widgets/single.php:52
+msgid "Slug or ID"
+msgstr "Polkutunnus tai ID"
+
+#: components/Advanced-Content-Types.php:51
+msgid "Advanced Content Type (separate from WP, blank slate, in its own table)"
+msgstr "Edistynyt sisältötyyppi (erillään WP:stä, blank slate, omassa taulussaan)"
+
+#: classes/fields/pick.php:3864
+msgid "Minnesota"
+msgstr "Minnesota"
+
+#: classes/fields/pick.php:3863
+msgid "Michigan"
+msgstr "Michigan"
+
+#: classes/fields/pick.php:3862
+msgid "Massachusetts"
+msgstr "Massachusetts"
+
+#: classes/fields/pick.php:3861
+msgid "Maryland"
+msgstr "Maryland"
+
+#: classes/fields/pick.php:3860
+msgid "Maine"
+msgstr "Maine"
+
+#: classes/fields/pick.php:3859
+msgid "Louisiana"
+msgstr "Louisiana"
+
+#: classes/fields/pick.php:3858
+msgid "Kentucky"
+msgstr "Kentucky"
+
+#: classes/fields/pick.php:3857
+msgid "Kansas"
+msgstr "Kansas"
+
+#: classes/fields/pick.php:3856
+msgid "Iowa"
+msgstr "Iowa"
+
+#: classes/fields/pick.php:3854
+msgid "Illinois"
+msgstr "Illinois"
+
+#: classes/fields/pick.php:3853
+msgid "Idaho"
+msgstr "Idaho"
+
+#: classes/fields/pick.php:3852
+msgid "Hawaii"
+msgstr "Hawaiji"
+
+#: classes/fields/pick.php:3850
+msgid "Florida"
+msgstr "Florida"
+
+#: classes/fields/pick.php:3849
+msgid "District Of Columbia"
+msgstr "District Of Columbia"
+
+#: classes/fields/pick.php:3848
+msgid "Delaware"
+msgstr "Delaware"
+
+#: classes/fields/pick.php:3810
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: classes/fields/pick.php:3809
+msgid "Vatican City"
+msgstr "Vatikaani"
+
+#: classes/fields/pick.php:3808
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: classes/fields/pick.php:3807
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+#: classes/fields/pick.php:3806
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: classes/fields/pick.php:3805
+msgid "Unknown or Invalid Region"
+msgstr "Tuntematon tai kelvoton alue"
+
+#: classes/fields/pick.php:3804
+msgid "United States"
+msgstr "Yhdysvallat"
+
+#: classes/fields/pick.php:3803
+msgid "United Kingdom"
+msgstr "Yhdistyneet kuningaskunnat"
+
+#: classes/fields/pick.php:3802
+msgid "United Arab Emirates"
+msgstr "Yhdistyneet Arabiemiraatit"
+
+#: classes/fields/pick.php:3801
+msgid "Union of Soviet Socialist Republics"
+msgstr "Venäjä"
+
+#: classes/fields/pick.php:3800
+msgid "Ukraine"
+msgstr "Ukraina"
+
+#: classes/fields/pick.php:3799
+msgid "Uganda"
+msgstr "Uganda"
+
+#: classes/fields/pick.php:3780
+msgid "Syria"
+msgstr "Syyria"
+
+#: classes/fields/pick.php:3779
+msgid "Switzerland"
+msgstr "Sveitsi"
+
+#: classes/fields/pick.php:3778
+msgid "Sweden"
+msgstr "Ruotsi"
+
+#: classes/fields/pick.php:3777
+msgid "Swaziland"
+msgstr "Swasimaa"
+
+#: classes/fields/pick.php:3775
+msgid "Suriname"
+msgstr "Surinam"
+
+#: classes/fields/pick.php:3774
+msgid "Sudan"
+msgstr "Sudan"
+
+#: classes/fields/pick.php:3773
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: classes/fields/pick.php:3772
+msgid "Spain"
+msgstr "Espanja"
+
+#: classes/fields/pick.php:3771
+msgid "South Korea"
+msgstr "Etelä-Korea"
+
+#: classes/fields/pick.php:3769
+msgid "South Africa"
+msgstr "Etelä-Afrikka"
+
+#: classes/fields/pick.php:3768
+msgid "Somalia"
+msgstr "Somalia"
+
+#: classes/fields/pick.php:3767
+msgid "Solomon Islands"
+msgstr "Solomonsaaret"
+
+#: classes/fields/pick.php:3766
+msgid "Slovenia"
+msgstr "Slovenia"
+
+#: classes/fields/pick.php:3798
+msgid "U.S. Virgin Islands"
+msgstr "Yhdysvaltain Neitsytsaaret"
+
+#: classes/fields/pick.php:3797
+msgid "U.S. Miscellaneous Pacific Islands"
+msgstr "U.S. Miscellaneous Pacific Islands"
+
+#: classes/fields/pick.php:3796
+msgid "U.S. Minor Outlying Islands"
+msgstr "U.S. Minor Outlying Islands"
+
+#: classes/fields/pick.php:3776
+msgid "Svalbard and Jan Mayen"
+msgstr "Huippuvuoret ja Jan Mayen"
+
+#: classes/fields/pick.php:3770
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "South Georgia and the South Sandwich Islands"
+
+#: classes/fields/pick.php:3733
+msgid "Panama"
+msgstr "Panama"
+
+#: classes/fields/pick.php:3743
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: classes/fields/pick.php:732 src/Pods/Admin/Config/Pod.php:993
+#: ui/admin/setup-add.php:422
+msgid "Comments"
+msgstr "Kommentit"
+
+#: classes/fields/pick.php:638 src/Pods/Admin/Config/Pod.php:1414
+#: src/Pods/Admin/Config/Pod.php:1415
+msgid "Post Types"
+msgstr "Artikkelien lajit"
+
+#: classes/fields/pick.php:3571
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: classes/fields/pick.php:3588
+msgid "Brunei"
+msgstr "Brunei"
+
+#: classes/fields/pick.php:3559
+msgid "Andorra"
+msgstr "Andorra"
+
+#: classes/fields/pick.php:3596
+msgid "Cape Verde"
+msgstr "Kap Verde"
+
+#: classes/fields/pick.php:3630
+msgid "Fiji"
+msgstr "Fidži"
+
+#: classes/fields/pick.php:3642
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: classes/fields/pick.php:3647
+msgid "Guam"
+msgstr "Guam"
+
+#: classes/fields/pick.php:3649
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: classes/fields/pick.php:3664
+msgid "Isle of Man"
+msgstr "Mansaari"
+
+#: classes/fields/pick.php:3669
+msgid "Jersey"
+msgstr "Jersey"
+
+#: classes/fields/pick.php:3675
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: classes/fields/pick.php:3685
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+#: classes/fields/pick.php:3691
+msgid "Maldives"
+msgstr "Malediivit"
+
+#: classes/fields/pick.php:3693
+msgid "Malta"
+msgstr "Malta"
+
+#: classes/fields/pick.php:3697
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#: classes/fields/pick.php:3698
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: classes/fields/pick.php:3704
+msgid "Monaco"
+msgstr "Monaco"
+
+#: classes/fields/pick.php:3712
+msgid "Nauru"
+msgstr "Nauru"
+
+#: classes/fields/pick.php:3722
+msgid "Niue"
+msgstr "Niue"
+
+#: classes/fields/pick.php:3731
+msgid "Palau"
+msgstr "Palau"
+
+#: classes/fields/pick.php:3744
+msgid "Qatar"
+msgstr "Qatar"
+
+#: classes/fields/pick.php:3562
+msgid "Antarctica"
+msgstr "Etelämanner"
+
+#: classes/fields/pick.php:3578
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: classes/fields/pick.php:3567
+msgid "Australia"
+msgstr "Australia"
+
+#: classes/fields/pick.php:3616
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: classes/fields/pick.php:3645
+msgid "Grenada"
+msgstr "Grenada"
+
+#: classes/fields/pick.php:3646
+msgid "Guadeloupe"
+msgstr "Guadeloupe"
+
+#: classes/fields/pick.php:3648
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: classes/fields/pick.php:3652
+msgid "Guyana"
+msgstr "Guyana"
+
+#: classes/fields/pick.php:3573
+msgid "Barbados"
+msgstr "Barbados"
+
+#: classes/fields/pick.php:3576
+msgid "Belize"
+msgstr "Belize"
+
+#: classes/fields/pick.php:3566
+msgid "Aruba"
+msgstr "Aruba"
+
+#: classes/fields/pick.php:3564
+msgid "Argentina"
+msgstr "Argentiina"
+
+#: classes/fields/pick.php:3561
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: classes/fields/pick.php:3749
+msgid "Saint Barthélemy"
+msgstr "Saint Barthélemy"
+
+#: classes/fields/pick.php:3748
+msgid "Réunion"
+msgstr "Réunion"
+
+#: classes/fields/pick.php:3747
+msgid "Rwanda"
+msgstr "Ruanda"
+
+#: classes/fields/pick.php:3727
+msgid "Norway"
+msgstr "Norja"
+
+#: classes/fields/pick.php:3726
+msgid "Northern Mariana Islands"
+msgstr "Northern Mariana Islands"
+
+#: classes/fields/pick.php:3725
+msgid "North Vietnam"
+msgstr "Pohjois-Vietnam"
+
+#: classes/fields/pick.php:3724
+msgid "North Korea"
+msgstr "Pohjois-Korea"
+
+#: classes/fields/pick.php:3723
+msgid "Norfolk Island"
+msgstr "Norfolk Island"
+
+#: classes/fields/pick.php:3721
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: classes/fields/pick.php:3720
+msgid "Niger"
+msgstr "Niger"
+
+#: classes/fields/pick.php:3719
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: classes/fields/pick.php:3718
+msgid "New Zealand"
+msgstr "Uusi Seelanti"
+
+#: classes/fields/pick.php:3717
+msgid "New Caledonia"
+msgstr "Uusi Kaledonia"
+
+#: classes/fields/pick.php:3716
+msgid "Neutral Zone"
+msgstr "Neutral Zone"
+
+#: classes/fields/pick.php:3715
+msgid "Netherlands Antilles"
+msgstr "Alankomaiden Antillit"
+
+#: classes/fields/pick.php:3714
+msgid "Netherlands"
+msgstr "Alankomaat"
+
+#: classes/fields/pick.php:3713
+msgid "Nepal"
+msgstr "Nepali"
+
+#: classes/fields/pick.php:3711
+msgid "Namibia"
+msgstr "Namibia"
+
+#: classes/fields/pick.php:3690
+msgid "Malaysia"
+msgstr "Malesia"
+
+#: classes/fields/pick.php:3689
+msgid "Malawi"
+msgstr "Malawi"
+
+#: classes/fields/pick.php:3688
+msgid "Madagascar"
+msgstr "Madagascar"
+
+#: classes/fields/pick.php:3687
+msgid "Macedonia"
+msgstr "Makedonia"
+
+#: classes/fields/pick.php:3686
+msgid "Macau SAR China"
+msgstr "Macau SAR China"
+
+#: classes/fields/pick.php:3684
+msgid "Lithuania"
+msgstr "Liettua"
+
+#: classes/fields/pick.php:3683
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: classes/fields/pick.php:3682
+msgid "Libya"
+msgstr "Libya"
+
+#: classes/fields/pick.php:3681
+msgid "Liberia"
+msgstr "Liberia"
+
+#: classes/fields/pick.php:3680
+msgid "Lesotho"
+msgstr "Lesoto"
+
+#: classes/fields/pick.php:3679
+msgid "Lebanon"
+msgstr "Libanon"
+
+#: classes/fields/pick.php:3678
+msgid "Latvia"
+msgstr "Latvia"
+
+#: classes/fields/pick.php:3677
+msgid "Laos"
+msgstr "Laos"
+
+#: classes/fields/pick.php:3676
+msgid "Kyrgyzstan"
+msgstr "Kirgistan"
+
+#: classes/fields/pick.php:3674
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: classes/fields/pick.php:3656
+msgid "Hong Kong SAR China"
+msgstr "Hong Kong SAR China"
+
+#: classes/fields/pick.php:3655
+msgid "Honduras"
+msgstr "Honduras"
+
+#: classes/fields/pick.php:3654
+msgid "Heard Island and McDonald Islands"
+msgstr "Heard Island ja McDonald Islands"
+
+#: classes/fields/pick.php:3653
+msgid "Haiti"
+msgstr "Haiti"
+
+#: classes/fields/pick.php:3651
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+#: classes/fields/pick.php:3650
+msgid "Guinea"
+msgstr "Guinea"
+
+#: classes/fields/pick.php:3644
+msgid "Greenland"
+msgstr "Grönlanti"
+
+#: classes/fields/pick.php:3643
+msgid "Greece"
+msgstr "Kreikka"
+
+#: classes/fields/pick.php:3641
+msgid "Ghana"
+msgstr "Ghana"
+
+#: classes/fields/pick.php:3640
+msgid "Germany"
+msgstr "Saksa"
+
+#: classes/fields/pick.php:3639 classes/fields/pick.php:3851
+msgid "Georgia"
+msgstr "Georgia"
+
+#: classes/fields/pick.php:3638
+msgid "Gambia"
+msgstr "Gambia"
+
+#: classes/fields/pick.php:3637
+msgid "Gabon"
+msgstr "Gabon"
+
+#: classes/fields/pick.php:3636
+msgid "French Southern and Antarctic Territories"
+msgstr "Ranskan eteläiset ja antarktiset alueet"
+
+#: classes/fields/pick.php:3635
+msgid "French Southern Territories"
+msgstr "French Southern Territories"
+
+#: classes/fields/pick.php:3618
+msgid "Dominican Republic"
+msgstr "Dominikaaninen tasavalta"
+
+#: classes/fields/pick.php:3617
+msgid "Dominica"
+msgstr "Dominica"
+
+#: classes/fields/pick.php:3615
+msgid "Denmark"
+msgstr "Tanska"
+
+#: classes/fields/pick.php:3614
+msgid "Côte d’Ivoire"
+msgstr "Norsunluurannikko"
+
+#: classes/fields/pick.php:3613
+msgid "Czech Republic"
+msgstr "Tsekki"
+
+#: classes/fields/pick.php:3612
+msgid "Cyprus"
+msgstr "Kypros"
+
+#: classes/fields/pick.php:3611
+msgid "Cuba"
+msgstr "Kuuba"
+
+#: classes/fields/pick.php:3610
+msgid "Croatia"
+msgstr "Kroatia"
+
+#: classes/fields/pick.php:3609
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: classes/fields/pick.php:3608
+msgid "Cook Islands"
+msgstr "Cookinsaaret"
+
+#: classes/fields/pick.php:3607
+msgid "Congo - Kinshasa"
+msgstr "Kongo - Kinshasa"
+
+#: classes/fields/pick.php:3606
+msgid "Congo - Brazzaville"
+msgstr "Kongo - Brazzaville"
+
+#: classes/fields/pick.php:3605
+msgid "Comoros"
+msgstr "Comoros"
+
+#: classes/fields/pick.php:3604
+msgid "Colombia"
+msgstr "Kolumbia"
+
+#: classes/fields/pick.php:3603
+msgid "Cocos [Keeling] Islands"
+msgstr "Kookos [Keeling] saaret"
+
+#: classes/fields/pick.php:3585
+msgid "British Antarctic Territory"
+msgstr "British Antarctic Territory"
+
+#: classes/fields/pick.php:3584
+msgid "Brazil"
+msgstr "Brasilia"
+
+#: classes/fields/pick.php:3583
+msgid "Bouvet Island"
+msgstr "Bouvet Island"
+
+#: classes/fields/pick.php:3582
+msgid "Botswana"
+msgstr "Botswana"
+
+#: classes/fields/pick.php:3581
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia ja Herzegovina"
+
+#: classes/fields/pick.php:3580
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: classes/fields/pick.php:3579
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: classes/fields/pick.php:3577
+msgid "Benin"
+msgstr "Benin"
+
+#: classes/fields/pick.php:3575
+msgid "Belgium"
+msgstr "Belgia"
+
+#: classes/fields/pick.php:3574
+msgid "Belarus"
+msgstr "Valko-Venäjä"
+
+#: classes/fields/pick.php:3572
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: classes/fields/pick.php:3570
+msgid "Bahamas"
+msgstr "Bahama"
+
+#: classes/fields/pick.php:3569
+msgid "Azerbaijan"
+msgstr "Azerbaijan"
+
+#: classes/fields/pick.php:3568
+msgid "Austria"
+msgstr "Itävalta"
+
+#: classes/fields/pick.php:3565
+msgid "Armenia"
+msgstr "Armenia"
+
+#: classes/fields/pick.php:745
+msgid "Navigation Menus"
+msgstr "Navigointivalikot"
+
+#: classes/fields/pick.php:738
+msgid "Image Sizes"
+msgstr "Kuvien koot"
+
+#: classes/fields/pick.php:726 classes/PodsAPI.php:11905
+#: src/Pods/Admin/Config/Pod.php:1432 ui/admin/setup-add.php:420
+msgid "Media"
+msgstr "Media"
+
+#: classes/fields/pick.php:712
+msgid "User Roles"
+msgstr "Käyttäjäroolit"
+
+#: classes/fields/pick.php:707 classes/fields/pick.php:713
+#: classes/fields/pick.php:720 classes/fields/pick.php:727
+#: classes/fields/pick.php:733 classes/fields/pick.php:739
+#: classes/fields/pick.php:746 classes/fields/pick.php:751
+#: classes/fields/pick.php:756 classes/fields/pick.php:763
+#: classes/fields/pick.php:770 classes/fields/pick.php:777
+msgid "Other WP Objects"
+msgstr "Muut WP objektit"
+
+#: classes/fields/pick.php:706 components/Roles/Roles.php:94
+#: ui/admin/setup-add.php:421
+msgid "Users"
+msgstr "Käyttäjät"
+
+#: classes/fields/datetime.php:129 classes/fields/pick.php:565
+msgid "Custom"
+msgstr "Räätälöity"
+
+#: classes/fields/pick.php:564
+msgid "Simple (custom defined list)"
+msgstr "Yksinkertainen (räätälöity lista)"
+
+#: classes/fields/pick.php:436
+msgid "Customized <em>GROUP BY</em>"
+msgstr "Räätälöity <em>GROUP BY</em>"
+
+#: classes/fields/pick.php:427
+msgid "Customized <em>ORDER BY</em>"
+msgstr "Räätälöity <em>ORDER BY</em>"
+
+#: classes/fields/pick.php:418
+msgid "Customized <em>WHERE</em>"
+msgstr "Räätälöity <em>WHERE</em>"
+
+#: classes/fields/pick.php:398
+msgid "Provide the name of a field on the related object to reference, example: {@post_title}"
+msgstr "Anna kentän nimi, joka liittyy viittaavaan objektiin, esimerkiksi: {@post_title}"
+
+#: classes/fields/pick.php:397
+msgid "Display Field in Selection List"
+msgstr "Näytä kenttä valintalistassa"
+
+#: classes/fields/pick.php:364 classes/fields/pick.php:2190
+#: components/Templates/includes/auto-template/Pods_Templates_Auto_Template_Settings.php:316
+#: src/Pods/Whatsit/Field.php:109
+msgid "-- Select One --"
+msgstr "-- Valitse yksi --"
+
+#. Translators: %1$s and %2$s stand for field labels.
+#: classes/fields/pick.php:1820
+msgid "The %1$s field is required and cannot be removed by the %2$s field"
+msgstr "Tämä %1$s kenttä on pakollinen, eikä sitä voi korvata %2$s kentällä"
+
+#: classes/fields/pick.php:813
+msgid "Calendar - Months of Year"
+msgstr "Kalenteri - kuukaudet"
+
+#: classes/fields/pick.php:806
+msgid "Calendar - Days of Week"
+msgstr "Kalenteri - viikonpäivät"
+
+#: classes/fields/pick.php:792
+msgid "US States"
+msgstr "USAn osavaltiot"
+
+#: classes/fields/pick.php:786 classes/fields/pick.php:793
+#: classes/fields/pick.php:800 classes/fields/pick.php:807
+#: classes/fields/pick.php:814
+msgid "Predefined Lists"
+msgstr "Etukäteen määritetyt listat"
+
+#: classes/fields/pick.php:785
+msgid "Countries"
+msgstr "Maat"
+
+#: classes/fields/pick.php:755
+msgid "Post Status"
+msgstr "Julkaisun tila"
+
+#: classes/fields/pick.php:750 src/Pods/Admin/Config/Pod.php:1008
+msgid "Post Formats"
+msgstr "Artikkelimuodot"
+
+#: classes/fields/pick.php:388
+msgid "You must provide the index column name for the table, this may optionally also be the ID column name"
+msgstr "Taulun index-sarakkeen nimi on kerrottava, tämä voi myös vaihtoehtoisesti olla sarakkeen ID"
+
+#: classes/fields/pick.php:387
+msgid "Table Index Column"
+msgstr "Taulun index -sarake"
+
+#: classes/fields/pick.php:378
+msgid "You must provide the ID column name for the table, this will be used to keep track of the relationship"
+msgstr "Taulun ID sarakkeen nimi on kerrottava, tätä käytetään suhteiden määrityksiin"
+
+#: classes/fields/pick.php:377
+msgid "Table ID Column"
+msgstr "Taulun ID sarake"
+
+#: classes/fields/pick.php:368
+msgid "Selection Limit"
+msgstr "Rajoitukset valinnassa"
+
+#: classes/fields/pick.php:357
+msgid "Default Select Text"
+msgstr "Oletusteksti valinnassa"
+
+#: classes/fields/pick.php:302
+msgid "Allow new values to be inserted when using an Autocomplete field"
+msgstr "Salli uusien arvojen syöttö automaattisen täytön kentässä"
+
+#: classes/fields/pick.php:301
+msgid "Taggable"
+msgstr "Tagattavissa"
+
+#: classes/fields/pick.php:699 src/Pods/Admin/Config/Pod.php:1073
+#: src/Pods/Admin/Config/Pod.php:1074
+msgid "Taxonomies"
+msgstr "Taksonomiat"
+
+#: classes/fields/pick.php:3631
+msgid "Finland"
+msgstr "Suomi"
+
+#: classes/fields/pick.php:719
+msgid "User Capabilities"
+msgstr "Käyttäjän ominaisuudet"
+
+#: classes/fields/pick.php:3563
+msgid "Antigua and Barbuda"
+msgstr "Antigua ja Barbuda"
+
+#: classes/fields/pick.php:3560
+msgid "Angola"
+msgstr "Angola"
+
+#: classes/fields/pick.php:3557
+msgid "Algeria"
+msgstr "Algeria"
+
+#: classes/fields/pick.php:3556
+msgid "Albania"
+msgstr "Albania"
+
+#: classes/fields/pick.php:3555
+msgid "Afghanistan"
+msgstr "Afganistan"
+
+#: classes/fields/pick.php:3558
+msgid "American Samoa"
+msgstr "Amerikan Samoa"
+
+#: classes/fields/pick.php:3593
+msgid "Cameroon"
+msgstr "Kamerun"
+
+#: classes/fields/pick.php:3592
+msgid "Cambodia"
+msgstr "Kambodja"
+
+#: classes/fields/pick.php:3591
+msgid "Burundi"
+msgstr "Burundi"
+
+#: classes/fields/pick.php:3590
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: classes/fields/pick.php:3589
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+#: classes/fields/pick.php:3587
+msgid "British Virgin Islands"
+msgstr "Brittien neitsytsaaret"
+
+#: classes/fields/pick.php:3602
+msgid "Christmas Island"
+msgstr "Joulusaari"
+
+#: classes/fields/pick.php:3601
+msgid "China"
+msgstr "Kiina"
+
+#: classes/fields/pick.php:3600
+msgid "Chile"
+msgstr "Chile"
+
+#: classes/fields/pick.php:3599
+msgid "Chad"
+msgstr "Tsad"
+
+#: classes/fields/pick.php:3598
+msgid "Central African Republic"
+msgstr "Keski-Afrikan tasavalta"
+
+#: classes/fields/pick.php:3597
+msgid "Cayman Islands"
+msgstr "Caymansaaret"
+
+#: classes/fields/pick.php:3623
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: classes/fields/pick.php:3622
+msgid "Egypt"
+msgstr "Egypti"
+
+#: classes/fields/pick.php:3621
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: classes/fields/pick.php:3634
+msgid "French Polynesia"
+msgstr "Ranskan Polynesia"
+
+#: classes/fields/pick.php:3633
+msgid "French Guiana"
+msgstr "Ranskan Guiana"
+
+#: classes/fields/pick.php:3632
+msgid "France"
+msgstr "Ranska"
+
+#: classes/fields/pick.php:3629
+msgid "Faroe Islands"
+msgstr "Färsaaret"
+
+#: classes/fields/pick.php:3628
+msgid "Falkland Islands"
+msgstr "Falklandin saaret"
+
+#: classes/fields/pick.php:3627
+msgid "Ethiopia"
+msgstr "Etiopia"
+
+#: classes/fields/pick.php:3626
+msgid "Estonia"
+msgstr "Viro"
+
+#: classes/fields/pick.php:3625
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: classes/fields/pick.php:3624
+msgid "Equatorial Guinea"
+msgstr "Päiväntasaajan Guinea"
+
+#: classes/fields/pick.php:3668
+msgid "Japan"
+msgstr "Japani"
+
+#: classes/fields/pick.php:3667
+msgid "Jamaica"
+msgstr "Jamaika"
+
+#: classes/fields/pick.php:3666
+msgid "Italy"
+msgstr "Italia"
+
+#: classes/fields/pick.php:3665
+msgid "Israel"
+msgstr "Israel"
+
+#: classes/fields/pick.php:3663
+msgid "Ireland"
+msgstr "Irlanti"
+
+#: classes/fields/pick.php:3662
+msgid "Iraq"
+msgstr "Irak"
+
+#: classes/fields/pick.php:3661
+msgid "Iran"
+msgstr "Iran"
+
+#: classes/fields/pick.php:3660
+msgid "Indonesia"
+msgstr "Indonesia"
+
+#: classes/fields/pick.php:3659
+msgid "India"
+msgstr "Intia"
+
+#: classes/fields/pick.php:3658
+msgid "Iceland"
+msgstr "Islanti"
+
+#: classes/fields/pick.php:3657
+msgid "Hungary"
+msgstr "Unkari"
+
+#: classes/fields/pick.php:3745
+msgid "Romania"
+msgstr "Romania"
+
+#: classes/fields/pick.php:3742
+msgid "Portugal"
+msgstr "Portugali"
+
+#: classes/fields/pick.php:3741
+msgid "Poland"
+msgstr "Puola"
+
+#: classes/fields/pick.php:3739
+msgid "Philippines"
+msgstr "Filippiinit"
+
+#: classes/fields/pick.php:3738
+msgid "Peru"
+msgstr "Peru"
+
+#: classes/fields/pick.php:3736
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: classes/fields/pick.php:3730
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: classes/fields/pick.php:3728
+msgid "Oman"
+msgstr "Oman"
+
+#: classes/fields/pick.php:3746
+msgid "Russia"
+msgstr "Venäjä"
+
+#: classes/fields/pick.php:3708
+msgid "Morocco"
+msgstr "Marokko"
+
+#: classes/fields/pick.php:3707
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: classes/fields/pick.php:3706
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: classes/fields/pick.php:3705
+msgid "Mongolia"
+msgstr "Mongolia"
+
+#: classes/fields/pick.php:3703
+msgid "Moldova"
+msgstr "Moldova"
+
+#: classes/fields/pick.php:3702
+msgid "Midway Islands"
+msgstr "Midwaysaaret"
+
+#: classes/fields/pick.php:3701
+msgid "Micronesia"
+msgstr "Micronesia"
+
+#: classes/fields/pick.php:3700
+msgid "Mexico"
+msgstr "Mexico"
+
+#: classes/fields/pick.php:3696
+msgid "Mauritania"
+msgstr "Mauritania"
+
+#: classes/fields/pick.php:3695
+msgid "Martinique"
+msgstr "Martinique"
+
+#: classes/fields/pick.php:3694
+msgid "Marshall Islands"
+msgstr "Marshallsaaret"
+
+#: classes/fields/pick.php:3692
+msgid "Mali"
+msgstr "Mali"
+
+#: classes/fields/pick.php:3673
+msgid "Kenya"
+msgstr "Kenia"
+
+#: classes/fields/pick.php:3672
+msgid "Kazakhstan"
+msgstr "Kasakstan"
+
+#: classes/fields/pick.php:3671
+msgid "Jordan"
+msgstr "Jordania"
+
+#: classes/fields/pick.php:3594
+msgid "Canada"
+msgstr "Kanada"
+
+#: classes/fields/pick.php:3620
+msgid "East Germany"
+msgstr "Saksa"
+
+#: classes/fields/pick.php:3735
+msgid "Papua New Guinea"
+msgstr "Papua Uusi Guinea"
+
+#: classes/fields/pick.php:3734
+msgid "Panama Canal Zone"
+msgstr "Panama Canal Zone"
+
+#: classes/fields/pick.php:3732
+msgid "Palestinian Territories"
+msgstr "Palestinian Territories"
+
+#: classes/fields/pick.php:3710
+msgid "Myanmar [Burma]"
+msgstr "Myanmar [Burma]"
+
+#: classes/fields/pick.php:3709
+msgid "Mozambique"
+msgstr "Mosambik"
+
+#: classes/fields/pick.php:3737
+msgid "People's Democratic Republic of Yemen"
+msgstr "Jemen"
+
+#: classes/fields/pick.php:3740
+msgid "Pitcairn Islands"
+msgstr "Pitcairnsaaret"
+
+#: classes/fields/pick.php:3729
+msgid "Pacific Islands Trust Territory"
+msgstr "Pacific Islands Trust Territory"
+
+#: classes/fields/pick.php:3699
+msgid "Metropolitan France"
+msgstr "Metropolitan France"
+
+#: classes/fields/pick.php:3670
+msgid "Johnston Island"
+msgstr "Johnston Island"
+
+#: classes/fields/pick.php:3619
+msgid "Dronning Maud Land"
+msgstr "Kuningatar Maudin maa"
+
+#: classes/fields/pick.php:3595
+msgid "Canton and Enderbury Islands"
+msgstr "Canton and Enderbury Islands"
+
+#: classes/fields/pick.php:3586
+msgid "British Indian Ocean Territory"
+msgstr "British Indian Ocean Territory"
+
+#: classes/PodsAdmin.php:3706 src/Pods/Admin/Config/Field.php:147
+msgid "Description"
+msgstr "Kuvaus"
+
+#: classes/fields/date.php:90
+msgid "Date Format"
+msgstr "Päiväyksen muoto"
+
+#: classes/fields/phone.php:53
+msgid "International"
+msgstr "Kansainvälinen"
+
+#: classes/fields/file.php:151
+msgid "Upload File"
+msgstr "Siirrä tiedosto"
+
+#: classes/PodsAdmin.php:1895 classes/PodsI18n.php:169 classes/PodsUI.php:750
+#: classes/PodsUI.php:753 classes/PodsUI.php:4446 includes/access.php:1906
+#: src/Pods/Admin/Config/Pod.php:248 src/Pods/Blocks/Types/View.php:164
+msgid "View"
+msgstr "Näytä"
+
+#: classes/PodsUI.php:4873
+msgid "Go to the first page"
+msgstr "Siirry 1. sivulle"
+
+#: classes/PodsUI.php:4874
+msgid "Go to the previous page"
+msgstr "Siirry edelliselle sivulle"
+
+#: classes/PodsUI.php:4878
+msgid "Current page"
+msgstr "Tämä sivu"
+
+#: classes/PodsUI.php:4878 classes/PodsUI.php:4894
+msgid "of"
+msgstr "-"
+
+#: classes/PodsUI.php:4906
+msgid "Go to the next page"
+msgstr "Siirry seuraavalle sivulle"
+
+#: classes/PodsUI.php:4907
+msgid "Go to the last page"
+msgstr "Siirry viimeiselle sivulle"
+
+#: classes/fields/boolean.php:45 classes/fields/pick.php:183
+msgid "Radio Buttons"
+msgstr "Valintanapit"
+
+#: classes/fields/pick.php:220
+msgid "Checkboxes"
+msgstr "Valintaruudut"
+
+#: classes/PodsInit.php:1939 components/Pages.php:479
+#: components/Templates/Templates.php:273
+msgid "Custom field updated."
+msgstr "Mukautettu kenttä päivitetty."
+
+#: classes/fields/boolean.php:54 classes/fields/boolean.php:223
+#: classes/fields/boolean.php:246 classes/PodsAdmin.php:4628
+#: classes/PodsAdmin.php:4632 classes/PodsAdmin.php:4640
+#: classes/PodsAdmin.php:4644 classes/PodsAdmin.php:4648
+#: classes/PodsAdmin.php:4652 classes/PodsAdmin.php:4656
+#: classes/PodsAdmin.php:4660 classes/PodsAdmin.php:4664
+#: classes/PodsAdmin.php:4668 classes/PodsAdmin.php:4672
+#: classes/PodsAdmin.php:4684 classes/PodsAdmin.php:4692
+#: classes/PodsAdmin.php:4696 classes/PodsAdmin.php:4700
+#: classes/PodsAdmin.php:4708 classes/PodsAdmin.php:4712
+#: classes/PodsAdmin.php:4716 classes/PodsAdmin.php:4720
+#: classes/PodsAdmin.php:4724 classes/PodsAdmin.php:4728
+#: classes/PodsAdmin.php:4772 classes/PodsUI.php:2915 classes/PodsUI.php:3353
+#: classes/PodsUI.php:3610 src/Pods/Whatsit/Block_Field.php:295
+msgid "Yes"
+msgstr "Kyllä"
+
+#: classes/fields/boolean.php:59 classes/fields/boolean.php:224
+#: classes/fields/boolean.php:247 classes/PodsAdmin.php:4628
+#: classes/PodsAdmin.php:4632 classes/PodsAdmin.php:4640
+#: classes/PodsAdmin.php:4644 classes/PodsAdmin.php:4648
+#: classes/PodsAdmin.php:4652 classes/PodsAdmin.php:4656
+#: classes/PodsAdmin.php:4660 classes/PodsAdmin.php:4664
+#: classes/PodsAdmin.php:4668 classes/PodsAdmin.php:4672
+#: classes/PodsAdmin.php:4684 classes/PodsAdmin.php:4692
+#: classes/PodsAdmin.php:4696 classes/PodsAdmin.php:4700
+#: classes/PodsAdmin.php:4708 classes/PodsAdmin.php:4712
+#: classes/PodsAdmin.php:4716 classes/PodsAdmin.php:4720
+#: classes/PodsAdmin.php:4724 classes/PodsAdmin.php:4728
+#: classes/PodsAdmin.php:4772 classes/PodsUI.php:2916 classes/PodsUI.php:3354
+#: classes/PodsUI.php:3611 src/Pods/Whatsit/Block_Field.php:299
+msgid "No"
+msgstr "Ei"
+
+#: classes/fields/boolean.php:44
+msgid "Checkbox"
+msgstr "Valintaruutu"
+
+#: classes/PodsAdmin.php:283 classes/PodsAdmin.php:310
+#: classes/PodsAdmin.php:311 classes/PodsInit.php:1998
+#: classes/PodsInit.php:1999 classes/PodsInit.php:2039 classes/PodsUI.php:747
+#: classes/PodsUI.php:760 classes/PodsUI.php:771 classes/PodsUI.php:772
+msgid "Add New %s"
+msgstr "Lisää uusi %s"
+
+#: classes/PodsInit.php:2002 classes/PodsInit.php:2036
+#: classes/PodsInit.php:2689 classes/PodsUI.php:761
+#: src/Pods/Admin/Config/Pod.php:206
+msgid "Edit %s"
+msgstr "%s - muokkaus"
+
+#. translators: %s: The singular item label.
+#: classes/PodsInit.php:2003 classes/PodsInit.php:2004
+#: classes/PodsInit.php:2005 classes/PodsInit.php:2037 classes/PodsUI.php:763
+#: classes/PodsUI.php:776 src/Pods/Admin/Config/Pod.php:255
+#: src/Pods/Admin/Config/Pod.php:263 ui/admin/view.php:34 ui/forms/form.php:130
+#: ui/forms/type/post.php:63
+msgid "View %s"
+msgstr "%s - tarkastelu"
+
+#. Translators: %s stands for a name/identifier.
+#: classes/PodsI18n.php:176 classes/PodsInit.php:2007 classes/PodsInit.php:2031
+#: classes/PodsUI.php:765 src/Pods/Admin/Config/Pod.php:326
+msgid "Search %s"
+msgstr "%s - haku"
+
+#: classes/PodsInit.php:1940 components/Pages.php:480
+#: components/Templates/Templates.php:274
+msgid "Custom field deleted."
+msgstr "Mukautettu kenttä poistettu."
+
+#. translators: Publish box date format, see http://php.net/date
+#: classes/PodsInit.php:1950 classes/PodsInit.php:1962 components/Pages.php:490
+#: components/Pages.php:502 components/Templates/Templates.php:284
+#: components/Templates/Templates.php:296 ui/admin/view.php:45
+#: ui/forms/type/post.php:74
+msgid "M j, Y @ G:i"
+msgstr "j.n.Y @ G:i"
+
+#: classes/PodsInit.php:1941 classes/PodsInit.php:1956 components/Pages.php:481
+#: components/Pages.php:496 components/Templates/Templates.php:275
+#: components/Templates/Templates.php:290 src/Pods/Admin/Config/Pod.php:599
+msgid "%s updated."
+msgstr "%s päivitetty."
+
+#: classes/fields/link.php:46 classes/fields/phone.php:44
+#: classes/fields/website.php:43
+msgid "Format"
+msgstr "Muoto"
+
+#: classes/PodsInit.php:2000 src/Pods/Admin/Config/Pod.php:181
+msgid "New %s"
+msgstr "Uusi %s"
+
+#: classes/fields/currency.php:69 classes/fields/number.php:49
+msgid "Slider"
+msgstr "Liukusäädin"
+
+#: classes/PodsInit.php:1945 components/Pages.php:485
+#: components/Templates/Templates.php:279
+msgid "%s saved."
+msgstr "%s tallennettu."
+
+#: classes/fields/file.php:81
+msgid "Multiple Files"
+msgstr "Useita tiedostoja"
+
+#: classes/PodsAdmin.php:3698 classes/PodsAdmin.php:3735
+msgid "Category"
+msgstr "Kategoria"
+
+#: classes/PodsAdmin.php:2769 classes/PodsAdmin.php:2833
+#: classes/PodsAdmin.php:2908 classes/PodsAdmin.php:2984
+#: classes/PodsAdmin.php:3058 classes/PodsAdmin.php:3230
+#: classes/PodsAdmin.php:3329 classes/PodsAdmin.php:3422
+#: includes/general.php:1782 src/Pods/CLI/Commands/Tools.php:64
+#: src/Pods/CLI/Commands/Tools.php:135 src/Pods/CLI/Commands/Tools.php:202
+#: src/Pods/CLI/Commands/Tools.php:269 src/Pods/Pod_Manager.php:80
+#: ui/admin/settings-reset.php:41 ui/admin/settings-tools.php:47
+msgid "Pod not found."
+msgstr "Podia ei löytynyt."
+
+#: classes/PodsAdmin.php:3605
+msgid "Visit component site"
+msgstr "Siirry komponentin sivuille"
+
+#: classes/PodsUI.php:3247
+msgid "Reset"
+msgstr "Palauta alkuasetukset"
+
+#: components/Pages.php:320 components/Templates/Templates.php:187
+#: src/Pods/Admin/Config/Field.php:455 src/Pods/Admin/Config/Group.php:180
+msgid "Capability Allowed"
+msgstr "Ominaisuus sallittu"
+
+#: classes/PodsInit.php:1988 classes/PodsUI.php:722
+#: src/Pods/Admin/Config/Pod.php:166 src/Pods/Admin/Config/Pod.php:175
+#: src/Pods/Admin/Config/Pod.php:183 src/Pods/Admin/Config/Pod.php:192
+#: src/Pods/Admin/Config/Pod.php:208 src/Pods/Admin/Config/Pod.php:216
+#: src/Pods/Admin/Config/Pod.php:232 src/Pods/Admin/Config/Pod.php:241
+#: src/Pods/Admin/Config/Pod.php:257 src/Pods/Admin/Config/Pod.php:345
+#: src/Pods/Admin/Config/Pod.php:354 src/Pods/Admin/Config/Pod.php:363
+#: src/Pods/Admin/Config/Pod.php:377 src/Pods/Admin/Config/Pod.php:393
+#: src/Pods/Admin/Config/Pod.php:402 src/Pods/Admin/Config/Pod.php:411
+#: src/Pods/Admin/Config/Pod.php:420 src/Pods/Admin/Config/Pod.php:565
+#: src/Pods/Admin/Config/Pod.php:574 src/Pods/Admin/Config/Pod.php:583
+#: src/Pods/Admin/Config/Pod.php:592 src/Pods/Admin/Config/Pod.php:601
+#: src/Pods/Admin/Config/Pod.php:617
+msgid "Item"
+msgstr "Nimike"
+
+#: components/Pages.php:296 src/Pods/Admin/Config/Field.php:443
+#: src/Pods/Admin/Config/Group.php:167
+msgid "Role(s) Allowed"
+msgstr "Rooli(t) sallittu"
+
+#: classes/fields/pick.php:184 classes/fields/pick.php:222
+msgid "Autocomplete"
+msgstr "Automaattinen täyttö"
+
+#: classes/fields/pick.php:166
+msgid "Multiple Select"
+msgstr "Monivalinta"
+
+#: classes/fields/pick.php:165
+msgid "Single Select"
+msgstr "Yksittäinen valinta"
+
+#: classes/fields/pick.php:159
+msgid "Selection Type"
+msgstr "Valintatyyppi"
+
+#: classes/fields/phone.php:172
+msgid "Invalid phone number provided for the field %s."
+msgstr "Muodoltaan kelvoton puhelinnumero tarjottu kenttään %s."
+
+#: classes/fields/link.php:240 classes/fields/phone.php:170
+#: classes/fields/website.php:224
+msgid "The %s field is required."
+msgstr "%s kenttä on pakollinen."
+
+#: classes/fields/phone.php:61
+msgid "Phone Options"
+msgstr "Puhelinasetukset"
+
+#: classes/fields/phone.php:54
+msgid "Any (no validation available)"
+msgstr "Mitä vaan (ei validointia)"
+
+#: classes/fields/phone.php:48
+msgid "US"
+msgstr "USA"
+
+#: classes/fields/paragraph.php:136 classes/fields/wysiwyg.php:160
+msgid "Format: strong em a ul ol li b i"
+msgstr "Muokkaa: strong em a ul ol li b i"
+
+#: classes/fields/link.php:92 classes/fields/paragraph.php:132
+#: classes/fields/text.php:88 classes/fields/wysiwyg.php:157
+msgid "Allowed HTML Tags"
+msgstr "Sallitut HTML komennot"
+
+#: classes/fields/paragraph.php:115 classes/fields/wysiwyg.php:140
+msgid "Changes double line-breaks in the text into HTML paragraphs"
+msgstr "Muunna tekstissä olevat tuplarivinvaihdot HTML kappaleiksi"
+
+#: classes/fields/heading.php:82 classes/fields/html.php:119
+#: classes/fields/paragraph.php:125 classes/fields/wysiwyg.php:150
+msgid "Embed [shortcodes] that help transform your static content into dynamic content."
+msgstr "Upota [lyhytkoodeja] muuntaaksesi staattisen sisältösi synaamiseksi."
+
+#: classes/fields/html.php:109
+msgid "Changes double line-breaks in the text into HTML paragraphs."
+msgstr "Muuntaa tuplarivinvaihdot tekstissa HTML kappaleiksi."
+
+#: classes/fields/html.php:82 classes/fields/paragraph.php:88
+#: classes/fields/wysiwyg.php:113
+msgid "Embed videos, images, tweets, and other content."
+msgstr "Upota videot, kuvat, twiitit ja muu sisältö."
+
+#: classes/fields/file.php:1099 classes/fields/pick.php:3189
+msgid "Invalid field"
+msgstr "Kenttä ei kelpaa"
+
+#: classes/fields/pick.php:3145
+msgid "Invalid field request"
+msgstr "Pyyntö ei kelpaa"
+
+#: classes/fields/file.php:136
+msgid "Allowed File Extensions"
+msgstr "Sallitut tiedostopäätteet"
+
+#: classes/fields/file.php:127
+msgid "Other (customize allowed extensions)"
+msgstr "Muu (määritä sallitut tiedostopäätteet)"
+
+#: classes/fields/file.php:126
+msgid "Any Type (no restriction)"
+msgstr "Mitä vaan tyyppiä (ei rajoituksia)"
+
+#: classes/fields/file.php:104
+msgid "Restrict File Types"
+msgstr "Rajoita tiedostotyypit"
+
+#: classes/fields/file.php:206
+msgid "Max Number of Files"
+msgstr "Tiedostojen maksimilukumäärä"
+
+#: classes/fields/file.php:191
+msgid "Editable Title"
+msgstr "Otsikko muokattavissa"
+
+#: classes/fields/file.php:88
+msgid "File Uploader"
+msgstr "Tiedostojen lataaja"
+
+#: classes/fields/email.php:145
+msgid "Invalid e-mail provided for %s"
+msgstr "Sähköposti: %s ei kelpaa"
+
+#: classes/fields/datetime.php:128 classes/fields/time.php:68
+msgid "24 hour"
+msgstr "24 tuntia"
+
+#: classes/fields/datetime.php:127 classes/fields/time.php:67
+msgid "12 hour"
+msgstr "12 tuntia"
+
+#: classes/fields/datetime.php:119 classes/fields/time.php:60
+msgid "Time Format Type"
+msgstr "Kellonajan tyyppi"
+
+#. Translators: %s stands for the input value.
+#: classes/fields/number.php:302
+msgid "%s is not numeric"
+msgstr "%s ei ole numeerinen"
+
+#: classes/fields/currency.php:150 classes/fields/number.php:101
+msgid "Maximum Number"
+msgstr "Suurin luku"
+
+#: classes/fields/currency.php:141 classes/fields/number.php:92
+msgid "Minimum Number"
+msgstr "Pienin luku"
+
+#: classes/fields/currency.php:135 classes/fields/number.php:86
+msgid "Slider Increment (Step)"
+msgstr "Liu'un eteneminen (Askel)"
+
+#: classes/fields/currency.php:117 classes/fields/number.php:72
+msgid "Decimals"
+msgstr "Desimaalit"
+
+#: classes/fields/currency.php:105 classes/fields/number.php:60
+msgid "Localized Default"
+msgstr "Paikallinen oletusarvo"
+
+#: classes/fields/currency.php:94
+msgid "Before with Currency Code after (ex. $100 USD)"
+msgstr "Ennen, valuuttakoodin jälkeen (esim. $100 USD)"
+
+#: classes/fields/currency.php:93
+msgid "None (ex. 100)"
+msgstr "Ei mitään (esim. 100)"
+
+#: classes/fields/currency.php:90
+msgid "After (ex. 100$)"
+msgstr "Jälkeen (esim. 100$)"
+
+#: classes/fields/currency.php:89
+msgid "Before (ex. $100)"
+msgstr "Ennen (esim. $100)"
+
+#: classes/fields/currency.php:76
+msgid "Currency Sign"
+msgstr "Valuutan merkki"
+
+#: classes/fields/currency.php:68 classes/fields/number.php:48
+msgid "Freeform Number"
+msgstr "Vapaamuotoinen numero"
+
+#: classes/fields/color.php:138
+msgid "Invalid Hex Color value provided for this field."
+msgstr "Kentän värikoodin HEX arvo ei kelpaa."
+
+#: classes/fields/color.php:135
+msgid "Invalid value provided for this field."
+msgstr "Kentän arvo ei kelpaa."
+
+#: classes/fields/boolean.php:206 classes/fields/color.php:132
+#: classes/fields/oembed.php:212 classes/fields/password.php:129
+#: classes/fields/text.php:195 classes/PodsI18n.php:147
+msgid "This field is required."
+msgstr "Tämä tieto vaaditaan."
+
+#: classes/fields/code.php:87 classes/fields/email.php:47
+#: classes/fields/paragraph.php:142 classes/fields/password.php:46
+#: classes/fields/phone.php:75 classes/fields/text.php:97
+#: classes/fields/website.php:87
+msgid "Set to -1 for no limit"
+msgstr "Käytä arvona -1, mikäli et halua rajoittaa"
+
+#: classes/fields/code.php:84 classes/fields/email.php:44
+#: classes/fields/paragraph.php:139 classes/fields/password.php:43
+#: classes/fields/phone.php:72 classes/fields/text.php:94
+#: classes/fields/website.php:84
+msgid "Maximum Length"
+msgstr "Maksimipituus"
+
+#: classes/fields/boolean.php:58
+msgid "No Label"
+msgstr "Ei otsikkoa"
+
+#: classes/fields/boolean.php:46 classes/fields/pick.php:182
+msgid "Drop Down"
+msgstr "Alasvetovalikko"
+
+#: classes/fields/boolean.php:40 classes/fields/currency.php:64
+#: classes/fields/number.php:44 classes/fields/pick.php:173
+#: classes/fields/pick.php:211
+msgid "Input Type"
+msgstr "Lomakekentän tyyppi"
+
+#: classes/fields/file.php:252
+msgid "Modal Add Button Text"
+msgstr "Modaalinen Lisää painike -teksti"
+
+#: classes/fields/file.php:248
+msgid "Attach a file"
+msgstr "Liitä tiedosto"
+
+#: classes/fields/file.php:246
+msgid "Modal Title"
+msgstr "Modaalinen otsikko"
+
+#: classes/fields/file.php:242 classes/fields/file.php:254
+#: ui/fields/attachment.php:124
+msgid "Add File"
+msgstr "Lisää tiedosto"
+
+#: classes/fields/file.php:241
+msgid "Add Button Text"
+msgstr "Lisäyspainikkeen teksti"
+
+#: classes/fields/file.php:212
+msgid "Restrict File Size"
+msgstr "Rajoita tiedoston kokoa"
+
+#: classes/fields/file.php:152
+msgid "Media Library"
+msgstr "Mediakirjasto"
+
+#: classes/PodsUI.php:4671 classes/PodsUI.php:4691
+msgid "Show on screen"
+msgstr "Näytä ruudulla"
+
+#: classes/PodsUI.php:4554 includes/access.php:1864 includes/access.php:1929
+#: includes/access.php:1952 includes/access.php:1974 includes/access.php:2001
+#: src/Pods/Admin/Settings.php:202 src/Pods/Admin/Settings.php:229
+#: src/Pods/Admin/Settings.php:248 src/Pods/Admin/Settings.php:268
+#: src/Pods/Admin/Settings.php:291 src/Pods/Admin/Settings.php:310
+#: src/Pods/Admin/Settings.php:348
+msgid "Disable"
+msgstr "Poista käytöstä"
+
+#: classes/PodsAdmin.php:4372 classes/PodsUI.php:4553 includes/access.php:1863
+#: includes/access.php:1928 includes/access.php:1951
+#: src/Pods/Admin/Settings.php:201 src/Pods/Admin/Settings.php:228
+#: src/Pods/Admin/Settings.php:247 src/Pods/Admin/Settings.php:267
+#: src/Pods/Admin/Settings.php:290 src/Pods/Admin/Settings.php:309
+#: src/Pods/Admin/Settings.php:347
+msgid "Enable"
+msgstr "Ota käyttöön"
+
+#: classes/PodsUI.php:4530
+msgid "You are about to permanently delete this item\\n Choose \\'Cancel\\' to stop, \\'OK\\' to delete."
+msgstr "Olet lopullisesti poistamassa tämän nimikkeen\\n Valitse \\'Peru\\' lopettaaksesi, \\'OK\\' poistaaksesi."
+
+#: classes/PodsUI.php:4530
+msgid "Delete this item"
+msgstr "Poista tämä nimike"
+
+#: classes/PodsUI.php:4501
+msgid "Duplicate this item"
+msgstr "Monista tämä nimike"
+
+#: classes/PodsUI.php:4209 classes/PodsUI.php:4445
+msgid "View this item"
+msgstr "Näytä tämä nimike"
+
+#: classes/PodsUI.php:4189 classes/PodsUI.php:4473
+msgid "Edit this item"
+msgstr "Muokkaa tätä nimikettä"
+
+#: classes/PodsUI.php:3799
+msgid "<strong>Error:</strong> Invalid Configuration - Missing \"fields\" definition."
+msgstr "<strong>Virhe:</strong> Määritys ei kelpaa - \"kentät\" -määritys puuttuu."
+
+#: classes/PodsUI.php:3754
+msgid "No %s found"
+msgstr "%s ei löytynyt"
+
+#: classes/PodsUI.php:3691
+msgid "Search Text"
+msgstr "Etsi tekstiä"
+
+#: classes/fields/color.php:45 classes/fields/color.php:100
+#: classes/PodsUI.php:3512 classes/PodsUI.php:3571 classes/PodsUI.php:3620
+#: classes/PodsUI.php:3659 ui/fields/color.php:19
+msgid "Clear"
+msgstr "Tyhjennä"
+
+#: classes/PodsUI.php:3372
+msgid "Remove Filter"
+msgstr "Poista suodatin"
+
+#: classes/PodsUI.php:3286
+msgid "Add Filter"
+msgstr "Lisää suodatin"
+
+#: classes/PodsUI.php:3278 classes/PodsUI.php:3279 classes/PodsUI.php:3286
+#: classes/PodsUI.php:3367 classes/PodsUI.php:3428
+msgid "Advanced Filters"
+msgstr "Edistyneet suodattimet"
+
+#: classes/PodsUI.php:3103
+msgid "or click on an Export to download a full copy of the data"
+msgstr "tai napsauta \"Vie\" ladataksesi kaiken tiedon"
+
+#: classes/PodsUI.php:3099
+msgid "Please use the search filter(s) above to display data"
+msgstr "Ole hyvä ja käytä yo. suodatinta/suodattimia näyttääksesi tietoja"
+
+#: classes/PodsUI.php:3067
+msgid "Cancel"
+msgstr "Peru"
+
+#: classes/PodsUI.php:3066
+msgid "Update Order"
+msgstr "Päivitä järjestys"
+
+#: classes/PodsUI.php:3041 classes/PodsUI.php:4705
+msgid "Apply"
+msgstr "Suorita"
+
+#: classes/PodsUI.php:3025
+msgid "Bulk Actions"
+msgstr "Massatoiminnot"
+
+#: classes/PodsUI.php:3001
+msgid "Reset Filters"
+msgstr "Palauta suodattimien alkuasetukset"
+
+#: classes/PodsUI.php:2604
+msgid "Invalid bulk request, please try again."
+msgstr "Massatoiminto ei kelpaa, ole hyvä ja koeta uudestaan."
+
+#: classes/PodsUI.php:2072
+msgid "<strong>Deleted:</strong> %s have been deleted."
+msgstr "<strong>Poistettu:</strong> %s on poistettu."
+
+#: classes/PodsUI.php:2011 classes/PodsUI.php:2069
+msgid "<strong>Error:</strong> %s has not been deleted."
+msgstr "<strong>Virhe:</strong> %s ei poistettu."
+
+#: classes/PodsUI.php:2009
+msgid "<strong>Deleted:</strong> %s has been deleted."
+msgstr "<strong>Poistettu:</strong> %s on poistettu."
+
+#: classes/PodsUI.php:1995
+msgid "<strong>Error:</strong> Invalid Configuration - Missing \"id\" definition."
+msgstr "<strong>Virhe:</strong> Määritys ei kelpaa - \"id\" -määritys puuttuu."
+
+#: classes/PodsUI.php:1969
+msgid "<strong>Error:</strong> %1\\$s has not been %2\\$s."
+msgstr "<strong>Virhe:</strong> %1\\$s ei ole %2\\$s."
+
+#: classes/PodsUI.php:1870 components/Roles/ui/edit.php:19
+msgid "created"
+msgstr "luotu"
+
+#: classes/PodsUI.php:1868 components/Roles/ui/edit.php:16
+#: ui/admin/settings-settings.php:50
+msgid "saved"
+msgstr "tallennettu"
+
+#: classes/PodsUI.php:1850
+msgid "<strong>Error:</strong> %s has not been reordered."
+msgstr "<strong>Virhe:</strong> %s ei ole järjestetty uudestaan."
+
+#: classes/PodsUI.php:1848
+msgid "<strong>Success!</strong> %s reordered successfully."
+msgstr "<strong>Onnistui!</strong> %s järjestys onnistui."
+
+#: classes/PodsUI.php:1551 classes/PodsUI.php:1691
+msgid "<strong>Error:</strong> %s not found."
+msgstr "<strong>Virhe:</strong> %s ei löytynyt."
+
+#: classes/PodsUI.php:1432 classes/PodsUI.php:1506 classes/PodsUI.php:1819
+#: classes/PodsUI.php:2684 src/Pods/Admin/Config/Pod.php:486
+msgid "Back to %s"
+msgstr "Takaisin %s"
+
+#: classes/PodsUI.php:1347 classes/PodsUI.php:1404 classes/PodsUI.php:1463
+#: classes/PodsUI.php:1555 classes/PodsUI.php:1584
+msgid "<strong>Error:</strong> You do not have access to this %s."
+msgstr "<strong>Virhe:</strong> Sinulla ei ole pääsyoikeutta tähän %s."
+
+#: classes/PodsUI.php:775
+msgid "Delete this %s"
+msgstr "Poista tämä %s"
+
+#: classes/PodsUI.php:764 classes/PodsUI.php:777
+#: src/Pods/Admin/Config/Pod.php:302
+msgid "Reorder %s"
+msgstr "Järjestä uudelleen %s"
+
+#: classes/PodsUI.php:762 classes/PodsUI.php:774
+#: src/Pods/Admin/Config/Pod.php:230
+msgid "Duplicate %s"
+msgstr "Monista %s"
+
+#: classes/PodsUI.php:562
+msgid "<strong>Error:</strong> Pods UI needs a Pods object or a Table definition to run from, see the User Guide for more information."
+msgstr "<strong>Virhe:</strong> Pods UI tarvitsee Pods objektin tai taulumäärityksen toimiakseen, tutustu lisätietoihin käyttöoppaassamme."
+
+#: classes/PodsMigrate.php:839 classes/PodsMigrate.php:880
+msgid "There was an issue saving the export file in your uploads folder."
+msgstr "Jotain tapahtui vientitiedoston latauskansioon tallentamisen yhteydessä."
+
+#: classes/PodsAPI.php:2101 classes/PodsMeta.php:987
+#: src/Pods/Tools/Repair.php:452 src/Pods/Whatsit.php:1707
+#: ui/admin/view.php:189
+msgid "More Fields"
+msgstr "Lisää kenttiä"
+
+#: classes/PodsInit.php:2043 src/Pods/Admin/Config/Pod.php:545
+msgid "Choose from the most used %s"
+msgstr "Valitse useimmin käytetyistä %s"
+
+#: classes/PodsInit.php:2042 src/Pods/Admin/Config/Pod.php:536
+msgid "Add or remove %s"
+msgstr "Lisää tai poista %s"
+
+#: classes/PodsInit.php:2041 src/Pods/Admin/Config/Pod.php:527
+msgid "Separate %s with commas"
+msgstr "Erota %s pilkulla"
+
+#: classes/PodsInit.php:2040 src/Pods/Admin/Config/Pod.php:190
+msgid "New %s Name"
+msgstr "Uusi %s nimi"
+
+#: classes/PodsInit.php:2038 classes/PodsUI.php:773
+#: src/Pods/Admin/Config/Pod.php:214
+msgid "Update %s"
+msgstr "Päivitä %s"
+
+#: classes/PodsInit.php:2035
+msgid "Parent %s :"
+msgstr "Ylemmän tason %s :"
+
+#: classes/PodsInit.php:2032 src/Pods/Admin/Config/Pod.php:334
+msgid "Popular %s"
+msgstr "Suositut %s"
+
+#: classes/PodsInit.php:2011 src/Pods/Admin/Config/Pod.php:361
+msgid "Parent %s:"
+msgstr "Ylemmän tason %s:"
+
+#: classes/PodsInit.php:2010 classes/PodsInit.php:2034
+#: src/Pods/Admin/Config/Pod.php:343 src/Pods/Admin/Config/Pod.php:352
+msgid "Parent %s"
+msgstr "Ylemmän tason %s"
+
+#: classes/PodsInit.php:2009
+msgid "No %s Found in Trash"
+msgstr "Yhtään %s ei löytynyt roskista"
+
+#: classes/PodsInit.php:2008 src/Pods/Admin/Config/Pod.php:375
+msgid "No %s Found"
+msgstr "Yhtään %s ei löytynyt"
+
+#: classes/PodsInit.php:2006 classes/PodsInit.php:2033
+#: src/Pods/Admin/Config/Pod.php:311
+msgid "All %s"
+msgstr "Kaikki %s"
+
+#: classes/PodsInit.php:1987 classes/PodsUI.php:723
+#: src/Pods/Admin/Config/Pod.php:265 src/Pods/Admin/Config/Pod.php:288
+#: src/Pods/Admin/Config/Pod.php:304 src/Pods/Admin/Config/Pod.php:313
+#: src/Pods/Admin/Config/Pod.php:336 src/Pods/Admin/Config/Pod.php:461
+#: src/Pods/Admin/Config/Pod.php:470 src/Pods/Admin/Config/Pod.php:479
+#: src/Pods/Admin/Config/Pod.php:488
+msgid "Items"
+msgstr "Nimikkeet"
+
+#: classes/PodsInit.php:1964 components/Pages.php:504
+#: components/Templates/Templates.php:298
+msgid "%s draft updated."
+msgstr "%s luonnos päivitetty."
+
+#: classes/PodsInit.php:1960 components/Pages.php:500
+#: components/Templates/Templates.php:294
+msgid "%1$s scheduled for: <strong>%2$s</strong>."
+msgstr "%1$s ajastettu: <strong>%2$s</strong>."
+
+#: classes/PodsInit.php:1958 components/Pages.php:498
+#: components/Templates/Templates.php:292
+msgid "%s submitted."
+msgstr "%s lähetetty."
+
+#: classes/PodsInit.php:1957 components/Pages.php:497
+#: components/Templates/Templates.php:291
+msgid "%s published."
+msgstr "%s julkaistu."
+
+#: classes/PodsInit.php:1944 components/Pages.php:484
+#: components/Templates/Templates.php:278
+msgid "%1$s published. <a href=\"%2$s\">%3$s</a>"
+msgstr "%1$s julkaistu. <a href=\"%2$s\">%3$s</a>"
+
+#. translators: %1$s: date and time of the revision, %2$s: the revision post
+#. title
+#. translators: %s: date and time of the revision
+#: classes/PodsInit.php:1943 components/Pages.php:483
+#: components/Templates/Templates.php:277
+msgid "%1$s restored to revision from %2$s"
+msgstr "%1$s palautettu versiosta %2$s"
+
+#: classes/PodsAdmin.php:4140
+msgid "Access denied"
+msgstr "Pääsy estetty"
+
+#: classes/fields/file.php:1055 classes/fields/file.php:1059
+#: classes/fields/file.php:1077 classes/fields/oembed.php:515
+#: classes/fields/pick.php:3141 classes/fields/pick.php:3167
+#: classes/PodsAdmin.php:4123 classes/PodsComponents.php:776
+#: components/Templates/includes/functions-pod_reference.php:13
+msgid "Unauthorized request"
+msgstr "Pyyntö ei sallittu"
+
+#: classes/PodsAdmin.php:3835 classes/PodsAdmin.php:3875
+msgid "Component disabled"
+msgstr "Komponentti pois käytöstä"
+
+#: classes/PodsAdmin.php:3833 classes/PodsAdmin.php:3873
+msgid "Component enabled"
+msgstr "Komponentti käytössä"
+
+#: classes/PodsAdmin.php:3809
+msgid "The %1$s component requires that you have the <strong>%2$s</strong> theme installed and activated."
+msgstr "%1$s -komponentti edellyttää toimiakseen <strong>%2$s</strong> -teeman asentamista ja sen aktivointia."
+
+#: classes/PodsAdmin.php:3787
+msgid "The %1$s component requires that you have the <strong>%2$s</strong> plugin installed and activated."
+msgstr "%1$s -komponentti edellyttää toimiakseen <strong>%2$s</strong> -lisäosan asentamista ja aktivoimista."
+
+#: classes/PodsAdmin.php:3784 classes/PodsAdmin.php:3806
+msgid "You can find it at %s"
+msgstr "Löydät sen täältä %s"
+
+#: classes/PodsAdmin.php:3744
+msgid "Developer Preview"
+msgstr "Esikatselu kehittäjille"
+
+#: classes/PodsAdmin.php:3730
+msgid "Migration"
+msgstr "Siirto"
+
+#: classes/PodsAdmin.php:3729
+msgid "Integration"
+msgstr "Integrointi"
+
+#: classes/PodsAdmin.php:3728 ui/admin/settings.php:27
+msgid "Tools"
+msgstr "Työkalut"
+
+#: classes/PodsAdmin.php:3727
+msgid "Field Types"
+msgstr "Kenttätyypit"
+
+#: classes/PodsAdmin.php:3602
+msgid "by %s"
+msgstr "- %s"
+
+#: classes/PodsAdmin.php:2787
+msgid "Pod deleted successfully."
+msgstr "Podin poisto onnistui."
+
+#: classes/fields/html.php:100 classes/fields/paragraph.php:106
+#: classes/fields/wysiwyg.php:131
+msgid "Converts text into valid XHTML and Unicode"
+msgstr "Muuntaa tekstin XHTML- ja Unicode -säännöt toteuttavaksi sisällöksi"
+
+#: classes/fields/file.php:80
+msgid "Single File"
+msgstr "Yksi tiedosto"
+
+#: classes/fields/file.php:75
+msgid "Upload Limit"
+msgstr "Siirtorajoitus palvelimelle"
+
+#: classes/fields/time.php:97 classes/fields/time.php:118
+msgid "Time Format"
+msgstr "Kellonajan esitysmuoto"
+
+#: classes/fields/code.php:45 classes/fields/heading.php:51
+#: classes/fields/html.php:54 classes/fields/paragraph.php:47
+#: classes/fields/text.php:43 classes/fields/wysiwyg.php:78
+msgid "Output Options"
+msgstr "Näyttämisen vaihtoehdot"
+
+#: classes/fields/boolean.php:53
+msgid "Yes Label"
+msgstr "Kyllä teksti"
+
+#: classes/PodsUI.php:759 src/Pods/Admin/Config/Pod.php:286
+msgid "Manage %s"
+msgstr "%s ylläpito"
+
+#: classes/PodsInit.php:1938 components/Pages.php:478
+#: components/Templates/Templates.php:272
+msgid "%1$s updated. <a href=\"%2$s\">%3$s</a>"
+msgstr "%1$s päivitetty. <a href=\"%2$s\">%3$s</a>"
+
+#: classes/PodsAdmin.php:3820
+msgid "The %s component can not be disabled from here. You must deactivate the plugin or theme that added it."
+msgstr "%s -komponenttia ei voi ottaa pois käytöstä täällä. Sinun tulee tehdä se ko. komponentin tuoneen lisäosan tai teeman asetuksista."
+
+#: classes/fields/code.php:76 classes/fields/heading.php:77
+#: classes/fields/html.php:114 classes/fields/link.php:78
+#: classes/fields/paragraph.php:120 classes/fields/text.php:80
+#: classes/fields/wysiwyg.php:145
+msgid "Allow Shortcodes"
+msgstr "Salli lyhytkoodit"
+
+#: classes/fields/currency.php:165 classes/fields/date.php:129
+#: classes/fields/datetime.php:212 classes/fields/email.php:50
+#: classes/fields/link.php:98 classes/fields/number.php:116
+#: classes/fields/phone.php:78 classes/fields/time.php:135
+#: classes/fields/website.php:90
+msgid "Enable HTML5 Input Field"
+msgstr "Salli HTML5 lomakekenttä"
+
+#: classes/Pods.php:3359
+msgid "&laquo; First"
+msgstr "&laquo; Ensimmäinen"
+
+#: classes/Pods.php:3362
+msgid "Last &raquo;"
+msgstr "Viimeinen &raquo;"
+
+#: src/Pods/Admin/Config/Field.php:325
+msgid "Default Value"
+msgstr "Oletusarvo"
+
+#: classes/PodsAdmin.php:281 classes/PodsAdmin.php:355 classes/PodsI18n.php:171
+#: classes/PodsInit.php:2001 classes/PodsUI.php:748 classes/PodsUI.php:4474
+#: src/Pods/Admin/Config/Pod.php:199 src/Pods/Admin/Config/Pod.php:1575
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: classes/Pods.php:4524 classes/PodsAdmin.php:1337 classes/PodsUI.php:4530
+#: src/Pods/Admin/Config/Pod.php:1577 ui/admin/view.php:85
+#: ui/forms/type/post.php:134
+msgid "Delete"
+msgstr "Poista"
+
+#: classes/PodsAdmin.php:1331 classes/PodsUI.php:749 classes/PodsUI.php:4502
+#: src/Pods/Admin/Config/Pod.php:223 src/Pods/Admin/Config/Pod.php:1576
+msgid "Duplicate"
+msgstr "Monista"
+
+#: classes/PodsAdmin.php:562 classes/PodsAdmin.php:583
+#: ui/admin/components-admin.php:16 ui/admin/settings-settings.php:94
+#: ui/admin/settings-settings.php:98 ui/admin/settings.php:26
+#: ui/admin/upgrade/upgrade_2_0_0.php:208
+msgid "Settings"
+msgstr "Asetukset"
+
+#: classes/Pods.php:4048 classes/PodsAdmin.php:788 classes/PodsForm.php:422
+#: ui/admin/components-admin.php:113
+msgid "Save Changes"
+msgstr "Tallenna muutokset"
+
+#: classes/Pods.php:3506 classes/PodsI18n.php:173 classes/PodsUI.php:752
+#: classes/PodsUI.php:2979 classes/PodsUI.php:3254
+#: src/Pods/Admin/Config/Pod.php:319
+msgid "Search"
+msgstr "Haku"
+
+#: classes/fields/pick.php:295 classes/fields/pick.php:1016
+#: classes/PodsAdmin.php:357 classes/PodsAdmin.php:376
+#: classes/PodsAdmin.php:544 classes/PodsField.php:596 classes/PodsI18n.php:151
+#: src/Pods/Admin/Config/Field.php:258 src/Pods/Admin/Config/Pod.php:1574
+msgid "Add New"
+msgstr "Lisää uusi"
+
+#: classes/PodsAdmin.php:944 classes/PodsAdmin.php:1485
+#: classes/PodsAdmin.php:3690 classes/PodsUI.php:790
+#: components/Roles/Roles.php:91 components/Roles/ui/add.php:50
+#: src/Pods/Admin/Config/Field.php:136 src/Pods/Admin/Config/Group.php:99
+#: src/Pods/Tools/Repair.php:326 src/Pods/Tools/Repair.php:400
+#: src/Pods/Tools/Repair.php:823 src/Pods/Tools/Repair.php:893
+#: src/Pods/Tools/Repair.php:1039
+msgid "Name"
+msgstr "Nimi"
+
+#: classes/Pods.php:4517 components/Migrate-Packages/ui/wizard.php:65
+#: src/Pods/Admin/Config/Pod.php:1579
+msgid "Export"
+msgstr "Vienti"
+
+#: classes/PodsAdmin.php:277 classes/PodsAdmin.php:1373
+#: classes/PodsAdmin.php:1893 classes/PodsAdmin.php:3725
+msgid "All"
+msgstr "Kaikki"
+
+#: classes/PodsAdmin.php:568 classes/PodsAdmin.php:589
+msgid "Help"
+msgstr "Tuki"
+
+#: classes/PodsAdmin.php:3731 src/Pods/Admin/Config/Field.php:52
+#: src/Pods/Admin/Config/Group.php:24 src/Pods/Admin/Config/Group.php:209
+#: ui/admin/setup-add.php:308 ui/admin/setup-add.php:534
+msgid "Advanced"
+msgstr "Edistyneet"
+
+#: classes/Pods.php:3361
+msgid "Next &rsaquo;"
+msgstr "Seuraava &rsaquo;"
+
+#: classes/Pods.php:3357
+msgid "Go to page:"
+msgstr "Siirry sivulle:"
+
+#: classes/Pods.php:3360
+msgid "&lsaquo; Previous"
+msgstr "&lsaquo; Edellinen"
+
+#: classes/Pods.php:4416 src/Pods/Tools/Repair.php:159
+#: src/Pods/Tools/Repair.php:328 src/Pods/Tools/Repair.php:404
+#: src/Pods/Tools/Repair.php:603 src/Pods/Tools/Repair.php:711
+#: src/Pods/Tools/Repair.php:825 src/Pods/Tools/Repair.php:895
+#: src/Pods/Tools/Repair.php:1041
+msgid "ID"
+msgstr "ID"
+
+#: classes/Pods.php:4076
+msgid "Form submitted successfully"
+msgstr "Lomakkeen lähetys onnistui"
+
+#: src/Pods/Admin/Config/Pod.php:820
+msgid "Exclude from Search"
+msgstr "Älä sisällytä hakuun"
+
+#: src/Pods/Admin/Config/Pod.php:798 src/Pods/Admin/Config/Pod.php:1254
+msgid "Publicly Queryable"
+msgstr "Julkisesti haettavissa"
+
+#: classes/PodsAdmin.php:1437 classes/PodsAdmin.php:1667
+#: classes/PodsAdmin.php:2853 includes/access.php:1563
+#: src/Pods/Admin/Config/Pod.php:790 src/Pods/Admin/Config/Pod.php:809
+#: src/Pods/Admin/Config/Pod.php:1246 src/Pods/Admin/Config/Pod.php:1266
+msgid "Public"
+msgstr "Julkinen"
+
+#: src/Pods/Admin/Config/Pod.php:722
+msgid "Show in Admin Bar \"New\" Menu"
+msgstr "Näytä Ohjausnäkymän \"Uusi\" valikossa"
+
+#: src/Pods/Admin/Config/Pod.php:715 src/Pods/Admin/Config/Pod.php:1172
+msgid "Show in Navigation Menus"
+msgstr "Näytä navigointivalikoissa"
+
+#: src/Pods/Admin/Config/Pod.php:698 src/Pods/Admin/Config/Pod.php:1155
+#: src/Pods/Admin/Config/Pod.php:1471 src/Pods/Admin/Config/Pod.php:1544
+msgid "Menu Position"
+msgstr "Valikon sijainti"
+
+#: src/Pods/Admin/Config/Pod.php:652 src/Pods/Admin/Config/Pod.php:691
+#: src/Pods/Admin/Config/Pod.php:1124
+msgid "Menu Name"
+msgstr "Valikon nimi"
+
+#: src/Pods/Admin/Config/Pod.php:685 src/Pods/Admin/Config/Pod.php:1538
+msgid "Parent Menu ID (optional)"
+msgstr "Ylemmän tason valikon ID (vaihtoehtoinen)"
+
+#: src/Pods/Admin/Config/Pod.php:677 src/Pods/Admin/Config/Pod.php:1115
+#: src/Pods/Admin/Config/Pod.php:1520
+msgid "Show Admin Menu in Dashboard"
+msgstr "Näytä ylläpitovalikko Ohjausnäkymässä"
+
+#: src/Pods/Admin/Config/Pod.php:670 src/Pods/Admin/Config/Pod.php:1107
+msgid "Show Admin UI"
+msgstr "Näytä ylläpitovalikko"
+
+#: src/Pods/Admin/Config/Pod.php:665
+msgid "A short descriptive summary of what the post type is."
+msgstr "Lyhyt selostava teksti siitä, mikä tämä sisältötyyppi on."
+
+#: src/Pods/Admin/Config/Pod.php:664
+msgid "Post Type Description"
+msgstr "Seloste sisältötyypistä"
+
+#: src/Pods/Admin/Config/Pod.php:55
+msgid "Labels"
+msgstr "Otsikot"
+
+#: classes/PodsAdmin.php:1290 src/Pods/Tools/Reset.php:249
+msgid "field"
+msgid_plural "fields"
+msgstr[0] "kenttä"
+msgstr[1] "kentät"
+
+#: src/Pods/Admin/Config/Field.php:499 src/Pods/Admin/Config/Field.php:508
+#: src/Pods/Admin/Config/Group.php:92 src/Pods/Admin/Config/Group.php:100
+#: src/Pods/Admin/Config/Group.php:168 src/Pods/Admin/Config/Pod.php:143
+#: src/Pods/Admin/Config/Pod.php:150 src/Pods/Admin/Config/Pod.php:157
+#: src/Pods/Admin/Config/Pod.php:184 src/Pods/Admin/Config/Pod.php:193
+#: src/Pods/Admin/Config/Pod.php:200 src/Pods/Admin/Config/Pod.php:209
+#: src/Pods/Admin/Config/Pod.php:217 src/Pods/Admin/Config/Pod.php:224
+#: src/Pods/Admin/Config/Pod.php:233 src/Pods/Admin/Config/Pod.php:242
+#: src/Pods/Admin/Config/Pod.php:249 src/Pods/Admin/Config/Pod.php:258
+#: src/Pods/Admin/Config/Pod.php:266 src/Pods/Admin/Config/Pod.php:273
+#: src/Pods/Admin/Config/Pod.php:280 src/Pods/Admin/Config/Pod.php:289
+#: src/Pods/Admin/Config/Pod.php:296 src/Pods/Admin/Config/Pod.php:305
+#: src/Pods/Admin/Config/Pod.php:314 src/Pods/Admin/Config/Pod.php:320
+#: src/Pods/Admin/Config/Pod.php:329 src/Pods/Admin/Config/Pod.php:337
+#: src/Pods/Admin/Config/Pod.php:346 src/Pods/Admin/Config/Pod.php:355
+#: src/Pods/Admin/Config/Pod.php:364 src/Pods/Admin/Config/Pod.php:370
+#: src/Pods/Admin/Config/Pod.php:378 src/Pods/Admin/Config/Pod.php:385
+#: src/Pods/Admin/Config/Pod.php:394 src/Pods/Admin/Config/Pod.php:403
+#: src/Pods/Admin/Config/Pod.php:412 src/Pods/Admin/Config/Pod.php:421
+#: src/Pods/Admin/Config/Pod.php:428 src/Pods/Admin/Config/Pod.php:436
+#: src/Pods/Admin/Config/Pod.php:444 src/Pods/Admin/Config/Pod.php:452
+#: src/Pods/Admin/Config/Pod.php:462 src/Pods/Admin/Config/Pod.php:471
+#: src/Pods/Admin/Config/Pod.php:480 src/Pods/Admin/Config/Pod.php:489
+#: src/Pods/Admin/Config/Pod.php:496 src/Pods/Admin/Config/Pod.php:504
+#: src/Pods/Admin/Config/Pod.php:512 src/Pods/Admin/Config/Pod.php:520
+#: src/Pods/Admin/Config/Pod.php:530 src/Pods/Admin/Config/Pod.php:539
+#: src/Pods/Admin/Config/Pod.php:548 src/Pods/Admin/Config/Pod.php:557
+#: src/Pods/Admin/Config/Pod.php:566 src/Pods/Admin/Config/Pod.php:575
+#: src/Pods/Admin/Config/Pod.php:584 src/Pods/Admin/Config/Pod.php:593
+#: src/Pods/Admin/Config/Pod.php:602 src/Pods/Admin/Config/Pod.php:609
+#: src/Pods/Admin/Config/Pod.php:618 src/Pods/Admin/Config/Pod.php:646
+#: src/Pods/Admin/Config/Pod.php:653 src/Pods/Admin/Config/Pod.php:686
+#: src/Pods/Admin/Config/Pod.php:692 src/Pods/Admin/Config/Pod.php:716
+#: src/Pods/Admin/Config/Pod.php:723 src/Pods/Admin/Config/Pod.php:821
+#: src/Pods/Admin/Config/Pod.php:842 src/Pods/Admin/Config/Pod.php:920
+#: src/Pods/Admin/Config/Pod.php:928 src/Pods/Admin/Config/Pod.php:943
+#: src/Pods/Admin/Config/Pod.php:1125 src/Pods/Admin/Config/Pod.php:1132
+#: src/Pods/Admin/Config/Pod.php:1150 src/Pods/Admin/Config/Pod.php:1173
+#: src/Pods/Admin/Config/Pod.php:1180 src/Pods/Admin/Config/Pod.php:1187
+#: src/Pods/Admin/Config/Pod.php:1303 src/Pods/Admin/Config/Pod.php:1311
+#: src/Pods/Admin/Config/Pod.php:1327 src/Pods/Admin/Config/Pod.php:1355
+#: src/Pods/Admin/Config/Pod.php:1362 src/Pods/Admin/Config/Pod.php:1369
+#: src/Pods/Admin/Config/Pod.php:1376 src/Pods/Admin/Config/Pod.php:1439
+#: src/Pods/Admin/Config/Pod.php:1452 src/Pods/Admin/Config/Pod.php:1466
+#: src/Pods/Admin/Config/Pod.php:1509 src/Pods/Admin/Config/Pod.php:1521
+#: src/Pods/Admin/Config/Pod.php:1529 src/Pods/Admin/Config/Pod.php:1539
+#: src/Pods/Admin/Config/Pod.php:1570 src/Pods/Admin/Config/Pod.php:1593
+#: src/Pods/Admin/Config/Pod.php:1601 ui/fields/_label.php:15
+msgid "help"
+msgstr "apua"
+
+#: src/Pods/Admin/Config/Pod.php:1131 src/Pods/Admin/Config/Pod.php:1451
+#: ui/admin/setup-add.php:273
+msgid "Menu Location"
+msgstr "Valikon sijainti"
+
+#: src/Pods/Admin/Config/Pod.php:1561
+msgid "Header Icon"
+msgstr "Ylätunnisteen ikoni"
+
+#: classes/PodsI18n.php:161 classes/PodsUI.php:751
+#: src/Pods/Admin/Config/Pod.php:295 src/Pods/Admin/Config/Pod.php:1578
+msgid "Reorder"
+msgstr "Järjestä uudelleen"
+
+#: src/Pods/Admin/Config/Pod.php:1562
+msgid "This is the icon shown to the left of the heading text at the top of the manage pages for this content type."
+msgstr "Tämä ikoni näytetään otsikkotekstin vasemmalla puolella tämän sisältötyypin hallintasivujen yläosassa."
+
+#: src/Pods/Admin/Config/Pod.php:708
+msgid "Menu Icon"
+msgstr "Valikon ikoni"
+
+#: src/Pods/Admin/Config/Pod.php:1585
+msgid "Reorder Field"
+msgstr "Järjestä kenttä uudestaan"
+
+#: src/Pods/Admin/Config/Pod.php:1569
+msgid "Actions Available"
+msgstr "Tarjolla olevat toiminnot"
+
+#: src/Pods/Admin/Config/Field.php:317
+msgid "Values"
+msgstr "Arvot"
+
+#: src/Pods/Admin/Config/Field.php:310
+msgid "Additional CSS Classes"
+msgstr "Lisä CSS luokat"
+
+#: src/Pods/Admin/Config/Field.php:305
+msgid "Visual"
+msgstr "Visuaalinen"
+
+#: src/Pods/Admin/Config/Pod.php:1600
+msgid "Search Filters"
+msgstr "Hakusuodattimet"
+
+#: src/Pods/Admin/Config/Pod.php:1592
+msgid "Admin Table Columns"
+msgstr "Ylläpitotaulun palstat"
+
+#: classes/PodsAdmin.php:639
+msgid "Pods Upgrade"
+msgstr "Pods päivitys"
+
+#: classes/PodsAdmin.php:636
+msgid "Pods Admin"
+msgstr "Pods ylläpito"
+
+#: classes/PodsAdmin.php:578 ui/admin/upgrade/upgrade_2_1_0.php:26
+msgid "Upgrade"
+msgstr "Päivitys"
+
+#: classes/PodsAdmin.php:854
+msgid "Pods Shortcode"
+msgstr "Pods lyhytkoodi"
+
+#: classes/PodsAdmin.php:550 classes/PodsAdmin.php:3685
+msgid "Components"
+msgstr "Komponentit"
+
+#: classes/PodsAdmin.php:351 classes/PodsAdmin.php:377 classes/PodsUI.php:746
+#: components/Roles/ui/edit.php:38 src/Pods/Admin/Config/Pod.php:279
+#: ui/admin/view.php:21 ui/forms/type/post.php:50
+msgid "Manage"
+msgstr "Ylläpito"
+
+#: src/Pods/Admin/Config/Field.php:409
+msgid "Hide field from UI"
+msgstr "Piilota kenttä käyttöliittymästä"
+
+#: src/Pods/Admin/Config/Field.php:369 src/Pods/Admin/Config/Group.php:125
+msgid "Visibility"
+msgstr "Näkyvyys"
+
+#: src/Pods/Admin/Config/Field.php:337
+msgid "Set Default Value via Parameter"
+msgstr "Aseta oletusarvo parametrin avulla"
+
+#: src/Pods/Admin/Config/Pod.php:1586
+msgid "This is the field that will be reordered on, it should be numeric."
+msgstr "Tämän kentän avulla uudelleenjärjestys tapahtuu, sen tulee olla numeerinen."
+
+#: src/Pods/Admin/Config/Pod.php:1445 src/Pods/Admin/Config/Pod.php:1514
+msgid "Custom (hook into pods_admin_ui_custom or pods_admin_ui_custom_{podname} action)"
+msgstr "Muokattu (kytke pods_admin_ui_custom tai pods_admin_ui_custom_{podname} toimintoon)"
+
+#: src/Pods/Admin/Config/Pod.php:1443
+msgid "Normal Settings Form"
+msgstr "Perusasetusten lomake"
+
+#: src/Pods/Admin/Config/Pod.php:1438 src/Pods/Admin/Config/Pod.php:1508
+msgid "Admin UI Style"
+msgstr "Ylläpitokäyttöliittymän tyyli"
+
+#: src/Pods/Admin/Config/Pod.php:1214
+msgid "A term will be selected by default in the Post Editor, not optional"
+msgstr "Termi valitaan oletuksena julkaisun muokkaimessa, ei vaihtoehtoinen"
+
+#: src/Pods/Admin/Config/Pod.php:1213
+msgid "Single Value Taxonomy - Required"
+msgstr "Yhden arvon taksonomia - Vaaditaan"
+
+#: src/Pods/Admin/Config/Pod.php:1206
+msgid "Use a drop-down for the input instead of the WordPress default"
+msgstr "Käytä alasvetovalikkoa WordPress oletusarvoisen sijasta"
+
+#: src/Pods/Admin/Config/Pod.php:1205
+msgid "Single Value Taxonomy"
+msgstr "Yhden arvon taksonomia"
+
+#: src/Pods/Admin/Config/Pod.php:1195
+msgid "Show Taxonomy column on Post Types"
+msgstr "Näytä taksonomiaan liittyvä palsta sisältötyypeissä"
+
+#: src/Pods/Admin/Config/Pod.php:1196
+msgid "Whether to add a column for this taxonomy on the associated post types manage screens"
+msgstr "Lisätäänkö tälle taksonomialle palsta tähän liittyvien sisältötyyppien hallintanäytöille"
+
+#: src/Pods/Admin/Config/Pod.php:1165 src/Pods/Admin/Config/Pod.php:1481
+#: src/Pods/Admin/Config/Pod.php:1554
+msgid "Menu Icon URL"
+msgstr "Menuikonin URL"
+
+#: src/Pods/Admin/Config/Pod.php:1149 src/Pods/Admin/Config/Pod.php:1465
+msgid "Custom Menu Location"
+msgstr "Oman valikon sijainti"
+
+#: src/Pods/Admin/Config/Pod.php:1140 src/Pods/Admin/Config/Pod.php:1458
+msgid "Add a submenu item to another menu"
+msgstr "Lisää alavalikko toiseen valikkoon"
+
+#: ui/admin/setup-add.php:277
+msgid "Add to Appearances menu"
+msgstr "Lisää Ulkoasu -valikkoon"
+
+#: ui/admin/setup-add.php:276
+msgid "Add to Settings menu"
+msgstr "Lisää Asetukset -valikkoon"
+
+#: src/Pods/Admin/Config/Pod.php:1137
+msgid "Default - Add to associated Post Type(s) menus"
+msgstr "Oletus - Lisää tähän liittyvien sisältötyyppi(en) valikkoihin"
+
+#: src/Pods/Admin/Config/Pod.php:942
+msgid "Default Status"
+msgstr "Oletustila"
+
+#: src/Pods/Admin/Config/Pod.php:936
+msgid "The Query Var is used in the URL and underneath the WordPress Rewrite API to tell WordPress what page or post type you are on. For a list of reserved Query Vars, read <a href=\"http://codex.wordpress.org/WordPress_Query_Vars\">WordPress Query Vars</a> from the WordPress Codex."
+msgstr "Kyselymuuttujaa käytetään URLissa sekä WordPress Rewrite APIssa määrittämään sitä, millä sivulla tai missä sisältötyypissä olet. Lue lisää varatuista kyselymuuttujista (Query Vars) <a href=\"http://codex.wordpress.org/WordPress_Query_Vars\">WordPress Query Vars</a>  WordPress Codex -dokumentaatiosta."
+
+#: src/Pods/Admin/Config/Pod.php:935 src/Pods/Admin/Config/Pod.php:1354
+msgid "Query Var"
+msgstr "Kyselymuuttuja (Query Var)"
+
+#: src/Pods/Admin/Config/Pod.php:927
+msgid "Rewrite Pages"
+msgstr "Sivujen uudelleenkirjoitus (rewrite)"
+
+#: src/Pods/Admin/Config/Pod.php:919
+msgid "Rewrite Feeds"
+msgstr "Syötteiden uudelleenkirjoitus (rewrite)"
+
+#: src/Pods/Admin/Config/Pod.php:912 src/Pods/Admin/Config/Pod.php:1319
+msgid "Allows permalinks to be prepended with your front base (example: if your permalink structure is /blog/, then your links will be: Unchecked->/news/, Checked->/blog/news/)"
+msgstr "Sallii kestolinkin lisäämisen osoiterakenteesi perään (esim. jos osoiterakenteesi on /blogi/, niin linkkisi ovat: ei rastia -> /blogi/, rastitettuna -> /blogi/uutiset/)"
+
+#: src/Pods/Admin/Config/Pod.php:911 src/Pods/Admin/Config/Pod.php:1318
+msgid "Rewrite with Front"
+msgstr "Uudelleenkirjoita Frontilla"
+
+#: src/Pods/Admin/Config/Pod.php:904
+msgid "Changes the first segment of the URL, which by default is the name of the Pod. For example, if your Pod is called \"foo\", if this field is left blank, your link will be \"example.com/foo/post_slug\", but if you were to enter \"bar\" your link will be \"example.com/bar/post_slug\"."
+msgstr "Muuttaa URLisi ensimmäisen segmentin, joka oletusarvoisesti on podin nimi. Esimerkiksi, kun podisi nimi on \"foo\", ja tämä kenttä on tyhjä, linkkisi on \"example.com/foo/polkutunnus\", jos taas \"bar\", niin linkkisi on \"example.com/bar/polkutunnus\"."
+
+#: src/Pods/Admin/Config/Pod.php:903 src/Pods/Admin/Config/Pod.php:1310
+msgid "Custom Rewrite Slug"
+msgstr "Oma uudelleenkirjoituksen polkutunnus"
+
+#: src/Pods/Admin/Config/Pod.php:896
+msgid "Allows you to use pretty permalinks, if set in WordPress Settings->Permalinks. If not enabled, your links will be in the form of \"example.com/?pod_name=post_slug\" regardless of your permalink settings."
+msgstr "Mikäli WordPress Asetukset - Osoiterakenne on asetettu, sallitaan nätit kestolinkit. Jos taas niitä ei ole seillä asetettu, ovat linkkisi muotoa \"example.com/?pod_nimi=polkutunnus\" riippumatta siitä mitä ovat omat kestolinkkien asetuksesi."
+
+#: src/Pods/Admin/Config/Pod.php:895 src/Pods/Admin/Config/Pod.php:1302
+msgid "Rewrite"
+msgstr "Uudelleenkirjoita"
+
+#: src/Pods/Admin/Config/Pod.php:880
+msgid "Allows for parent/ child relationships between items, just like with Pages. Note: To edit relationships in the post editor, you must enable \"Page Attributes\" in the \"Supports\" section below."
+msgstr "Sallii äiti/lapsi suhteen nimikkeiden välillä, aivan kuten sivuissa. Huomaa: Sivun attribuutit tulee olla aktivoituna, jotta suhteen voi määrittää sivun muokkaimessa. Ota \"Sivun ominaisuudet\" käyttöön \"Tuki\" -kohdasta alla."
+
+#: src/Pods/Admin/Config/Pod.php:879 src/Pods/Admin/Config/Pod.php:1294
+#: src/Pods/Admin/Config/Pod.php:1674
+msgid "Hierarchical"
+msgstr "Hierarkinen"
+
+#: src/Pods/Admin/Config/Pod.php:871
+msgid "Archive Page Slug Override"
+msgstr "Arkistosivun oletusarvoisen syrjäyttävä polkutunnus"
+
+#: src/Pods/Admin/Config/Pod.php:863
+msgid "Enable Archive Page"
+msgstr "Ota arkistosivu käyttöön"
+
+#: src/Pods/Admin/Config/Pod.php:841 src/Pods/Admin/Config/Pod.php:1347
+msgid "Custom User Capability"
+msgstr "Käyttäjän lisäominaisuus"
+
+#: src/Pods/Admin/Config/Pod.php:834 src/Pods/Admin/Config/Pod.php:1340
+msgid "Custom Capability"
+msgstr "Lisäominaisuus"
+
+#: src/Pods/Admin/Config/Pod.php:827 src/Pods/Admin/Config/Pod.php:1334
+msgid "User Capability"
+msgstr "Käyttäjän ominaisuus"
+
+#: classes/PodsAdmin.php:955 ui/admin/setup-add.php:370
+#: ui/admin/setup-add.php:540
+msgid "Storage Type"
+msgstr "Tallennustilan tyyppi"
+
+#: classes/PodsAdmin.php:947 classes/PodsAdmin.php:1375
+#: classes/PodsAdmin.php:1488 classes/PodsAdmin.php:1902
+#: src/Pods/Tools/Repair.php:402
+msgid "Type"
+msgstr "Tyyppi"
+
+#: classes/PodsAdmin.php:941 classes/PodsAdmin.php:1482
+#: components/Roles/Roles.php:90 components/Roles/ui/add.php:40
+#: src/Pods/Admin/Config/Field.php:128 src/Pods/Admin/Config/Group.php:91
+#: src/Pods/Admin/Config/Pod.php:142
+msgid "Label"
+msgstr "Otsikkoteksti"
+
+#: ui/admin/setup-add.php:203
+msgid "Custom Settings Page"
+msgstr "Lisäasetusten sivu"
+
+#: classes/PodsAdmin.php:722
+msgid "<strong>NOTICE:</strong> Pods %1$s requires your action to complete the upgrade. Please run the <a href=\"%2$s\">Upgrade Wizard</a>."
+msgstr "<strong>HUOMAA:</strong> Pods %1$s edellyttää sinulta toimia päivittyäkseen. Ole hyvä ja käynnistä <a href=\"%2$s\">päivitysavustaja</a>."
+
+#: classes/PodsAPI.php:11486
+msgid "Access denied, please refresh and try again."
+msgstr "Pääsy estetty, lataa sivu uudestaan ja yritä taas."
+
+#: classes/PodsAPI.php:11482
+msgid "Access denied for your session, please refresh and try again."
+msgstr "Pääsy estetty tässä istunnossa, lataa sivu uudestaan ja koeta taas."
+
+#: classes/PodsAPI.php:11468
+msgid "Invalid submission"
+msgstr "Lähetys ei kelpaa"
+
+#: classes/PodsAPI.php:9615
+msgid "%s needs to be unique"
+msgstr "%s on oltava yksilöllinen"
+
+#: classes/fields/email.php:143 classes/PodsAPI.php:9584
+msgid "%s is required"
+msgstr "%s tarvitaan"
+
+#: classes/PodsAPI.php:9567
+msgid "%s is empty"
+msgstr "%s on tyhjä"
+
+#: classes/PodsAPI.php:9415
+msgid "Related Pod not found"
+msgstr "Tähän liittyvää podia ei löytynyt"
+
+#: classes/PodsAPI.php:9345
+msgid "Item ID required"
+msgstr "Nimikkeen ID on pakollinen"
+
+#: classes/PodsAPI.php:9342
+msgid "Pod name required"
+msgstr "Pod nimi on pakollinen"
+
+#: classes/PodsAPI.php:11753
+msgid "Object not found"
+msgstr "Objektia ei löydy"
+
+#: classes/PodsInit.php:935 src/Pods/Whatsit/Store.php:130
+msgid "Pod Field"
+msgstr "Pod kenttä"
+
+#: classes/PodsInit.php:934
+msgid "Pod Fields"
+msgstr "Pod kentät"
+
+#: classes/PodsInit.php:897
+#: components/Builder/modules/field/PodsBuilderModuleField.php:85
+#: components/Builder/modules/form/PodsBuilderModuleForm.php:87
+#: components/Builder/modules/list/PodsBuilderModuleList.php:90
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:86
+#: src/Pods/Whatsit/Store.php:112 ui/admin/settings-reset.php:134
+#: ui/admin/settings-tools.php:127 ui/admin/widgets/field.php:32
+#: ui/admin/widgets/form.php:32 ui/admin/widgets/list.php:34
+#: ui/admin/widgets/single.php:34
+msgid "Pod"
+msgstr "Pod"
+
+#: classes/PodsInit.php:896 ui/admin/upgrade/upgrade_2_0_0.php:73
+#: ui/admin/upgrade/upgrade_2_0_0.php:181
+msgid "Pods"
+msgstr "Podit"
+
+#: classes/PodsAPI.php:7914
+msgid "Pod Item not found"
+msgstr "Pod nimikettä ei löytynyt"
+
+#: classes/PodsAPI.php:7817
+msgid "%s Object not deleted"
+msgstr "%s objektia ei poistettu"
+
+#: classes/PodsAPI.php:7800
+msgid "%s Object not found"
+msgstr "%s objektia ei löytynyt"
+
+#: classes/PodsAPI.php:7674
+msgid "Field unable to be deleted"
+msgstr "Kenttää ei voitu poistaa"
+
+#: classes/PodsAPI.php:7468
+msgid "Pod unable to be deleted"
+msgstr "Podia ei voitu poistaa"
+
+#: classes/PodsAPI.php:7220
+msgid "Pod is required"
+msgstr "Pod tarvitaan"
+
+#: classes/PodsAPI.php:7210
+msgid "$params->pod is required"
+msgstr "$params->pod tarvitaan"
+
+#: classes/PodsAPI.php:6762 classes/PodsAPI.php:7634
+msgid "Field not found"
+msgstr "Kenttää ei löydy"
+
+#: classes/PodsAPI.php:6504
+msgid "Pod not allowed to be duplicated"
+msgstr "Podia ei sallittu monistaa"
+
+#: classes/PodsAPI.php:5331 classes/PodsMeta.php:2636
+msgid "There was an issue validating the field %s"
+msgstr "Jotain oli ongelmia kentän %s validoinnissa"
+
+#: classes/PodsAPI.php:4605
+msgid "Type must be given to save an Object"
+msgstr "Objektin tyyppi tarvitaan, jotta se voitaisiin tallentaa"
+
+#: classes/PodsAPI.php:4601
+msgid "Name must be given to save an Object"
+msgstr "Objektilla on oltava nimi, jotta se voitaisiin tallentaa"
+
+#: classes/PodsAPI.php:3778
+msgid "Cannot save Field"
+msgstr "Kenttää ei voi tallentaa"
+
+#: classes/PodsAPI.php:1899 classes/PodsAPI.php:3386 classes/PodsAPI.php:3590
+#: classes/PodsAPI.php:3687 classes/PodsAPI.php:4306 classes/PodsAPI.php:4415
+msgid "%s is reserved for internal WordPress or Pods usage, please try a different name"
+msgstr "%s on varattu WordPressin tai Podin sisäiseen käyttöön, keksi toinen nimi"
+
+#: classes/PodsAPI.php:3661 classes/PodsAPI.php:3689 classes/PodsAPI.php:4456
+msgid "%s is not editable"
+msgstr "%s ei ole muokattavissa"
+
+#: classes/PodsAPI.php:3624
+msgid "This pod already has a permalink field"
+msgstr "Tällä podilla on jo kestolinkkikenttä"
+
+#: classes/PodsAPI.php:3606
+msgid "This pod already has an internal WordPress permalink field"
+msgstr "Tällä podilla on jo sisäinen WordPress kestolinkkikenttä"
+
+#: classes/PodsAPI.php:3576 classes/PodsAPI.php:3580 classes/PodsAPI.php:3659
+#: classes/PodsAPI.php:3673 classes/PodsAPI.php:3677 classes/PodsAPI.php:4454
+msgid "%s is reserved for internal Pods usage, please try a different name"
+msgstr "%s on varattu Podin sisäiseen käyttöön, keksi toinen nimi"
+
+#: classes/PodsAPI.php:3395
+msgid "Field %s already exists"
+msgstr "Kenttä %s on jo olemassa"
+
+#: classes/PodsAPI.php:1756 classes/PodsAPI.php:3233 classes/PodsAPI.php:4243
+#: classes/PodsAPI.php:4868 classes/PodsAPI.php:6498 classes/PodsAPI.php:6825
+#: classes/PodsAPI.php:7270 classes/PodsAPI.php:7407 classes/PodsAPI.php:7600
+#: classes/PodsAPI.php:7935 classes/PodsAPI.php:8424 classes/PodsAPI.php:9390
+#: classes/PodsAPI.php:11024
+msgid "Pod not found"
+msgstr "Podia ei löytynyt"
+
+#: classes/PodsAPI.php:3215 classes/PodsAPI.php:4229
+msgid "Pod ID or name is required"
+msgstr "Pod ID tai nimi tarvitaan"
+
+#: classes/PodsAPI.php:2520
+msgid "Cannot save the %s field"
+msgstr "%s -kenttää ei voi tallentaa"
+
+#: classes/PodsAPI.php:2725
+msgid "Cannot update Database Table for Pod"
+msgstr "Podin tietokantataulua ei voi päivittää"
+
+#: classes/PodsAPI.php:2718
+msgid "Cannot add Database Table for Pod"
+msgstr "Podille ei voi luoda tietokantataulua"
+
+#: classes/PodsAPI.php:2285
+msgid "Cannot save Pod"
+msgstr "Podia ei voi tallentaa"
+
+#: classes/PodsAPI.php:2087
+msgid "Pod name cannot be empty"
+msgstr "Podin nimi ei voi olla tyhjä"
+
+#: classes/PodsAPI.php:2077
+msgid "Taxonomy %1$s already exists, you cannot rename %2$s to that"
+msgstr "%1$s -taksonomia on jo olemassa, et voi nimetä %2$s sen nimiseksi"
+
+#: classes/PodsAPI.php:2071
+msgid "Post Type %1$s already exists, you cannot rename %2$s to that"
+msgstr "Type %1$s on jo olemassa, et voi nimetä %2$s sen nimiseksi"
+
+#: classes/PodsAPI.php:1870
+msgid "Pod %s already exists"
+msgstr "Pod %s on jo olemassa"
+
+#: classes/PodsAPI.php:1854 classes/PodsAPI.php:1862
+msgid "Pod %s cannot be renamed, it extends an existing WP Object"
+msgstr "%s -podia ei voi nimetä uudelleen, se laajentaa olemassa olevaa WP -objektia"
+
+#: classes/PodsAPI.php:1847
+msgid "Pod %1$s already exists, you cannot rename %2$s to that"
+msgstr "Pod %1$s on jo olemassa, et voi uudelleennimetä %2$s sen nimiseksi"
+
+#: classes/PodsAPI.php:1644
+msgid "Taxonomy %s already exists, try extending it instead"
+msgstr "%s -taksonomia on jo olemassa, koeta laajentaa sitä tämän sijasta"
+
+#: classes/PodsAPI.php:1490
+msgid "Please choose whether to Create or Extend a Content Type"
+msgstr "Valitse Luo tai Laajenna sisältötyyppi"
+
+#: classes/PodsAPI.php:939 classes/PodsAPI.php:950
+msgid "Closed"
+msgstr "Suljettu"
+
+#: classes/PodsAPI.php:938 classes/PodsAPI.php:949
+msgid "Open"
+msgstr "Avoinna"
+
+#: classes/PodsAPI.php:531
+msgid "Comment data is required but is either invalid or empty"
+msgstr "Kommenttitieto tarvitaan, mutta on joko tyhjä tai ei kelpaa"
+
+#: classes/PodsAPI.php:708
+msgid "Setting data is required but is either invalid or empty"
+msgstr "Asetusten valinta tarvitaan, mutta on joko tyhjä tai ei kelpaa"
+
+#: src/Pods/Admin/Config/Field.php:416
+msgid "Make field \"Read Only\" in UI"
+msgstr "Aseta kenttä käyttöliittymässä \"read only\" -tilaan"
+
+#: src/Pods/Admin/Config/Field.php:391
+msgid "This field will only be able to be edited by users with the ability to manage_options or delete_users, or super admins of a WordPress Multisite network"
+msgstr "Tämä kenttä on muokattavissa vain jos käyttäjällä on manage_options tai delete_users käytössään, myös WordPress Multisite -verkkojen super admineilla on pääsy siihen"
+
+#: src/Pods/Admin/Config/Field.php:375 src/Pods/Admin/Config/Group.php:131
+msgid "Restrict Access"
+msgstr "Pääsyn rajoittaminen"
+
+#: src/Pods/Admin/Config/Pod.php:872
+msgid "If archive page is enabled, you can override the slug used by WordPress, which defaults to the name of the post type."
+msgstr "Mikäli arkistosivu on otettu käyttöön, voit syrjäyttää WordPressin oletusarvoisen sisältötyypin nimeä käyttämän polkutunnuksen."
+
+#: src/Pods/Admin/Config/Pod.php:864
+msgid "If enabled, creates an archive page with list of of items in this custom post type. Functions like a category page for posts. Can be controlled with a template in your theme called \"archive-{$post-type}.php\"."
+msgstr "Kun tämä on käytössä, luodaan arkistosivu, joka listaa kaikki nimikkeet tässä omassa sisältötyypissä. Käyttäytyy kuten artikkelien kategoriasivut. Tätä voi kontrolloida omassa mallipohjassa teemassasi, sen tiedoston nimi on  \"archive-{$post-type}.php\"."
+
+#: src/Pods/Admin/Config/Pod.php:67
+msgid "Advanced Options"
+msgstr "Lisäasetukset"
+
+#: src/Pods/Admin/Config/Pod.php:59
+msgid "Admin UI"
+msgstr "Ylläpitovalikko"
+
+#: classes/PodsAdmin.php:538
+msgid "Edit Pods"
+msgstr "Kaikki Podit"
+
+#: classes/PodsAPI.php:1868
+msgid "Pod using %s already exists, you can not reuse an object across multiple pods"
+msgstr "Pod %s on jo olemassa, et voi hyödyntää objektia useamman podin kesken"
+
+#: classes/PodsAPI.php:1635
+msgid "Post Type %s already exists, try extending it instead"
+msgstr "%s -sisältötyyppi on jo olemassa, koeta laajentaa sitä tämän sijasta"
+
+#: classes/PodsAPI.php:444
+msgid "User data is required but is either invalid or empty"
+msgstr "Käyttäjätieto tarvitaan, mutta on joko tyhjä tai ei kelpaa"
+
+#: classes/fields/pick.php:596
+msgid "Advanced Content Types"
+msgstr "Edistyneet sisältötyypit"

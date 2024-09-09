@@ -1,0 +1,377 @@
+#body-te-liberamos-de-tus-deudas{
+    background-color: #14264D !important;
+}
+
+#cabecera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #14264D !important;
+    padding: 0px 150px 0px 150px;
+    
+}
+#container-cabecera{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    gap: 50px;
+
+    margin: 25px;
+}
+#imagen-logo{
+    margin-top: 3%;
+    width: 17%;
+    height: 17%;
+}
+#header-title{
+    width: 70%;
+
+    color: #ffffff;
+    font-size: 81px;
+    font-weight: 700;
+    text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.7);
+}
+#sub-title{
+    color: #ffffff;
+    font-size: 24px;
+    text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.7);
+}
+#texto-cabecera{
+    color: #ffffff;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0.3px;
+}
+
+#container-formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    margin: 50px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width:567px;
+
+    h4{
+        width: 90%;
+        text-align: center;
+    }
+}
+ 
+#container-labels-form{
+    display: flex;
+    vertical-align: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    min-width: 100% ;
+}
+#title-formulario{
+    color: #54595F !important;
+    font-weight: 600;
+    font-size: 24px;
+}
+ 
+ 
+ 
+.input-name{
+    display: inline-block;
+    width: 90%;
+    max-width: 481px !important;
+    height: 40px !important;
+    padding: 9px 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #33475b;
+    border: 1px solid #cbd6e2;
+    box-sizing: border-box;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+}
+ 
+ 
+.label-form-web-leads{
+    font-size: 13px !important;
+    color: #617180;
+    font-family: arial, helvetica, sans-serif;
+    display: block;
+    margin-bottom: 1%;
+    unicode-bidi: isolate;
+}
+#mobile{
+    display: inline-block;
+    width: 90%;
+    max-width: 500px;
+    height: 40px !important;
+    padding: 9px 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #33475b;
+    background-color: aliceblue !important;
+    border: 1px solid #cbd6e2;
+    box-sizing: border-box;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;  
+}
+#first_name{
+    display: inline-block;
+    width: 90%;
+    max-width: 481px !important;
+    height: 40px !important;
+    padding: 9px 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #33475b;
+    background-color: aliceblue !important;
+    border: 1px solid #cbd6e2;
+    box-sizing: border-box;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;  
+}
+#last_name{
+    display: inline-block;
+    width: 90%;
+    max-width: 500px;
+    height: 40px !important;
+    padding: 9px 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #33475b;
+    background-color: aliceblue !important;
+    border: 1px solid #cbd6e2;
+    box-sizing: border-box;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;  
+}
+ 
+#email{
+    display: inline-block;
+    width: 90%;
+    max-width: 500px;
+    height: 40px !important;
+    padding: 9px 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #33475b;
+    background-color: aliceblue !important;
+    border: 1px solid #cbd6e2;
+    box-sizing: border-box;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;  
+}
+.input-form-web-leads{
+    display: inline-block;
+    width: 90%;
+    max-width: 500px;
+    height: 40px !important;
+    padding: 9px 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #33475b;
+    background-color: aliceblue !important;
+    border: 1px solid #cbd6e2;
+    box-sizing: border-box;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;  
+}
+.label-checkbox-form{
+    font-size: 13px;
+    font-family: arial, helvetica, sans-serif;
+    color: #33475b;
+ 
+    margin-right: 5%;
+    vertical-align: middle; 
+    cursor: pointer; 
+    display: inline-block; 
+}
+.container-checkbox-form{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 25px;
+    margin-left: 0%;
+    input{
+        margin-right: 2%;
+        margin-bottom: 2%;
+        margin-right: 10%; 
+        height: 20px;
+        background-color: #FFFFFF;
+        padding-right: 10px;
+    }
+}
+input:not([type=checkbox],[type=radio]), select, textarea {
+    margin-bottom: 0px;
+}
+ 
+#button-form-leads{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+ 
+    background: #14264D;
+    border-color: #14264D;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 24px;
+    font-family: arial, helvetica, sans-serif;
+ 
+    cursor: pointer;
+    font-weight: 700;
+    text-align: center;
+    transition: all .15s linear;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 25%;
+    margin-bottom: 8%;
+    width: 40%;
+    min-width: 100px;
+    height: auto;
+}
+
+
+element.style {
+    /* margin-right: 0px; */
+    padding-right: 10px;
+    background-color: white;
+    border: 1px solid;
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+/* Estilos para tablets grandes */
+@media (max-width: 1091px) {
+    #cabecera{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 0px;
+        padding-left: 20px;
+
+    }
+
+    #container-formulario{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 12px;
+        padding:0%;
+        padding-left:5%;
+        h4{
+            font-size:16px;
+            text-align:center;
+            margin-left: 0%;
+            margin-top: 5%;
+        }
+    }
+    
+}
+
+@media (max-width: 760px) {
+    #cabecera{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 0px;
+        padding-left: 20px;
+
+    }
+    #header-title{
+        font-size: 60px;
+    }
+    #container-formulario{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 12px;
+        padding:0%;
+        padding-left:5%;
+        h4{
+            font-size:16px;
+            text-align:center;
+            margin-left: 0%;
+            margin-top: 5%;
+        }
+    }
+    .label-checkbox-form{
+    font-size: 10px;
+    font-family: arial, helvetica, sans-serif;
+    color: #33475b;
+    margin-right:25px;
+    vertical-align: middle; 
+    cursor: pointer; 
+    display: inline-block; 
+    }
+    .container-checkbox-form{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 25px;
+    margin-left: 0%;
+        input{
+            margin-right: 8%;
+            margin-bottom: 2%;
+    }
+    .input-name{
+    display: inline-block;
+    width: 100%;
+    height: 40px !important;
+    padding: 9px 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #33475b;
+    border: 1px solid #cbd6e2;
+    box-sizing: border-box;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    }
+    .input-form-web-leads option {
+                padding: 3px;
+                font-size: 1px !important; 
+            }
+}
+}

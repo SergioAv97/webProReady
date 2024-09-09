@@ -1,0 +1,15 @@
+.titulo-ctas {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	h3 {
+		margin-bottom: 2rem;
+		color: var(--raw-color-blue-bg);
+		font: var(--raw-font-weight-bold)
+			var(--raw-font-size-biggest)
+			var(--raw-font-rubik);
+	}
+}

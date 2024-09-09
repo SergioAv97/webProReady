@@ -1,0 +1,28 @@
+.imagen-editor {
+	.grid {
+		column-gap: 3rem;
+
+		h3 {
+			margin-top: 1rem;
+		}
+
+		ul {
+			margin-left: 2rem;
+
+			li {
+				list-style-type: disc;
+				margin: 2rem 0;
+
+				&::marker {
+					font-size: 1.5rem;
+					color: var(--raw-color-orange);
+				}
+
+				a {
+					font-size: var(--raw-font-size-bigger);
+					color: var(--raw-color-orange);
+				}
+			}
+		}
+	}
+}

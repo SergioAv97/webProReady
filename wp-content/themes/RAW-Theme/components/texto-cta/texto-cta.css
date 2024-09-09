@@ -1,0 +1,16 @@
+.texto-cta {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	.subtitle {
+		font-size: var(--raw-font-size-bigger);
+		font-weight: var(--raw-font-weight-normal);
+	}
+
+	a[role="button"] {
+		margin-top: 2rem;
+	}
+}

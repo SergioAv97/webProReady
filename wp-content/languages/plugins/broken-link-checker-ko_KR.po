@@ -1,0 +1,2320 @@
+# Translation of Plugins - Broken Link Checker - Stable (latest release) in Korean
+# This file is distributed under the same license as the Plugins - Broken Link Checker - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-04-09 06:38:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ko_KR\n"
+"Project-Id-Version: Plugins - Broken Link Checker - Stable (latest release)\n"
+
+#: legacy/core/core.php:408
+msgid "Broken Links (Old)"
+msgstr "깨진 링크 (구버전)"
+
+#: core/views/class-admin-page.php:132
+msgid "Membership"
+msgstr "멤버십"
+
+#: core/views/class-admin-page.php:131
+msgid "Free Plugins"
+msgstr "무료 플러그인"
+
+#: core/views/class-admin-page.php:124 core/views/class-admin-page.php:138
+msgid "Privacy Policy"
+msgstr "개인정보 보호정책"
+
+#: core/views/class-admin-page.php:123 core/views/class-admin-page.php:137
+msgid "Terms of Service"
+msgstr "서비스 약관"
+
+#: core/views/class-admin-page.php:122
+msgid "Community"
+msgstr "커뮤니티"
+
+#: core/views/class-admin-page.php:120 core/views/class-admin-page.php:134
+msgid "Support"
+msgstr "지원"
+
+#: core/views/class-admin-page.php:119 core/views/class-admin-page.php:133
+msgid "Roadmap"
+msgstr "로드맵"
+
+#: core/views/class-admin-page.php:118
+msgid "Plugins"
+msgstr "플러그인"
+
+#: core/views/class-admin-page.php:117 core/views/class-admin-page.php:136
+msgid "The Hub"
+msgstr "허브"
+
+#. translators: %s - icon
+#: core/views/class-admin-page.php:96
+msgid "Made with %s by WPMU DEV"
+msgstr "WPMU DEV에서 %s로 만듦"
+
+#: core/views/class-admin-page.php:67
+msgid "View Documentation"
+msgstr "문서 보기"
+
+#: core/utils/class-utilities.php:956
+msgctxt "date time sep"
+msgid " "
+msgstr " "
+
+#. translators: 1. The Seconds of the datetime.
+#: core/utils/class-utilities.php:895
+msgid "%d s "
+msgid_plural "%d s "
+msgstr[0] "%d 초 "
+
+#. translators: 1. The Minutes of the datetime.
+#: core/utils/class-utilities.php:884
+msgid "%d min "
+msgid_plural "%d min "
+msgstr[0] "%d 분 "
+
+#. translators: 1. The Hours of the datetime.
+#: core/utils/class-utilities.php:872
+msgid "%d h "
+msgid_plural "%d h "
+msgstr[0] "%d 시 "
+
+#: core/models/class-http-request.php:93
+msgid "Missing url."
+msgstr "URL이 없습니다."
+
+#: app/webhooks/user-review/class-controller.php:84
+msgid "No user found for given input data."
+msgstr "지정된 입력 데이터에 대한 사용자를 찾을 수 없습니다."
+
+#: app/webhooks/user-review/class-controller.php:76
+#: app/webhooks/user-review/class-controller.php:85
+msgid "Invalid action"
+msgstr "잘못된 작업"
+
+#: app/webhooks/user-review/class-controller.php:75
+msgid "It seems there is some missing input"
+msgstr "누락된 입력이 있는 것 같습니다."
+
+#: app/webhooks/user-review/class-controller.php:59
+msgid "Review Broken Link Checker plugin"
+msgstr "깨진 링크 검사기 플러그인 검토"
+
+#: app/webhooks/scan-complete/class-controller.php:66
+msgid "Scan results"
+msgstr "스캔 결과"
+
+#: app/webhooks/recipient-activation/class-controller.php:56
+msgid "Activate broken links recipient"
+msgstr "깨진 링크 수신자 활성화"
+
+#. translators: 1: Recipient name 2: Opening link tag 3; Closing link tag
+#: app/virtual-posts/recipient-activation/class-view.php:102
+msgid "Hi %1$s. You should stop receiving broken links reports for this site. You can visit site from %2$shere%3$s."
+msgstr "안녕하세요 %1$s. 이 사이트에 대한 깨진 링크 보고서 수신을 중지해야 합니다. %2$s여기%3$s에서 사이트를 방문할 수 있습니다."
+
+#: app/virtual-posts/recipient-activation/class-view.php:95
+msgid "Your email has been successfully removed from broken links recipients list."
+msgstr "깨진 링크 수신자 목록에서 귀하의 이메일이 성공적으로 제거되었습니다."
+
+#: app/virtual-posts/recipient-activation/class-view.php:81
+msgid "If you do not wish to receive these reports in your email, you can contact site admins."
+msgstr "이메일로 이러한 보고서를 받고 싶지 않은 경우 사이트 관리자에게 문의할 수 있습니다."
+
+#. translators: 1: Opening link tag 2; Closing link tag
+#: app/virtual-posts/recipient-activation/class-view.php:73
+msgid "If you do not wish to receive these reports in your email, you can contact site admins or click %1$shere to cancel email reports instantly%2$s."
+msgstr "이러한 보고서를 이메일로 받지 않으려면 사이트 관리자에게 문의하거나 %1$s여기를 클릭하여 이메일 보고서를 즉시 취소할 수 있습니다%2$s."
+
+#. translators: 1: Recipient name 2: Opening link tag 3; Closing link tag
+#: app/virtual-posts/recipient-activation/class-view.php:49
+msgid "Hi %1$s. You have become a recipient of site's broken links reports. You can continue to site from %2$shere%3$s."
+msgstr "안녕하세요 %1$s. 사이트의 깨진 링크 보고서 수신자가 되었습니다. %2$s여기%3$s에서 사이트를 계속 이용하실 수 있습니다."
+
+#: app/virtual-posts/recipient-activation/class-view.php:43
+msgid "You have been added in broken links reports recipients."
+msgstr "깨진 링크 보고서 수신자에 추가되었습니다."
+
+#: app/rest-endpoints/settings/includes/class-schema.php:117
+msgid "Response instructions."
+msgstr "응답 지침."
+
+#: app/rest-endpoints/settings/includes/class-schema.php:90
+msgid "User role label"
+msgstr "사용자 역할 레이블"
+
+#: app/rest-endpoints/settings/includes/class-schema.php:86
+msgid "User role name"
+msgstr "사용자 역할 이름"
+
+#: app/rest-endpoints/settings/includes/class-schema.php:78
+msgid "Use legacy BLC"
+msgstr "레거시 BLC 사용"
+
+#: app/rest-endpoints/settings/includes/class-schema.php:73
+msgid "Activation modal shown or not."
+msgstr "활성화 모달 표시 여부."
+
+#: app/rest-endpoints/settings/includes/class-schema.php:69
+msgid "All BLC settings."
+msgstr "모든 BLC 설정."
+
+#: app/rest-endpoints/settings/class-controller.php:590
+msgid "Action forbidden."
+msgstr "행동 금지."
+
+#: app/rest-endpoints/settings/class-controller.php:552
+msgid "You cannot view settings."
+msgstr "설정을 볼 수 없습니다."
+
+#: app/rest-endpoints/settings/class-controller.php:463
+msgid "Schedule days were not set"
+msgstr "일정 날짜가 설정되지 않았습니다."
+
+#: app/rest-endpoints/settings/class-controller.php:455
+msgid "Schedule frequency was not set"
+msgstr "일정 빈도가 설정되지 않았습니다."
+
+#: app/rest-endpoints/settings/class-controller.php:262
+msgid "Settings saved"
+msgstr "설정이 저장되었습니다"
+
+#. translators: 1: The Hub's signup url.
+#: app/rest-endpoints/settings/class-controller.php:248
+msgid "Dashboard plugin is not installed. You can connect your site for free directly from <a href=\"%s\">Hub<a>."
+msgstr "알림판 플러그인이 설치되지 않았습니다. <a href=\"%s\">Hub<a>에서 직접 사이트를 무료로 연결할 수 있습니다."
+
+#: app/rest-endpoints/settings/class-controller.php:230
+msgid "Dashboard plugin could not be activated. You can reload page and try again or contact support."
+msgstr "알림판 플러그인을 활성화할 수 없습니다. 페이지를 새로고침하고 다시 시도하거나 지원팀에 문의하세요."
+
+#: app/rest-endpoints/settings/class-controller.php:210
+msgid "Dashboard plugin has been activated.  You should be redirected to sign-in page shortly"
+msgstr "대시보드 플러그인이 활성화되었습니다.  곧 로그인 페이지로 리디렉션됩니다."
+
+#: app/rest-endpoints/settings/class-controller.php:187
+msgid "Dashboard plugin has been activated."
+msgstr "알림판 플러그인이 활성화되었습니다."
+
+#: app/rest-endpoints/settings/class-controller.php:168
+msgid "Dashboard plugin is already active. Please wait while refreshing page."
+msgstr "알림판 플러그인이 이미 활성화되어 있습니다. 페이지를 새로 고치는 동안 잠시 기다려 주십시오."
+
+#: app/rest-endpoints/settings/class-controller.php:127
+msgid "Schedule event not created. Please refresh page and try once more"
+msgstr "일정 이벤트가 생성되지 않았습니다. 페이지를 새로고침하고 다시 시도하십시오"
+
+#: app/rest-endpoints/scan/class-controller.php:203
+msgid "Scan response data/results."
+msgstr "응답 데이터/결과를 스캔합니다."
+
+#: app/rest-endpoints/scan/class-controller.php:188
+msgid "The scan status."
+msgstr "스캔 상태."
+
+#: app/rest-endpoints/scan/class-controller.php:183
+msgid "If true scan has started successfully, else it has not."
+msgstr "True Scan이 성공적으로 시작된 경우 그렇지 않으면 시작되지 않은 것입니다."
+
+#: app/rest-endpoints/scan/class-controller.php:154
+msgid "You are not allowed to start a new scan."
+msgstr "새 스캔을 시작할 수 없습니다."
+
+#: app/rest-endpoints/avatars/class-controller.php:162
+#: app/rest-endpoints/scan/class-controller.php:208
+#: app/rest-endpoints/settings/includes/class-schema.php:104
+msgid "Response status code."
+msgstr "응답 상태 코드."
+
+#: app/rest-endpoints/avatars/class-controller.php:157
+#: app/rest-endpoints/scan/class-controller.php:198
+#: app/rest-endpoints/settings/includes/class-schema.php:99
+msgid "Response message."
+msgstr "응답 메시지"
+
+#: app/rest-endpoints/avatars/class-controller.php:152
+msgid "Auto-confirmed when email belongs to user."
+msgstr "이메일이 사용자에게 속한 경우 자동 확인됩니다."
+
+#: app/rest-endpoints/avatars/class-controller.php:147
+msgid "Avatar by email."
+msgstr "이메일로 아바타."
+
+#: app/rest-endpoints/avatars/class-controller.php:118
+msgid "You can not fetch avatars."
+msgstr "아바타를 가져올 수 없습니다."
+
+#: app/rest-endpoints/avatars/class-controller.php:92
+msgid "Invalid email address"
+msgstr "잘못된 이메일 주소"
+
+#: app/rest-endpoints/avatars/class-controller.php:87
+msgid "Avatar url"
+msgstr "아바타 URL"
+
+#: app/hub-endpoints/edit-link/class-controller.php:37
+#: app/hub-endpoints/nofollow-link/class-controller.php:36
+#: app/hub-endpoints/unlink-link/class-controller.php:36
+#: core/controllers/class-hub-endpoint.php:95
+msgid "Something went wrong with this HTTP request"
+msgstr "이 HTTP 요청에 문제가 발생했습니다."
+
+#: app/http-requests/sync-scan-results/class-controller.php:350
+msgid "Results are missing. Aborting importing data."
+msgstr "결과가 없습니다. 데이터 가져오기를 중단합니다."
+
+#: app/http-requests/sync-scan-results/class-controller.php:349
+msgid "The start time is missing. Aborting importing data."
+msgstr "시작 시간이 없습니다. 데이터 가져오기를 중단합니다."
+
+#: app/http-requests/sync-scan-results/class-controller.php:348
+msgid "Something went wrong while storing new data to DB. More likely there is nothing to update"
+msgstr "새 데이터를 DB에 저장하는 중에 문제가 발생했습니다. 업데이트할 항목이 없을 가능성이 높습니다."
+
+#: app/http-requests/sync-scan-results/class-controller.php:347
+msgid "Scan is currently in progress. Please try again in a few minutes."
+msgstr "현재 스캔이 진행 중입니다. 몇 분 후에 다시 시도하십시오."
+
+#: app/http-requests/sync-scan-results/class-controller.php:258
+msgid "Data successfully updated."
+msgstr "데이터가 성공적으로 업데이트되었습니다."
+
+#: app/http-requests/sync-scan-results/class-controller.php:251
+msgid "Scan completed successfully."
+msgstr "스캔이 성공적으로 완료되었습니다."
+
+#: app/http-requests/scan/class-controller.php:244
+msgid "Scan is currently in progress. Please try again in 15 minutes."
+msgstr "현재 스캔이 진행 중입니다. 15분 후에 다시 시도하십시오."
+
+#: app/http-requests/scan/class-controller.php:243
+#: app/http-requests/sync-scan-results/class-controller.php:346
+msgid "Something went wrong with request."
+msgstr "요청에 문제가 발생했습니다."
+
+#: app/http-requests/scan/class-controller.php:188
+#: app/http-requests/sync-scan-results/class-controller.php:291
+msgid "Can not make request."
+msgstr "요청을 할 수 없습니다."
+
+#: app/http-requests/scan/class-controller.php:174
+#: app/http-requests/sync-scan-results/class-controller.php:277
+msgid "Scan could not be started because it seems you are on localhost. Broken Links Checker API can not reach sites on local hosts"
+msgstr "Localhost에 있는 것 같아서 스캔을 시작할 수 없습니다. 깨진 링크 검사기 API는 로컬 호스트의 사이트에 연결할 수 없습니다."
+
+#: app/http-requests/scan/class-controller.php:156
+msgid "Scan for Broken Links is in progress. Please wait a few minutes until scan completes."
+msgstr "깨진 링크 검색이 진행 중입니다. 스캔이 완료될 때까지 몇 분 정도 기다리십시오."
+
+#: app/emails/scan-report/class-view.php:170
+msgid "Source URL"
+msgstr "소스 URL"
+
+#: app/emails/scan-report/class-view.php:103
+msgid "Unknown"
+msgstr "일 수 없음"
+
+#: app/emails/scan-report/class-model.php:61
+msgid "BLC Report"
+msgstr "깨진 링크 검사기 보고서"
+
+#: app/emails/scan-report/class-controller.php:180
+#: app/virtual-posts/recipient-activation/class-controller.php:29
+msgid "Broken links reports"
+msgstr "깨진 링크 보고서"
+
+#. translators: 1: opening <a> tag 2: closing </a> tag
+#: app/emails/scan-report/class-controller.php:133
+msgid "Are you enjoying the new Broken Link Checker? Share your valuable feedback on wordpress.org to help us further enhance and support our plugin. Give us feedback %shere%s."
+msgstr "새로운 깨진 링크 검사기가 마음에 드시나요? wordpress.org에서 소중한 피드백을 공유하여 플러그인을 더욱 개선하고 지원할 수 있도록 도와주세요. %shere%s에 피드백을 보내주세요."
+
+#: app/emails/scan-report/class-controller.php:98
+msgid "View Report"
+msgstr "보고서 보기"
+
+#: app/emails/scan-report/class-controller.php:98
+msgid "View Full Report"
+msgstr "전체 보고서 보기"
+
+#: app/emails/scan-report/class-controller.php:96
+msgid "The list below shows a maximum of 20 broken links. Click the View Full Report button to see the full list."
+msgstr "아래 목록에는 최대 20개의 깨진 링크가 표시됩니다. 전체 목록을 보려면 전체 보고서 보기 버튼을 클릭하십시오."
+
+#: app/emails/scan-report/class-controller.php:95
+msgid "Broken link report"
+msgstr "깨진 링크 보고서"
+
+#: app/emails/scan-report/class-controller.php:89
+msgid "Unique URLs"
+msgstr "고유 URL"
+
+#: app/emails/scan-report/class-controller.php:86
+msgid "Total Links"
+msgstr "총 링크"
+
+#: app/emails/scan-report/class-controller.php:77
+msgid "Here are your latest broken link test results."
+msgstr "최근 깨진 링크 테스트 결과는 다음과 같습니다."
+
+#: app/emails/scan-report/class-controller.php:76
+msgid "Summary"
+msgstr "요약"
+
+#: app/emails/scan-report/class-controller.php:72
+msgid "Here's your latest broken link summary generated on {{SCANDATE}}."
+msgstr "다음은 {{SCANDATE}}에 생성된 최근 깨진 링크 요약입니다."
+
+#: app/emails/scan-report/class-controller.php:69
+msgid "Broken Link Report for"
+msgstr "깨진 링크 보고서"
+
+#: app/emails/recipient-activation/class-model.php:106
+#: app/emails/scan-report/class-view.php:229
+msgid "Follow us"
+msgstr "팔로우"
+
+#: app/emails/recipient-activation/class-model.php:47
+msgid "Broken Link Notification"
+msgstr "깨진 링크 알림"
+
+#: app/emails/recipient-activation/class-controller.php:96
+#: app/emails/scan-report/class-controller.php:110
+msgid "Unsubscribe"
+msgstr "구독 취소"
+
+#: app/emails/recipient-activation/class-controller.php:94
+#: app/emails/scan-report/class-controller.php:108
+msgid "INCSUB PO BOX 163, ALBERT PARK, VICTORIA.3206 AUSTRALIA"
+msgstr "INCSUB PO BOX 163, ALBERT PARK, VICTORIA.3206 AUSTRALIA"
+
+#: app/emails/recipient-activation/class-controller.php:93
+#: app/emails/scan-report/class-controller.php:107
+msgid "Build A Better WordPress Business"
+msgstr "더 나은 워드프레스 비즈니스 구축"
+
+#: app/emails/recipient-activation/class-controller.php:92
+#: app/emails/scan-report/class-controller.php:106
+msgid "Link to WPMU DEV Home page"
+msgstr "WPMU DEV 홈페이지 링크"
+
+#: app/emails/recipient-activation/class-controller.php:85
+msgid "Confirm Subscription"
+msgstr "구독 확인"
+
+#: app/emails/recipient-activation/class-controller.php:81
+#: app/emails/scan-report/class-controller.php:70
+msgid "Hi {{USERNAME}}"
+msgstr "{{USERNAME}} 님, 안녕하세요."
+
+#: app/emails/recipient-activation/class-controller.php:55
+msgid "Broken links reports activation"
+msgstr "깨진 링크는 활성화를 보고합니다."
+
+#: app/broken-links-actions/processors/class-main.php:432
+msgid "Unmapped action"
+msgstr "매핑되지 않은 작업"
+
+#: app/broken-links-actions/handlers/class-full-site-handler.php:268
+msgid "Missing Full Site Target Table"
+msgstr "전체 사이트 대상 테이블 누락"
+
+#: app/broken-links-actions/class-router.php:306
+msgid "Invalid sub-site id"
+msgstr "잘못된 하위 사이트 ID"
+
+#. translators: %1$s: The schema's key name.
+#: app/broken-links-actions/class-router.php:287
+msgid "Links param `%1$s` potentially malicious"
+msgstr "링크 매개변수 `%1$s` 잠재적 악성"
+
+#. translators: %1$s: The keyname of the schema that will be used to sanitize.
+#: app/broken-links-actions/class-router.php:267
+msgid "Links params do not follow schema. Key `%1$s` missing"
+msgstr "링크 매개변수는 스키마를 따르지 않습니다. 키 `%1$s` 누락"
+
+#: app/broken-links-actions/class-router.php:246
+msgid "Invalid input json string"
+msgstr "잘못된 입력 JSON 문자열"
+
+#: app/broken-links-actions/class-router.php:231
+msgid "Missing input conversion params"
+msgstr "입력 변환 매개변수 누락"
+
+#: app/broken-links-actions/class-router.php:181
+msgid "Aborting as there are no links"
+msgstr "링크가 없으므로 중단합니다."
+
+#: app/broken-links-actions/class-router.php:139
+msgid "Empty link"
+msgstr "빈 링크"
+
+#: app/broken-links-actions/class-router.php:92
+msgid "Something went wrong"
+msgstr "문제가 발생했습니다"
+
+#. translators: %1$s: Open a tag  %2$s: Close a tag.
+#: app/broken-links-actions/class-router.php:49
+msgid "BLC plugin is set to Local Engine and can not perform any Cloud Engine action. Please make sure plugin is set to %1$sCloud Engine%2$s"
+msgstr "BLC 플러그인이 로컬 엔진으로 설정되어 있어 클라우드 엔진 작업을 수행할 수 없습니다. 플러그인이 %1$s클라우드 엔진%2$s로 설정되어 있는지 확인하세요."
+
+#: app/broken-links-actions/class-link.php:269
+msgid "Missing origins"
+msgstr "누락된 출처"
+
+#: app/admin-pages/local-submenu/class-view.php:87
+#: app/admin-pages/local-submenu/class-view.php:88
+msgid "Activate Cloud-based Link Checker"
+msgstr "클라우드 기반 링크 검사기 활성화"
+
+#: app/admin-pages/local-submenu/class-controller.php:80
+msgid "Local [old]"
+msgstr "로컬 [구버전]"
+
+#: app/admin-pages/local-submenu/class-controller.php:79
+#: app/admin-pages/local-submenu/class-view.php:81
+msgid "Local Broken Link Checker"
+msgstr "로컬 깨진 링크 검사기"
+
+#: app/admin-pages/cloud-submenu/class-controller.php:68
+msgid "Cloud [new]"
+msgstr "클라우드 [신버전]"
+
+#: app/admin-notices/multisite/class-view.php:51
+#: app/admin-notices/multisite/class-view.php:63
+msgid "Cloud Engine supports Multisite’s main site only and doesn’t support subsites. Subsites will continue using Local BLC"
+msgstr "클라우드 엔진은 Multisite의 기본 사이트만 지원하고 하위 사이트는 지원하지 않습니다. 하위 사이트는 로컬 BLC를 계속 사용합니다."
+
+#. translators: %1$s The dashboard url
+#: app/admin-notices/local/class-view.php:52
+msgid "Cloud-based Broken Link Checker is currently active on your site. <a href=\"%1$s\">Activate the old version</a> to go back to using Local BLC."
+msgstr "클라우드 기반 깨진 링크 검사기가 현재 귀하의 사이트에서 활성화되어 있습니다. 로컬 BLC 사용으로 돌아가려면 <a href=\"%1$s\">이전 버전을 활성화</a>하세요."
+
+#. translators: %1$s The dashboard url
+#: app/admin-notices/legacy/class-view.php:43
+msgid "We have completely rebuilt BLC with a new cloud-based engine. It’s now 20x faster, more accurate, and works perfectly with any site. Plus, no page limits, no ads, and it’s still 100%% free! Check out Broken Link Checker's <a href=\"%1$s\">new dashboard</a>."
+msgstr "새로운 클라우드 기반 엔진으로 깨진 링크 검사기를 완전히 재구축했습니다. 이제 20배 더 빠르고 정확하며 어떤 사이트에서도 완벽하게 작동합니다. 게다가 페이지 제한이나 광고가 없으며 여전히 100%% 무료입니다! 깨진 링크 검사기의 <a href=\"%1$s\">새 알림판</a>을 확인하세요."
+
+#: app/admin-notices/features/class-view.php:41
+msgid "Now you can edit links and unlink broken links directly from the new Cloud version with ease."
+msgstr "이제 새로운 클라우드 버전에서 직접 링크를 편집하고 깨진 링크를 쉽게 연결 해제할 수 있습니다."
+
+#: app/admin-notices/features/class-view.php:40 assets/dist/welcome.js:1
+msgid "Introducing Edit Link and Unlink features in Broken Link Checker!"
+msgstr "깨진 링크 검사기의 링크 편집 및 링크 해제 기능을 소개합니다!"
+
+#: app/admin-modals/legacy/class-controller.php:216
+#: app/admin-modals/local/class-controller.php:180
+#: app/admin-pages/cloud-page/class-controller.php:267
+msgid "Something went wrong here."
+msgstr "여기서 문제가 발생했습니다."
+
+#: app/action-links/plugin/class-controller.php:79
+#: core/views/class-admin-page.php:121 core/views/class-admin-page.php:135
+msgid "Docs"
+msgstr "문서"
+
+#: app/action-links/plugin/class-controller.php:77
+msgid "Local"
+msgstr "로컬"
+
+#: app/action-links/plugin/class-controller.php:75
+msgid "Cloud"
+msgstr "클라우드"
+
+#. Description of the plugin
+msgid "Checks your blog for broken links and notifies you on the dashboard if any are found."
+msgstr "블로그에 깨진 링크가 있는지 확인하고 링크가 발견되면 대시보드에서 알려줍니다."
+
+#. Author URI of the plugin
+msgid "https://wpmudev.com/"
+msgstr "https://wpmudev.com/"
+
+#: legacy/core/core.php:1060
+msgid "It's used on over 80,000 sites just like yours."
+msgstr "귀하와 마찬가지로 80,000개 이상의 사이트에서 사용됩니다."
+
+#: legacy/core/core.php:1056
+msgid "Install the free <a href=\"%s\" class=\"thickbox open-plugin-details-modal\">External Links plugin</a> to control if external links open in a new tab, and their nofollow, noopener and UGC options."
+msgstr "무료 <a href=\"%s\" class=\"thickbox open-plugin-details-modal\">외부 링크 플러그인</a>을 설치하여 외부 링크가 새 탭에서 열리는지 제어하고 nofollow, noopener 및 UGC 옵션."
+
+#: legacy/core/core.php:1051
+msgid "Configure <a target=\"_blank\" href=\"%s\">External Links</a> settings."
+msgstr "<a target=\"_blank\" href=\"%s\">외부 링크</a> 설정을 구성합니다."
+
+#: legacy/core/core.php:1044
+msgctxt "settings page"
+msgid "Control external links"
+msgstr "외부 링크 제어"
+
+#: legacy/includes/admin/links-page-js.php:654
+msgid "Are you sure you want to unlink and remove this link from all posts?"
+msgstr "모든 게시물에서 이 링크를 연결 해제하고 제거하시겠습니까?"
+
+#: legacy/modules/checkers/http.php:467
+msgid "Using WP HTTP"
+msgstr "WP HTTP 사용"
+
+#: legacy/core/core.php:1590
+msgid "Log file clear schedule"
+msgstr "로그 파일 삭제 일정"
+
+#: legacy/core/core.php:1239
+msgid "Disable post modified date change when link is edited"
+msgstr "링크 편집시 게시물 수정 날짜 변경 비활성화"
+
+#: legacy/core/core.php:1234
+msgid "Post Modified Date"
+msgstr "게시 수정 날짜"
+
+#: legacy/core/core.php:1227
+msgid "Use your own %1$sapi key%2$s for checking youtube links."
+msgstr "YouTube 링크를 확인하려면 자신의 %1$sapi 키%2$s를 사용하십시오."
+
+#: legacy/core/core.php:1215
+msgid "YouTube API Key"
+msgstr "유튜브 API 키"
+
+#. Author of the plugin
+msgid "WPMU DEV"
+msgstr "WPMU 개발"
+
+#: legacy/includes/link-query.php:47
+msgctxt "filter heading"
+msgid "Warnings"
+msgstr "경고"
+
+#: legacy/includes/any-post.php:833
+msgid "%1$d \"%2$s\" deleted."
+msgid_plural "%1$d \"%2$s\" deleted."
+msgstr[0] "%1$d \"%2$s\"이(가) 삭제되었습니다."
+
+#: legacy/core/core.php:1813
+msgid "Enter the keys of acf fields you want to check (one per line). If a field contains HTML code, prefix its name with <code>html:</code>. For example, <code>html:field_586a3eaa4091b</code>."
+msgstr "확인하려는 acf 필드의 키를 입력합니다(한 줄에 하나씩). 필드에 HTML 코드가 포함된 경우 이름 앞에 <code>html:</code>을 붙입니다. 예: <code>html:field_586a3eaa4091b</code>."
+
+#: legacy/core/init.php:235 legacy/init.php:252
+msgid "Every 10 minutes"
+msgstr "10분마다"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/broken-link-checker/"
+msgstr "https://wordpress.org/plugins/broken-link-checker/"
+
+#: legacy/modules/parsers/acf_field.php:120
+#: legacy/modules/parsers/metadata.php:141
+msgid "Custom field"
+msgstr "사용자 구성 필드"
+
+#: legacy/modules/parsers/image.php:193
+msgid "Image"
+msgstr "이미지"
+
+#: legacy/modules/extras/youtube.php:261
+msgid "Unknown YouTube API response received."
+msgstr "유튜브 API로부터 알 수 없는 응답을 받았습니다."
+
+#: legacy/modules/extras/youtube.php:216
+msgid "Playlist OK"
+msgstr "재생목록 확인"
+
+#: legacy/modules/extras/youtube.php:207
+msgid "Video Restricted"
+msgstr "제한된 동영상"
+
+#: legacy/modules/extras/youtube.php:201
+msgid "Video status : %1$s%2$s"
+msgstr "비디오 상태 : %1$s%2$s"
+
+#: legacy/modules/extras/youtube.php:191
+msgctxt "link status"
+msgid "Empty Playlist"
+msgstr "빈 재생 목록"
+
+#: legacy/modules/extras/youtube.php:190
+msgid "This playlist has no entries or all entries have been deleted."
+msgstr "이 재생 목록에는 항목이 없거나 모든 항목이 삭제되었습니다."
+
+#: legacy/modules/extras/youtube.php:183
+msgid "Playlist Restricted"
+msgstr "재생 목록 제한됨"
+
+#: legacy/modules/extras/youtube.php:173 legacy/modules/extras/youtube.php:176
+msgid "Playlist Not Found"
+msgstr "재생목록을 찾을 수 없음"
+
+#: legacy/modules/extras/youtube.php:151 legacy/modules/extras/youtube.php:154
+msgid "Video Not Found"
+msgstr "동영상 찾을 수 없음."
+
+#: legacy/modules/extras/youtube.php:140
+msgid "Video OK"
+msgstr "동영상 확인"
+
+#: legacy/modules/extras/youtube-playlist-embed.php:25
+msgid "Embedded YouTube playlist"
+msgstr "포함된 YouTube 재생목록"
+
+#: legacy/modules/extras/youtube-playlist-embed.php:24
+msgid "YouTube Playlist"
+msgstr "YouTube 재생목록"
+
+#: legacy/modules/extras/youtube-embed.php:25
+#: legacy/modules/extras/youtube-iframe.php:26
+msgid "Embedded YouTube video"
+msgstr "내장된 유튜브 동영상"
+
+#: legacy/modules/extras/youtube-embed.php:24
+#: legacy/modules/extras/youtube-iframe.php:25
+msgid "YouTube Video"
+msgstr "유투브 동영상"
+
+#: legacy/modules/extras/vimeo-embed.php:25
+msgid "Embedded Vimeo video"
+msgstr "내장된 Vimeo 동영상"
+
+#: legacy/modules/extras/vimeo-embed.php:24
+msgid "Vimeo Video"
+msgstr "Vimeo 동영상"
+
+#: legacy/modules/extras/rapidshare.php:189
+msgid "RapidShare API error: %s"
+msgstr "RapidShare API 에러: %s"
+
+#: legacy/modules/extras/rapidshare.php:183
+msgid "RapidShare : %s"
+msgstr "RapidShare : %s"
+
+#: legacy/modules/extras/rapidshare.php:172
+msgid "File Locked"
+msgstr "파일 잠김"
+
+#: legacy/modules/extras/rapidshare.php:165
+msgid "File Blocked"
+msgstr "파일 깨짐"
+
+#: legacy/modules/extras/rapidshare.php:158
+msgid "RS Server Down"
+msgstr "RS 서버 다운"
+
+#: legacy/modules/extras/rapidshare.php:51
+msgid "Using RapidShare API"
+msgstr "RapidShare API 사용"
+
+#: legacy/modules/extras/mediafire.php:109
+msgid "Permission Denied"
+msgstr "권한 거부됨"
+
+#: legacy/modules/extras/mediafire.php:97
+#: legacy/modules/extras/mediafire.php:103
+#: legacy/modules/extras/rapidshare.php:139
+msgid "Not Found"
+msgstr "찾을 수 없음"
+
+#: legacy/modules/extras/googlevideo-embed.php:25
+msgid "Embedded GoogleVideo video"
+msgstr "삽입된 GoogleVideo 동영상"
+
+#: legacy/modules/extras/googlevideo-embed.php:24
+msgid "GoogleVideo Video"
+msgstr "Google비디오 비디오"
+
+#: legacy/modules/extras/embed-parser-base.php:199
+msgid "Embedded videos can't be edited using Broken Link Checker. Please edit or replace the video in question manually."
+msgstr "내장된 비디오는 수정할 수 없습니다. 수정하거나 동영상 스크립트를 교체해주세요."
+
+#: legacy/modules/extras/dailymotion-embed.php:24
+msgid "Embedded DailyMotion video"
+msgstr "내장된 DailyMotion 동영상 "
+
+#: legacy/modules/extras/dailymotion-embed.php:23
+msgid "DailyMotion Video"
+msgstr "DailyMotion 동영상"
+
+#: legacy/modules/containers/dummy.php:34
+#: legacy/modules/containers/dummy.php:45
+msgid "I don't know how to edit a '%1$s' [%2$d]."
+msgstr "'%1$s'(을)를 어떻게 수정하는지 모릅니다 [%2$d]."
+
+#: legacy/modules/containers/acf_field.php:258
+#: legacy/modules/containers/custom_field.php:272
+msgid "View \"%s\""
+msgstr "\"%s\" 보기"
+
+#: legacy/modules/containers/acf_field.php:234
+#: legacy/modules/containers/custom_field.php:238
+msgid "Edit this post"
+msgstr "글 편집"
+
+#: legacy/modules/containers/acf_field.php:132
+#: legacy/modules/containers/custom_field.php:137
+msgid "Failed to delete the meta field '%1$s' on %2$s [%3$d]"
+msgstr "%2$s [%3$d]에서 메타 필도 '%1$s'(을)를 지우는데 실패했습니다"
+
+#: legacy/modules/containers/acf_field.php:102
+#: legacy/modules/containers/custom_field.php:107
+msgid "Failed to update the meta field '%1$s' on %2$s [%3$d]"
+msgstr "%2$s [%3$d]에서 메타 필드 '%1$s'(을)를 업데이트하는데 실패했습니다"
+
+#: legacy/modules/containers/comment.php:385
+msgid "%d comment moved to the Trash."
+msgid_plural "%d comments moved to the Trash."
+msgstr[0] "%d개의 댓글이 휴지통으로 이동 되었습니다."
+
+#: legacy/modules/containers/comment.php:366
+msgid "%d comment has been deleted."
+msgid_plural "%d comments have been deleted."
+msgstr[0] "%d개의 댓글이 삭제 되었습니다."
+
+#: legacy/modules/containers/comment.php:189
+msgid "Comment"
+msgstr "댓글"
+
+#: legacy/modules/containers/comment.php:172
+msgid "View comment"
+msgstr "댓글 보기"
+
+#: legacy/modules/containers/comment.php:168
+msgctxt "verb"
+msgid "Trash"
+msgstr "휴지통"
+
+#: legacy/modules/containers/comment.php:168
+msgid "Move this comment to the trash"
+msgstr "이 댓글을 휴지통으로 이동"
+
+#: legacy/modules/containers/comment.php:166
+msgid "Delete Permanently"
+msgstr "영구 삭제"
+
+#: legacy/modules/containers/comment.php:159
+#: legacy/modules/containers/comment.php:201
+msgid "Edit comment"
+msgstr "댓글 편집"
+
+#: legacy/modules/containers/comment.php:95
+msgid "Can't move comment %d to the trash"
+msgstr "%d개 댓글이 휴지통으로 이동하기 실패"
+
+#: legacy/modules/containers/comment.php:74
+msgid "Failed to delete comment %d"
+msgstr "%d개 댓글 삭제 실패"
+
+#: legacy/modules/containers/comment.php:53
+msgid "Updating comment %d failed"
+msgstr "%d개의 댓글 업데이트 실패"
+
+#: legacy/modules/containers/blogroll.php:298
+msgid "%d blogroll link deleted."
+msgid_plural "%d blogroll links deleted."
+msgstr[0] "%d개의 블로그롤 링크 삭제됨"
+
+#: legacy/modules/containers/blogroll.php:128
+msgid "Failed to delete blogroll link \"%1$s\" (%2$d)"
+msgstr "블로그롤 링크 \"%1$s\" (%2$d)(을)를 삭제하는데 실패하였습니다"
+
+#: legacy/modules/containers/blogroll.php:97
+msgid "Updating bookmark %d failed"
+msgstr "북마크 %d 업데이트 실패"
+
+#: legacy/modules/containers/blogroll.php:47
+msgid ""
+"You are about to delete this link '%s'\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"링크 '%s'를 삭제 합니다.\n"
+"  삭제를 취소하려면 '취소' 를, 삭제를 계속 하시려면 '확인'을 클릭해주세요."
+
+#: legacy/modules/containers/blogroll.php:27
+#: legacy/modules/containers/blogroll.php:46
+msgid "Edit this bookmark"
+msgstr "이 북마크 편집"
+
+#: legacy/modules/containers/blogroll.php:21
+msgid "Bookmark"
+msgstr "북마크"
+
+#: legacy/modules/checkers/http.php:460
+msgid "Request timed out."
+msgstr "요청 시간 초과"
+
+#: legacy/modules/checkers/http.php:380
+msgid "Most likely the connection timed out or the domain doesn't exist."
+msgstr "가장 가능성 있는 도메인에 대한 연결 시간이 초과되었습니다."
+
+#: legacy/modules/checkers/http.php:362 legacy/modules/checkers/http.php:451
+msgid "(No response)"
+msgstr "(응답 없음)"
+
+#: legacy/modules/checkers/http.php:360 legacy/modules/checkers/http.php:449
+msgid "HTTP code : %d"
+msgstr "HTTP code : %d"
+
+#: legacy/modules/checkers/http.php:306
+msgid "Connection Failed"
+msgstr "접속 실패"
+
+#: legacy/modules/checkers/http.php:290
+msgid "Server Not Found"
+msgstr "서버가 존재 하지 않음"
+
+#: legacy/includes/utility-class.php:276
+msgid "%d month ago"
+msgid_plural "%d months ago"
+msgstr[0] "%d 개월 전"
+
+#: legacy/includes/utility-class.php:275
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d 개월"
+
+#: legacy/includes/utility-class.php:272
+msgid "%d day ago"
+msgid_plural "%d days ago"
+msgstr[0] "%d 일 전"
+
+#: legacy/includes/utility-class.php:271
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d 일"
+
+#: legacy/includes/utility-class.php:268
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d 시간 전"
+
+#: legacy/includes/utility-class.php:267
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d 시간"
+
+#: legacy/includes/utility-class.php:264
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d 분 전"
+
+#: legacy/includes/utility-class.php:263
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d 분"
+
+#: legacy/includes/utility-class.php:260
+msgid "%d second ago"
+msgid_plural "%d seconds ago"
+msgstr[0] "%d 초 전"
+
+#: legacy/includes/utility-class.php:259
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d 초"
+
+#: legacy/includes/parsers.php:132
+msgid "Unlinking is not implemented in the '%s' parser"
+msgstr "'%s'는 파서에서 구현되지 않아 링크해제를 할 수 없습니다."
+
+#: legacy/includes/parsers.php:117
+msgid "Editing is not implemented in the '%s' parser"
+msgstr "'%s'는 파서에서 구현되지 않아 편집 할 수 없습니다."
+
+#: legacy/includes/links.php:1058 legacy/modules/extras/rapidshare.php:145
+#: legacy/modules/extras/rapidshare.php:151
+#: legacy/modules/extras/rapidshare.php:178
+#: legacy/modules/extras/youtube.php:141 legacy/modules/extras/youtube.php:217
+msgctxt "link status"
+msgid "OK"
+msgstr "정상"
+
+#: legacy/includes/links.php:1055
+msgid "False positive"
+msgstr "거짓 양성"
+
+#: legacy/includes/links.php:1052
+msgid "Not checked"
+msgstr "검사 되지 않음"
+
+#: legacy/includes/links.php:1029 legacy/modules/checkers/http.php:313
+#: legacy/modules/checkers/http.php:317 legacy/modules/extras/mediafire.php:115
+#: legacy/modules/extras/youtube.php:135 legacy/modules/extras/youtube.php:230
+msgid "Unknown Error"
+msgstr "알수 없는 에러"
+
+#: legacy/includes/links.php:1016
+msgctxt "link status"
+msgid "Unknown"
+msgstr "알수없음"
+
+#: legacy/includes/links.php:902 legacy/includes/links.php:939
+msgid "Couldn't delete the link's database record"
+msgstr "데이터베이스에서 링크를 삭제하지 못했습니다."
+
+#: legacy/includes/links.php:848
+msgid "This link is not a redirect"
+msgstr "이 링크는 리디렉트 되지 않습니다."
+
+#: legacy/includes/links.php:781
+msgid "Failed to create a DB entry for the new URL."
+msgstr "데이터베이스에 새로운 URL를 생성하지 못하였습니다."
+
+#: legacy/includes/links.php:755
+msgid "This link can not be edited because it is not used anywhere on this site."
+msgstr "이 링크는 블로그에서 사용되지 않기 때문에 편집할 수 없습니다."
+
+#: legacy/includes/links.php:738 legacy/includes/links.php:841
+#: legacy/includes/links.php:875
+msgid "Link is not valid"
+msgstr "링크가 유효하지 않습니다."
+
+#: legacy/includes/links.php:505
+msgid "Link is valid."
+msgstr "링큐가 유효합니다."
+
+#: legacy/includes/links.php:503
+msgid "Link is broken."
+msgstr "링크가 깨졌습니다."
+
+#: legacy/includes/links.php:271
+msgid "The plugin doesn't know how to check this type of link."
+msgstr "이 링크의 타입을 확인 할 수 없습니다."
+
+#: legacy/includes/links.php:225
+msgid "The plugin script was terminated while trying to check the link."
+msgstr "링크를 확인 하던 도중에 플러그인이 종료되었습니다."
+
+#: legacy/includes/link-query.php:83 legacy/includes/link-query.php:131
+msgid "No links found for your query"
+msgstr "검색어에 대한 링크를 찾을 수 없음"
+
+#: legacy/includes/link-query.php:82
+msgid "Search Results"
+msgstr "검색 결과"
+
+#: legacy/includes/link-query.php:68
+msgid "No dismissed links found"
+msgstr "해제된 링크가 없습니다."
+
+#: legacy/includes/link-query.php:67
+msgid "Dismissed Links"
+msgstr "해제된 링크"
+
+#: legacy/includes/link-query.php:66
+msgid "Dismissed"
+msgstr "해제됨"
+
+#: legacy/includes/link-query.php:58
+msgid "No redirects found"
+msgstr "리디렉트 링크 찾을 수 없음"
+
+#: legacy/includes/link-query.php:57
+msgid "Redirected Links"
+msgstr "리디렉트 링크"
+
+#: legacy/includes/link-query.php:56
+msgid "Redirects"
+msgstr "리디렉트"
+
+#: legacy/includes/link-query.php:48
+msgid "No warnings found"
+msgstr "경고 없음"
+
+#: legacy/includes/link-query.php:46
+msgctxt "filter name"
+msgid "Warnings"
+msgstr "경고"
+
+#: legacy/includes/link-query.php:38
+msgid "No broken links found"
+msgstr "깨진 링크 없음"
+
+#: legacy/includes/link-query.php:36
+msgid "Broken"
+msgstr "깨짐"
+
+#: legacy/includes/link-query.php:27
+msgid "No links found (yet)"
+msgstr "아직 링크를 찾을 수 없음"
+
+#: legacy/includes/link-query.php:26
+msgid "Detected Links"
+msgstr "삭제된 링크"
+
+#: legacy/includes/link-query.php:25
+msgid "All"
+msgstr "모두"
+
+#: legacy/includes/instances.php:118 legacy/includes/instances.php:174
+msgid "Parser '%s' not found."
+msgstr "파서 '%s' 존재 하지 않음."
+
+#: legacy/includes/instances.php:109 legacy/includes/instances.php:165
+msgid "Container %1$s[%2$d] not found"
+msgstr "컨테이너 %1$s[%2$d 개] 존재 하지 않음"
+
+#: legacy/includes/extra-strings.php:20
+msgctxt "module name"
+msgid "Pages"
+msgstr "페이지"
+
+#: legacy/includes/extra-strings.php:19
+msgctxt "module name"
+msgid "Posts"
+msgstr "글"
+
+#: legacy/includes/extra-strings.php:18
+msgctxt "module name"
+msgid "YouTube API"
+msgstr "유튜브 API"
+
+#: legacy/includes/extra-strings.php:17
+msgctxt "module name"
+msgid "Smart YouTube httpv:// URLs"
+msgstr "스마트 YouTube httpv:// URL"
+
+#: legacy/includes/extra-strings.php:16
+msgctxt "module name"
+msgid "RapidShare API"
+msgstr "RapidShare  API"
+
+#: legacy/includes/extra-strings.php:15
+msgctxt "module name"
+msgid "Plaintext URLs"
+msgstr "일반텍스트 URL"
+
+#: legacy/includes/extra-strings.php:14
+msgctxt "module name"
+msgid "MediaFire API"
+msgstr "MediaFire API"
+
+#: legacy/includes/extra-strings.php:13
+msgctxt "module name"
+msgid "HTML links"
+msgstr "HTML 링크"
+
+#: legacy/includes/extra-strings.php:12
+msgctxt "module name"
+msgid "HTML images"
+msgstr "HTML 이미지"
+
+#: legacy/includes/extra-strings.php:11
+msgctxt "module name"
+msgid "Embedded YouTube videos (old embed code)"
+msgstr "포함된 YouTube 동영상(이전 포함 코드)"
+
+#: legacy/includes/extra-strings.php:10
+msgctxt "module name"
+msgid "Embedded YouTube videos"
+msgstr "내장된 유튜브 비디오"
+
+#: legacy/includes/extra-strings.php:9
+msgctxt "module name"
+msgid "Embedded YouTube playlists (old embed code)"
+msgstr "포함된 YouTube 재생 목록(이전 포함 코드)"
+
+#: legacy/includes/extra-strings.php:8
+msgctxt "module name"
+msgid "Embedded Vimeo videos"
+msgstr "내장된 Vimeo 비디오"
+
+#: legacy/includes/extra-strings.php:7
+msgctxt "module name"
+msgid "Embedded GoogleVideo videos"
+msgstr "삽입된 GoogleVideo 동영상"
+
+#: legacy/includes/extra-strings.php:6
+msgctxt "module name"
+msgid "Embedded DailyMotion videos"
+msgstr "내장된 DailyMotion 비디오"
+
+#: legacy/includes/extra-strings.php:5
+msgctxt "module name"
+msgid "Custom fields"
+msgstr "사용자 정의 필도"
+
+#: legacy/includes/extra-strings.php:4
+msgctxt "module name"
+msgid "Comments"
+msgstr "댓글"
+
+#: legacy/includes/extra-strings.php:3
+msgctxt "module name"
+msgid "Blogroll items"
+msgstr "블로그롤 항목"
+
+#: legacy/includes/extra-strings.php:2
+msgctxt "module name"
+msgid "Basic HTTP"
+msgstr "기본 HTTP"
+
+#: legacy/includes/containers.php:932 legacy/includes/containers.php:950
+msgid "Container type '%s' not recognized"
+msgstr "컨테이너 타입 '%s'을 인식하지 못했습니다."
+
+#: legacy/includes/containers.php:123
+msgid "%1$d '%2$s' has been deleted"
+msgid_plural "%1$d '%2$s' have been deleted"
+msgstr[0] "%1$d개의 '%2$s'(이)가 삭제되었습니다."
+
+#: legacy/includes/any-post.php:856
+msgid "%1$d \"%2$s\" moved to the Trash."
+msgid_plural "%1$d \"%2$s\" moved to the Trash."
+msgstr[0] "%1$d개의 \"%2$s\"(이)가 휴지통으로 이동되었습니다."
+
+#: legacy/includes/any-post.php:854
+msgid "%d page moved to the Trash."
+msgid_plural "%d pages moved to the Trash."
+msgstr[0] "%d개의 페이지가 휴지통으로 이동되었습니다."
+
+#: legacy/includes/any-post.php:852
+msgid "%d post moved to the Trash."
+msgid_plural "%d posts moved to the Trash."
+msgstr[0] "%d개의 글이 휴지통으로 이동되었습니다."
+
+#: legacy/includes/any-post.php:831
+msgid "%d page deleted."
+msgid_plural "%d pages deleted."
+msgstr[0] "%d개의 페이지가 삭제되었습니다."
+
+#: legacy/includes/any-post.php:829
+msgid "%d post deleted."
+msgid_plural "%d posts deleted."
+msgstr[0] "%d개의 글이 삭제되었습니다."
+
+#: legacy/includes/any-post.php:722 legacy/modules/containers/acf_field.php:353
+#: legacy/modules/containers/custom_field.php:379
+msgid "Failed to move post \"%1$s\" (%2$d) to the trash"
+msgstr "글 \"%1$s\" (%2$d)(을)를 휴지통으로 이동하는데 실패하였습니다"
+
+#: legacy/includes/any-post.php:702 legacy/modules/containers/acf_field.php:341
+#: legacy/modules/containers/custom_field.php:360
+msgid "Can't move post \"%1$s\" (%2$d) to the trash because the trash feature is disabled"
+msgstr "휴지통 기능이 비활성화되었기에 글 \"%1$s\" (%2$d)(을)를 휴지통에 옮기는 것을 실패하였습니다"
+
+#: legacy/includes/any-post.php:683 legacy/modules/containers/acf_field.php:327
+#: legacy/modules/containers/custom_field.php:341
+msgid "Failed to delete post \"%1$s\" (%2$d)"
+msgstr "글 \"%1$s\" (%2$d)(을)를 지우는데 실패하였습니다"
+
+#: legacy/includes/any-post.php:622
+msgid "Updating post %d failed"
+msgstr "%d 개의 글이 업데이트 실패 하였습니다."
+
+#: legacy/includes/any-post.php:608 legacy/modules/containers/blogroll.php:83
+#: legacy/modules/containers/comment.php:43
+msgid "Nothing to update"
+msgstr "업데이트 없음."
+
+#: legacy/includes/any-post.php:544 legacy/modules/containers/acf_field.php:248
+#: legacy/modules/containers/custom_field.php:252
+msgid "Edit this item"
+msgstr "항목 편집"
+
+#: legacy/includes/any-post.php:525 legacy/modules/containers/acf_field.php:258
+#: legacy/modules/containers/comment.php:172
+#: legacy/modules/containers/custom_field.php:272
+msgid "View"
+msgstr "보기"
+
+#: legacy/includes/any-post.php:524
+msgid "View &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221 보기"
+
+#: legacy/includes/any-post.php:517
+msgid "Preview"
+msgstr "미리보기"
+
+#: legacy/includes/any-post.php:516
+msgid "Preview &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221; 미리보기"
+
+#: legacy/includes/any-post.php:503 legacy/modules/containers/acf_field.php:254
+#: legacy/modules/containers/blogroll.php:47
+#: legacy/modules/containers/custom_field.php:267
+msgid "Delete"
+msgstr "삭제"
+
+#: legacy/includes/any-post.php:501 legacy/modules/containers/acf_field.php:254
+#: legacy/modules/containers/custom_field.php:265
+msgid "Delete this item permanently"
+msgstr "항목 영구 삭제"
+
+#: legacy/includes/any-post.php:496 legacy/modules/containers/acf_field.php:252
+#: legacy/modules/containers/custom_field.php:260
+msgid "Trash"
+msgstr "휴지통"
+
+#: legacy/includes/any-post.php:494 legacy/modules/containers/acf_field.php:252
+#: legacy/modules/containers/custom_field.php:258
+msgid "Move this item to the Trash"
+msgstr "휴지통에 버리기"
+
+#: legacy/includes/any-post.php:486 legacy/modules/containers/acf_field.php:248
+#: legacy/modules/containers/blogroll.php:46
+#: legacy/modules/containers/comment.php:159
+#: legacy/modules/containers/custom_field.php:252
+msgid "Edit"
+msgstr "편집"
+
+#: legacy/includes/admin/table-printer.php:917
+msgid "Use this URL"
+msgstr "이 URL 사용"
+
+#: legacy/includes/admin/table-printer.php:897
+msgctxt "inline link editor"
+msgid "Suggestions"
+msgstr "제안"
+
+#: legacy/includes/admin/table-printer.php:892
+msgctxt "inline link editor"
+msgid "URL"
+msgstr "URL"
+
+#: legacy/includes/admin/table-printer.php:887
+msgctxt "inline link editor"
+msgid "Text"
+msgstr "텍스트"
+
+#: legacy/includes/admin/table-printer.php:884
+msgctxt "inline editor title"
+msgid "Edit Link"
+msgstr "링크 편집"
+
+#: legacy/includes/admin/table-printer.php:807
+msgid "[An orphaned link! This is a bug.]"
+msgstr "[없는 링크, 이것은 버그입니다.]"
+
+#: legacy/includes/admin/table-printer.php:780
+msgid "Update URL"
+msgstr "URL 업데이트"
+
+#: legacy/includes/admin/table-printer.php:746
+msgid "Replace this redirect with a direct link"
+msgstr "이 리디렉션을 직접 링크로 교체"
+
+#: legacy/includes/admin/table-printer.php:733
+msgid "Undismiss"
+msgstr "해제 취소"
+
+#: legacy/includes/admin/table-printer.php:732
+msgid "Undismiss this link"
+msgstr "이 링크 해제"
+
+#: legacy/includes/admin/table-printer.php:726
+msgid "Hide this link and do not report it again unless its status changes"
+msgstr "이 링크를 숨기고 상태가 변경되지 않는 한 다시 보고하지 않습니다."
+
+#: legacy/includes/admin/table-printer.php:718
+msgid "Remove this link from the list of broken links and mark it as valid"
+msgstr "깨진 링크를 목록에서 제거하고 유효한 링크로 표시합니다."
+
+#: legacy/includes/admin/table-printer.php:712
+msgid "Remove this link from all posts"
+msgstr "모든 글로부터 이 링크 제거"
+
+#: legacy/includes/admin/table-printer.php:710
+msgid "Edit this link"
+msgstr "이 링크 편집"
+
+#: legacy/includes/admin/table-printer.php:689
+msgctxt "link in the \"Status\" column"
+msgid "Details"
+msgstr "세부사항"
+
+#: legacy/includes/admin/table-printer.php:677
+msgid "Broken for"
+msgstr "깨짐"
+
+#: legacy/includes/admin/table-printer.php:662
+msgctxt "checked how long ago"
+msgid "Checked"
+msgstr "검사됨"
+
+#: legacy/includes/admin/table-printer.php:644
+#: legacy/includes/admin/table-printer.php:688
+msgid "Show more info about this link"
+msgstr "이 링크에 대한 정보 보기"
+
+#: legacy/includes/admin/table-printer.php:617
+msgid "Log"
+msgstr "로그"
+
+#: legacy/includes/admin/table-printer.php:606
+msgid "This link has been broken for %s."
+msgstr "%s를(을) 위한 링크는 깨졌습니다."
+
+#: legacy/includes/admin/table-printer.php:598
+msgid "This link has failed %d time."
+msgid_plural "This link has failed %d times."
+msgstr[0] "이 링크는 %d(시간) 동안 실패했습니다."
+
+#: legacy/includes/admin/table-printer.php:587
+msgid "Instance count"
+msgstr "인스턴스 개수"
+
+#: legacy/includes/admin/table-printer.php:580
+msgid "Redirect count"
+msgstr "리디렉트 개수"
+
+#: legacy/includes/admin/table-printer.php:573
+msgid "Final URL"
+msgstr "마지막 URL"
+
+#: legacy/includes/admin/table-printer.php:569
+msgid "%2.3f seconds"
+msgstr "%2.3f 초"
+
+#: legacy/includes/admin/table-printer.php:566
+msgid "Response time"
+msgstr "응답 시간"
+
+#: legacy/core/core.php:1596 legacy/includes/admin/table-printer.php:548
+msgid "Never"
+msgstr "절대 아님"
+
+#: legacy/includes/admin/table-printer.php:543
+msgid "Link last checked"
+msgstr "마지막으로 검사된 링크"
+
+#: legacy/includes/admin/table-printer.php:536
+msgid "Post published on"
+msgstr "게시 글"
+
+#: legacy/includes/admin/table-printer.php:378
+#: legacy/includes/admin/table-printer.php:905
+msgid "Update"
+msgstr "업데이트"
+
+#: legacy/includes/admin/table-printer.php:369
+msgid "Regular expression"
+msgstr "정규 표현식"
+
+#: legacy/includes/admin/table-printer.php:365
+msgid "Case sensitive"
+msgstr "대소문자 구분"
+
+#: legacy/includes/admin/table-printer.php:357
+msgid "Replace with"
+msgstr "교체"
+
+#: legacy/includes/admin/table-printer.php:353
+msgid "Find"
+msgstr "찾기"
+
+#: legacy/includes/admin/table-printer.php:351
+msgid "Bulk Edit URLs"
+msgstr "URL 일괄 편집"
+
+#: legacy/includes/admin/table-printer.php:328
+msgid "Displaying %1$s&#8211;%2$s of <span class=\"current-link-count\">%3$s</span>"
+msgstr "<span class=\"current-link-count\">%3$s</span>의 %1$s&#8211;%2$s(을)를 표시"
+
+#: legacy/includes/admin/table-printer.php:319
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: legacy/includes/admin/table-printer.php:318
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: legacy/includes/admin/table-printer.php:302
+msgid "Delete sources"
+msgstr "소스 삭제"
+
+#: legacy/includes/admin/table-printer.php:300
+msgid "Move sources to Trash"
+msgstr "소스를 휴지통으로 이동"
+
+#: legacy/includes/admin/table-printer.php:295
+msgid "Mark as not broken"
+msgstr "깨지지 않은 링크 표시"
+
+#: legacy/includes/admin/table-printer.php:294
+msgid "Fix redirects"
+msgstr "리디렉트 수정"
+
+#: legacy/includes/admin/table-printer.php:291
+msgid "Bulk Actions"
+msgstr "일괄 작업"
+
+#: legacy/includes/admin/table-printer.php:240
+msgid "Redirect URL"
+msgstr "리디렉션 URL"
+
+#: legacy/includes/admin/table-printer.php:233
+msgid "Link Text"
+msgstr "링크 텍스트"
+
+#: legacy/includes/admin/table-printer.php:227
+msgid "Source"
+msgstr "소스"
+
+#: legacy/includes/admin/table-printer.php:197
+msgid "Detailed View"
+msgstr "상세 보기"
+
+#: legacy/includes/admin/table-printer.php:192
+msgid "Compact View"
+msgstr "간결하게 보기"
+
+#: legacy/includes/admin/search-form.php:113
+#: legacy/includes/admin/table-printer.php:375
+#: legacy/includes/admin/table-printer.php:779
+#: legacy/includes/admin/table-printer.php:904
+msgid "Cancel"
+msgstr "취소"
+
+#: legacy/includes/admin/search-form.php:112
+msgid "Search Links"
+msgstr "링크 탐색"
+
+#: legacy/includes/admin/search-form.php:74
+msgid "Links used in"
+msgstr "사용중인 링크"
+
+#: legacy/includes/admin/search-form.php:70
+msgid "Any"
+msgstr "모두"
+
+#: legacy/includes/admin/search-form.php:68
+#: legacy/includes/admin/search-form.php:85
+msgid "Link type"
+msgstr "링크 타입"
+
+#: legacy/includes/admin/search-form.php:51
+msgid "Link status"
+msgstr "링크 상태"
+
+#: legacy/includes/admin/search-form.php:48
+#: legacy/includes/admin/table-printer.php:559
+msgid "HTTP code"
+msgstr "HTTP 코드"
+
+#: legacy/includes/admin/search-form.php:45
+#: legacy/includes/admin/table-printer.php:220
+msgid "URL"
+msgstr "URL"
+
+#: legacy/includes/admin/search-form.php:42
+msgid "Link text"
+msgstr "링크 텍스트"
+
+#: legacy/includes/admin/search-form.php:32 legacy/includes/link-query.php:81
+msgid "Search"
+msgstr "검색"
+
+#: legacy/includes/admin/search-form.php:26
+msgid "Delete This Filter"
+msgstr "이 필터를 삭제"
+
+#: legacy/includes/admin/search-form.php:16
+msgid "Save This Search As a Filter"
+msgstr "검색 필터 저장"
+
+#: legacy/includes/admin/options-page-js.php:54
+msgid "Hide debug info"
+msgstr "디버그 정보 가리기"
+
+#: legacy/includes/admin/links-page-js.php:943
+msgid "Select one or more links to edit."
+msgstr "편집할 링크를 선택해 주세요."
+
+#: legacy/includes/admin/links-page-js.php:936
+msgid "Enter a search string first."
+msgstr "검색 문자열을 먼저 입력합니다."
+
+#: legacy/includes/admin/links-page-js.php:806
+msgid ""
+"Are you sure you want to remove the selected links? This action can't be undone.\n"
+"'Cancel' to stop, 'OK' to remove"
+msgstr ""
+"선택한 링크를 제거하시겠습니까? 제거 후에는 복구 할 수 없습니다.\n"
+"취소하려면 '취소'버튼을, 계속 진행하려면 'OK'버튼을 클릭해주세요."
+
+#: legacy/includes/admin/links-page-js.php:792
+msgid ""
+"Are you sure you want to delete all posts, bookmarks or other items that contain any of the selected links? This action can't be undone.\n"
+"'Cancel' to stop, 'OK' to delete"
+msgstr ""
+"선택한 모든 글, 북마크 또는 기타 항목을 삭제하시겠습니까? 삭제 후에는 복구 할 수 없습니다.\n"
+"취소하려면 '취소'버튼을, 계속 진행하려면 'OK'버튼을 클릭해주세요."
+
+#: legacy/includes/admin/links-page-js.php:768
+msgid ""
+"You are about to delete the current filter.\n"
+"'Cancel' to stop, 'OK' to delete"
+msgstr ""
+"필터를 삭제하려고 합니다..\n"
+"취소하려면 '취소'버튼을, 계속 진행하려면 'OK'버튼을 클릭해주세요."
+
+#: legacy/includes/admin/links-page-js.php:756
+msgid "Enter a name for the new custom filter"
+msgstr "새 사용자 지정 필터을 위한 이름을 입력해주세요."
+
+#: legacy/includes/admin/links-page-js.php:708
+msgid "The following error(s) occured :"
+msgstr "다음과 같은 오류가 발생했습니다. :"
+
+#: legacy/includes/admin/links-page-js.php:705
+msgid "The plugin failed to remove the link."
+msgstr "이 링크를 제거하는데 실패했습니다."
+
+#: legacy/includes/admin/links-page-js.php:700
+msgid "However, %d instances couldn't be removed."
+msgstr "그러나, %d의 인스턴스가 제거되지 못했습니다."
+
+#: legacy/includes/admin/links-page-js.php:694
+msgid "%d instances of the link were successfully unlinked."
+msgstr "%d개 링크가 성공적으로 해제 되었습니다."
+
+#: legacy/includes/admin/links-page-js.php:615
+msgid "Error: Link URL must not be empty."
+msgstr "오류: 링크 URL은 비워둘 수 없습니다."
+
+#: legacy/includes/admin/links-page-js.php:543
+msgid "The following error(s) occurred :"
+msgstr "다음 오류가 발생했습니다."
+
+#: legacy/includes/admin/links-page-js.php:540
+msgid "The link could not be modified."
+msgstr "이 링크는 수정할 수 없습니다."
+
+#: legacy/includes/admin/links-page-js.php:534
+msgid "However, %d instances couldn't be edited and still point to the old URL."
+msgstr "그러나, %d개의 예전 URL의 인스턴스는 수정할 수 없습니다."
+
+#: legacy/includes/admin/links-page-js.php:528
+msgid "%d instances of the link were successfully modified."
+msgstr "%d개의 링크의 인스턴스가 성공적으로 수정되었습니다."
+
+#: legacy/includes/admin/links-page-js.php:431
+msgctxt "link suggestions"
+msgid "Archived page from %s (via the Wayback Machine)"
+msgstr "%s에서 보관된 페이지(Wayback Machine을 통해)"
+
+#: legacy/includes/admin/links-page-js.php:430
+msgctxt "link suggestions"
+msgid "No suggestions available."
+msgstr "사용 가능한 제안이 없습니다."
+
+#: legacy/includes/admin/links-page-js.php:429
+msgctxt "link suggestions"
+msgid "Searching..."
+msgstr "검색중..."
+
+#: legacy/includes/admin/links-page-js.php:371
+msgctxt "link text"
+msgid "(Multiple links)"
+msgstr "(여러 링크)"
+
+#: legacy/includes/admin/links-page-js.php:370
+msgctxt "link text"
+msgid "(None)"
+msgstr "(없음)"
+
+#: legacy/includes/admin/links-page-js.php:64
+#: legacy/includes/admin/links-page-js.php:659
+msgid "Wait..."
+msgstr "잠시만 기다려주세요..."
+
+#: legacy/includes/admin/db-upgrade.php:100
+msgid "Failed to delete old DB tables. Database error : %s"
+msgstr "예전 테이블을 삭제하지 못했습니다. 데이터베이스 에러 : %s"
+
+#: legacy/core/init.php:321 legacy/init.php:354
+msgid "Broken Link Checker installation failed. Try deactivating and then reactivating the plugin."
+msgstr "깨진 링크 검사기 설치가 실패하였습니다. 플러그인을 비활성화 한 후 다시 활성화 하세요."
+
+#: legacy/core/init.php:248 legacy/init.php:265
+msgid "Twice a Month"
+msgstr "월 2회"
+
+#: legacy/core/init.php:242 legacy/init.php:259
+msgid "Once Weekly"
+msgstr "주 1회"
+
+#: legacy/core/core.php:4321
+msgid "Broken Link Checker has detected %d new broken link in your posts."
+msgid_plural "Broken Link Checker has detected %d new broken links in your posts."
+msgstr[0] "깨진 링크 검사기가 게시물에서 %d개의 새로운 깨진 링크를 감지했습니다."
+
+#: legacy/core/core.php:4263
+msgid "You can see all broken links here:"
+msgstr "모든 깨진 링크를 볼수 있습니다:"
+
+#: legacy/core/core.php:4249
+msgid "Source : %s"
+msgstr "소스 : %s"
+
+#: legacy/core/core.php:4248
+msgid "Link URL : <a href=\"%1$s\">%2$s</a>"
+msgstr "링크 URL : <a href=\"%1$s\">%2$s</a>"
+
+#: legacy/core/core.php:4247
+msgid "Link text : %s"
+msgstr "링크 텍스트 : %s"
+
+#: legacy/core/core.php:4237
+msgid "Here's a list of the new broken links: "
+msgstr "이것은 깨진 링크 리스트 중 새로운 깨진 링크: "
+
+#: legacy/core/core.php:4228
+msgid "Here's a list of the first %d broken links:"
+msgid_plural "Here's a list of the first %d broken links:"
+msgstr[0] "이것은 %d개의 깨진 링크 리스트 중 첫번째 :"
+
+#: legacy/core/core.php:4196
+msgid "Broken Link Checker has detected %d new broken link on your site."
+msgid_plural "Broken Link Checker has detected %d new broken links on your site."
+msgstr[0] "깨진 링크 검사기는 귀하의 블로그에서 %d개의 새로운 깨진 링크를 발견 했습니다."
+
+#: legacy/core/core.php:4191 legacy/core/core.php:4316
+msgid "[%s] Broken links detected"
+msgstr "[%s] 깨진 링크를 발견했습니다."
+
+#: legacy/core/core.php:4056
+msgid "If this value is zero even after several page reloads you have probably encountered a bug."
+msgstr "만일 다시 읽어들인 페이지에 값이 0이라면 버그가 존재 할 수도 있습니다."
+
+#: legacy/core/core.php:4037
+msgid "Database character set"
+msgstr "데이터베이스 문자 집합"
+
+#: legacy/core/core.php:4019
+msgid "Redirects may be detected as broken links when open_basedir is on."
+msgstr "리디렉트는 open_basedir가 활성화 된 상태에서 깨진 링크를 탐색합니다."
+
+#: legacy/core/core.php:4018
+msgid "On ( %s )"
+msgstr "활성화 ( %s )"
+
+#: legacy/core/core.php:4010 legacy/core/core.php:4024
+msgid "Off"
+msgstr "비활성화"
+
+#: legacy/core/core.php:4005
+msgid "Redirects may be detected as broken links when safe_mode is on."
+msgstr "리디렉트는 safe_mode가 활성화 된 상태에서 깨진 링크를 탐색합니다."
+
+#: legacy/core/core.php:4004
+msgid "On"
+msgstr "활성화"
+
+#: legacy/core/core.php:3994
+msgid "You must have either CURL or Snoopy installed for the plugin to work!"
+msgstr "이 플러그인을 사용하려면 CURL 또는 스누피가 설치되어 있어야 합니다."
+
+#: legacy/core/core.php:3981
+msgid "Installed"
+msgstr "설치됨"
+
+#: legacy/core/core.php:3975
+msgid "CURL version"
+msgstr "CURL 버전"
+
+#: legacy/core/core.php:3972 legacy/core/core.php:3988
+#: legacy/core/core.php:3993
+msgid "Not installed"
+msgstr "설치되지 않음"
+
+#: legacy/core/core.php:3961
+msgid "You have an old version of CURL. Redirect detection may not work properly."
+msgstr "귀하의 CURL은 최신 버전이 아닙니다. 따라서, 리디렉트 기능이 제대로 동작하지 않을 수 있습니다."
+
+#: legacy/core/core.php:3948
+msgid "MySQL version"
+msgstr "MySQL 버전"
+
+#: legacy/core/core.php:3942
+msgid "PHP version"
+msgstr "PHP 버전"
+
+#. Plugin Name of the plugin
+#: app/admin-pages/cloud-page/class-controller.php:84
+#: app/admin-pages/cloud-submenu/class-controller.php:67
+#: app/emails/recipient-activation/class-controller.php:88
+#: app/emails/scan-report/class-controller.php:101 legacy/core/core.php:3922
+msgid "Broken Link Checker"
+msgstr "깨진 링크 검사기"
+
+#: legacy/core/core.php:3868
+msgid "Failed to load link details (%s)"
+msgstr "링크의 상세 내용을 읽는데 실패하였습니다."
+
+#: legacy/core/core.php:3854
+msgid "Error : link ID not specified"
+msgstr "링크 ID가 지정되지 않았습니다."
+
+#: legacy/core/core.php:3841
+msgid "You don't have sufficient privileges to access this information!"
+msgstr "이 정보에 접근할 수 있는 권한이 없습니다."
+
+#: legacy/core/core.php:3669
+msgid "An unexpected error occured!"
+msgstr "예기치 않은 오류가 발생하였습니다."
+
+#: legacy/core/core.php:3586
+msgid "An unexpected error occurred!"
+msgstr "예상치 못한 오류가 발생했습니다!"
+
+#: legacy/core/core.php:3552 legacy/core/core.php:3566
+msgid "Oops, the new URL is invalid!"
+msgstr "새로운 URL이 잘못 되었습니다."
+
+#: legacy/core/core.php:3526
+msgid "Error : link_id or new_url not specified"
+msgstr "link_id 또는 new_url이 지정되지 않았습니다."
+
+#: legacy/core/core.php:3461 legacy/core/core.php:3502
+#: legacy/core/core.php:3690 legacy/core/core.php:3712
+#: legacy/core/core.php:3792
+msgid "Error : link_id not specified"
+msgstr "link_id가 지정되지 않았습니다."
+
+#: legacy/core/core.php:3458 legacy/core/core.php:3499
+msgid "Oops, couldn't modify the link!"
+msgstr "링크를 수정할 수 없습니다."
+
+#: legacy/core/core.php:3438 legacy/core/core.php:3485
+#: legacy/core/core.php:3539 legacy/core/core.php:3656
+#: legacy/core/core.php:3725 legacy/core/core.php:3805
+msgid "Oops, I can't find the link %d"
+msgstr "%d개의 링크를 찾을 수 없습니다."
+
+#: legacy/core/core.php:3373
+msgctxt "current load"
+msgid "Unknown"
+msgstr "알 수 없음"
+
+#: legacy/core/core.php:3347
+msgid "No links detected."
+msgstr "링크가 없는것이 탐색되었습니다."
+
+#: legacy/core/core.php:3345
+msgid "Searching your blog for links..."
+msgstr "귀하의 블로그로부터 링크를 검색중입니다..."
+
+#: legacy/core/core.php:3338
+msgid "Detected %1$s in %2$s."
+msgstr "%2$s에서 %1$s을(를) 감지했습니다."
+
+#: legacy/core/core.php:3332
+msgid "Detected %1$s in %2$s and still searching..."
+msgstr "%2$s에서 %1$s을(를) 감지하고 계속 검색 중..."
+
+#: legacy/core/core.php:3326
+msgctxt "for the \"Detected X unique URLs in Y links\" message"
+msgid "%d link"
+msgid_plural "%d links"
+msgstr[0] "%d 링크"
+
+#: legacy/core/core.php:3322
+msgctxt "for the \"Detected X unique URLs in Y links\" message"
+msgid "%d unique URL"
+msgid_plural "%d unique URLs"
+msgstr[0] "%d 고유 URL"
+
+#: legacy/core/core.php:3316
+msgid "No URLs in the work queue."
+msgstr "작업 대기열에 링크가 없습니다."
+
+#: legacy/core/core.php:3312
+msgid "%d URL in the work queue"
+msgid_plural "%d URLs in the work queue"
+msgstr[0] "작업대기열에 %d개의 URL이 있습니다."
+
+#: legacy/core/core.php:3305
+msgid "No broken links found."
+msgstr "깨진 링크가 없습니다."
+
+#: legacy/core/core.php:3299
+msgid "Found %d broken link"
+msgid_plural "Found %d broken links"
+msgstr[0] "%d개의 깨진 링크를 찾았습니다."
+
+#: legacy/core/core.php:3298
+msgid "View broken links"
+msgstr "깨진 링크 보기"
+
+#: legacy/core/core.php:2835 legacy/core/core.php:3430
+#: legacy/core/core.php:3477 legacy/core/core.php:3516
+#: legacy/core/core.php:3642 legacy/core/core.php:3702
+#: legacy/core/core.php:3782
+msgid "You're not allowed to do that!"
+msgstr "할 수 없습니다."
+
+#: legacy/core/core.php:2815
+msgid "Color-code status codes"
+msgstr "컬러-코드 상태"
+
+#: legacy/core/core.php:2806
+msgid "Highlight links broken for at least %s days"
+msgstr "%s 일 전의 깨진링크를 하이라이트 처리"
+
+#: legacy/core/core.php:2791
+msgid "Misc"
+msgstr "기타"
+
+#: legacy/core/core.php:2787 legacy/includes/admin/table-printer.php:175
+msgid "Apply"
+msgstr "적용"
+
+#: legacy/core/core.php:2786
+msgid "links"
+msgstr "링크"
+
+#: legacy/core/core.php:2779
+msgid "Show on screen"
+msgstr "화면에 표시"
+
+#: legacy/core/core.php:2760
+msgid "Table columns"
+msgstr "테이블 항목"
+
+#: legacy/core/core.php:2735
+msgctxt "a link from the admin notice under Tools - Broken links - Warnings"
+msgid "Change warning settings"
+msgstr "경고 설정 변경"
+
+#: legacy/core/core.php:2729
+msgctxt "admin notice under Tools - Broken links - Warnings"
+msgid "Hide notice"
+msgstr "알림 숨기기"
+
+#: legacy/core/core.php:2724
+msgid "The \"Warnings\" page lists problems that are probably temporary or suspected to be false positives.<br> Warnings that persist for a long time will usually be reclassified as broken links."
+msgstr "\"경고\" 페이지에는 일시적이거나 오탐지로 의심되는 문제가 나열됩니다.<br> 오랫동안 지속되는 경고는 일반적으로 깨진 링크로 재분류됩니다."
+
+#: legacy/core/core.php:2654
+msgid "%d link dismissed"
+msgid_plural "%d links dismissed"
+msgstr[0] "%d 링크 해제됨"
+
+#: legacy/core/core.php:2590
+msgid "%d link marked as not broken"
+msgid_plural "%d links marked as not broken"
+msgstr[0] "%d개의 링크가 깨지지 않은것으로 표시되었습니다."
+
+#: legacy/core/core.php:2579 legacy/core/core.php:2643
+msgid "Couldn't modify link %d"
+msgstr "%d 링크를 수정하지 못했습니다."
+
+#: legacy/core/core.php:2571 legacy/core/core.php:3446
+msgid "This link was manually marked as working by the user."
+msgstr "이 링크는 사용자가 수동으로 작동상태를 표시했습니다."
+
+#: legacy/core/core.php:2521
+msgid "%d link scheduled for rechecking"
+msgid_plural "%d links scheduled for rechecking"
+msgstr[0] "%d개의 링크가 재 확인 예정입니다."
+
+#: legacy/core/core.php:2482
+msgid "Didn't find anything to delete!"
+msgstr "삭제된 내용으로부터 아무것도 발견하지 못하였습니다."
+
+#: legacy/core/core.php:2460
+msgid "%d item was skipped because it can't be moved to the Trash. You need to delete it manually."
+msgid_plural "%d items were skipped because they can't be moved to the Trash. You need to delete them manually."
+msgstr[0] "%d개의 항목이 휴지통으로 이동을 건너 뛰었습니다. 수동으로 삭제 할 수 있습니다."
+
+#: legacy/core/core.php:2345
+msgid "Failed to remove %d link"
+msgid_plural "Failed to remove %d links"
+msgstr[0] "%d개의 링크 제거 실패"
+
+#: legacy/core/core.php:2334
+msgid "%d link removed"
+msgid_plural "%d links removed"
+msgstr[0] "%d개의 링크 제거"
+
+#: legacy/core/core.php:2241
+msgid "Failed to update %d link."
+msgid_plural "Failed to update %d links."
+msgstr[0] "%d개의 링크 업데이트 실패."
+
+#: legacy/core/core.php:2230
+msgid "%d link updated."
+msgid_plural "%d links updated."
+msgstr[0] "%d개의 링크 업데이트 완료."
+
+#: legacy/core/core.php:2143
+msgid "None of the selected links are redirects!"
+msgstr "선택된 리디렉트 링크가 없습니다."
+
+#: legacy/core/core.php:2132
+msgid "Failed to fix %d redirect"
+msgid_plural "Failed to fix %d redirects"
+msgstr[0] "%d개의 리디렉트를 수정하지 못했습니다."
+
+#: legacy/core/core.php:2121
+msgid "Replaced %d redirect with a direct link"
+msgid_plural "Replaced %d redirects with direct links"
+msgstr[0] "%d개의 리디렉트 링크를 직접 링크로 수정하였습니다."
+
+#: legacy/core/core.php:2071
+msgid "Filter deleted"
+msgstr "필터가 삭제되었습니다."
+
+#: legacy/core/core.php:2064
+msgid "Filter ID not specified."
+msgstr "필터 ID가 지정되지 않았습니다."
+
+#: legacy/core/core.php:2037
+msgid "Filter \"%s\" created"
+msgstr "\"%s\" 필터 생성 완료"
+
+#: legacy/core/core.php:2027
+msgid "Invalid search query."
+msgstr "잘못된 검색어입니다."
+
+#: legacy/core/core.php:2023
+msgid "You must enter a filter name!"
+msgstr "필터 이름을 입력해주세요."
+
+#: legacy/core/core.php:1952 legacy/core/core.php:2042
+#: legacy/core/core.php:2074
+msgid "Database error : %s"
+msgstr "데이터베이스 에러 : %s"
+
+#: legacy/core/core.php:1798
+msgid "Enter the names of custom fields you want to check (one per line). If a field contains HTML code, prefix its name with <code>html:</code>. For example, <code>html:field_name</code>."
+msgstr "확인하려는 사용자 지정 필드의 이름을 입력합니다(한 줄에 하나씩). 필드에 HTML 코드가 포함된 경우 이름 앞에 <code>html:</code>을 붙입니다. 예: <code>html:field_name</code>."
+
+#: legacy/core/core.php:1690
+msgid "Configure"
+msgstr "구성"
+
+#: legacy/core/core.php:1639
+msgid "Save Changes"
+msgstr "변경된 내용 저장"
+
+#: legacy/core/core.php:1626
+msgid "The \"Nuclear Option\". Click this button to make the plugin empty its link database and recheck the entire site from scratch."
+msgstr "\"핵 옵션\". 데이터베이스 전체의 링크를 삭제하려면 이 버튼을 클릭하세요."
+
+#: legacy/core/core.php:1621
+msgid "Re-check all pages"
+msgstr "모든 페이지 다시 확인"
+
+#: legacy/core/core.php:1618
+msgid "Forced recheck"
+msgstr "강제로 다시 확인"
+
+#: legacy/core/core.php:1580
+msgctxt "log file location"
+msgid "Custom"
+msgstr "사용자 정의"
+
+#: legacy/core/core.php:1564
+msgctxt "log file location"
+msgid "Default"
+msgstr "기본"
+
+#: legacy/core/core.php:1555
+msgid "Log file location"
+msgstr "로그 파일 위치"
+
+#: legacy/core/core.php:1548
+msgid "Enable logging"
+msgstr "로깅을 사용하도록 설정"
+
+#: legacy/core/core.php:1542
+msgid "Logging"
+msgstr "로깅"
+
+#: legacy/core/core.php:1522
+msgid "Target resource usage"
+msgstr "목표 자원 사용량"
+
+#: legacy/core/core.php:1514
+msgid "Load limiting only works on Linux-like systems where <code>/proc/loadavg</code> is present and accessible."
+msgstr "로드 제한은 리눅스와 같은 시스템에서만 작동합니다."
+
+#: legacy/core/core.php:1512
+msgid "Not available"
+msgstr "사용 할 수 없음"
+
+#: legacy/core/core.php:1503
+msgid "Link checking will be suspended if the average <a href=\"%s\">server load</a> rises above this number. Leave this field blank to disable load limiting."
+msgstr "<a href=\"%s\">서버로드</a> 평균값이 해당 값 이상이 되면 링크 검사기는 일시 정지 됩니다. 해당 칸을 비워 놓으면 로드 제한을 비활성화 합니다."
+
+#: legacy/core/core.php:1498
+msgid "Current load : %s"
+msgstr "로드 부하 : %s"
+
+#: legacy/core/core.php:1483
+msgid "Server load limit"
+msgstr "서버 로드 제한"
+
+#: legacy/core/core.php:1474
+msgid "The plugin works by periodically launching a background job that parses your posts for links, checks the discovered URLs, and performs other time-consuming tasks. Here you can set for how long, at most, the link monitor may run each time before stopping."
+msgstr "이 플러그인은 정기적으로 백그라운드에서 귀하의 글에 URL로 된 링크들을 오랜 시간 걸려 구문 분석합니다. 얼마나 오랜시간 동안 깨진 링크에 대한 검사를 수행 한 후에 멈출지를 설정 할 수 있습니다."
+
+#: legacy/core/core.php:1456
+msgid "Max. execution time"
+msgstr "최대 실행 시간"
+
+#: legacy/core/core.php:1438
+msgctxt "settings page"
+msgid "Show link actions"
+msgstr "링크 작업 보기"
+
+#: legacy/core/core.php:1422
+msgctxt "dashboard widget visibility"
+msgid "Nobody (disables the widget)"
+msgstr "아무도 없음(위젯 비활성화)"
+
+#: legacy/core/core.php:1421
+msgctxt "dashboard widget visibility"
+msgid "Editor and above"
+msgstr "편집자 이상"
+
+#: legacy/core/core.php:1420
+msgctxt "dashboard widget visibility"
+msgid "Administrator"
+msgstr "관리자"
+
+#: legacy/core/core.php:1415
+msgid "Show the dashboard widget for"
+msgstr "다음에 대한 대시보드 위젯 표시"
+
+#: legacy/core/core.php:1407
+msgid "Run hourly in the background"
+msgstr "백그라운데에서 매 시간 실행합니다."
+
+#: legacy/core/core.php:1394
+msgid "Run continuously while the Dashboard is open"
+msgstr "대시보드가 열려 있는 동안에는 지속적으로 실행합니다."
+
+#: legacy/core/core.php:1381
+msgid "Link monitor"
+msgstr "링크 화면"
+
+#: legacy/core/core.php:1374
+msgid "Links that take longer than this to load will be marked as broken."
+msgstr "확인이 오래 걸리는 링크는 깨진 링크로 표시합니다."
+
+#: legacy/core/core.php:1365 legacy/core/core.php:1462
+#: legacy/core/core.php:4031
+msgid "%s seconds"
+msgstr "%s 초"
+
+#: legacy/core/core.php:1359 legacy/includes/links.php:1033
+msgid "Timeout"
+msgstr "시간초과"
+
+#: legacy/core/core.php:1339
+msgid "Check links using"
+msgstr "링크를 사용하여 연결"
+
+#: legacy/core/core.php:1319
+msgid "Don't check links where the URL contains any of these words (one per line) :"
+msgstr "다음의 단어를 포함하고 있는 링크는 검사하지 않습니다.(한줄에 한 단어씩)"
+
+#: legacy/core/core.php:1318
+msgid "Exclusion list"
+msgstr "제외 목록"
+
+#: legacy/core/core.php:1311
+msgid "Error : All link parsers missing!"
+msgstr "에러 : 모든 링크 파싱 실패!"
+
+#: legacy/core/core.php:1305
+msgid "Link types"
+msgstr "링크 타입"
+
+#: legacy/core/core.php:1271
+msgid "Post statuses"
+msgstr "글 상태"
+
+#: legacy/core/core.php:1254
+msgid "Look for links in"
+msgstr "확인 할 링크"
+
+#: legacy/core/core.php:1208
+msgid "Turning off this option will make the plugin report all problems as broken links."
+msgstr "이 옵션을 끄면 플러그인이 모든 문제를 깨진 링크로 보고합니다."
+
+#: legacy/core/core.php:1204
+msgid "Show uncertain or minor problems as \"warnings\" instead of \"broken\""
+msgstr "불확실하거나 사소한 문제를 \"깨짐\" 대신 \"경고\"로 표시"
+
+#: legacy/core/core.php:1199
+msgctxt "settings page"
+msgid "Warnings"
+msgstr "경고"
+
+#: legacy/core/core.php:1193
+msgid "Suggest alternatives to broken links"
+msgstr "깨진 링크에 대한 대안 제안"
+
+#: legacy/core/core.php:1187
+msgctxt "settings page"
+msgid "Suggestions"
+msgstr "제안"
+
+#: legacy/core/core.php:1176
+msgctxt "\"Link tweaks\" settings"
+msgid "These settings only apply to the content of posts, not comments or custom fields."
+msgstr "이 설정은 게시물의 내용에만 적용되며 댓글이나 사용자 정의 필드에는 적용되지 않습니다."
+
+#: legacy/core/core.php:1170
+msgid "Stop search engines from following broken links"
+msgstr "깨진 링크 아래에서 검색엔진 멈춤"
+
+#: legacy/core/core.php:1151
+msgid "Example : Lorem ipsum <span %s>removed link</span>, dolor sit amet."
+msgstr "예: Lorem ipsum <span %s>삭제된 링크</span>, dolor sit amet."
+
+#: legacy/core/core.php:1124
+msgid "Apply custom formatting to removed links"
+msgstr "제거된 링크에 사용자 정의 서식 적용"
+
+#: legacy/core/core.php:1109 legacy/core/core.php:1154
+msgid "Click \"Save Changes\" to update example output."
+msgstr "예제 출력을 업데이트하려면 \"변경 사항 저장\"을 클릭하십시오."
+
+#: legacy/core/core.php:1106
+msgid "Example : Lorem ipsum <a %s>broken link</a>, dolor sit amet."
+msgstr "예: Lorem ipsum <a %s>깨진 링크</a>, dolor sit amet."
+
+#: legacy/core/core.php:1085 legacy/core/core.php:1129
+msgid "Edit CSS"
+msgstr "CSS 편집"
+
+#: legacy/core/core.php:1080
+msgid "Apply custom formatting to broken links"
+msgstr "깨진링크에 사용자 정의 서식 적용"
+
+#: legacy/core/core.php:1068
+msgid "Link tweaks"
+msgstr "바뀐 링크"
+
+#: legacy/core/core.php:1036
+msgid "Leave empty to use the e-mail address specified in Settings &rarr; General."
+msgstr "설정 &rarr; 일반에서 지정한 이메일 주소를 사용하려면 비워둡니다."
+
+#: legacy/core/core.php:1024
+msgid "Notification e-mail address"
+msgstr "알림 이메일 주소"
+
+#: legacy/core/core.php:1017
+msgid "Send authors e-mail notifications about broken links in their posts"
+msgstr "게시물의 깨진 링크에 대한 이메일 알림을 작성자에게 보냅니다."
+
+#: legacy/core/core.php:1003
+msgid "Send me e-mail notifications about newly detected broken links"
+msgstr "새로운 깨진 링크에 대하여 메일로 알려주기"
+
+#: legacy/core/core.php:991
+msgid "E-mail notifications"
+msgstr "이메일 알림"
+
+#: legacy/core/core.php:984
+msgid "Existing links will be checked this often. New links will usually be checked ASAP."
+msgstr "기존의 링크는 종종 검사를 하며, 새로운 링크는 최대한 빨리 검사를 합니다."
+
+#: legacy/core/core.php:975
+msgid "Every %s hours"
+msgstr "%s 시간마다"
+
+#: legacy/core/core.php:970
+msgid "Check each link"
+msgstr "각각의 링크 체크"
+
+#: legacy/core/core.php:942 legacy/includes/admin/options-page-js.php:56
+msgid "Show debug info"
+msgstr "디버그 정보 보기"
+
+#: app/emails/scan-report/class-view.php:167 legacy/core/core.php:939
+#: legacy/includes/admin/table-printer.php:215
+msgid "Status"
+msgstr "상태"
+
+#: legacy/core/core.php:884
+msgid "Advanced"
+msgstr "고급"
+
+#: legacy/core/core.php:883
+msgid "Protocols & APIs"
+msgstr "프로토콜 & API"
+
+#: legacy/core/core.php:882
+msgid "Which Links To Check"
+msgstr "검사할 링크"
+
+#: legacy/core/core.php:881
+msgid "Look For Links In"
+msgstr "확인 할 링크"
+
+#: legacy/core/core.php:880
+msgid "General"
+msgstr "일반"
+
+#: legacy/core/core.php:857
+msgid "Complete site recheck started."
+msgstr "완료된 사이트 다시 확인이 시작되었습니다."
+
+#: legacy/core/core.php:850
+msgid "Settings saved."
+msgstr "설정 저장 완료"
+
+#: legacy/core/core.php:555 legacy/includes/admin/table-printer.php:747
+msgctxt "link action; replace one redirect with a direct link"
+msgid "Fix redirect"
+msgstr "리디렉팅 수정"
+
+#: legacy/core/core.php:554 legacy/includes/admin/table-printer.php:293
+#: legacy/includes/admin/table-printer.php:739
+msgid "Recheck"
+msgstr "재확인"
+
+#: app/admin-notices/multisite/class-view.php:64 legacy/core/core.php:553
+#: legacy/includes/admin/table-printer.php:296
+#: legacy/includes/admin/table-printer.php:727
+msgid "Dismiss"
+msgstr "해제"
+
+#: legacy/core/core.php:552 legacy/includes/admin/links-page-js.php:111
+#: legacy/includes/admin/table-printer.php:719
+msgid "Not broken"
+msgstr "깨진 링크 없음"
+
+#: legacy/core/core.php:551 legacy/includes/admin/links-page-js.php:716
+#: legacy/includes/admin/table-printer.php:297
+#: legacy/includes/admin/table-printer.php:713
+msgid "Unlink"
+msgstr "링크 해제"
+
+#: legacy/core/core.php:550 legacy/includes/admin/table-printer.php:292
+#: legacy/includes/admin/table-printer.php:710
+msgid "Edit URL"
+msgstr "URL 편집"
+
+#: app/admin-pages/local-submenu/class-view.php:67 legacy/core/core.php:514
+msgid "Settings"
+msgstr "설정"
+
+#: app/action-links/plugin/class-controller.php:99
+#: app/admin-pages/local-submenu/class-view.php:66
+#: app/emails/scan-report/class-controller.php:80
+#: app/emails/scan-report/class-view.php:164 legacy/core/core.php:431
+#: legacy/core/core.php:432 legacy/includes/link-query.php:37
+msgid "Broken Links"
+msgstr "깨진 링크들"
+
+#: app/admin-pages/cloud-page/class-controller.php:85
+msgid "Link Checker"
+msgstr "링크 검사기"
+
+#: legacy/core/core.php:313
+msgid "Automatically expand the widget if broken links have been detected"
+msgstr "깨진 링크가 탐지 되었을때, 도구를 자동으로 확장합니다."
+
+#: legacy/core/core.php:269 legacy/includes/admin/options-page-js.php:18
+msgid "[ Network error ]"
+msgstr "[ 네트워크 에러 ]"
+
+#: legacy/core/core.php:245 legacy/includes/admin/links-page-js.php:45
+msgid "Loading..."
+msgstr "로딩중..."

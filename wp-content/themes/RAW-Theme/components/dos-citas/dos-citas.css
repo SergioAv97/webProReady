@@ -1,0 +1,48 @@
+.dos-citas {
+
+	h2 {
+		text-align: left;
+	}
+
+	.grid {
+		gap: 3rem;
+		margin: 5rem 0;
+
+		&:first-of-type {
+			grid-template-columns: 20% 80%;
+		}
+
+		&:last-of-type {
+			grid-template-columns: 80% 20%;
+		}
+
+		p {
+			font-size: var(--raw-font-size-normal);
+			color: var(--raw-color-white);
+
+			&:last-of-type {
+				margin: 0;
+			}
+		}
+
+		blockquote {
+			font-weight: var(--raw-font-weight-bolder);
+			border-left: .5rem solid var(--raw-color-orange);
+			color: var(--raw-color-white) !important;
+			padding-bottom: 0;
+			margin: 0;
+
+			cite {
+				font-weight: bold;
+				font-style: normal;
+				color: var(--raw-color-orange) !important;
+			}
+		}
+	}
+}
+
+@media screen and (max-width:520px) {
+	.dos-citas {
+		padding: 4rem 1rem 4rem 1.5rem;
+	}
+}

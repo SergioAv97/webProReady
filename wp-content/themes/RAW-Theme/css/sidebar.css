@@ -1,0 +1,18 @@
+#sidebar {
+	#post-sidebar {
+		position: sticky;
+		margin-right: 2rem;
+		top: 3rem;
+
+		strong {
+			margin: 2rem;
+			display: block;
+			text-align: center;
+			font-family: var(--raw-font-roboto);
+			font-size: var(--raw-font-size-banner-title);
+			font-weight: var(--raw-font-weight-bolder);
+		}
+
+	}
+
+}

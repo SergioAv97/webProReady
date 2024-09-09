@@ -1,0 +1,41 @@
+.hero-faqs {
+	text-align: center;
+
+	.container {
+		> div {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			> div {
+				padding: 0 2rem;
+			}
+		}
+
+		h1, p {
+			color: var(--raw-color-white);
+		}
+	}
+
+}
+
+@media all and (max-width:520px) {
+
+	.hero-faqs {
+		.container {
+			> div {
+				display: block;
+
+				> div {
+					padding: 1rem 0;
+				}
+			}
+
+			h1, p {
+				color: var(--raw-color-white);
+			}
+		}
+
+	}
+
+}

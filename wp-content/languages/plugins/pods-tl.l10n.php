@@ -1,0 +1,2 @@
+<?php
+return ['x-generator'=>'GlotPress/4.0.0','translation-revision-date'=>'2016-04-08 15:19:07+0000','plural-forms'=>'nplurals=2; plural=n != 1;','project-id-version'=>'Plugins - Pods &#8211; Custom Content Types and Fields - Stable (latest release)','language'=>'tl_PH','messages'=>['%s Archives'=>'Mga %s Archive','Use as featured image'=>'Ginamit bilang tampok na larawan ','Set featured image'=>'Magtakda ng tampok na larawan','Remove featured image'=>'Tanggalin ang tampok na larawan','Other'=>'Iba','Settings'=>'Mga Setting ']];

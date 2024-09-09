@@ -1,0 +1,18 @@
+.caja-texto {
+	div {
+		padding: 1rem 1rem .25rem;
+		background-color: var(--raw-color-white);
+
+		h2 {
+			text-align: left;
+			color: var(--raw-color-grey-6e) !important;
+		}
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.caja-texto {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}

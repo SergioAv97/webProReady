@@ -1,0 +1,1840 @@
+# Translation of Plugins - Broken Link Checker - Stable (latest release) in Danish
+# This file is distributed under the same license as the Plugins - Broken Link Checker - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-06-05 21:29:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: da_DK\n"
+"Project-Id-Version: Plugins - Broken Link Checker - Stable (latest release)\n"
+
+#. Author URI of the plugin
+msgid "https://wpmudev.com/"
+msgstr "https://wpmudev.com/"
+
+#: legacy/core/core.php:1044
+msgctxt "settings page"
+msgid "Control external links"
+msgstr "Kontroller eksterne links"
+
+#: legacy/core/core.php:1051
+msgid "Configure <a target=\"_blank\" href=\"%s\">External Links</a> settings."
+msgstr "Konfigurer indstillinger for<a target=\"_blank\" href=\"%s\">Eksterne links</a>."
+
+#: legacy/core/core.php:1056
+msgid "Install the free <a href=\"%s\" class=\"thickbox open-plugin-details-modal\">External Links plugin</a> to control if external links open in a new tab, and their nofollow, noopener and UGC options."
+msgstr "Installer det gratis <a href=\"%s\" class=\"thickbox open-plugin-details-modal\">External Links plugin</a>, for at kontrollere om eksterne links åbner i en ny fane, samt om der bruges nofollow, noopener og UGC muligheder."
+
+#: legacy/core/core.php:1060
+msgid "It's used on over 80,000 sites just like yours."
+msgstr "Bruges på over 80.000 websteder, ligesom din."
+
+#: legacy/core/core.php:1234
+msgid "Post Modified Date"
+msgstr "Indholdets ændringsdato"
+
+#: legacy/modules/checkers/http.php:467
+msgid "Using WP HTTP"
+msgstr "Brug WP HTTP"
+
+#: legacy/core/core.php:1239
+msgid "Disable post modified date change when link is edited"
+msgstr "Deaktiver opdatering af ændringsdato på indholdet, når linket er redigeret "
+
+#: legacy/includes/admin/links-page-js.php:654
+msgid "Are you sure you want to unlink and remove this link from all posts?"
+msgstr "Er du sikker på du ønsker fjerne linket og slette det fra indholdet?"
+
+#: legacy/core/core.php:1590
+msgid "Log file clear schedule"
+msgstr "Tidsplan for rydning af logfilen"
+
+#. Author of the plugin
+msgid "WPMU DEV"
+msgstr "WPMU DEV"
+
+#: legacy/core/core.php:1227
+msgid "Use your own %1$sapi key%2$s for checking youtube links."
+msgstr "Brug din egen %1$sAPI-nøgle%2$s, for at gennemgå YouTube-links."
+
+#: legacy/core/core.php:1215
+msgid "YouTube API Key"
+msgstr "YouTube API-nøgle"
+
+#: legacy/includes/link-query.php:47
+msgctxt "filter heading"
+msgid "Warnings"
+msgstr "Advarsler"
+
+#: legacy/includes/any-post.php:833
+msgid "%1$d \"%2$s\" deleted."
+msgid_plural "%1$d \"%2$s\" deleted."
+msgstr[0] "%1$d \"%2$s\" er slettet"
+msgstr[1] "%1$d \"%2$s\" er slettet"
+
+#: legacy/core/core.php:1813
+msgid "Enter the keys of acf fields you want to check (one per line). If a field contains HTML code, prefix its name with <code>html:</code>. For example, <code>html:field_586a3eaa4091b</code>."
+msgstr "Indtast de acf-felter, du ønsker at tjekke (en pr. linje). Hvis et felt indeholder HTML-kode, skal du sætte <code>html:</code> foran dets navn. F.eks.: <code>html:field_586a3eaa4091b</code>"
+
+#: legacy/core/init.php:235 legacy/init.php:252
+msgid "Every 10 minutes"
+msgstr "Hvert 10. minut"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/broken-link-checker/"
+msgstr "https://wordpress.org/plugins/broken-link-checker/"
+
+#: legacy/includes/any-post.php:829
+msgid "%d post deleted."
+msgid_plural "%d posts deleted."
+msgstr[0] "%d indlæg slettet"
+msgstr[1] "%d indlæg slettet"
+
+#: legacy/includes/any-post.php:831
+msgid "%d page deleted."
+msgid_plural "%d pages deleted."
+msgstr[0] "%d side slettet"
+msgstr[1] "%d sider slettet"
+
+#: legacy/includes/any-post.php:852
+msgid "%d post moved to the Trash."
+msgid_plural "%d posts moved to the Trash."
+msgstr[0] "%d indlæg flyttet til papirkurven"
+msgstr[1] "%d indlæg flyttet til papirkurven"
+
+#: legacy/includes/any-post.php:854
+msgid "%d page moved to the Trash."
+msgid_plural "%d pages moved to the Trash."
+msgstr[0] "%d side flyttet til papirkurven"
+msgstr[1] "%d side flyttet til papirkurven"
+
+#: legacy/includes/containers.php:932 legacy/includes/containers.php:950
+msgid "Container type '%s' not recognized"
+msgstr "Container-type '%s' ikke genkendt"
+
+#: legacy/includes/instances.php:118 legacy/includes/instances.php:174
+msgid "Parser '%s' not found."
+msgstr "Parser '%s' ikke fundet."
+
+#: legacy/includes/link-query.php:36
+msgid "Broken"
+msgstr "Døde"
+
+#: legacy/includes/link-query.php:38
+msgid "No broken links found"
+msgstr "Ingen døde links fundet"
+
+#: legacy/includes/link-query.php:56
+msgid "Redirects"
+msgstr "Redirigerede"
+
+#: legacy/includes/link-query.php:57
+msgid "Redirected Links"
+msgstr "Redirigerede links"
+
+#: legacy/includes/link-query.php:58
+msgid "No redirects found"
+msgstr "Ingen redirigeringer fundet"
+
+#: legacy/includes/link-query.php:66
+msgid "Dismissed"
+msgstr "Ignoreret"
+
+#: legacy/includes/link-query.php:67
+msgid "Dismissed Links"
+msgstr "Ignorerede links"
+
+#: legacy/includes/link-query.php:68
+msgid "No dismissed links found"
+msgstr "Ingen ignorerede links fundet"
+
+#: legacy/includes/link-query.php:25
+msgid "All"
+msgstr "Alle"
+
+#: legacy/includes/link-query.php:26
+msgid "Detected Links"
+msgstr "Fundne links"
+
+#: legacy/includes/link-query.php:27
+msgid "No links found (yet)"
+msgstr "Ingen links fundet (endnu)"
+
+#: legacy/includes/link-query.php:82
+msgid "Search Results"
+msgstr "Søgeresultater"
+
+#: legacy/includes/link-query.php:83 legacy/includes/link-query.php:131
+msgid "No links found for your query"
+msgstr "Din forespørgsel returnerede ingen links"
+
+#: legacy/includes/links.php:225
+msgid "The plugin script was terminated while trying to check the link."
+msgstr "Pluginskriptet blev afbrudt, mens det prøvede at tjekke et link."
+
+#: legacy/includes/links.php:271
+msgid "The plugin doesn't know how to check this type of link."
+msgstr "Pluginnet ved ikke, hvordan det skal tjekke denne type links."
+
+#: legacy/includes/links.php:505
+msgid "Link is valid."
+msgstr "Link er aktivt."
+
+#: legacy/includes/links.php:503
+msgid "Link is broken."
+msgstr "Link er dødt."
+
+#: legacy/includes/links.php:738 legacy/includes/links.php:841
+#: legacy/includes/links.php:875
+msgid "Link is not valid"
+msgstr "Link er ikke gyldigt"
+
+#: legacy/includes/links.php:755
+msgid "This link can not be edited because it is not used anywhere on this site."
+msgstr "Dette link kan ikke redigeres, fordi det ikke bruges noget steds på denne site."
+
+#: legacy/includes/links.php:781
+msgid "Failed to create a DB entry for the new URL."
+msgstr "Det mislykkedes at oprette en databasepost for den nye URL."
+
+#: legacy/includes/links.php:848
+msgid "This link is not a redirect"
+msgstr "Dette link er ikke en redirect"
+
+#: legacy/includes/links.php:902 legacy/includes/links.php:939
+msgid "Couldn't delete the link's database record"
+msgstr "Kunne ikke slette linkets databasepost"
+
+#: legacy/includes/links.php:1029 legacy/modules/checkers/http.php:313
+#: legacy/modules/checkers/http.php:317 legacy/modules/extras/mediafire.php:115
+#: legacy/modules/extras/youtube.php:135 legacy/modules/extras/youtube.php:230
+msgid "Unknown Error"
+msgstr "Ukendt fejl"
+
+#: legacy/includes/links.php:1052
+msgid "Not checked"
+msgstr "Ikke tjekket"
+
+#: legacy/includes/links.php:1055
+msgid "False positive"
+msgstr "Falsk positiv"
+
+#: legacy/includes/parsers.php:117
+msgid "Editing is not implemented in the '%s' parser"
+msgstr "Redigering er ikke implementeret i '%s'-parser"
+
+#: legacy/includes/parsers.php:132
+msgid "Unlinking is not implemented in the '%s' parser"
+msgstr "Fjernelse af links er ikke implementeret i '%s'-parseren"
+
+#: legacy/includes/utility-class.php:259
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d sekund"
+msgstr[1] "%d sekunder"
+
+#: legacy/includes/utility-class.php:260
+msgid "%d second ago"
+msgid_plural "%d seconds ago"
+msgstr[0] "%d sekund siden"
+msgstr[1] "%d sekunder siden"
+
+#: legacy/includes/utility-class.php:263
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minut"
+msgstr[1] "%d minutter"
+
+#: legacy/includes/utility-class.php:264
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d minut siden"
+msgstr[1] "%d minutter siden"
+
+#: legacy/includes/utility-class.php:267
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d time"
+msgstr[1] "%d timer"
+
+#: legacy/includes/utility-class.php:268
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d time siden"
+msgstr[1] "%d timer siden"
+
+#: legacy/includes/utility-class.php:271
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d dag"
+msgstr[1] "%d dage"
+
+#: legacy/includes/utility-class.php:272
+msgid "%d day ago"
+msgid_plural "%d days ago"
+msgstr[0] "%d dag siden"
+msgstr[1] "%d dage siden"
+
+#: legacy/includes/utility-class.php:275
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d måned"
+msgstr[1] "%d måneder"
+
+#: legacy/includes/utility-class.php:276
+msgid "%d month ago"
+msgid_plural "%d months ago"
+msgstr[0] "%d måned siden"
+msgstr[1] "%d måneder siden"
+
+#: legacy/modules/checkers/http.php:290
+msgid "Server Not Found"
+msgstr "Server ikke fundet"
+
+#: legacy/modules/checkers/http.php:306
+msgid "Connection Failed"
+msgstr "Forbindelse mislykkedes"
+
+#: legacy/modules/checkers/http.php:360 legacy/modules/checkers/http.php:449
+msgid "HTTP code : %d"
+msgstr "HTTP-kode: %d"
+
+#: legacy/modules/checkers/http.php:362 legacy/modules/checkers/http.php:451
+msgid "(No response)"
+msgstr "(Intet svar)"
+
+#: legacy/modules/checkers/http.php:380
+msgid "Most likely the connection timed out or the domain doesn't exist."
+msgstr "Det sandsynligste er, at forbindelsen fik timeout eller at domænet ikke eksisterer."
+
+#: legacy/modules/checkers/http.php:460
+msgid "Request timed out."
+msgstr "Anmodning fik timeout."
+
+#: legacy/modules/containers/blogroll.php:21
+msgid "Bookmark"
+msgstr "Bogmærke"
+
+#: legacy/modules/containers/blogroll.php:27
+#: legacy/modules/containers/blogroll.php:46
+msgid "Edit this bookmark"
+msgstr "Redigér dette bogmærke"
+
+#: legacy/modules/containers/blogroll.php:47
+msgid ""
+"You are about to delete this link '%s'\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Du er ved at slette dette link: '%s'\n"
+" 'Annullér' for at stoppe, 'OK' for at slette."
+
+#: legacy/modules/containers/blogroll.php:97
+msgid "Updating bookmark %d failed"
+msgstr "Opdatering af bogmærket %d mislykkedes"
+
+#: legacy/modules/containers/blogroll.php:298
+msgid "%d blogroll link deleted."
+msgid_plural "%d blogroll links deleted."
+msgstr[0] "%d link slettet fra Links"
+msgstr[1] "%d links slettet fra Links"
+
+#: legacy/modules/containers/comment.php:53
+msgid "Updating comment %d failed"
+msgstr "Opdatering af kommentaren %d mislykkedes"
+
+#: legacy/modules/containers/comment.php:74
+msgid "Failed to delete comment %d"
+msgstr "Det mislykkedes at slette kommentaren %d"
+
+#: legacy/modules/containers/comment.php:95
+msgid "Can't move comment %d to the trash"
+msgstr "Kan ikke flytte kommentar %d til papirkurven"
+
+#: legacy/modules/containers/comment.php:159
+#: legacy/modules/containers/comment.php:201
+msgid "Edit comment"
+msgstr "Redigér kommentar"
+
+#: legacy/modules/containers/comment.php:166
+msgid "Delete Permanently"
+msgstr "Slet permanent"
+
+#: legacy/modules/containers/comment.php:168
+msgid "Move this comment to the trash"
+msgstr "Flyt denne kommentar til papirkurven"
+
+#: legacy/modules/containers/comment.php:172
+msgid "View comment"
+msgstr "Se kommentar"
+
+#: legacy/modules/containers/comment.php:189
+msgid "Comment"
+msgstr "Kommentar"
+
+#: legacy/modules/containers/comment.php:366
+msgid "%d comment has been deleted."
+msgid_plural "%d comments have been deleted."
+msgstr[0] "%d kommentar er blevet slettet"
+msgstr[1] "%d kommentarer er blevet slettede"
+
+#: legacy/modules/containers/comment.php:385
+msgid "%d comment moved to the Trash."
+msgid_plural "%d comments moved to the Trash."
+msgstr[0] "%d kommentar flyttet til papirkurven"
+msgstr[1] "%d kommentarer flyttet til papirkurven"
+
+#: legacy/modules/containers/acf_field.php:234
+#: legacy/modules/containers/custom_field.php:238
+msgid "Edit this post"
+msgstr "Redigér dette indlæg"
+
+#: legacy/modules/containers/acf_field.php:258
+#: legacy/modules/containers/custom_field.php:272
+msgid "View \"%s\""
+msgstr "Se \"%s\""
+
+#: legacy/modules/extras/dailymotion-embed.php:23
+msgid "DailyMotion Video"
+msgstr "DailyMotion-video"
+
+#: legacy/modules/extras/dailymotion-embed.php:24
+msgid "Embedded DailyMotion video"
+msgstr "Indsat DailyMotion-videoe"
+
+#: legacy/modules/extras/embed-parser-base.php:199
+msgid "Embedded videos can't be edited using Broken Link Checker. Please edit or replace the video in question manually."
+msgstr "Indlejrede videoer kan ikke redigeres med Broken Link Checker. Redigér venligst selv pågældende video eller erstat videoen."
+
+#: legacy/modules/extras/mediafire.php:97
+#: legacy/modules/extras/mediafire.php:103
+#: legacy/modules/extras/rapidshare.php:139
+msgid "Not Found"
+msgstr "Ikke fundet"
+
+#: legacy/modules/extras/googlevideo-embed.php:24
+msgid "GoogleVideo Video"
+msgstr "GoogleVideo-video"
+
+#: legacy/modules/extras/googlevideo-embed.php:25
+msgid "Embedded GoogleVideo video"
+msgstr "Indsatte GoogleVideo-videoer"
+
+#: legacy/modules/extras/rapidshare.php:51
+msgid "Using RapidShare API"
+msgstr "Bruger RapidShare API"
+
+#: legacy/modules/extras/rapidshare.php:158
+msgid "RS Server Down"
+msgstr "RS-server nede"
+
+#: legacy/modules/extras/rapidshare.php:165
+msgid "File Blocked"
+msgstr "Fil blokeret"
+
+#: legacy/modules/extras/rapidshare.php:172
+msgid "File Locked"
+msgstr "Fil låst"
+
+#: legacy/modules/extras/rapidshare.php:183
+msgid "RapidShare : %s"
+msgstr "RapidShare : %s"
+
+#: legacy/modules/extras/rapidshare.php:189
+msgid "RapidShare API error: %s"
+msgstr "RapidShare-API-fejl: %s"
+
+#: legacy/modules/extras/vimeo-embed.php:24
+msgid "Vimeo Video"
+msgstr "Vimeo-videoe"
+
+#: legacy/modules/extras/vimeo-embed.php:25
+msgid "Embedded Vimeo video"
+msgstr "Indsat Vimeo-videoe"
+
+#: legacy/modules/extras/youtube-embed.php:24
+#: legacy/modules/extras/youtube-iframe.php:25
+msgid "YouTube Video"
+msgstr "YouTube-videoe"
+
+#: legacy/modules/extras/youtube-embed.php:25
+#: legacy/modules/extras/youtube-iframe.php:26
+msgid "Embedded YouTube video"
+msgstr "Indsat YouTube-videoe"
+
+#: legacy/modules/extras/youtube.php:151 legacy/modules/extras/youtube.php:154
+msgid "Video Not Found"
+msgstr "Video ikke fundet"
+
+#: legacy/modules/extras/youtube.php:140
+msgid "Video OK"
+msgstr "Video OK"
+
+#: legacy/modules/extras/youtube.php:207
+msgid "Video Restricted"
+msgstr "Video ikke offentligt tilgængelig"
+
+#: legacy/modules/extras/youtube.php:261
+msgid "Unknown YouTube API response received."
+msgstr "Ukendt YouTube-API-svar modtaget."
+
+#: legacy/modules/parsers/image.php:193
+msgid "Image"
+msgstr "Billede"
+
+#: legacy/modules/parsers/acf_field.php:120
+#: legacy/modules/parsers/metadata.php:141
+msgid "Custom field"
+msgstr "Eget felt"
+
+#: legacy/includes/link-query.php:48
+msgid "No warnings found"
+msgstr "Ingen advarsler fundet"
+
+#: legacy/modules/extras/mediafire.php:109
+msgid "Permission Denied"
+msgstr "Tilladelse nægtet"
+
+#: legacy/modules/extras/youtube-playlist-embed.php:24
+msgid "YouTube Playlist"
+msgstr "YouTube-afspilningsliste"
+
+#: legacy/modules/extras/youtube-playlist-embed.php:25
+msgid "Embedded YouTube playlist"
+msgstr "Indsat YouTube-afspilningsliste"
+
+#: legacy/modules/extras/youtube.php:173 legacy/modules/extras/youtube.php:176
+msgid "Playlist Not Found"
+msgstr "Afspilningsliste ikke fundet"
+
+#: legacy/modules/extras/youtube.php:183
+msgid "Playlist Restricted"
+msgstr "Afspilningsliste med begrænset adgang"
+
+#: legacy/modules/extras/youtube.php:190
+msgid "This playlist has no entries or all entries have been deleted."
+msgstr "Denne afspilningsliste indeholder ingen numre, eller alle numre er blevet slettet."
+
+#: legacy/modules/extras/youtube.php:216
+msgid "Playlist OK"
+msgstr "Afspilningsliste OK"
+
+#: legacy/includes/extra-strings.php:2
+msgctxt "module name"
+msgid "Basic HTTP"
+msgstr "Basic HTTP"
+
+#: legacy/includes/extra-strings.php:3
+msgctxt "module name"
+msgid "Blogroll items"
+msgstr "Linkliste-elementer"
+
+#: legacy/includes/extra-strings.php:4
+msgctxt "module name"
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: legacy/includes/extra-strings.php:5
+msgctxt "module name"
+msgid "Custom fields"
+msgstr "Brugerdefinerede felter"
+
+#: legacy/includes/extra-strings.php:6
+msgctxt "module name"
+msgid "Embedded DailyMotion videos"
+msgstr "Indlejrede DailyMotion-videoer"
+
+#: legacy/includes/extra-strings.php:7
+msgctxt "module name"
+msgid "Embedded GoogleVideo videos"
+msgstr "Indlejrede GoogleVideo-videoer"
+
+#: legacy/includes/extra-strings.php:8
+msgctxt "module name"
+msgid "Embedded Vimeo videos"
+msgstr "Indlejrede Vimeo-videoer"
+
+#: legacy/includes/extra-strings.php:9
+msgctxt "module name"
+msgid "Embedded YouTube playlists (old embed code)"
+msgstr "Indlejrede YouTube-afspilningslister (gl. indlejringskode)"
+
+#: legacy/includes/extra-strings.php:10
+msgctxt "module name"
+msgid "Embedded YouTube videos"
+msgstr "Indlejrede YouTube-videoer"
+
+#: legacy/includes/extra-strings.php:11
+msgctxt "module name"
+msgid "Embedded YouTube videos (old embed code)"
+msgstr "Indlejrede YouTube-videoer (gl. indlejringskode)"
+
+#: legacy/includes/extra-strings.php:12
+msgctxt "module name"
+msgid "HTML images"
+msgstr "HTML-billeder"
+
+#: legacy/includes/extra-strings.php:13
+msgctxt "module name"
+msgid "HTML links"
+msgstr "HTML-links"
+
+#: legacy/includes/extra-strings.php:14
+msgctxt "module name"
+msgid "MediaFire API"
+msgstr "MediaFire API"
+
+#: legacy/includes/extra-strings.php:16
+msgctxt "module name"
+msgid "RapidShare API"
+msgstr "RapidShare API"
+
+#: legacy/includes/extra-strings.php:17
+msgctxt "module name"
+msgid "Smart YouTube httpv:// URLs"
+msgstr "Smart YouTube httpv:// URLs"
+
+#: legacy/includes/extra-strings.php:18
+msgctxt "module name"
+msgid "YouTube API"
+msgstr "YouTube API"
+
+#: legacy/includes/extra-strings.php:19
+msgctxt "module name"
+msgid "Posts"
+msgstr "Indlæg"
+
+#: legacy/includes/extra-strings.php:20
+msgctxt "module name"
+msgid "Pages"
+msgstr "Sider"
+
+#: legacy/includes/link-query.php:46
+msgctxt "filter name"
+msgid "Warnings"
+msgstr "Advarsler"
+
+#: legacy/includes/links.php:1016
+msgctxt "link status"
+msgid "Unknown"
+msgstr "Ukendt"
+
+#: legacy/includes/links.php:1058 legacy/modules/extras/rapidshare.php:145
+#: legacy/modules/extras/rapidshare.php:151
+#: legacy/modules/extras/rapidshare.php:178
+#: legacy/modules/extras/youtube.php:141 legacy/modules/extras/youtube.php:217
+msgctxt "link status"
+msgid "OK"
+msgstr "OK"
+
+#: legacy/modules/containers/comment.php:168
+msgctxt "verb"
+msgid "Trash"
+msgstr "Kassér"
+
+#: legacy/modules/extras/youtube.php:191
+msgctxt "link status"
+msgid "Empty Playlist"
+msgstr "Tøm afspilningsliste"
+
+#: legacy/includes/extra-strings.php:15
+msgctxt "module name"
+msgid "Plaintext URLs"
+msgstr "URL&#39;er i alm. tekst"
+
+#: legacy/modules/extras/youtube.php:201
+msgid "Video status : %1$s%2$s"
+msgstr "Video status : %1$s%2$s"
+
+#: legacy/modules/containers/acf_field.php:132
+#: legacy/modules/containers/custom_field.php:137
+msgid "Failed to delete the meta field '%1$s' on %2$s [%3$d]"
+msgstr "Kunne ikke slette metafeltet '%1$s' på %2$s [%3$d]"
+
+#: legacy/modules/containers/dummy.php:34
+#: legacy/modules/containers/dummy.php:45
+msgid "I don't know how to edit a '%1$s' [%2$d]."
+msgstr "Jeg ved ikke, hvordan man redigere en '%1$s' [%2$d]."
+
+#: legacy/modules/containers/acf_field.php:102
+#: legacy/modules/containers/custom_field.php:107
+msgid "Failed to update the meta field '%1$s' on %2$s [%3$d]"
+msgstr "Kunne ikke opdatere metafeltet '%1$s' på %2$s [%3$d]"
+
+#: legacy/includes/any-post.php:856
+msgid "%1$d \"%2$s\" moved to the Trash."
+msgid_plural "%1$d \"%2$s\" moved to the Trash."
+msgstr[0] "%1$d \"%2$s\" flyttet til papirkurven."
+msgstr[1] "%1$d \"%2$s\" flyttet til papirkurven."
+
+#: legacy/includes/containers.php:123
+msgid "%1$d '%2$s' has been deleted"
+msgid_plural "%1$d '%2$s' have been deleted"
+msgstr[0] "%1$d '%2$s er blevet slettet"
+msgstr[1] "%1$d '%2$s blev slettet"
+
+#: legacy/includes/any-post.php:702 legacy/modules/containers/acf_field.php:341
+#: legacy/modules/containers/custom_field.php:360
+msgid "Can't move post \"%1$s\" (%2$d) to the trash because the trash feature is disabled"
+msgstr "Kan ikke flytte indholdet \"%1$s\" (%2$d) til papirkurven, fordi papirkurvsfunktionen er deaktiveret"
+
+#: legacy/modules/containers/blogroll.php:128
+msgid "Failed to delete blogroll link \"%1$s\" (%2$d)"
+msgstr "Kunne ikke slette linket til blogroll \"%1$s\" (%2$d)"
+
+#: legacy/includes/any-post.php:722 legacy/modules/containers/acf_field.php:353
+#: legacy/modules/containers/custom_field.php:379
+msgid "Failed to move post \"%1$s\" (%2$d) to the trash"
+msgstr "Kunne ikke flytte indholdet \"%1$s\" (%2$d), til papirkurven"
+
+#: legacy/includes/instances.php:109 legacy/includes/instances.php:165
+msgid "Container %1$s[%2$d] not found"
+msgstr "Containeren %1$s[%2$d] blev ikke fundet"
+
+#: legacy/core/core.php:245 legacy/includes/admin/links-page-js.php:45
+msgid "Loading..."
+msgstr "Indlæser ..."
+
+#: legacy/core/core.php:269 legacy/includes/admin/options-page-js.php:18
+msgid "[ Network error ]"
+msgstr "[ Network-fejl ]"
+
+#: legacy/core/core.php:313
+msgid "Automatically expand the widget if broken links have been detected"
+msgstr "Automatisk udvid widgetten, hvis der er fundet døde links"
+
+#: app/admin-pages/cloud-page/class-controller.php:85
+msgid "Link Checker"
+msgstr "Link Checker"
+
+#: app/action-links/plugin/class-controller.php:99
+#: app/admin-pages/local-submenu/class-view.php:66
+#: app/emails/scan-report/class-controller.php:80
+#: app/emails/scan-report/class-view.php:164 legacy/core/core.php:431
+#: legacy/core/core.php:432 legacy/includes/link-query.php:37
+msgid "Broken Links"
+msgstr "Døde links"
+
+#: app/admin-pages/local-submenu/class-view.php:67 legacy/core/core.php:514
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: legacy/core/core.php:850
+msgid "Settings saved."
+msgstr "Indstillinger gemt."
+
+#: legacy/core/core.php:857
+msgid "Complete site recheck started."
+msgstr "Fuldstændig ny tjek af site påbegyndt."
+
+#: legacy/core/core.php:880
+msgid "General"
+msgstr "Generel"
+
+#: legacy/core/core.php:881
+msgid "Look For Links In"
+msgstr "Se efter links i"
+
+#: legacy/core/core.php:882
+msgid "Which Links To Check"
+msgstr "Hvilke links der skal tjekkes"
+
+#: legacy/core/core.php:883
+msgid "Protocols & APIs"
+msgstr "Protokoller & API'er"
+
+#: legacy/core/core.php:884
+msgid "Advanced"
+msgstr "Avanceret"
+
+#: app/emails/scan-report/class-view.php:167 legacy/core/core.php:939
+#: legacy/includes/admin/table-printer.php:215
+msgid "Status"
+msgstr "Status"
+
+#: legacy/core/core.php:942 legacy/includes/admin/options-page-js.php:56
+msgid "Show debug info"
+msgstr "Vis debug-info"
+
+#: legacy/core/core.php:970
+msgid "Check each link"
+msgstr "Tjek hvert link"
+
+#: legacy/core/core.php:975
+msgid "Every %s hours"
+msgstr "hver %s timer"
+
+#: legacy/core/core.php:984
+msgid "Existing links will be checked this often. New links will usually be checked ASAP."
+msgstr "Eksisterende links vil blive tjekket med dette mellemrum. Nye links tjekkes normalt så hurtigt som muligt."
+
+#: legacy/core/core.php:991
+msgid "E-mail notifications"
+msgstr "E-mail-meddelelser"
+
+#: legacy/core/core.php:1003
+msgid "Send me e-mail notifications about newly detected broken links"
+msgstr "Send mig e-mail-meddelelser om nyligt opdagede døde links"
+
+#: legacy/core/core.php:1017
+msgid "Send authors e-mail notifications about broken links in their posts"
+msgstr "Send forfattere e-mail-meddelelser om døde links i deres indlæg"
+
+#: legacy/core/core.php:1068
+msgid "Link tweaks"
+msgstr "Linktilpasninger"
+
+#: legacy/core/core.php:1080
+msgid "Apply custom formatting to broken links"
+msgstr "Anvend egen formattering på døde links"
+
+#: legacy/core/core.php:1085 legacy/core/core.php:1129
+msgid "Edit CSS"
+msgstr "Redigér CSS"
+
+#: legacy/core/core.php:1106
+msgid "Example : Lorem ipsum <a %s>broken link</a>, dolor sit amet."
+msgstr "Eksempel : Lorem ipsum <a %s>broken link</a>, dolor sit amet."
+
+#: legacy/core/core.php:1109 legacy/core/core.php:1154
+msgid "Click \"Save Changes\" to update example output."
+msgstr "Klike \"Gem ændringer\" for at opdatere eksempelvisningen."
+
+#: legacy/core/core.php:1124
+msgid "Apply custom formatting to removed links"
+msgstr "Anvend egen formattering på links, der er fjernet"
+
+#: legacy/core/core.php:1151
+msgid "Example : Lorem ipsum <span %s>removed link</span>, dolor sit amet."
+msgstr "Eksempel : Lorem ipsum <span %s>removed link</span>, dolor sit amet."
+
+#: legacy/core/core.php:1170
+msgid "Stop search engines from following broken links"
+msgstr "Forhindr søgemaskiner i at følge døde links"
+
+#: legacy/core/core.php:1254
+msgid "Look for links in"
+msgstr "Se efter links i"
+
+#: legacy/core/core.php:1271
+msgid "Post statuses"
+msgstr "Indlægsstatusser"
+
+#: legacy/core/core.php:1305
+msgid "Link types"
+msgstr "Linktyper"
+
+#: legacy/core/core.php:1311
+msgid "Error : All link parsers missing!"
+msgstr "Fejl: Alle linkparsers mangler!"
+
+#: legacy/core/core.php:1318
+msgid "Exclusion list"
+msgstr "Eksklusionsliste"
+
+#: legacy/core/core.php:1319
+msgid "Don't check links where the URL contains any of these words (one per line) :"
+msgstr "Tjek ikke links, hvor URL&#39;en indeholder et af disse ord (et ord per linje):"
+
+#: legacy/core/core.php:1339
+msgid "Check links using"
+msgstr "Tjek link med"
+
+#: legacy/core/core.php:1359 legacy/includes/links.php:1033
+msgid "Timeout"
+msgstr "Timeout"
+
+#: legacy/core/core.php:1365 legacy/core/core.php:1462
+#: legacy/core/core.php:4031
+msgid "%s seconds"
+msgstr "%s sekunder"
+
+#: legacy/core/core.php:1374
+msgid "Links that take longer than this to load will be marked as broken."
+msgstr "Links, som tager længere tid at tjekke end dette, vil blive markeret som døde."
+
+#: legacy/core/core.php:1381
+msgid "Link monitor"
+msgstr "Linkovervågning"
+
+#: legacy/core/core.php:1394
+msgid "Run continuously while the Dashboard is open"
+msgstr "Kør kontinuerligt, når kontrolpanelet er åbent"
+
+#: legacy/core/core.php:1407
+msgid "Run hourly in the background"
+msgstr "Kør hver time i baggrunden"
+
+#: legacy/core/core.php:1456
+msgid "Max. execution time"
+msgstr "Max udførelsestid"
+
+#: legacy/core/core.php:1474
+msgid "The plugin works by periodically launching a background job that parses your posts for links, checks the discovered URLs, and performs other time-consuming tasks. Here you can set for how long, at most, the link monitor may run each time before stopping."
+msgstr "Pluginnet fungerer ved med mellemrum at oprette et job i baggrunden, som undersøger dine indlæg for links, tjekker de fundne URL&#39;er og foretager andre tidskrævende opgaver. Her kan du angive, hvor længe linkovervågningen max må køre hver gang, inden den skal stoppe."
+
+#: legacy/core/core.php:1483
+msgid "Server load limit"
+msgstr "Begrænsning på serverbelastning"
+
+#: legacy/core/core.php:1498
+msgid "Current load : %s"
+msgstr "Aktuel belastning: %s"
+
+#: legacy/core/core.php:1503
+msgid "Link checking will be suspended if the average <a href=\"%s\">server load</a> rises above this number. Leave this field blank to disable load limiting."
+msgstr "Linktjekning vil blive midlertidigt afbrudt, hvis den gennemsnitlige <a href=\"%s\">serverbelastning</a> er større end dette tal. Lad feltet stå tomt, hvis du vil deaktivere begrænsning af belastningen."
+
+#: legacy/core/core.php:1512
+msgid "Not available"
+msgstr "Ikke tilgængelig"
+
+#: legacy/core/core.php:1514
+msgid "Load limiting only works on Linux-like systems where <code>/proc/loadavg</code> is present and accessible."
+msgstr "Begrænsning af belastning virker kun på Linux-lignende systemer, hvor <code>/proc/loadavg</code> findes og er tilgængelig."
+
+#: legacy/core/core.php:1618
+msgid "Forced recheck"
+msgstr "Tvungen nytjek"
+
+#: legacy/core/core.php:1621
+msgid "Re-check all pages"
+msgstr "Tjek alle sider igen"
+
+#: legacy/core/core.php:1626
+msgid "The \"Nuclear Option\". Click this button to make the plugin empty its link database and recheck the entire site from scratch."
+msgstr "\"Bombe\"-indstilling. Klik på denne knap for at få pluginnet til at tømme dets linkdatabase og tjekke hele siten igen helt forfra."
+
+#: legacy/core/core.php:1639
+msgid "Save Changes"
+msgstr "Gem ændringer"
+
+#: legacy/core/core.php:1690
+msgid "Configure"
+msgstr "Konfigurér"
+
+#: legacy/core/core.php:1952 legacy/core/core.php:2042
+#: legacy/core/core.php:2074
+msgid "Database error : %s"
+msgstr "Database-fejl : %s"
+
+#: legacy/core/core.php:2023
+msgid "You must enter a filter name!"
+msgstr "Du <i>skal</i> indtaste et filternavn!"
+
+#: legacy/core/core.php:2027
+msgid "Invalid search query."
+msgstr "Ugyldig søgeforespørgsel."
+
+#: legacy/core/core.php:2037
+msgid "Filter \"%s\" created"
+msgstr "Filter \"%s\" oprettet"
+
+#: legacy/core/core.php:2064
+msgid "Filter ID not specified."
+msgstr "Filter-id ikke angivet."
+
+#: legacy/core/core.php:2071
+msgid "Filter deleted"
+msgstr "Filter slettet"
+
+#: legacy/core/core.php:2121
+msgid "Replaced %d redirect with a direct link"
+msgid_plural "Replaced %d redirects with direct links"
+msgstr[0] "Erstattede %d redirigeret link med et direkte link"
+msgstr[1] "Erstattede %d redirigerede links med direkte links"
+
+#: legacy/core/core.php:2132
+msgid "Failed to fix %d redirect"
+msgid_plural "Failed to fix %d redirects"
+msgstr[0] "Det lykkedes ikke at fixe %d redirigeret link"
+msgstr[1] "Det lykkedes ikke at fixe %d redirigerede links"
+
+#: legacy/core/core.php:2143
+msgid "None of the selected links are redirects!"
+msgstr "Ingen af de valgte links er redirigerede links!"
+
+#: legacy/core/core.php:2230
+msgid "%d link updated."
+msgid_plural "%d links updated."
+msgstr[0] "%d link opdateret."
+msgstr[1] "%d links opdateret."
+
+#: legacy/core/core.php:2241
+msgid "Failed to update %d link."
+msgid_plural "Failed to update %d links."
+msgstr[0] "Det mislykkedes at opdatere %d link."
+msgstr[1] "Det mislykkedes at opdatere %d links."
+
+#: legacy/core/core.php:2334
+msgid "%d link removed"
+msgid_plural "%d links removed"
+msgstr[0] "%d link fjernet"
+msgstr[1] "%d links fjernet"
+
+#: legacy/core/core.php:2345
+msgid "Failed to remove %d link"
+msgid_plural "Failed to remove %d links"
+msgstr[0] "Det mislykkedes for pluginnet at fjerne %d link."
+msgstr[1] "Det mislykkedes for pluginnet at fjerne %d links."
+
+#: legacy/core/core.php:2460
+msgid "%d item was skipped because it can't be moved to the Trash. You need to delete it manually."
+msgid_plural "%d items were skipped because they can't be moved to the Trash. You need to delete them manually."
+msgstr[0] "%d link blev skippet, fordi det ikke kan flyttes til papirkurven. Du er nødt til at slette den selv."
+msgstr[1] "%d link blev skippet, fordi de ikke kan flyttes til papirkurven. Du er nødt til at slette dem selv."
+
+#: legacy/core/core.php:2482
+msgid "Didn't find anything to delete!"
+msgstr "Fandt ikke noget, der kan slettes!"
+
+#: legacy/core/core.php:2521
+msgid "%d link scheduled for rechecking"
+msgid_plural "%d links scheduled for rechecking"
+msgstr[0] "%d link er planlagt til at blive tjekket igen"
+msgstr[1] "%d links er planlagt til at blive tjekket igen"
+
+#: legacy/core/core.php:2571 legacy/core/core.php:3446
+msgid "This link was manually marked as working by the user."
+msgstr "Dette link blev markeret manuelt som et aktivt link af brugeren."
+
+#: legacy/core/core.php:2579 legacy/core/core.php:2643
+msgid "Couldn't modify link %d"
+msgstr "Kunne ikke ændre linket %d"
+
+#: legacy/core/core.php:2590
+msgid "%d link marked as not broken"
+msgid_plural "%d links marked as not broken"
+msgstr[0] "Et link markeret som ikke-dødt"
+msgstr[1] "%d links markeret som ikke-døde"
+
+#: legacy/core/core.php:2760
+msgid "Table columns"
+msgstr "Tabelkolonner"
+
+#: legacy/core/core.php:2779
+msgid "Show on screen"
+msgstr "Vis på skærm"
+
+#: legacy/core/core.php:2786
+msgid "links"
+msgstr "links"
+
+#: legacy/core/core.php:2787 legacy/includes/admin/table-printer.php:175
+msgid "Apply"
+msgstr "Anvend"
+
+#: legacy/core/core.php:2791
+msgid "Misc"
+msgstr "Diverse"
+
+#: legacy/core/core.php:2806
+msgid "Highlight links broken for at least %s days"
+msgstr "Fremhæv links, der har været døde i mindst %s dage"
+
+#: legacy/core/core.php:2815
+msgid "Color-code status codes"
+msgstr "Kod statuskoder med farver"
+
+#: legacy/core/core.php:2835 legacy/core/core.php:3430
+#: legacy/core/core.php:3477 legacy/core/core.php:3516
+#: legacy/core/core.php:3642 legacy/core/core.php:3702
+#: legacy/core/core.php:3782
+msgid "You're not allowed to do that!"
+msgstr "Du har ikke lov til at gøre dette!"
+
+#: legacy/core/core.php:3298
+msgid "View broken links"
+msgstr "Se døde links"
+
+#: legacy/core/core.php:3299
+msgid "Found %d broken link"
+msgid_plural "Found %d broken links"
+msgstr[0] "Har fundet %d dødt link"
+msgstr[1] "Har fundet %d døde links"
+
+#: legacy/core/core.php:3305
+msgid "No broken links found."
+msgstr "Ingen døde links fundet."
+
+#: legacy/core/core.php:3312
+msgid "%d URL in the work queue"
+msgid_plural "%d URLs in the work queue"
+msgstr[0] "%d URL i arbejdskøen"
+msgstr[1] "%d URL&#39;er i arbejdskøen"
+
+#: legacy/core/core.php:3316
+msgid "No URLs in the work queue."
+msgstr "Ingen URL&#39;er i arbejdskøen"
+
+#: legacy/core/core.php:3345
+msgid "Searching your blog for links..."
+msgstr "Gennemsøger din blog for links ..."
+
+#: legacy/core/core.php:3347
+msgid "No links detected."
+msgstr "Ingen links fundet."
+
+#: legacy/core/core.php:3438 legacy/core/core.php:3485
+#: legacy/core/core.php:3539 legacy/core/core.php:3656
+#: legacy/core/core.php:3725 legacy/core/core.php:3805
+msgid "Oops, I can't find the link %d"
+msgstr "Ups. Jeg kan ikke finde linket %d"
+
+#: legacy/core/core.php:3458 legacy/core/core.php:3499
+msgid "Oops, couldn't modify the link!"
+msgstr "Ups, kunne ikke ændre linket!"
+
+#: legacy/core/core.php:3461 legacy/core/core.php:3502
+#: legacy/core/core.php:3690 legacy/core/core.php:3712
+#: legacy/core/core.php:3792
+msgid "Error : link_id not specified"
+msgstr "Fejl: link_id ikke angivet"
+
+#: legacy/core/core.php:3552 legacy/core/core.php:3566
+msgid "Oops, the new URL is invalid!"
+msgstr "Ups. Den nye URL er ugyldig!"
+
+#: legacy/core/core.php:3669
+msgid "An unexpected error occured!"
+msgstr "En uventet fejl opstod!"
+
+#: legacy/core/core.php:3526
+msgid "Error : link_id or new_url not specified"
+msgstr "Fejl: link_id eller new_url ikke angivet"
+
+#: legacy/core/core.php:3841
+msgid "You don't have sufficient privileges to access this information!"
+msgstr "Du har ikke tilstrækkelige rettigheder til at tilgå denne information!"
+
+#: legacy/core/core.php:3854
+msgid "Error : link ID not specified"
+msgstr "Fejl: link-id ikke angivet"
+
+#: legacy/core/core.php:3868
+msgid "Failed to load link details (%s)"
+msgstr "Det mislykkedes at indlæse link-detaljer (%s)"
+
+#. Plugin Name of the plugin
+#: app/admin-pages/cloud-page/class-controller.php:84
+#: app/admin-pages/cloud-submenu/class-controller.php:67
+#: app/emails/recipient-activation/class-controller.php:88
+#: app/emails/scan-report/class-controller.php:101 legacy/core/core.php:3922
+msgid "Broken Link Checker"
+msgstr "Broken Link Checker"
+
+#: legacy/core/core.php:3942
+msgid "PHP version"
+msgstr "PHP version"
+
+#: legacy/core/core.php:3948
+msgid "MySQL version"
+msgstr "MySQL version"
+
+#: legacy/core/core.php:3961
+msgid "You have an old version of CURL. Redirect detection may not work properly."
+msgstr "Du har en gammel version af cURL. Det er ikke sikkert, at detektion af redirigeringer fungerer ordentligt."
+
+#: legacy/core/core.php:3972 legacy/core/core.php:3988
+#: legacy/core/core.php:3993
+msgid "Not installed"
+msgstr "Ikke installeret"
+
+#: legacy/core/core.php:3975
+msgid "CURL version"
+msgstr "cURL version"
+
+#: legacy/core/core.php:3981
+msgid "Installed"
+msgstr "Installeret"
+
+#: legacy/core/core.php:3994
+msgid "You must have either CURL or Snoopy installed for the plugin to work!"
+msgstr "Du skal have enten cURL eller Snoopy installeret, hvis pluginnet skal virke!"
+
+#: legacy/core/core.php:4004
+msgid "On"
+msgstr "Til"
+
+#: legacy/core/core.php:4005
+msgid "Redirects may be detected as broken links when safe_mode is on."
+msgstr "Redirigeringer kan (fejlagtigt) blive bestemt som døde links, når safe_mode er til."
+
+#: legacy/core/core.php:4010 legacy/core/core.php:4024
+msgid "Off"
+msgstr "Fra"
+
+#: legacy/core/core.php:4018
+msgid "On ( %s )"
+msgstr "Fra ( %s )"
+
+#: legacy/core/core.php:4019
+msgid "Redirects may be detected as broken links when open_basedir is on."
+msgstr "Redirigeringer kan (fejlagtigt) blive bestemt som døde links, når open_basedir er til."
+
+#: legacy/core/core.php:4056
+msgid "If this value is zero even after several page reloads you have probably encountered a bug."
+msgstr "Hvis denne værdi er nul selv efter adskillige genindlæsninger af siden har du sandsynligvis opdaget en bug."
+
+#: legacy/core/core.php:4191 legacy/core/core.php:4316
+msgid "[%s] Broken links detected"
+msgstr "[%s] døde links fundet"
+
+#: legacy/core/core.php:4196
+msgid "Broken Link Checker has detected %d new broken link on your site."
+msgid_plural "Broken Link Checker has detected %d new broken links on your site."
+msgstr[0] "Broken Link Checker har opdaget %d nyt dødt link på din site."
+msgstr[1] "Broken Link Checker har opdaget %d nye døde links på din site."
+
+#: legacy/core/core.php:4228
+msgid "Here's a list of the first %d broken links:"
+msgid_plural "Here's a list of the first %d broken links:"
+msgstr[0] "Her er en liste med det første døde link:"
+msgstr[1] "Her er en liste med de første %d døde links:"
+
+#: legacy/core/core.php:4237
+msgid "Here's a list of the new broken links: "
+msgstr "Her er en liste med de nye døde links: "
+
+#: legacy/core/core.php:4247
+msgid "Link text : %s"
+msgstr "Linktekst: %s"
+
+#: legacy/core/core.php:4249
+msgid "Source : %s"
+msgstr "Kilde: %s"
+
+#: legacy/core/core.php:4263
+msgid "You can see all broken links here:"
+msgstr "Du kan se alle de døde links her:"
+
+#: legacy/core/core.php:4321
+msgid "Broken Link Checker has detected %d new broken link in your posts."
+msgid_plural "Broken Link Checker has detected %d new broken links in your posts."
+msgstr[0] "Broken Link Checker har opdaget %d nyt dødt link i dine indlæg."
+msgstr[1] "Broken Link Checker har opdaget %d nye døde links i dine indlæg."
+
+#: legacy/core/init.php:242 legacy/init.php:259
+msgid "Once Weekly"
+msgstr "Engang om ugen"
+
+#: legacy/core/init.php:248 legacy/init.php:265
+msgid "Twice a Month"
+msgstr "To gange om måneden"
+
+#: legacy/core/init.php:321 legacy/init.php:354
+msgid "Broken Link Checker installation failed. Try deactivating and then reactivating the plugin."
+msgstr "Installation af Broken Link Checker mislykkedes. Prøv at deaktivere og dernæst reaktivere pluginnet."
+
+#: legacy/includes/any-post.php:486 legacy/modules/containers/acf_field.php:248
+#: legacy/modules/containers/blogroll.php:46
+#: legacy/modules/containers/comment.php:159
+#: legacy/modules/containers/custom_field.php:252
+msgid "Edit"
+msgstr "Redigér"
+
+#: legacy/includes/any-post.php:494 legacy/modules/containers/acf_field.php:252
+#: legacy/modules/containers/custom_field.php:258
+msgid "Move this item to the Trash"
+msgstr "Flyt denne til papirkurven"
+
+#: legacy/includes/any-post.php:496 legacy/modules/containers/acf_field.php:252
+#: legacy/modules/containers/custom_field.php:260
+msgid "Trash"
+msgstr "Papirkurv"
+
+#: legacy/includes/any-post.php:501 legacy/modules/containers/acf_field.php:254
+#: legacy/modules/containers/custom_field.php:265
+msgid "Delete this item permanently"
+msgstr "Slet dette indlæg permanent"
+
+#: legacy/includes/any-post.php:503 legacy/modules/containers/acf_field.php:254
+#: legacy/modules/containers/blogroll.php:47
+#: legacy/modules/containers/custom_field.php:267
+msgid "Delete"
+msgstr "Slet"
+
+#: legacy/includes/any-post.php:516
+msgid "Preview &#8220;%s&#8221;"
+msgstr "Preview &#8220;%s&#8221;"
+
+#: legacy/includes/any-post.php:517
+msgid "Preview"
+msgstr "Preview"
+
+#: legacy/includes/any-post.php:524
+msgid "View &#8220;%s&#8221;"
+msgstr "Vis &#8220;%s&#8221;"
+
+#: legacy/includes/any-post.php:525 legacy/modules/containers/acf_field.php:258
+#: legacy/modules/containers/comment.php:172
+#: legacy/modules/containers/custom_field.php:272
+msgid "View"
+msgstr "Se"
+
+#: legacy/includes/any-post.php:544 legacy/modules/containers/acf_field.php:248
+#: legacy/modules/containers/custom_field.php:252
+msgid "Edit this item"
+msgstr "Redigér denne"
+
+#: legacy/includes/any-post.php:608 legacy/modules/containers/blogroll.php:83
+#: legacy/modules/containers/comment.php:43
+msgid "Nothing to update"
+msgstr "Intet at opdatere"
+
+#: legacy/includes/any-post.php:622
+msgid "Updating post %d failed"
+msgstr "Opdatering af indlægget %d mislykkedes"
+
+#: legacy/includes/admin/search-form.php:32 legacy/includes/link-query.php:81
+msgid "Search"
+msgstr "Søg"
+
+#: legacy/includes/admin/db-upgrade.php:100
+msgid "Failed to delete old DB tables. Database error : %s"
+msgstr "Det mislykkedes at slette gamle databasetabeller. Databasefejl: %s"
+
+#: legacy/includes/admin/links-page-js.php:64
+#: legacy/includes/admin/links-page-js.php:659
+msgid "Wait..."
+msgstr "Vent ..."
+
+#: legacy/core/core.php:552 legacy/includes/admin/links-page-js.php:111
+#: legacy/includes/admin/table-printer.php:719
+msgid "Not broken"
+msgstr "Ikke død"
+
+#: legacy/includes/admin/links-page-js.php:528
+msgid "%d instances of the link were successfully modified."
+msgstr "%d steder med dette link blev ændret med succes."
+
+#: legacy/includes/admin/links-page-js.php:534
+msgid "However, %d instances couldn't be edited and still point to the old URL."
+msgstr "Men %d steder kunne ikke redigeres og peger stadig på det gamle URL."
+
+#: legacy/includes/admin/links-page-js.php:540
+msgid "The link could not be modified."
+msgstr "Linket kunne ikke ændres."
+
+#: legacy/includes/admin/links-page-js.php:708
+msgid "The following error(s) occured :"
+msgstr "De(n) følgende fejl skete:"
+
+#: legacy/includes/admin/links-page-js.php:694
+msgid "%d instances of the link were successfully unlinked."
+msgstr "%d steder med dette link fik linket fjernet med succes."
+
+#: legacy/includes/admin/links-page-js.php:700
+msgid "However, %d instances couldn't be removed."
+msgstr "Men %d steder kunne linket ikke fjernes."
+
+#: legacy/includes/admin/links-page-js.php:705
+msgid "The plugin failed to remove the link."
+msgstr "Det mislykkedes for pluginnet at fjerne linket."
+
+#: legacy/core/core.php:551 legacy/includes/admin/links-page-js.php:716
+#: legacy/includes/admin/table-printer.php:297
+#: legacy/includes/admin/table-printer.php:713
+msgid "Unlink"
+msgstr "Fjern link"
+
+#: legacy/includes/admin/links-page-js.php:756
+msgid "Enter a name for the new custom filter"
+msgstr "Indtast et navn for dit nye filter"
+
+#: legacy/includes/admin/links-page-js.php:768
+msgid ""
+"You are about to delete the current filter.\n"
+"'Cancel' to stop, 'OK' to delete"
+msgstr ""
+"Du er ved at slette det aktuelle filter\n"
+" 'Annullér' for at stoppe, 'OK' for at slette"
+
+#: legacy/includes/admin/links-page-js.php:792
+msgid ""
+"Are you sure you want to delete all posts, bookmarks or other items that contain any of the selected links? This action can't be undone.\n"
+"'Cancel' to stop, 'OK' to delete"
+msgstr ""
+"Er du sikker på, at du ønsker at slette alle indlæg, bogmærker og andre ting, der indeholder et af de valgte links? Denne handling kan ikke fortrydes.\n"
+"'Annullér' for at stoppe, 'OK' for at slette"
+
+#: legacy/includes/admin/links-page-js.php:806
+msgid ""
+"Are you sure you want to remove the selected links? This action can't be undone.\n"
+"'Cancel' to stop, 'OK' to remove"
+msgstr ""
+"Er du sikker på, at du ønsker at fjerne de valgte links? Denne handling kan ikke fortrydes.\n"
+"'Annullér' for at stoppe, 'OK' for at slette"
+
+#: legacy/includes/admin/links-page-js.php:936
+msgid "Enter a search string first."
+msgstr "Indtast først en søgestreng."
+
+#: legacy/includes/admin/links-page-js.php:943
+msgid "Select one or more links to edit."
+msgstr "Vælg en eller flere links, der skal redigeres."
+
+#: legacy/includes/admin/options-page-js.php:54
+msgid "Hide debug info"
+msgstr "Skjul debug-info"
+
+#: legacy/includes/admin/search-form.php:16
+msgid "Save This Search As a Filter"
+msgstr "Gem denne søgning som et filter"
+
+#: legacy/includes/admin/search-form.php:26
+msgid "Delete This Filter"
+msgstr "Slet dette filter"
+
+#: legacy/includes/admin/search-form.php:42
+msgid "Link text"
+msgstr "Linktekst"
+
+#: legacy/includes/admin/search-form.php:45
+#: legacy/includes/admin/table-printer.php:220
+msgid "URL"
+msgstr "URL"
+
+#: legacy/includes/admin/search-form.php:48
+#: legacy/includes/admin/table-printer.php:559
+msgid "HTTP code"
+msgstr "HTTP-kode"
+
+#: legacy/includes/admin/search-form.php:51
+msgid "Link status"
+msgstr "Linkstatus"
+
+#: legacy/includes/admin/search-form.php:68
+#: legacy/includes/admin/search-form.php:85
+msgid "Link type"
+msgstr "Linktype"
+
+#: legacy/includes/admin/search-form.php:70
+msgid "Any"
+msgstr "Alle"
+
+#: legacy/includes/admin/search-form.php:74
+msgid "Links used in"
+msgstr "Links brugt i"
+
+#: legacy/includes/admin/search-form.php:112
+msgid "Search Links"
+msgstr "Søg links"
+
+#: legacy/includes/admin/search-form.php:113
+#: legacy/includes/admin/table-printer.php:375
+#: legacy/includes/admin/table-printer.php:779
+#: legacy/includes/admin/table-printer.php:904
+msgid "Cancel"
+msgstr "Annullér"
+
+#: legacy/includes/admin/table-printer.php:192
+msgid "Compact View"
+msgstr "Kompakt visning"
+
+#: legacy/includes/admin/table-printer.php:197
+msgid "Detailed View"
+msgstr "Detaljeret visning"
+
+#: legacy/includes/admin/table-printer.php:227
+msgid "Source"
+msgstr "Kilde"
+
+#: legacy/includes/admin/table-printer.php:233
+msgid "Link Text"
+msgstr "Linktekst"
+
+#: legacy/includes/admin/table-printer.php:240
+msgid "Redirect URL"
+msgstr "Redirigér URL"
+
+#: legacy/includes/admin/table-printer.php:291
+msgid "Bulk Actions"
+msgstr "Massehandlinger"
+
+#: legacy/core/core.php:550 legacy/includes/admin/table-printer.php:292
+#: legacy/includes/admin/table-printer.php:710
+msgid "Edit URL"
+msgstr "Redigér URL"
+
+#: legacy/core/core.php:554 legacy/includes/admin/table-printer.php:293
+#: legacy/includes/admin/table-printer.php:739
+msgid "Recheck"
+msgstr "Tjek igen"
+
+#: legacy/includes/admin/table-printer.php:294
+msgid "Fix redirects"
+msgstr "Fix redirigerede"
+
+#: legacy/includes/admin/table-printer.php:295
+msgid "Mark as not broken"
+msgstr "Markér som ikke-død"
+
+#: legacy/includes/admin/table-printer.php:300
+msgid "Move sources to Trash"
+msgstr "Flyt kilder til papirkurven"
+
+#: legacy/includes/admin/table-printer.php:302
+msgid "Delete sources"
+msgstr "Slet kilder"
+
+#: legacy/includes/admin/table-printer.php:318
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: legacy/includes/admin/table-printer.php:319
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: legacy/includes/admin/table-printer.php:351
+msgid "Bulk Edit URLs"
+msgstr "Masseredigér URL&#39;er"
+
+#: legacy/includes/admin/table-printer.php:353
+msgid "Find"
+msgstr "Find"
+
+#: legacy/includes/admin/table-printer.php:357
+msgid "Replace with"
+msgstr "Erstat med"
+
+#: legacy/includes/admin/table-printer.php:365
+msgid "Case sensitive"
+msgstr "Der skelnes mellem små og store bogstaver"
+
+#: legacy/includes/admin/table-printer.php:369
+msgid "Regular expression"
+msgstr "Regular expression"
+
+#: legacy/includes/admin/table-printer.php:378
+#: legacy/includes/admin/table-printer.php:905
+msgid "Update"
+msgstr "Opdatér"
+
+#: legacy/includes/admin/table-printer.php:536
+msgid "Post published on"
+msgstr "Indlæg udgivet den"
+
+#: legacy/includes/admin/table-printer.php:543
+msgid "Link last checked"
+msgstr "Link sidst tjekket"
+
+#: legacy/core/core.php:1596 legacy/includes/admin/table-printer.php:548
+msgid "Never"
+msgstr "Aldrig"
+
+#: legacy/includes/admin/table-printer.php:566
+msgid "Response time"
+msgstr "Svartid"
+
+#: legacy/includes/admin/table-printer.php:569
+msgid "%2.3f seconds"
+msgstr "%2.3f sekunder"
+
+#: legacy/includes/admin/table-printer.php:573
+msgid "Final URL"
+msgstr "Endelige URL"
+
+#: legacy/includes/admin/table-printer.php:580
+msgid "Redirect count"
+msgstr "Antal redirigeringer"
+
+#: legacy/includes/admin/table-printer.php:587
+msgid "Instance count"
+msgstr "Antal instanser"
+
+#: legacy/includes/admin/table-printer.php:598
+msgid "This link has failed %d time."
+msgid_plural "This link has failed %d times."
+msgstr[0] "Der har været fejl på dette link %d gang."
+msgstr[1] "Der har været fejl på dette link %d gange."
+
+#: legacy/includes/admin/table-printer.php:606
+msgid "This link has been broken for %s."
+msgstr "Dette link har været dødt i %s."
+
+#: legacy/includes/admin/table-printer.php:617
+msgid "Log"
+msgstr "Log"
+
+#: legacy/includes/admin/table-printer.php:644
+#: legacy/includes/admin/table-printer.php:688
+msgid "Show more info about this link"
+msgstr "Vis flere oplysninger om dette link"
+
+#: legacy/includes/admin/table-printer.php:677
+msgid "Broken for"
+msgstr "Død for"
+
+#: legacy/includes/admin/table-printer.php:712
+msgid "Remove this link from all posts"
+msgstr "Fjern dette link fra alle indlæg"
+
+#: legacy/includes/admin/table-printer.php:718
+msgid "Remove this link from the list of broken links and mark it as valid"
+msgstr "Fjern dette link fra listen over døde links og markér det som aktivt"
+
+#: legacy/includes/admin/table-printer.php:726
+msgid "Hide this link and do not report it again unless its status changes"
+msgstr "Gem dette link og rapportér det ikke igen, med mindre dets status ændres"
+
+#: app/admin-notices/multisite/class-view.php:64 legacy/core/core.php:553
+#: legacy/includes/admin/table-printer.php:296
+#: legacy/includes/admin/table-printer.php:727
+msgid "Dismiss"
+msgstr "Ignorér"
+
+#: legacy/includes/admin/table-printer.php:732
+msgid "Undismiss this link"
+msgstr "Ignorér ikke dette link"
+
+#: legacy/includes/admin/table-printer.php:733
+msgid "Undismiss"
+msgstr "Ignorér ikke"
+
+#: legacy/includes/admin/table-printer.php:780
+msgid "Update URL"
+msgstr "Opdatér URL"
+
+#: legacy/includes/admin/table-printer.php:807
+msgid "[An orphaned link! This is a bug.]"
+msgstr "[En forælderløs link! Dette er en bug.]"
+
+#: legacy/core/core.php:1024
+msgid "Notification e-mail address"
+msgstr "E-mailadresse til beskedmails"
+
+#: legacy/core/core.php:1036
+msgid "Leave empty to use the e-mail address specified in Settings &rarr; General."
+msgstr "Skal ikke udfyldes, hvis du vil bruge e-mailadressen indtastet i Indstillinger &rarr; Generelt."
+
+#: legacy/core/core.php:1193
+msgid "Suggest alternatives to broken links"
+msgstr "Foreslå erstatninger for døde links"
+
+#: legacy/core/core.php:1208
+msgid "Turning off this option will make the plugin report all problems as broken links."
+msgstr "Fravælges denne indstilling, rapporterer pluginnet alle problemer som døde links."
+
+#: legacy/core/core.php:1415
+msgid "Show the dashboard widget for"
+msgstr "Vis kontrolpanelwidget for"
+
+#: legacy/core/core.php:1522
+msgid "Target resource usage"
+msgstr "Ønsket resourceforbrug"
+
+#: legacy/core/core.php:1542
+msgid "Logging"
+msgstr "Logning"
+
+#: legacy/core/core.php:1548
+msgid "Enable logging"
+msgstr "Aktivér logning"
+
+#: legacy/core/core.php:1555
+msgid "Log file location"
+msgstr "Placering af logfil"
+
+#: legacy/core/core.php:1798
+msgid "Enter the names of custom fields you want to check (one per line). If a field contains HTML code, prefix its name with <code>html:</code>. For example, <code>html:field_name</code>."
+msgstr "Indtast navnene på de brugerdefinerede felter, du ønsker at tjekke (én pr. linje). Hvis et felt indeholder HTML-kode, skal du sætte <code>html:</code> foran dets navn. For eksempel: <code>html:feltnavn</code>."
+
+#: legacy/core/core.php:2654
+msgid "%d link dismissed"
+msgid_plural "%d links dismissed"
+msgstr[0] "%d link ignoreret"
+msgstr[1] "%d links ignorerede"
+
+#: legacy/core/core.php:2724
+msgid "The \"Warnings\" page lists problems that are probably temporary or suspected to be false positives.<br> Warnings that persist for a long time will usually be reclassified as broken links."
+msgstr "Siden med \"Advarsler\" specificerer problemer, som sandsynligvis er midlertidige, eller som formodentlig er falske positiver.<br> Advarsler, der fortsætter i lang tid, vil sædvanligvis blive reklassificeret som døde links."
+
+#: legacy/core/core.php:3332
+msgid "Detected %1$s in %2$s and still searching..."
+msgstr "Fandt %1$s i %2$s og leder stadigvæk ..."
+
+#: legacy/core/core.php:3338
+msgid "Detected %1$s in %2$s."
+msgstr "Fandt %1$s i %2$s."
+
+#: legacy/core/core.php:3586
+msgid "An unexpected error occurred!"
+msgstr "En uventet fejl opstod!"
+
+#: legacy/core/core.php:4037
+msgid "Database character set"
+msgstr "Databasetegnsæt"
+
+#: legacy/includes/admin/links-page-js.php:543
+msgid "The following error(s) occurred :"
+msgstr "De(n) følgende fejl opstod :"
+
+#: legacy/includes/admin/links-page-js.php:615
+msgid "Error: Link URL must not be empty."
+msgstr "Fejl: Link-URL skal være udfyldt."
+
+#: legacy/includes/admin/table-printer.php:710
+msgid "Edit this link"
+msgstr "Redigér dette link"
+
+#: legacy/includes/admin/table-printer.php:746
+msgid "Replace this redirect with a direct link"
+msgstr "Erstat denne redirect med et direkte link"
+
+#: legacy/includes/admin/table-printer.php:917
+msgid "Use this URL"
+msgstr "Brug denne URL"
+
+#: legacy/core/core.php:555 legacy/includes/admin/table-printer.php:747
+msgctxt "link action; replace one redirect with a direct link"
+msgid "Fix redirect"
+msgstr "Fiks redirect"
+
+#: legacy/core/core.php:1176
+msgctxt "\"Link tweaks\" settings"
+msgid "These settings only apply to the content of posts, not comments or custom fields."
+msgstr "Disse indstillinger gælder kun indlæggenes indhold, ikke kommentarer eller brugerdefinerede felter."
+
+#: legacy/core/core.php:1187
+msgctxt "settings page"
+msgid "Suggestions"
+msgstr "Forslag"
+
+#: legacy/core/core.php:1199
+msgctxt "settings page"
+msgid "Warnings"
+msgstr "Advarsler"
+
+#: legacy/core/core.php:1420
+msgctxt "dashboard widget visibility"
+msgid "Administrator"
+msgstr "Administrator"
+
+#: legacy/core/core.php:1421
+msgctxt "dashboard widget visibility"
+msgid "Editor and above"
+msgstr "Redaktør og over"
+
+#: legacy/core/core.php:1422
+msgctxt "dashboard widget visibility"
+msgid "Nobody (disables the widget)"
+msgstr "Ingen (deaktiverer widgetten)"
+
+#: legacy/core/core.php:1438
+msgctxt "settings page"
+msgid "Show link actions"
+msgstr "Vis linkhandlinger"
+
+#: legacy/core/core.php:1564
+msgctxt "log file location"
+msgid "Default"
+msgstr "Standard"
+
+#: legacy/core/core.php:1580
+msgctxt "log file location"
+msgid "Custom"
+msgstr "Brugerdefineret"
+
+#: legacy/core/core.php:2729
+msgctxt "admin notice under Tools - Broken links - Warnings"
+msgid "Hide notice"
+msgstr "Skjul besked"
+
+#: legacy/core/core.php:2735
+msgctxt "a link from the admin notice under Tools - Broken links - Warnings"
+msgid "Change warning settings"
+msgstr "Ændr advarselsindstillinger"
+
+#: legacy/core/core.php:3322
+msgctxt "for the \"Detected X unique URLs in Y links\" message"
+msgid "%d unique URL"
+msgid_plural "%d unique URLs"
+msgstr[0] "%d unik URL"
+msgstr[1] "%d unikke URL&#39;er"
+
+#: legacy/core/core.php:3326
+msgctxt "for the \"Detected X unique URLs in Y links\" message"
+msgid "%d link"
+msgid_plural "%d links"
+msgstr[0] "%d link"
+msgstr[1] "%d links"
+
+#: legacy/core/core.php:3373
+msgctxt "current load"
+msgid "Unknown"
+msgstr "Ukendt"
+
+#: legacy/includes/admin/links-page-js.php:370
+msgctxt "link text"
+msgid "(None)"
+msgstr "(Ingen)"
+
+#: legacy/includes/admin/links-page-js.php:371
+msgctxt "link text"
+msgid "(Multiple links)"
+msgstr "(Flere links)"
+
+#: legacy/includes/admin/links-page-js.php:429
+msgctxt "link suggestions"
+msgid "Searching..."
+msgstr "Søger …"
+
+#: legacy/includes/admin/links-page-js.php:430
+msgctxt "link suggestions"
+msgid "No suggestions available."
+msgstr "Ingen forslag at vise."
+
+#: legacy/includes/admin/links-page-js.php:431
+msgctxt "link suggestions"
+msgid "Archived page from %s (via the Wayback Machine)"
+msgstr "Arkiveret side fra %s (via Wayback Machine)"
+
+#: legacy/includes/admin/table-printer.php:662
+msgctxt "checked how long ago"
+msgid "Checked"
+msgstr "Tjekket"
+
+#: legacy/includes/admin/table-printer.php:689
+msgctxt "link in the \"Status\" column"
+msgid "Details"
+msgstr "Detaljer"
+
+#: legacy/includes/admin/table-printer.php:884
+msgctxt "inline editor title"
+msgid "Edit Link"
+msgstr "Redigér link"
+
+#: legacy/includes/admin/table-printer.php:887
+msgctxt "inline link editor"
+msgid "Text"
+msgstr "Tekst"
+
+#: legacy/includes/admin/table-printer.php:892
+msgctxt "inline link editor"
+msgid "URL"
+msgstr "URL"
+
+#: legacy/includes/admin/table-printer.php:897
+msgctxt "inline link editor"
+msgid "Suggestions"
+msgstr "Forslag"
+
+#: legacy/core/core.php:4248
+msgid "Link URL : <a href=\"%1$s\">%2$s</a>"
+msgstr "Link URL: <a href=\"%1$s\">%2$s</a>"
+
+#: legacy/includes/any-post.php:683 legacy/modules/containers/acf_field.php:327
+#: legacy/modules/containers/custom_field.php:341
+msgid "Failed to delete post \"%1$s\" (%2$d)"
+msgstr "Kunne ikke at slette indholdet \"%1$s\" (%2$d)"
+
+#: legacy/core/core.php:1204
+msgid "Show uncertain or minor problems as \"warnings\" instead of \"broken\""
+msgstr "Vis ubetydelige eller mindre problemer som \"advarsler \" i stedet for \"ødelagte \""
+
+#: legacy/includes/admin/table-printer.php:328
+msgid "Displaying %1$s&#8211;%2$s of <span class=\"current-link-count\">%3$s</span>"
+msgstr "Viser %1$s&#8211;%2$s af <span class=\"current-link-count\">%3$s</span>"
